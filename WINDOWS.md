@@ -81,6 +81,30 @@ project holds no API key of any kind, by design.
 
 Run it again after later changes; it commits and pushes on top.
 
+## 7-DEPLOY-SPACE.bat -- put it online
+
+Publishes the site to a Hugging Face Space, so there is a link that opens the
+running tool rather than a repository someone has to install.
+
+Create the Space first at <https://huggingface.co/new-space>: **SDK Docker**,
+template **Blank**, hardware **CPU basic** (free). Then run this and paste the
+Space URL; it is remembered afterwards.
+
+Sign-in there is an access token rather than a password. Make one with **write**
+permission at <https://huggingface.co/settings/tokens>; the username is your
+Hugging Face username. As with GitHub, this project holds no API key.
+
+Two things it does that are worth knowing. It deploys the **last commit**, not
+the working folder, and warns you if those differ -- so run 5-PUSH-GITHUB.bat
+first. And it swaps `SPACE_README.md` in as `README.md`, because a Space reads
+its build configuration from the first lines of that file; that block would sit
+at the top of the GitHub page as a wall of YAML, which is why the two are
+separate files. Nothing in your own repository is changed: the swap happens in
+a temporary copy that is deleted afterwards.
+
+The Space rebuilds the Docker image on each push, two or three minutes. The
+Logs tab there says when the server is up.
+
 ## If something goes wrong
 
 Send `setup-log.txt`. It has the full output including the error, which is

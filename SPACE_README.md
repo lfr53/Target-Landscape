@@ -24,4 +24,4 @@ Built from Open Targets (CC0), ChEMBL (CC BY-SA 3.0) and ClinicalTrials.gov
 first. Nothing is hidden in either mode — a scientist needs the competitive
 picture and an investor needs the mechanism.
 
-Source and method: https://github.com/<you>/target-landscape
+Source and method: https://github.com/lfr53/Target-Landscape
