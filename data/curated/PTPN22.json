@@ -1,0 +1,1480 @@
+{
+  "target": {
+    "ensembl_id": "ENSG00000134242",
+    "symbol": "PTPN22",
+    "name": "protein tyrosine phosphatase non-receptor type 22",
+    "biotype": "protein_coding",
+    "function": "Acts as a negative regulator of T-cell receptor (TCR) signaling by direct dephosphorylation of the Src family kinases LCK and FYN, ITAMs of the TCRz/CD3 complex, as well as ZAP70, VAV, VCP and other key signaling molecules (PubMed:16461343, PubMed:18056643). Associates with and probably dephosphorylates CBL. Dephosphorylates LCK at its activating 'Tyr-394' residue (PubMed:21719704). Dephosphorylates ZAP70 at its activating 'Tyr-493' residue (PubMed:16461343). Dephosphorylates the immune system activator SKAP2 (PubMed:21719704). Positively regulates toll-like receptor (TLR)-induced type 1 interferon production (PubMed:23871208). Promotes host antiviral responses mediated by type 1 interferon (By similarity). Regulates NOD2-induced pro-inflammatory cytokine secretion and autophagy (PubMed:23991106). Acts as an activator of NLRP3 inflammasome assembly by mediating dephosphorylation of 'Tyr-861' of NLRP3 (PubMed:27043286). Dephosphorylates phospho-anandamide (p-AEA), an endocannabinoid to anandamide (also called N-arachidonoylethanolamide) (By similarity). {ECO:0000250|UniProtKB:P29352, ECO:0000269|PubMed:16461343, ECO:0000269|PubMed:18056643, ECO:0000269|PubMed:19167335, ECO:0000269|PubMed:21719704, ECO:0000269|PubMed:23871208, ECO:0000269|PubMed:23991106, ECO:0000269|PubMed:27043286}.",
+    "synonyms": [
+      "Hematopoietic cell protein-tyrosine phosphatase 70Z-PEP",
+      "LYP",
+      "LYP1",
+      "LYP2",
+      "LyP",
+      "Lymphoid phosphatase",
+      "Lyp",
+      "Lyp1",
+      "Lyp2",
+      "PEP",
+      "PEST-domain phosphatase",
+      "PTPN22",
+      "PTPN22.5",
+      "PTPN22.6",
+      "PTPN8",
+      "Tyrosine-protein phosphatase non-receptor type 22",
+      "hematopoietic cell protein-tyrosine phosphatase 70Z-PEP",
+      "lymphoid-specific protein tyrosine phosphatase",
+      "protein tyrosine phosphatase, non-receptor type 22 (lymphoid)",
+      "protein tyrosine phosphatase, non-receptor type 8",
+      "tyrosine-protein phosphatase non-receptor type 22"
+    ],
+    "tractability": {
+      "SM": [
+        "Structure with Ligand",
+        "High-Quality Ligand",
+        "Med-Quality Pocket",
+        "Druggable Family"
+      ],
+      "PR": [
+        "Database Ubiquitination",
+        "Half-life Data",
+        "Small Molecule Binder"
+      ]
+    },
+    "locations": [
+      "Cytoplasm",
+      "Nucleus",
+      "Cell membrane",
+      "Vesicle"
+    ],
+    "topology": [],
+    "target_class": [
+      "Enzyme",
+      "Phosphatase",
+      "Protein Phosphatase",
+      "Tyrosine protein phosphatase"
+    ],
+    "provenance": [
+      {
+        "source": "opentargets",
+        "identifier": "ENSG00000134242",
+        "url": "https://platform.opentargets.org/target/ENSG00000134242",
+        "retrieved": null
+      }
+    ]
+  },
+  "assets": [],
+  "trials": [
+    {
+      "nct_id": "NCT01276743",
+      "title": "Study of PTPN22 C1858T Polymorphism in Children and Adolescents of Greek Origin With T1DM",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": -1,
+      "sponsor": "Aristotle University Of Thessaloniki",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Type 1 Diabetes Mellitus"
+      ],
+      "interventions": [],
+      "brief_summary": "The protein tyrosine phosphatase non-receptor type 22 (PTPN22) gene encodes a lymphoid-specific phosphatase (LYP) which is an important downregulatory factor of T cell activation. A PTPN22 polymorphism, C1858T, was found associated with T1DM in different Caucasian populations.\n\nIn this observational case-control study, we aimed at confirming the role of PTPN22, C1858T polymorphism in T1DM predispo",
+      "countries": [
+        "Greece"
+      ],
+      "enrollment": 200,
+      "start_date": "2010-02",
+      "completion_date": "2011-07",
+      "allocation": "",
+      "masking": "",
+      "intervention_model": "",
+      "primary_purpose": "",
+      "primary_outcomes": [
+        "• Difference of distribution of PTPN22 C1858T alleles between patients and controls of Greek origin"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "other",
+      "evidence_level": "unclear",
+      "evidence_note": "The registry entry does not carry enough design detail to say what a result here would establish."
+    },
+    {
+      "nct_id": "NCT06060808",
+      "title": "Role of NFKBIA and PTPN22 Genes Polymorphism in Acute Rejection Susceptibility After Living Donor Liver Transplantation in Egyptian Patients.",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": -1,
+      "sponsor": "Helwan University",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Liver Transplant Rejection"
+      ],
+      "interventions": [
+        "gene polymorphism"
+      ],
+      "brief_summary": "Our study aimed at studying the impact of gene polymorphism of NFKBIA and PTPN22 genes on rejection episodes in liver transplant Egyptian recipients. Also assess patients' factors associated with graft rejection.",
+      "countries": [
+        "Egypt"
+      ],
+      "enrollment": 105,
+      "start_date": "2021-03-15",
+      "completion_date": "2023-04-23",
+      "allocation": "",
+      "masking": "",
+      "intervention_model": "",
+      "primary_purpose": "",
+      "primary_outcomes": [
+        "gene polymorphism"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "other",
+      "evidence_level": "unclear",
+      "evidence_note": "The registry entry does not carry enough design detail to say what a result here would establish."
+    }
+  ],
+  "associations": [
+    {
+      "disease_id": "MONDO_0008383",
+      "name": "rheumatoid arthritis",
+      "score": 0.6683569363835089,
+      "genetic_score": 0.7751036264576643,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007915",
+      "name": "systemic lupus erythematosus",
+      "score": 0.621068830447643,
+      "genetic_score": 0.7064407732916747,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005147",
+      "name": "type 1 diabetes mellitus",
+      "score": 0.6093560694056905,
+      "genetic_score": 0.758280689334433,
+      "n_assets": 1,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005420",
+      "name": "hypothyroidism",
+      "score": 0.5426368601405761,
+      "genetic_score": 0.8864434564172379,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007179",
+      "name": "autoimmune disease",
+      "score": 0.533142207524487,
+      "genetic_score": 0.6908257109035856,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0008661",
+      "name": "vitiligo",
+      "score": 0.5267575841826047,
+      "genetic_score": 0.7027015692275199,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0003240",
+      "name": "thyroid gland disorder",
+      "score": 0.5158370414073511,
+      "genetic_score": 0.6765632595315697,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007699",
+      "name": "Hashimoto thyroiditis",
+      "score": 0.5102219198916214,
+      "genetic_score": 0.6678817815301986,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005011",
+      "name": "Crohn disease",
+      "score": 0.5056363478062692,
+      "genetic_score": 0.8214453585732953,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005015",
+      "name": "diabetes mellitus",
+      "score": 0.5040506122174431,
+      "genetic_score": 0.8121955421405832,
+      "n_assets": 1,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005623",
+      "name": "autoimmune thyroid disease",
+      "score": 0.495504556325549,
+      "genetic_score": 0.8050051554186602,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005364",
+      "name": "Graves disease",
+      "score": 0.4939437795952739,
+      "genetic_score": 0.8011875477251382,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0020804",
+      "name": "basal cell carcinoma",
+      "score": 0.48670888831847087,
+      "genetic_score": 0.8005991639683415,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004425",
+      "name": "hyperthyroidism",
+      "score": 0.4633877659262171,
+      "genetic_score": 0.7530131829728175,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0009459",
+      "name": "ACPA-positive rheumatoid arthritis",
+      "score": 0.44553417559980174,
+      "genetic_score": 0.7328698880697815,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005266",
+      "name": "diabetic retinopathy",
+      "score": 0.43882656982459833,
+      "genetic_score": 0.7218363858988838,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0009688",
+      "name": "myasthenia gravis",
+      "score": 0.4339543023844174,
+      "genetic_score": 0.6771857958857994,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0011429",
+      "name": "juvenile idiopathic arthritis",
+      "score": 0.43016561092968536,
+      "genetic_score": 0.6636081801889939,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0009718",
+      "name": "myxedema",
+      "score": 0.42690893864687596,
+      "genetic_score": 0.7022327875542315,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005148",
+      "name": "type 2 diabetes mellitus",
+      "score": 0.42392586691052736,
+      "genetic_score": 0.6798953478678296,
+      "n_assets": 1,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0009460",
+      "name": "ACPA-negative rheumatoid arthritis",
+      "score": 0.4162551164730693,
+      "genetic_score": 0.6847080590560827,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005283",
+      "name": "retinal disorder",
+      "score": 0.413999897729201,
+      "genetic_score": 0.6809983954681736,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0004996",
+      "name": "type 1 diabetes nephropathy",
+      "score": 0.41168210102411446,
+      "genetic_score": 0.6771857958857994,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005083",
+      "name": "psoriasis",
+      "score": 0.4114994287534114,
+      "genetic_score": 0.6380122046024147,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005578",
+      "name": "arthritic joint disease",
+      "score": 0.4110632657057628,
+      "genetic_score": 0.6576543454397582,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0002898",
+      "name": "skin cancer",
+      "score": 0.4089854863964501,
+      "genetic_score": 0.6699800160193206,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0008420",
+      "name": "seborrheic keratosis",
+      "score": 0.3989299923939401,
+      "genetic_score": 0.6562095454963248,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0006608",
+      "name": "seborrheic dermatitis",
+      "score": 0.3989299923939401,
+      "genetic_score": 0.6562095454963248,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0006546",
+      "name": "erythematosquamous dermatosis",
+      "score": 0.3989299923939401,
+      "genetic_score": 0.6562095454963248,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005101",
+      "name": "ulcerative colitis",
+      "score": 0.3976847206573154,
+      "genetic_score": 0.6380122046024147,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005306",
+      "name": "ankylosing spondylitis",
+      "score": 0.3916854285556491,
+      "genetic_score": 0.6380122046024147,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0008228",
+      "name": "pernicious anemia",
+      "score": 0.39123774618320906,
+      "genetic_score": 0.6416312703833498,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005093",
+      "name": "skin disorder",
+      "score": 0.3878672684298947,
+      "genetic_score": 0.6380122046024147,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0010138",
+      "name": "thyrotoxicosis",
+      "score": 0.38470707738650495,
+      "genetic_score": 0.6328139302991466,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0003900",
+      "name": "connective tissue disorder",
+      "score": 0.37624038932567644,
+      "genetic_score": 0.6182789405433582,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005111",
+      "name": "Epstein-Barr virus infection",
+      "score": 0.36339321393981044,
+      "genetic_score": 0.597754243357096,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0021167",
+      "name": "myositis disease",
+      "score": 0.35888895879263744,
+      "genetic_score": 0.5884579671444748,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0002531",
+      "name": "skin neoplasm",
+      "score": 0.3384579751604271,
+      "genetic_score": 0.5539676154087501,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004126",
+      "name": "thyroiditis",
+      "score": 0.33570694104507465,
+      "genetic_score": 0.5459571870265304,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005554",
+      "name": "rheumatic disorder",
+      "score": 0.33392931988545854,
+      "genetic_score": 0.5443773917306797,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0006816",
+      "name": "arthropathy",
+      "score": 0.33159054670226423,
+      "genetic_score": 0.5443773917306797,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018324",
+      "name": "adult-onset myasthenia gravis",
+      "score": 0.3313104933251826,
+      "genetic_score": 0.5449806040865223,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_101960",
+      "name": "Genetic chronic primary adrenal insufficiency",
+      "score": 0.3313104933251826,
+      "genetic_score": 0.5449806040865223,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005001",
+      "name": "chronic gastritis",
+      "score": 0.3313104933251826,
+      "genetic_score": 0.5449806040865223,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "GO_0009410",
+      "name": "response to xenobiotic stimulus",
+      "score": 0.330943781956566,
+      "genetic_score": 0.5443773917306797,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0002908",
+      "name": "glucose metabolism disease",
+      "score": 0.3307576176160735,
+      "genetic_score": 0.5440711655266053,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0001898",
+      "name": "optic choroid disorder",
+      "score": 0.3307576176160735,
+      "genetic_score": 0.5440711655266053,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0002356",
+      "name": "pancreas disorder",
+      "score": 0.3307576176160735,
+      "genetic_score": 0.5440711655266053,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0020696",
+      "name": "vitamin B12 deficiency",
+      "score": 0.3307576176160735,
+      "genetic_score": 0.5440711655266053,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0009706",
+      "name": "latent autoimmune diabetes in adults",
+      "score": 0.3245104666261498,
+      "genetic_score": 0.5288207671971086,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018646",
+      "name": "sclerosing cholangitis",
+      "score": 0.32213319554142583,
+      "genetic_score": 0.5288207671971086,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0012819",
+      "name": "diabetic ketoacidosis",
+      "score": 0.32160875052613463,
+      "genetic_score": 0.5290219738655116,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0002081",
+      "name": "musculoskeletal system disorder",
+      "score": 0.3214864307957276,
+      "genetic_score": 0.5288207671971086,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0002280",
+      "name": "anemia",
+      "score": 0.31702166439258583,
+      "genetic_score": 0.5193488076958613,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018612",
+      "name": "congenital hypothyroidism",
+      "score": 0.3157281349011894,
+      "genetic_score": 0.5193488076958613,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0010133",
+      "name": "diabetic maculopathy",
+      "score": 0.3157281349011894,
+      "genetic_score": 0.5193488076958613,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_1001466",
+      "name": "Graves ophthalmopathy",
+      "score": 0.3131626675454201,
+      "genetic_score": 0.5133050163066798,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005046",
+      "name": "immune system disorder",
+      "score": 0.3120782457656512,
+      "genetic_score": 0.5095551131968651,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005130",
+      "name": "celiac disease",
+      "score": 0.31147069414185147,
+      "genetic_score": 0.5056992257812117,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0019127",
+      "name": "polymyositis",
+      "score": 0.3111601708479177,
+      "genetic_score": 0.5095551131968651,
+      "n_assets": 0,
+      "highest_phase": -1
+    }
+  ],
+  "deals": [],
+  "mechanism_clusters": {},
+  "crowding": {
+    "n_total": 0,
+    "n_active": 0,
+    "n_dormant": 0,
+    "weighted_score": 0,
+    "verdict": "Open",
+    "by_phase": {},
+    "n_sponsors": 0,
+    "n_mechanism_classes": 0,
+    "lead_phase": "Unknown",
+    "weights_used": {
+      "Approved": 5.0,
+      "Phase 3": 3.0,
+      "Phase 2": 1.5,
+      "Phase 1": 0.75,
+      "Preclinical": 0.25,
+      "Unknown": 0.25
+    },
+    "bands_used": [
+      {
+        "from": 0.0,
+        "verdict": "Open"
+      },
+      {
+        "from": 2.0,
+        "verdict": "Emerging"
+      },
+      {
+        "from": 8.0,
+        "verdict": "Contested"
+      },
+      {
+        "from": 20.0,
+        "verdict": "Crowded"
+      },
+      {
+        "from": 45.0,
+        "verdict": "Saturated"
+      }
+    ],
+    "dormant_assets": [],
+    "matrix": {
+      "mechanisms": [],
+      "rows": []
+    },
+    "indications_omitted": 0
+  },
+  "failures": {
+    "n_trials": 0,
+    "n_stopped": 0,
+    "n_with_reason": 0,
+    "counts": {},
+    "n_science": 0,
+    "n_business": 0,
+    "n_operational": 0,
+    "n_cmc": 0,
+    "n_unexplained": 0,
+    "science_share_of_stated": null,
+    "reporting_rate": null,
+    "cases": []
+  },
+  "whitespace": [
+    {
+      "disease": "hypothyroidism",
+      "disease_id": "MONDO_0005420",
+      "association_score": 0.543,
+      "genetic_score": 0.886,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "Crohn disease",
+      "disease_id": "MONDO_0005011",
+      "association_score": 0.506,
+      "genetic_score": 0.821,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "Graves disease",
+      "disease_id": "MONDO_0005364",
+      "association_score": 0.494,
+      "genetic_score": 0.801,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "basal cell carcinoma",
+      "disease_id": "MONDO_0020804",
+      "association_score": 0.487,
+      "genetic_score": 0.801,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "disease_id": "MONDO_0008383",
+      "association_score": 0.668,
+      "genetic_score": 0.775,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "type 1 diabetes mellitus",
+      "disease_id": "MONDO_0005147",
+      "association_score": 0.609,
+      "genetic_score": 0.758,
+      "highest_phase": "None in clinic",
+      "n_assets": 1
+    },
+    {
+      "disease": "hyperthyroidism",
+      "disease_id": "MONDO_0004425",
+      "association_score": 0.463,
+      "genetic_score": 0.753,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "diabetic retinopathy",
+      "disease_id": "MONDO_0005266",
+      "association_score": 0.439,
+      "genetic_score": 0.722,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "systemic lupus erythematosus",
+      "disease_id": "MONDO_0007915",
+      "association_score": 0.621,
+      "genetic_score": 0.706,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "vitiligo",
+      "disease_id": "MONDO_0008661",
+      "association_score": 0.527,
+      "genetic_score": 0.703,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "myxedema",
+      "disease_id": "MONDO_0009718",
+      "association_score": 0.427,
+      "genetic_score": 0.702,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "autoimmune disease",
+      "disease_id": "MONDO_0007179",
+      "association_score": 0.533,
+      "genetic_score": 0.691,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "retinal disorder",
+      "disease_id": "MONDO_0005283",
+      "association_score": 0.414,
+      "genetic_score": 0.681,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "thyroid gland disorder",
+      "disease_id": "MONDO_0003240",
+      "association_score": 0.516,
+      "genetic_score": 0.677,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "myasthenia gravis",
+      "disease_id": "MONDO_0009688",
+      "association_score": 0.434,
+      "genetic_score": 0.677,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    }
+  ],
+  "licensing": {
+    "assets": [],
+    "holders": [],
+    "deals": {
+      "deals": [],
+      "by_asset": {},
+      "by_stage": [],
+      "n": 0,
+      "n_matched": 0,
+      "n_acquisitions": 0,
+      "curated": true
+    }
+  },
+  "precedent": {
+    "tier": "preclinical",
+    "tier_label": "Preclinical",
+    "read": "No clinical precedent in the public record. What is here is the genetics, the tractability and the modality fit — and preclinical work is invisible to all of the sources this is built from.",
+    "evidence": [
+      "Human genetic association with hypothyroidism scores 0.89 in Open Targets. Genetically supported targets have historically succeeded at about twice the base rate, which is the strongest prior available before any clinical data exists."
+    ],
+    "approved": [],
+    "n_approved": 0,
+    "n_withdrawn": 0,
+    "n_phase3": 0,
+    "n_controlled_running": 0,
+    "n_science_failures": 0,
+    "genetic_score": 0.886,
+    "genetic_disease": "hypothyroidism"
+  },
+  "readouts": {
+    "n_trials": 0,
+    "n_active": 0,
+    "n_controlled": 0,
+    "n_confirmatory": 0,
+    "n_undescribed": 0,
+    "by_level": {},
+    "level_labels": {
+      "confirmatory": "Confirmatory",
+      "controlled": "Controlled",
+      "signal": "Signal-generating",
+      "dose": "Dose and safety",
+      "mechanistic": "Mechanistic",
+      "unclear": "Design not stated"
+    },
+    "verdict": "No trial is currently running on this target.",
+    "catalysts": [],
+    "next_catalyst": null
+  },
+  "modalities": [
+    {
+      "key": "Antibody-drug conjugate",
+      "what": "An antibody used as a delivery vehicle: it carries a cytotoxic payload, is taken into the cell, and releases the payload inside.",
+      "requires": [
+        "Surface expression, AND internalisation after binding. This is the requirement people forget. A non-internalising antigen cannot deliver a payload, however specific the antibody is.",
+        "A real expression differential against normal tissue — the payload is toxic to any cell it enters.",
+        "High enough antigen copy number; the delivered dose scales with it."
+      ],
+      "fails": [
+        "Payload toxicity sets the dose, not the antibody. Neutropenia, ocular toxicity and interstitial lung disease are the recurring dose-limiters, and they are largely payload-class effects you can predict in advance.",
+        "Linker instability releasing payload in circulation, which converts a targeted drug into a systemic chemotherapy.",
+        "A narrow therapeutic index that looks fine in xenografts and disappears in patients with normal-tissue expression."
+      ],
+      "economics": "≈2.5–4 years and $40–90M to first-in-human. Manufacturing and COGS are materially higher than a naked antibody — worth modelling early.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Annotated at the cell surface (surface, intracellular).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Bispecific antibody",
+      "what": "Two binding arms in one molecule: either blocking two pathways at once, or — far more commonly now — dragging a T cell onto a tumour cell by binding CD3 with one arm and a tumour antigen with the other.",
+      "requires": [
+        "Surface expression, as for any antibody.",
+        "For a T-cell engager: expression genuinely restricted to the target tissue. There is no therapeutic index to spend — the drug recruits a cytotoxic T cell to whatever it binds, so low-level expression on a vital tissue is lethal, not tolerable.",
+        "Enough antigen density to form a synapse, and little antigen shedding."
+      ],
+      "fails": [
+        "On-target off-tumour toxicity — the dominant cause of death for this class.",
+        "Cytokine release syndrome forcing step-up dosing, which lengthens every trial.",
+        "Antigen loss under treatment pressure, giving deep early responses that do not last."
+      ],
+      "economics": "≈2–3 years and $25–60M to first-in-human; the dose-escalation is slower than a plain antibody because of step-up dosing.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Annotated at the cell surface (surface, intracellular).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Cell therapy (CAR-T)",
+      "what": "A patient's or donor's T cells engineered with a receptor against a surface antigen, expanded, and infused back as a living drug.",
+      "requires": [
+        "Surface expression with near-absolute tissue restriction. The cells persist and multiply, so there is no dose to back off — anything the CAR recognises will be destroyed for as long as the cells live.",
+        "The antigen is present on essentially every malignant cell, or escape is immediate.",
+        "A tolerable consequence if the normal tissue carrying the antigen is also destroyed — B-cell aplasia after CD19 is survivable, and that is why CD19 worked first."
+      ],
+      "fails": [
+        "On-target off-tumour toxicity, which in this modality has been fatal rather than dose-limiting.",
+        "Antigen escape driving relapse after deep remission.",
+        "The solid-tumour wall: trafficking, persistence and an immunosuppressive microenvironment. Success remains overwhelmingly haematological.",
+        "Manufacturing — vein-to-vein time, failure rates and cost of goods are commercial risks, not technical footnotes."
+      ],
+      "economics": "≈3–5 years and $50–150M to meaningful clinical data, with process development a large fraction of it. Any seed plan much shorter than this is worth interrogating.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Annotated at the cell surface (surface, intracellular).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Fc-fusion / ligand trap",
+      "what": "The receptor's binding domain fused to an antibody Fc, used to mop up a soluble ligand before it reaches its receptor.",
+      "requires": [
+        "The ligand is soluble and is the rate-limiting element — trapping does nothing against a membrane-bound or juxtacrine signal.",
+        "The trap does not also sequester a ligand you need."
+      ],
+      "fails": [
+        "Ligand redundancy: a trap for one cytokine in a family where three do the same job produces a clean pharmacodynamic result and no clinical effect.",
+        "Very high ligand turnover demanding impractical doses."
+      ],
+      "economics": "Similar to a monoclonal antibody. Often faster, because the binding domain is the native sequence rather than a discovery problem.",
+      "bd_note": "Commercially this is the modality that most often sits in a different patent estate from the receptor antibodies on the same axis — worth checking when a target looks crowded on paper.",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Reachable from outside the cell (surface, intracellular).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Molecular glue / degrader",
+      "what": "A small molecule that forces the target into contact with an E3 ubiquitin ligase, so the cell's own machinery destroys it. Removing the protein rather than inhibiting it.",
+      "requires": [
+        "An intracellular target — the machinery is cytoplasmic.",
+        "A ligandable surface anywhere on the protein. Crucially this need NOT be a functional active site, which is why degraders reach scaffolding and transcription-factor targets that defeated inhibitors.",
+        "The relevant E3 ligase is expressed in the tissue you are treating. Cereblon and VHL are the workhorses and their expression is not uniform."
+      ],
+      "fails": [
+        "Drug-like properties: bifunctional degraders are large and greasy, and oral bioavailability is the recurring reason a good degrader never becomes a drug. Monovalent glues avoid much of this and are correspondingly sought after.",
+        "The hook effect — too much drug forms binary rather than ternary complexes and degradation falls off at high dose, inverting the usual dose intuition.",
+        "Resistance through loss of the E3 ligase itself, seen clinically with cereblon."
+      ],
+      "economics": "≈3–5 years to first-in-human. Ternary-complex optimisation is the long pole; budget more medicinal chemistry than a conventional inhibitor.",
+      "bd_note": "The reason to care commercially: a degrader can open a target that an inhibitor could not, which resets the competitive clock on a mechanism that otherwise looks worked-out.",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Intracellular (surface, intracellular), where the degradation machinery is.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Monoclonal antibody",
+      "what": "A single antibody binding one epitope, used to block a receptor or ligand, or to kill the cell it is bound to through Fc-mediated effector function.",
+      "requires": [
+        "The target is on the cell surface or secreted. An antibody cannot cross the plasma membrane, so an intracellular target rules the modality out entirely.",
+        "The epitope is accessible on the folded protein in vivo, not only on a recombinant fragment.",
+        "For blockade: the interaction being blocked is rate-limiting for the disease. Antibodies are exquisite blockers of a single interaction and useless against a redundant pathway."
+      ],
+      "fails": [
+        "The biology, not the molecule. Antibody CMC and safety are now routine; the great majority of antibody failures are the target being wrong.",
+        "Soluble decoy: a shed extracellular domain circulating in patients absorbs drug and flattens the dose-response.",
+        "Poor tissue penetration in solid tumours and behind the blood-brain barrier (roughly 0.1% of a systemic dose reaches the CNS)."
+      ],
+      "economics": "≈18–30 months and $15–40M from lead to first-in-human data.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Reachable from outside the cell (surface, intracellular).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Oligonucleotide",
+      "what": "A short nucleic acid that degrades or blocks the target's mRNA, lowering the amount of protein made rather than blocking the protein itself.",
+      "requires": [
+        "Only that the target is a gene. Protein structure is irrelevant, so 'undruggable' in the small-molecule sense does not apply — this is the modality's whole appeal.",
+        "That the disease-relevant tissue can be reached. This is the entire risk. GalNAc conjugation makes hepatocyte targets close to routine; intrathecal dosing reaches the CNS; the eye is feasible. Most other tissues are still an open delivery problem.",
+        "That lowering the protein is therapeutic — a loss-of-function target, not a gain-of-function one."
+      ],
+      "fails": [
+        "Delivery, overwhelmingly. A programme aimed outside liver, CNS and eye is underwriting a delivery invention, and should be priced as one.",
+        "Durable knockdown creating durable toxicity, with no way to withdraw the drug.",
+        "Hepatotoxicity and thrombocytopenia as class effects for some chemistries."
+      ],
+      "economics": "≈2–3 years and $15–35M to first-in-human for a liver target, and considerably more anywhere else. Discovery is fast because the sequence is designed rather than screened.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Peptide",
+      "what": "A short chain of amino acids, typically engaging an extracellular receptor or a protein–protein interface too flat for a small molecule.",
+      "requires": [
+        "An extracellular or accessible binding site, unless a cell-penetrating strategy is part of the plan.",
+        "A tolerable half-life, which usually means engineering — lipidation, cyclisation or fusion. Native peptides are cleared in minutes."
+      ],
+      "fails": [
+        "Pharmacokinetics rather than pharmacology.",
+        "Injection-only delivery in an oral market, which caps commercial value even when the biology works."
+      ],
+      "economics": "≈2–3 years and $10–30M to first-in-human.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Reachable from outside the cell (surface, intracellular).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Small molecule",
+      "what": "A synthetic compound, usually under 500 daltons, binding a pocket on the target to block or modulate its activity.",
+      "requires": [
+        "A defined binding pocket. Enzymes, GPCRs, ion channels and nuclear receptors have one; flat protein–protein interfaces and scaffolding proteins largely do not, which is what 'undruggable' has historically meant.",
+        "Selectivity that is achievable against the rest of the family — the practical constraint on most kinase programmes."
+      ],
+      "fails": [
+        "Off-target and family cross-reactivity producing dose-limiting toxicity before the target is fully engaged.",
+        "Idiosyncratic hepatotoxicity, which appears late and kills programmes at Phase 2–3.",
+        "Resistance mutations in the pocket, in oncology and infectious disease."
+      ],
+      "economics": "≈3–5 years and $10–30M from hit to first-in-human — cheaper per step than a biologic, with a longer discovery phase.",
+      "bd_note": "The only class here that routinely reaches intracellular targets and the CNS, and the only one where oral dosing is the default. Both matter more to commercial value than potency does.",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Gene therapy",
+      "what": "A viral vector delivering a working copy of a gene, intended as a single administration.",
+      "requires": [
+        "Monogenic loss-of-function biology with a well-understood causal gene.",
+        "A tissue an AAV serotype actually reaches, at a dose that is safe.",
+        "Patients without pre-existing neutralising antibodies to the capsid, which excludes a large fraction of any population."
+      ],
+      "fails": [
+        "Dose-dependent hepatotoxicity and complement activation at the high systemic doses that non-CNS, non-ocular tissues require.",
+        "One-shot dosing with no redose path if expression fades.",
+        "A commercial model that has repeatedly failed on tiny populations and very high prices — a real diligence issue, not only a scientific one."
+      ],
+      "economics": "≈4–6 years and $80M+ to clinical data; CMC dominates the budget.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    },
+    {
+      "key": "Vaccine",
+      "what": "An immunogen intended to raise the patient's own immune response against the target or the cells carrying it.",
+      "requires": [
+        "The target is immunogenic and not subject to central tolerance — the recurring obstacle for self-antigen cancer vaccines.",
+        "A patient population with an immune system intact enough to respond."
+      ],
+      "fails": [
+        "Immune responses that are measurable and clinically inert — the most common outcome in therapeutic cancer vaccines.",
+        "Long, large, slow efficacy trials that are expensive to run."
+      ],
+      "economics": "Highly variable. Prophylactic trials are among the largest in medicine.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    },
+    {
+      "key": "mRNA",
+      "what": "Delivered mRNA instructing the patient's own cells to make a protein — a vaccine antigen, a missing enzyme, or a therapeutic antibody.",
+      "requires": [
+        "That ADDING protein helps. This inverts the usual target logic: mRNA suits loss-of-function biology, and has nothing to offer against a target you want to block.",
+        "That transient expression is enough, or that repeat dosing is tolerable.",
+        "A delivery route to the relevant tissue — in practice muscle for vaccines and liver for systemic LNPs."
+      ],
+      "fails": [
+        "Durability: expression is measured in days, so chronic replacement means chronic redosing.",
+        "Reactogenicity from the lipid nanoparticle, which limits dose.",
+        "Redosing immunogenicity against the carrier."
+      ],
+      "economics": "Fast to a first construct — weeks — and slow through CMC. ≈2–3 years and $20–50M to first-in-human outside the vaccine setting.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    }
+  ],
+  "literature": {
+    "reviews": [
+      {
+        "title": "New insights into the interplay between autophagy, gut microbiota and inflammatory responses in IBD",
+        "authors": "Larabi A, Barnich N, Nguyen HTT.",
+        "journal": "Autophagy",
+        "year": "2020",
+        "pmid": "31286804",
+        "doi": "10.1080/15548627.2019.1635384",
+        "citations": 683,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/31286804"
+      },
+      {
+        "title": "Type 1 diabetes: etiology, immunology, and therapeutic strategies",
+        "authors": "van Belle TL, Coppieters KT, von Herrath MG.",
+        "journal": "Physiol Rev",
+        "year": "2011",
+        "pmid": "21248163",
+        "doi": "10.1152/physrev.00003.2010",
+        "citations": 678,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/21248163"
+      },
+      {
+        "title": "Autoimmunity to specific citrullinated proteins gives the first clues to the etiology of rheumatoid arthritis",
+        "authors": "Wegner N, Lundberg K, Kinloch A, Fisher B, Malmström V, Feldmann M, Venables PJ.",
+        "journal": "Immunol Rev",
+        "year": "2010",
+        "pmid": "20192991",
+        "doi": "10.1111/j.0105-2896.2009.00850.x",
+        "citations": 366,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/20192991"
+      },
+      {
+        "title": "Genetic susceptibility to systemic lupus erythematosus in the genomic era",
+        "authors": "Deng Y, Tsao BP.",
+        "journal": "Nat Rev Rheumatol",
+        "year": "2010",
+        "pmid": "21060334",
+        "doi": "10.1038/nrrheum.2010.176",
+        "citations": 272,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/21060334"
+      },
+      {
+        "title": "Protein tyrosine phosphatases as potential therapeutic targets",
+        "authors": "He RJ, Yu ZH, Zhang RY, Zhang ZY.",
+        "journal": "Acta Pharmacol Sin",
+        "year": "2014",
+        "pmid": "25220640",
+        "doi": "10.1038/aps.2014.80",
+        "citations": 268,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/25220640"
+      }
+    ],
+    "mechanism": [
+      {
+        "title": "Self-Blockade of PD-L1 with Bacteria-Derived Outer-Membrane Vesicle for Enhanced Cancer Immunotherapy",
+        "authors": "Pan J, Li X, Shao B, Xu F, Huang X, Guo X, Zhou S.",
+        "journal": "Adv Mater",
+        "year": "2022",
+        "pmid": "34859919",
+        "doi": "10.1002/adma.202106307",
+        "citations": 109,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/34859919"
+      },
+      {
+        "title": "Cellular and molecular basis of thyroid autoimmunity",
+        "authors": "Bogusławska J, Godlewska M, Gajda E, Piekiełko-Witkowska A.",
+        "journal": "Eur Thyroid J",
+        "year": "2022",
+        "pmid": "34981746",
+        "doi": "10.1530/etj-21-0024",
+        "citations": 102,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/34981746"
+      },
+      {
+        "title": "Identification of genetic risk loci and prioritization of genes and pathways for myasthenia gravis: a genome-wide association study",
+        "authors": "Chia R, Saez-Atienzar S, Murphy N, Chiò A, Blauwendraat C, International Myasthenia Gravis Genomics Consortium, Roda RH, Tienari PJ, Kaminski HJ, Ricciardi R, Guida M, De Rosa A, Petrucci L, Evoli A, Provenzano C, Drachman DB, Traynor BJ.",
+        "journal": "Proc Natl Acad Sci U S A",
+        "year": "2022",
+        "pmid": "35074870",
+        "doi": "10.1073/pnas.2108672119",
+        "citations": 101,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/35074870"
+      },
+      {
+        "title": "Multiomics analysis of rheumatoid arthritis yields sequence variants that have large effects on risk of the seropositive subset",
+        "authors": "Saevarsdottir S, Stefansdottir L, Sulem P, Thorleifsson G, Ferkingstad E, Rutsdottir G, Glintborg B, Westerlind H, Grondal G, Loft IC, Sorensen SB, Lie BA, Brink M, Ärlestig L, Arnthorsson AO, Baecklund E, Banasik K, Bank S, Bjorkman LI, Ellingsen T, Erikstrup C, Frei O, Gjertsson I, Gudbjartsson DF, Gudjonsson SA, Halldorsson GH, Hendricks O, Hillert J, Hogdall E, Jacobsen S, Jensen DV, Jonsson H, Kastbom A, Kockum I, Kristensen S, Kristjansdottir H, Larsen MH, Linauskas A, Hauge EM, Loft AG, Ludviksson BR, Lund SH, Markusson T, Masson G, Melsted P, Moore KHS, Munk H, Nielsen KR, Norddahl GL, Oddsson A, Olafsdottir TA, Olason PI, Olsson T, Ostrowski SR, Hørslev-Petersen K, Rognvaldsson S, Sanner H, Silberberg GN, Stefansson H, Sørensen E, Sørensen IJ, Turesson C, Bergman T, Alfredsson L, Kvien TK, Brunak S, Steinsson K, Andersen V, Andreassen OA, Rantapää-Dahlqvist S, Hetland ML, Klareskog L, Askling J, Padyukov L, Pedersen OB, Thorsteinsdottir U, Jonsdottir I, Stefansson K, Members of the DBDS Genomic Consortium, Danish RA Genetics Working Group, Swedish Rheumatology Quality Register Biobank Study Group (SRQb).",
+        "journal": "Ann Rheum Dis",
+        "year": "2022",
+        "pmid": "35470158",
+        "doi": "10.1136/annrheumdis-2021-221754",
+        "citations": 81,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/35470158"
+      },
+      {
+        "title": "Systemic inhibition of PTPN22 augments anticancer immunity",
+        "authors": "Ho WJ, Croessmann S, Lin J, Phyo ZH, Charmsaz S, Danilova L, Mohan AA, Gross NE, Chen F, Dong J, Aggarwal D, Bai Y, Wang J, He J, Leatherman JM, Yarchoan M, Armstrong TD, Zaidi N, Fertig EJ, Denny JC, Park BH, Zhang ZY, Jaffee EM.",
+        "journal": "J Clin Invest",
+        "year": "2021",
+        "pmid": "34283806",
+        "doi": "10.1172/jci146950",
+        "citations": 51,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/34283806"
+      }
+    ],
+    "search_url": "https://europepmc.org/search?query=(TITLE_ABS:\"PTPN22\"%20OR%20TITLE_ABS:\"LYP\"%20OR%20TITLE_ABS:\"LYP1\"%20OR%20TITLE_ABS:\"LYP2\"%20OR%20TITLE_ABS:\"LyP\")",
+    "note": "Reviews ranked by citation count; mechanism papers restricted to the last five years first, then ranked, so the list reflects current work rather than the field's founding papers."
+  },
+  "annotation": {
+    "accession": "Q9Y2R2",
+    "entry_name": "PTN22_HUMAN",
+    "protein_name": "Tyrosine-protein phosphatase non-receptor type 22",
+    "gene_names": [
+      "PTPN22",
+      "PTPN8"
+    ],
+    "function": [
+      {
+        "text": "Acts as a negative regulator of T-cell receptor (TCR) signaling by direct dephosphorylation of the Src family kinases LCK and FYN, ITAMs of the TCRz/CD3 complex, as well as ZAP70, VAV, VCP and other key signaling molecules. Associates with and probably dephosphorylates CBL. Dephosphorylates LCK at its activating 'Tyr-394' residue. Dephosphorylates ZAP70 at its activating 'Tyr-493' residue. Dephosphorylates the immune system activator SKAP2. Positively regulates toll-like receptor (TLR)-induced type 1 interferon production. Promotes host antiviral responses mediated by type 1 interferon. Regulates NOD2-induced pro-inflammatory cytokine secretion and autophagy. Acts as an activator of NLRP3 inflammasome assembly by mediating dephosphorylation of 'Tyr-861' of NLRP3. Dephosphorylates phospho-anandamide (p-AEA), an endocannabinoid to anandamide (also called N-arachidonoylethanolamide)",
+        "pmids": [
+          "16461343",
+          "18056643",
+          "19167335",
+          "21719704",
+          "23871208",
+          "23991106",
+          "27043286"
+        ]
+      }
+    ],
+    "subunit": [
+      {
+        "text": "Interacts with CSK. Interacts with LPXN. Interacts with CBL. Interacts with TRAF3 (via MATH domain); the interaction promotes TRAF3 polyubiquitination",
+        "pmids": [
+          "10068674",
+          "15208781",
+          "18056643",
+          "21719704",
+          "23871208"
+        ]
+      }
+    ],
+    "domains": [
+      {
+        "name": "Tyrosine-protein phosphatase",
+        "count": 1,
+        "spans": [
+          [
+            24,
+            289
+          ]
+        ]
+      }
+    ],
+    "disease": [
+      {
+        "name": "Systemic lupus erythematosus",
+        "acronym": "SLE",
+        "description": "A chronic, relapsing, inflammatory, and often febrile multisystemic disorder of connective tissue, characterized principally by involvement of the skin, joints, kidneys and serosal membranes. It is of unknown etiology, but is thought to represent a failure of the regulatory mechanisms of the autoimmune system. The disease is marked by a wide range of system dysfunctions, an elevated erythrocyte sedimentation rate, and the formation of LE cells in the blood or bone marrow.",
+        "mim": "152700",
+        "pmids": [
+          "15273934"
+        ]
+      },
+      {
+        "name": "Type 1 diabetes mellitus",
+        "acronym": "T1D",
+        "description": "A multifactorial disorder of glucose homeostasis that is characterized by susceptibility to ketoacidosis in the absence of insulin therapy. Clinical features are polydipsia, polyphagia and polyuria which result from hyperglycemia-induced osmotic diuresis and secondary thirst. These derangements result in long-term complications that affect the eyes, kidneys, nerves, and blood vessels.",
+        "mim": "222100",
+        "pmids": [
+          "15004560"
+        ]
+      },
+      {
+        "name": "Rheumatoid arthritis",
+        "acronym": "RA",
+        "description": "An inflammatory disease with autoimmune features and a complex genetic component. It primarily affects the joints and is characterized by inflammatory changes in the synovial membranes and articular structures, widespread fibrinoid degeneration of the collagen fibers in mesenchymal tissues, and by atrophy and rarefaction of bony structures.",
+        "mim": "180300",
+        "pmids": [
+          "15208781"
+        ]
+      },
+      {
+        "name": "Vitiligo",
+        "acronym": "VTLG",
+        "description": "A pigmentary disorder of the skin and mucous membranes. It is characterized by circumscribed depigmented macules and patches, commonly on extensor aspects of extremities, on the face or neck and in skin folds. Vitiligo is a progressive disorder in which some or all of the melanocytes in the affected skin are selectively destroyed. It is a multifactorial disorder with a complex etiology probably including autoimmune mechanisms, and is associated with an elevated risk of other autoimmune diseases.",
+        "mim": "193200",
+        "pmids": [
+          "16015369"
+        ]
+      }
+    ],
+    "n_citations": 26,
+    "url": "https://www.uniprot.org/uniprotkb/Q9Y2R2",
+    "licence": "UniProt Knowledgebase (Swiss-Prot), CC BY 4.0",
+    "brief": {
+      "segments": [
+        {
+          "kind": "function",
+          "text": "Acts as a negative regulator of T-cell receptor (TCR) signaling by direct dephosphorylation of the Src family kinases LCK and FYN, ITAMs of the TCRz/CD3 complex, as well as ZAP70, VAV, VCP and other key signaling molecules. Associates with and probably dephosphorylates CBL. Dephosphorylates LCK at its activating 'Tyr-394' residue.",
+          "pmids": [
+            "16461343",
+            "18056643",
+            "19167335",
+            "21719704"
+          ]
+        },
+        {
+          "kind": "subunit",
+          "text": "Interacts with CSK. Interacts with LPXN.",
+          "pmids": [
+            "10068674",
+            "15208781",
+            "18056643",
+            "21719704"
+          ]
+        },
+        {
+          "kind": "domain",
+          "text": "UniProt annotates a Tyrosine-protein phosphatase domain.",
+          "pmids": []
+        },
+        {
+          "kind": "disease",
+          "text": "Separately, germline variants in PTPN22 cause Systemic lupus erythematosus (SLE) and Type 1 diabetes mellitus (T1D) — genetic validation of the target, not an indication being pursued against it.",
+          "pmids": [
+            "15273934",
+            "15004560"
+          ]
+        }
+      ],
+      "text": "Acts as a negative regulator of T-cell receptor (TCR) signaling by direct dephosphorylation of the Src family kinases LCK and FYN, ITAMs of the TCRz/CD3 complex, as well as ZAP70, VAV, VCP and other key signaling molecules. Associates with and probably dephosphorylates CBL. Dephosphorylates LCK at its activating 'Tyr-394' residue. Interacts with CSK. Interacts with LPXN. UniProt annotates a Tyrosine-protein phosphatase domain. Separately, germline variants in PTPN22 cause Systemic lupus erythematosus (SLE) and Type 1 diabetes mellitus (T1D) — genetic validation of the target, not an indication being pursued against it.",
+      "words": 91,
+      "accession": "Q9Y2R2",
+      "url": "https://www.uniprot.org/uniprotkb/Q9Y2R2",
+      "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)",
+      "note": "Curated by UniProt from the primary literature, not generated. Each statement links to the records the curator cited."
+    }
+  },
+  "header": {
+    "facts": [
+      {
+        "key": "class",
+        "label": "Target class",
+        "value": "Enzyme and Phosphatase",
+        "note": "",
+        "pmids": []
+      },
+      {
+        "key": "function",
+        "label": "Function",
+        "value": "Acts as a negative regulator of T-cell receptor (TCR) signaling by direct dephosphorylation of the Src family kinases LCK and FYN, ITAMs of the TCRz/CD3 complex, as well as ZAP70, VAV, VCP and other key signaling molecules.",
+        "note": "",
+        "pmids": [
+          "16461343",
+          "18056643",
+          "19167335"
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Where it sits",
+        "value": "Cytoplasm, Nucleus, Cell membrane",
+        "note": "Subcellular location, which decides which modalities can physically reach it.",
+        "pmids": []
+      },
+      {
+        "key": "domain",
+        "label": "Domains",
+        "value": "Tyrosine-protein phosphatase",
+        "note": "",
+        "pmids": []
+      },
+      {
+        "key": "development",
+        "label": "In development",
+        "value": "Nothing in the public record",
+        "note": "No asset against this target was found in Open Targets, ChEMBL or ClinicalTrials.gov. Preclinical and undisclosed work is invisible to all three.",
+        "pmids": []
+      },
+      {
+        "key": "genetics",
+        "label": "Germline variants cause",
+        "value": "Systemic lupus erythematosus (SLE) and Type 1 diabetes mellitus (T1D)",
+        "note": "A Mendelian disease caused by variants in this gene. It is not an indication anyone is developing against the target.",
+        "pmids": [
+          "15273934",
+          "15004560"
+        ]
+      }
+    ],
+    "mechanism": {
+      "text": "Acts as a negative regulator of T-cell receptor (TCR) signaling by direct dephosphorylation of the Src family kinases LCK and FYN, ITAMs of the TCRz/CD3 complex, as well as ZAP70, VAV, VCP and other key signaling molecules. Associates with and probably dephosphorylates CBL. Dephosphorylates LCK at its activating 'Tyr-394' residue. Interacts with CSK. Interacts with LPXN.",
+      "pmids": [
+        "16461343",
+        "18056643",
+        "19167335",
+        "21719704",
+        "10068674",
+        "15208781"
+      ],
+      "accession": "Q9Y2R2",
+      "url": "https://www.uniprot.org/uniprotkb/Q9Y2R2",
+      "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
+    },
+    "accession": "Q9Y2R2",
+    "url": "https://www.uniprot.org/uniprotkb/Q9Y2R2",
+    "curated_source": true,
+    "development_unknown": false,
+    "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
+  },
+  "diagram": {
+    "svg": "<svg viewBox=\"0 0 720 250\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How PTPN22 is being drugged</title><desc id=\"tl-diagram-desc\">PTPN22 is in the plasma membrane. No programme has been recorded against it.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"92\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"82\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"138\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><text x=\"24\" y=\"105\" class=\"tl-empty\">Nothing has been recorded against this target.</text><g class=\"tl-target\"><rect x=\"574\" y=\"79\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"65\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"70\" class=\"tl-protein-label\">PTPN22</text></g></svg>",
+    "title": "How PTPN22 is being drugged",
+    "caption": "PTPN22 is in the plasma membrane. No programme has been recorded against it.",
+    "placement": "in the plasma membrane",
+    "target_class": [
+      "Enzyme",
+      "Phosphatase",
+      "Protein Phosphatase",
+      "Tyrosine protein phosphatase"
+    ],
+    "interventions": [],
+    "note": "Generated from the target's annotated location, its protein family, and the mechanism classes present in the asset table. Arrow weight is the furthest phase that approach has reached. It is a schematic of how the target is being drugged — not a pathway map, and it draws no interaction it has not read from the data."
+  },
+  "pathway": {},
+  "feasibility": {
+    "lines": [
+      {
+        "key": "validation",
+        "label": "Has anyone made a medicine here?",
+        "value": "No clinical precedent",
+        "face": "science",
+        "detail": "Counted from approved drugs and the highest phase reached by any programme on this target. It says what has happened, not whether a new asset here is differentiated — the asset table and the mechanism split are where that is visible.",
+        "anchor": "#precedent"
+      },
+      {
+        "key": "window",
+        "label": "How contested is it?",
+        "value": "Open — 0 assets",
+        "face": "business",
+        "detail": "0 sponsors, phase-weighted score 0. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
+        "anchor": "#crowding"
+      },
+      {
+        "key": "opening",
+        "label": "What has nobody tried?",
+        "value": "Untried here: Antibody-drug conjugate, Bispecific antibody",
+        "face": "business",
+        "detail": "Physically available against this target — the location and family allow it — and absent from the asset table. That is a modality gap rather than a proven opportunity, and the requirements listed under each one are what a company would have to satisfy.",
+        "anchor": "#modalities"
+      }
+    ],
+    "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
+  },
+  "narrative": {
+    "bottom_line": "PTPN22 carries 0 active programmes across 0 mechanism classes from 0 named sponsors, reaching Unknown. Phase-weighted density scores 0, which this tool bands as Open.",
+    "competitive": "No assets were resolved against this target.",
+    "failures": "0 of 0 trials stopped; 0 stated a reason. No stated reasons were available to classify.",
+    "whitespace": "15 diseases pass the screen: association evidence above threshold, genetic support, and nothing past preclinical. The strongest on genetic evidence is hypothyroidism (association 0.543, genetic 0.886). Treat this as a hypothesis to check by hand rather than a finding — disease names are matched between EFO terms and sponsor free text, and that matching is imperfect.",
+    "licensing": "No programmes resolved against this target, so there is nothing to place.",
+    "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent. Deal comparables are hand-maintained and not exhaustive.",
+    "_source": "template"
+  },
+  "generated": "2026-09-06 01:33 UTC",
+  "warnings": [],
+  "notes": [
+    "1 trial on this target list drugs this record does not tie to PTPN22 -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
+  ],
+  "rules_version": "2026-09-07-directed-discovery"
+}

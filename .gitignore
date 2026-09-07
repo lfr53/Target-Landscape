@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.cache/
+out/*.json
+.DS_Store
+.idea/
+.vscode/
+out/demo.html
+setup-log.txt
+out/
+*.bundle
+
+# The language layer was removed; the file is dead and stays out of the repo.
+# Delete web/static/i18n.js when convenient — nothing loads it.
+web/static/i18n.js
+# No quotes. Git reads this file literally, so "Claude outputs"/ matched a
+# directory whose name contains the quote marks -- that is, nothing -- and the
+# folder went on being staged. A space in a path needs no escaping here.
+Claude outputs/
+docs/scratch/

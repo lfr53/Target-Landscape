@@ -1,0 +1,1701 @@
+{
+  "target": {
+    "ensembl_id": "ENSG00000186818",
+    "symbol": "LILRB4",
+    "name": "leukocyte immunoglobulin like receptor B4",
+    "biotype": "protein_coding",
+    "function": "Inhibitory receptor involved in the down-regulation of the immune response and the development of immune tolerance (PubMed:11875462). Receptor for FN1 (PubMed:34089617). Receptor for apolipoprotein APOE (PubMed:30333625). Receptor for ALCAM/CD166 (PubMed:29263213). Inhibits receptor-mediated phosphorylation of cellular proteins and mobilization of intracellular calcium ions (PubMed:9151699). Inhibits FCGR1A/CD64-mediated monocyte activation by inducing phosphatase-mediated down-regulation of the phosphorylation of multiple proteins including LCK, SYK, LAT and ERK, leading to a reduction in TNF production (PubMed:19833736). This inhibition of monocyte activation occurs at least in part via binding to FN1 (PubMed:34089617). Inhibits T cell proliferation, inducing anergy, suppressing the differentiation of IFNG-producing CD8+ cytotoxic T cells and enhancing the generation of CD8+ T suppressor cells (PubMed:16493035, PubMed:19833736, PubMed:29263213). Induces up- regulation of CD86 on dendritic cells (PubMed:19860908). Interferes with TNFRSF5-signaling and NF-kappa-B up-regulation (PubMed:11875462). {ECO:0000269|PubMed:11875462, ECO:0000269|PubMed:16493035, ECO:0000269|PubMed:19833736, ECO:0000269|PubMed:19860908, ECO:0000269|PubMed:29263213, ECO:0000269|PubMed:30333625, ECO:0000269|PubMed:34089617, ECO:0000269|PubMed:9151699}.",
+    "synonyms": [
+      "B4",
+      "CD85 antigen-like family member K",
+      "CD85K",
+      "CD85k",
+      "HM18",
+      "ILT-3",
+      "ILT3",
+      "Immunoglobulin-like transcript 3",
+      "LILRB4",
+      "LIR-5",
+      "LIR5",
+      "Leukocyte immunoglobulin-like receptor 5",
+      "Leukocyte immunoglobulin-like receptor subfamily B member 4",
+      "Monocyte inhibitory receptor HM18",
+      "immunoglobulin-like transcript 3",
+      "leucocyte Ig-like receptor B4",
+      "leukocyte immunoglobulin-like receptor 5",
+      "leukocyte immunoglobulin-like receptor subfamily B member 4",
+      "leukocyte immunoglobulin-like receptor, subfamily B (with TM and ITIM domains), member 4",
+      "monocyte inhibitory receptor HM18"
+    ],
+    "tractability": {
+      "AB": [
+        "UniProt loc high conf",
+        "UniProt SigP or TMHMM",
+        "GO CC med conf"
+      ]
+    },
+    "locations": [
+      "Cell membrane"
+    ],
+    "topology": [
+      "Single-pass type I membrane protein"
+    ],
+    "target_class": [],
+    "provenance": [
+      {
+        "source": "opentargets",
+        "identifier": "ENSG00000186818",
+        "url": "https://platform.opentargets.org/target/ENSG00000186818",
+        "retrieved": null
+      }
+    ]
+  },
+  "assets": [
+    {
+      "name": "LILRB4 STAR-T",
+      "sponsor": "Hebei Yanda Ludaopei Hospital",
+      "modality": "Other / unclassified",
+      "action_type": "",
+      "mechanism_text": "[other sponsor]",
+      "mechanism_class": "Unclassified",
+      "max_phase": 1,
+      "indications": [
+        "Relapsed/Refractory Acute Myeloid Leukemia"
+      ],
+      "indication_phase": {
+        "Relapsed/Refractory Acute Myeloid Leukemia": 1
+      },
+      "trials": [
+        "NCT05518357"
+      ],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "named_by_class": false,
+      "provenance": [
+        {
+          "source": "ctgov",
+          "identifier": "NCT05518357",
+          "url": "https://clinicaltrials.gov/study/NCT05518357",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Phase 1"
+    },
+    {
+      "name": "LILRB4 STAR-T cells",
+      "sponsor": "Peking University People's Hospital",
+      "modality": "Other / unclassified",
+      "action_type": "",
+      "mechanism_text": "[other sponsor]",
+      "mechanism_class": "Unclassified",
+      "max_phase": 1,
+      "indications": [
+        "Relapsed/Refractory Acute Myeloid Leukemia and Chronic Granulocytic-Mononocytic Leukemia",
+        "Acute Myelogenous Leukemia",
+        "Chronic Myelomonocytic Leukemia"
+      ],
+      "indication_phase": {
+        "Relapsed/Refractory Acute Myeloid Leukemia and Chronic Granulocytic-Mononocytic Leukemia": 1,
+        "Acute Myelogenous Leukemia": -1,
+        "Chronic Myelomonocytic Leukemia": -1
+      },
+      "trials": [
+        "NCT05548088",
+        "NCT05739409"
+      ],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "named_by_class": false,
+      "provenance": [
+        {
+          "source": "ctgov",
+          "identifier": "NCT05548088",
+          "url": "https://clinicaltrials.gov/study/NCT05548088",
+          "retrieved": null
+        },
+        {
+          "source": "ctgov",
+          "identifier": "NCT05739409",
+          "url": "https://clinicaltrials.gov/study/NCT05739409",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Phase 1"
+    },
+    {
+      "name": "anti-ILT3 CAR-T",
+      "sponsor": "Carbiogene Therapeutics Co. Ltd.",
+      "modality": "Cell therapy (CAR-T)",
+      "action_type": "",
+      "mechanism_text": "",
+      "mechanism_class": "Cell therapy — target-directed CAR",
+      "max_phase": 1,
+      "indications": [
+        "AML M4",
+        "AML M5"
+      ],
+      "indication_phase": {
+        "AML M4": 1,
+        "AML M5": 1
+      },
+      "trials": [
+        "NCT04803929"
+      ],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "named_by_class": true,
+      "provenance": [
+        {
+          "source": "ctgov",
+          "identifier": "NCT04803929",
+          "url": "https://clinicaltrials.gov/study/NCT04803929",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Phase 1"
+    }
+  ],
+  "trials": [
+    {
+      "nct_id": "NCT04803929",
+      "title": "Clinical Study of Anti-ILT3 CAR-T Therapy for R/R AML(M4/M5)",
+      "status": "UNKNOWN",
+      "why_stopped": "",
+      "phase": 1,
+      "sponsor": "Carbiogene Therapeutics Co. Ltd.",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "AML M4",
+        "AML M5"
+      ],
+      "interventions": [
+        "anti-ILT3 CAR-T"
+      ],
+      "brief_summary": "This study evaluates the safety and efficacy of novel ILT3-targeted CAR-T cell therapy for patients with relapsed or refractory acute myeloid leukemia (M4/M5).",
+      "countries": [
+        "China"
+      ],
+      "enrollment": 25,
+      "start_date": "2021-03-03",
+      "completion_date": "2024-03-01",
+      "allocation": "NA",
+      "masking": "NONE",
+      "intervention_model": "SINGLE_GROUP",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Rate of grade 3 or 4 treatment related adverse effects",
+        "Implantation endpoint"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "other",
+      "evidence_level": "unclear",
+      "evidence_note": "The registry entry does not carry enough design detail to say what a result here would establish."
+    },
+    {
+      "nct_id": "NCT05518357",
+      "title": "LILRB4 STAR-T Cells in the Treatment of Relapsed/Refractory Acute Myeloid Leukemia",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": 1,
+      "sponsor": "Hebei Yanda Ludaopei Hospital",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Relapsed/Refractory Acute Myeloid Leukemia"
+      ],
+      "interventions": [
+        "LILRB4 STAR-T"
+      ],
+      "brief_summary": "This is a single-center, single-arm, open-label phase I clinical study to determine the safety and efficacy of LILRB4 STAR-T cells in relapsed/refractory acute myeloid leukemia subjects.",
+      "countries": [
+        "China"
+      ],
+      "enrollment": 2,
+      "start_date": "2022-06-24",
+      "completion_date": "2022-11-15",
+      "allocation": "NA",
+      "masking": "NONE",
+      "intervention_model": "SINGLE_GROUP",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Evaluate safety and tolerability"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "safety",
+      "evidence_level": "dose",
+      "evidence_note": "A first-in-human safety and dose study. It establishes tolerability and a dose to take forward; it is not designed to say anything about efficacy, and a clean result is not evidence the mechanism works."
+    },
+    {
+      "nct_id": "NCT05548088",
+      "title": "LILRB4 STAR-T Cells in the Treatment of R/R AML/CMML",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": 1,
+      "sponsor": "Peking University People's Hospital",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Relapsed/Refractory Acute Myeloid Leukemia and Chronic Granulocytic-Mononocytic Leukemia"
+      ],
+      "interventions": [
+        "LILRB4 STAR-T cells"
+      ],
+      "brief_summary": "This study is an exploratory study to evaluate the safety, tolerability, and efficacy of LILRB4 STAR-T cells in relapsed and refractory acute myeloid leukemia/Chronic Granulocytic-Mononocytic Leukemia subjects.",
+      "countries": [
+        "China"
+      ],
+      "enrollment": 11,
+      "start_date": "2023-05-25",
+      "completion_date": "2024-08-03",
+      "allocation": "NA",
+      "masking": "NONE",
+      "intervention_model": "SINGLE_GROUP",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Evaluate safety and tolerability"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "safety",
+      "evidence_level": "dose",
+      "evidence_note": "A first-in-human safety and dose study. It establishes tolerability and a dose to take forward; it is not designed to say anything about efficacy, and a clean result is not evidence the mechanism works."
+    },
+    {
+      "nct_id": "NCT05739409",
+      "title": "LILRB4 STAR-T Cell Therapy for Monocytic Leukemia",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": -1,
+      "sponsor": "Institute of Hematology & Blood Diseases Hospital, China",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Acute Myelogenous Leukemia",
+        "Chronic Myelomonocytic Leukemia"
+      ],
+      "interventions": [
+        "LILRB4 STAR-T cells injection"
+      ],
+      "brief_summary": "This is a single-center,single-arm,open-label phase I clinical study to determine the safety and efficacy of LILRB4 STAR-T cells in Monocytic Leukemia subjects.",
+      "countries": [
+        "China"
+      ],
+      "enrollment": 1,
+      "start_date": "2023-02-16",
+      "completion_date": "2023-05-09",
+      "allocation": "NA",
+      "masking": "NONE",
+      "intervention_model": "SINGLE_GROUP",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Evaluate safety and tolerability"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "safety",
+      "evidence_level": "dose",
+      "evidence_note": "A first-in-human safety and dose study. It establishes tolerability and a dose to take forward; it is not designed to say anything about efficacy, and a clean result is not evidence the mechanism works."
+    }
+  ],
+  "associations": [
+    {
+      "disease_id": "MONDO_0005559",
+      "name": "neurodegenerative disease",
+      "score": 0.2531206291658789,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005081",
+      "name": "preeclampsia",
+      "score": 0.1571903974968884,
+      "genetic_score": 0.25856626792793297,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018874",
+      "name": "acute myeloid leukemia",
+      "score": 0.11305684666671643,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.11188061236714845,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0009685",
+      "name": "Miyoshi myopathy",
+      "score": 0.1020161998455363,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0006970",
+      "name": "sialolithiasis",
+      "score": 0.0998901325500318,
+      "genetic_score": 0.1643116830772028,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004975",
+      "name": "Alzheimer disease",
+      "score": 0.08614752180701207,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005233",
+      "name": "non-small cell lung carcinoma",
+      "score": 0.08592474395447526,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005002",
+      "name": "chronic obstructive pulmonary disease",
+      "score": 0.08486990718551195,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0009693",
+      "name": "plasma cell myeloma",
+      "score": 0.08275449028611162,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0019438",
+      "name": "AL amyloidosis",
+      "score": 0.08238845768917118,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0001056",
+      "name": "gastric cancer",
+      "score": 0.07505304495652029,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0013209",
+      "name": "metabolic dysfunction-associated steatotic liver disease",
+      "score": 0.07429848608653902,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018899",
+      "name": "posterior cortical atrophy",
+      "score": 0.07391597093694036,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0006502",
+      "name": "acute respiratory distress syndrome",
+      "score": 0.07358745551055396,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004849",
+      "name": "pulmonary emphysema",
+      "score": 0.0659162096601485,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0001297",
+      "name": "Stroke",
+      "score": 0.062253673300223106,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005098",
+      "name": "stroke disorder",
+      "score": 0.062253673300223106,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_1060198",
+      "name": "ischemic stroke",
+      "score": 0.0620894155870299,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0020310",
+      "name": "familial focal epilepsy with variable foci",
+      "score": 0.05659745894641523,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018772",
+      "name": "Joubert syndrome",
+      "score": 0.05194075277738799,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0000544",
+      "name": "infection",
+      "score": 0.0509585362264837,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0014043",
+      "name": "microcephalic primordial dwarfism due to ZNF335 deficiency",
+      "score": 0.0505659157179609,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018661",
+      "name": "Zika virus infectious disease",
+      "score": 0.04952370052775004,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0010011",
+      "name": "schizencephaly",
+      "score": 0.04723969702579858,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004948",
+      "name": "B-cell chronic lymphocytic leukemia",
+      "score": 0.04397757941408243,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005180",
+      "name": "Parkinson disease",
+      "score": 0.04385680942258461,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_183506",
+      "name": "Genetic central nervous system malformation",
+      "score": 0.04310040265332993,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004992",
+      "name": "cancer",
+      "score": 0.04196157380748778,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0000855",
+      "name": "Insulin resistance",
+      "score": 0.041023363870001904,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0008903",
+      "name": "lung cancer",
+      "score": 0.03945841258585252,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0012703",
+      "name": "lissencephaly due to TUBA1A mutation",
+      "score": 0.036654929987628725,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0006861",
+      "name": "myeloid sarcoma",
+      "score": 0.036346803293073014,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0001397",
+      "name": "Hepatic steatosis",
+      "score": 0.03621882575910078,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004790",
+      "name": "fatty liver disease",
+      "score": 0.03621882575910078,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0020311",
+      "name": "chronic myelomonocytic leukemia",
+      "score": 0.03604060614028615,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007915",
+      "name": "systemic lupus erythematosus",
+      "score": 0.03301891889679442,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005108",
+      "name": "viral infectious disease",
+      "score": 0.03125002993500645,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0015140",
+      "name": "early-onset autosomal dominant Alzheimer disease",
+      "score": 0.029840041119698006,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005138",
+      "name": "lung carcinoma",
+      "score": 0.029821197376283085,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "GO_0050896",
+      "name": "response to stimulus",
+      "score": 0.029376159082709723,
+      "genetic_score": 0.04832155106818062,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0002503",
+      "name": "cardiac hypertrophy",
+      "score": 0.02926403266531488,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018177",
+      "name": "glioblastoma",
+      "score": 0.02891449057554063,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005059",
+      "name": "leukemia",
+      "score": 0.02818513258889738,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005301",
+      "name": "multiple sclerosis",
+      "score": 0.025300295009193126,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005580",
+      "name": "esophageal squamous cell carcinoma",
+      "score": 0.02166547685541842,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005575",
+      "name": "colorectal cancer",
+      "score": 0.021418474602154805,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0021040",
+      "name": "pancreatic neoplasm",
+      "score": 0.0209874007660934,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005299",
+      "name": "brain ischemia",
+      "score": 0.020881261789685655,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007179",
+      "name": "autoimmune disease",
+      "score": 0.018730262979789882,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007896",
+      "name": "acute monocytic leukemia",
+      "score": 0.018694580982801162,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018905",
+      "name": "diffuse large B-cell lymphoma",
+      "score": 0.01847899273423509,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0002637",
+      "name": "Cerebral ischemia",
+      "score": 0.01847899273423509,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005105",
+      "name": "melanoma",
+      "score": 0.017876347373930564,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_1331",
+      "name": "Familial prostate cancer",
+      "score": 0.017272725152972523,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005159",
+      "name": "prostate carcinoma",
+      "score": 0.017272725152972523,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0008315",
+      "name": "prostate cancer",
+      "score": 0.017272725152972523,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005282",
+      "name": "cutaneous lupus erythematosus",
+      "score": 0.017028529191268366,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_1001418",
+      "name": "Salmonella Infections",
+      "score": 0.016887746137675956,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005011",
+      "name": "Crohn disease",
+      "score": 0.016517271142642596,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    }
+  ],
+  "deals": [],
+  "mechanism_clusters": {
+    "Unclassified": [
+      "LILRB4 STAR-T",
+      "LILRB4 STAR-T cells"
+    ],
+    "Cell therapy — target-directed CAR": [
+      "anti-ILT3 CAR-T"
+    ]
+  },
+  "crowding": {
+    "n_total": 3,
+    "n_active": 3,
+    "n_dormant": 0,
+    "weighted_score": 2.2,
+    "verdict": "Emerging",
+    "by_phase": {
+      "Phase 1": 3
+    },
+    "n_sponsors": 3,
+    "n_mechanism_classes": 2,
+    "lead_phase": "Phase 1",
+    "weights_used": {
+      "Approved": 5.0,
+      "Phase 3": 3.0,
+      "Phase 2": 1.5,
+      "Phase 1": 0.75,
+      "Preclinical": 0.25,
+      "Unknown": 0.25
+    },
+    "bands_used": [
+      {
+        "from": 0.0,
+        "verdict": "Open"
+      },
+      {
+        "from": 2.0,
+        "verdict": "Emerging"
+      },
+      {
+        "from": 8.0,
+        "verdict": "Contested"
+      },
+      {
+        "from": 20.0,
+        "verdict": "Crowded"
+      },
+      {
+        "from": 45.0,
+        "verdict": "Saturated"
+      }
+    ],
+    "dormant_assets": [],
+    "matrix": {
+      "mechanisms": [
+        "Cell therapy — target-directed CAR",
+        "Unclassified"
+      ],
+      "rows": [
+        {
+          "indication": "AML M4",
+          "n_assets": 1,
+          "cells": {
+            "Cell therapy — target-directed CAR": 1,
+            "Unclassified": -1
+          },
+          "max_phase": 1
+        },
+        {
+          "indication": "AML M5",
+          "n_assets": 1,
+          "cells": {
+            "Cell therapy — target-directed CAR": 1,
+            "Unclassified": -1
+          },
+          "max_phase": 1
+        },
+        {
+          "indication": "Relapsed/Refractory Acute Myeloid Leukemia",
+          "n_assets": 1,
+          "cells": {
+            "Cell therapy — target-directed CAR": -1,
+            "Unclassified": 1
+          },
+          "max_phase": 1
+        },
+        {
+          "indication": "Relapsed/Refractory Acute Myeloid Leukemia and Chronic Granulocytic-Mononocytic Leukemia",
+          "n_assets": 1,
+          "cells": {
+            "Cell therapy — target-directed CAR": -1,
+            "Unclassified": 1
+          },
+          "max_phase": 1
+        },
+        {
+          "indication": "Acute Myelogenous Leukemia",
+          "n_assets": 1,
+          "cells": {
+            "Cell therapy — target-directed CAR": -1,
+            "Unclassified": -1
+          },
+          "max_phase": -1
+        },
+        {
+          "indication": "Chronic Myelomonocytic Leukemia",
+          "n_assets": 1,
+          "cells": {
+            "Cell therapy — target-directed CAR": -1,
+            "Unclassified": -1
+          },
+          "max_phase": -1
+        }
+      ]
+    },
+    "indications_omitted": 0
+  },
+  "failures": {
+    "n_trials": 4,
+    "n_stopped": 0,
+    "n_with_reason": 0,
+    "counts": {},
+    "n_science": 0,
+    "n_business": 0,
+    "n_operational": 0,
+    "n_cmc": 0,
+    "n_unexplained": 0,
+    "science_share_of_stated": null,
+    "reporting_rate": null,
+    "cases": []
+  },
+  "whitespace": [],
+  "licensing": {
+    "assets": [
+      {
+        "asset": "LILRB4 STAR-T",
+        "sponsor": "Hebei Yanda Ludaopei Hospital",
+        "sponsor_scale": "Academic or non-industry",
+        "phase": 1,
+        "phase_label": "Phase 1",
+        "mechanism": "Unclassified",
+        "is_active": true,
+        "territory": {
+          "countries": [
+            "China"
+          ],
+          "covered": [
+            "China"
+          ],
+          "absent": [
+            "EU/UK",
+            "Japan",
+            "US"
+          ]
+        },
+        "signals": [
+          {
+            "code": "academic",
+            "headline": "Academic origin",
+            "evidence": "Sponsored by Hebei Yanda Ludaopei Hospital. Academic programmes at this stage are usually seeking a commercial partner, and the institution's tech-transfer office is the contact."
+          },
+          {
+            "code": "territory_gap",
+            "headline": "Territory gap: EU/UK, Japan, US",
+            "evidence": "Trials run in China but not in EU/UK, Japan, US. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
+          }
+        ]
+      },
+      {
+        "asset": "LILRB4 STAR-T cells",
+        "sponsor": "Peking University People's Hospital",
+        "sponsor_scale": "Academic or non-industry",
+        "phase": 1,
+        "phase_label": "Phase 1",
+        "mechanism": "Unclassified",
+        "is_active": true,
+        "territory": {
+          "countries": [
+            "China"
+          ],
+          "covered": [
+            "China"
+          ],
+          "absent": [
+            "EU/UK",
+            "Japan",
+            "US"
+          ]
+        },
+        "signals": [
+          {
+            "code": "academic",
+            "headline": "Academic origin",
+            "evidence": "Sponsored by Peking University People's Hospital. Academic programmes at this stage are usually seeking a commercial partner, and the institution's tech-transfer office is the contact."
+          },
+          {
+            "code": "territory_gap",
+            "headline": "Territory gap: EU/UK, Japan, US",
+            "evidence": "Trials run in China but not in EU/UK, Japan, US. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
+          }
+        ]
+      },
+      {
+        "asset": "anti-ILT3 CAR-T",
+        "sponsor": "Carbiogene Therapeutics Co. Ltd.",
+        "sponsor_scale": "Large pharma",
+        "phase": 1,
+        "phase_label": "Phase 1",
+        "mechanism": "Cell therapy — target-directed CAR",
+        "is_active": true,
+        "territory": {
+          "countries": [
+            "China"
+          ],
+          "covered": [
+            "China"
+          ],
+          "absent": [
+            "EU/UK",
+            "Japan",
+            "US"
+          ]
+        },
+        "signals": [
+          {
+            "code": "large_active",
+            "headline": "Held and active at a large sponsor",
+            "evidence": "Carbiogene Therapeutics Co. Ltd. is running this programme. Unlikely to be available except regionally, or if it is deprioritised later."
+          },
+          {
+            "code": "territory_gap",
+            "headline": "Territory gap: EU/UK, Japan, US",
+            "evidence": "Trials run in China but not in EU/UK, Japan, US. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
+          }
+        ]
+      }
+    ],
+    "holders": [
+      {
+        "sponsor": "Hebei Yanda Ludaopei Hospital",
+        "scale": "Academic or non-industry",
+        "n": 1,
+        "lead_phase": 1
+      },
+      {
+        "sponsor": "Peking University People's Hospital",
+        "scale": "Academic or non-industry",
+        "n": 1,
+        "lead_phase": 1
+      },
+      {
+        "sponsor": "Carbiogene Therapeutics Co. Ltd.",
+        "scale": "Large pharma",
+        "n": 1,
+        "lead_phase": 1
+      }
+    ],
+    "deals": {
+      "deals": [],
+      "by_asset": {},
+      "by_stage": [],
+      "n": 0,
+      "n_matched": 0,
+      "n_acquisitions": 0,
+      "curated": true
+    }
+  },
+  "precedent": {
+    "tier": "early_clinical",
+    "tier_label": "Early clinical only",
+    "read": "The target has been in humans, but no controlled trial has reported. Nothing in the record yet separates the mechanism working from the mechanism being untested.",
+    "evidence": [
+      "Some human genetic support (preeclampsia, 0.26) — below the threshold this tool treats as strong."
+    ],
+    "approved": [],
+    "n_approved": 0,
+    "n_withdrawn": 0,
+    "n_phase3": 0,
+    "n_controlled_running": 0,
+    "n_science_failures": 0,
+    "genetic_score": 0.259,
+    "genetic_disease": "preeclampsia"
+  },
+  "readouts": {
+    "n_trials": 4,
+    "n_active": 0,
+    "n_controlled": 0,
+    "n_confirmatory": 0,
+    "n_undescribed": 0,
+    "by_level": {},
+    "level_labels": {
+      "confirmatory": "Confirmatory",
+      "controlled": "Controlled",
+      "signal": "Signal-generating",
+      "dose": "Dose and safety",
+      "mechanistic": "Mechanistic",
+      "unclear": "Design not stated"
+    },
+    "verdict": "No trial is currently running on this target.",
+    "catalysts": [],
+    "next_catalyst": null
+  },
+  "modalities": [
+    {
+      "key": "Cell therapy (CAR-T)",
+      "what": "A patient's or donor's T cells engineered with a receptor against a surface antigen, expanded, and infused back as a living drug.",
+      "requires": [
+        "Surface expression with near-absolute tissue restriction. The cells persist and multiply, so there is no dose to back off — anything the CAR recognises will be destroyed for as long as the cells live.",
+        "The antigen is present on essentially every malignant cell, or escape is immediate.",
+        "A tolerable consequence if the normal tissue carrying the antigen is also destroyed — B-cell aplasia after CD19 is survivable, and that is why CD19 worked first."
+      ],
+      "fails": [
+        "On-target off-tumour toxicity, which in this modality has been fatal rather than dose-limiting.",
+        "Antigen escape driving relapse after deep remission.",
+        "The solid-tumour wall: trafficking, persistence and an immunosuppressive microenvironment. Success remains overwhelmingly haematological.",
+        "Manufacturing — vein-to-vein time, failure rates and cost of goods are commercial risks, not technical footnotes."
+      ],
+      "economics": "≈3–5 years and $50–150M to meaningful clinical data, with process development a large fraction of it. Any seed plan much shorter than this is worth interrogating.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Annotated at the cell surface (surface).",
+      "in_use": true,
+      "speculative": false
+    },
+    {
+      "key": "Antibody-drug conjugate",
+      "what": "An antibody used as a delivery vehicle: it carries a cytotoxic payload, is taken into the cell, and releases the payload inside.",
+      "requires": [
+        "Surface expression, AND internalisation after binding. This is the requirement people forget. A non-internalising antigen cannot deliver a payload, however specific the antibody is.",
+        "A real expression differential against normal tissue — the payload is toxic to any cell it enters.",
+        "High enough antigen copy number; the delivered dose scales with it."
+      ],
+      "fails": [
+        "Payload toxicity sets the dose, not the antibody. Neutropenia, ocular toxicity and interstitial lung disease are the recurring dose-limiters, and they are largely payload-class effects you can predict in advance.",
+        "Linker instability releasing payload in circulation, which converts a targeted drug into a systemic chemotherapy.",
+        "A narrow therapeutic index that looks fine in xenografts and disappears in patients with normal-tissue expression."
+      ],
+      "economics": "≈2.5–4 years and $40–90M to first-in-human. Manufacturing and COGS are materially higher than a naked antibody — worth modelling early.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Annotated at the cell surface (surface).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Bispecific antibody",
+      "what": "Two binding arms in one molecule: either blocking two pathways at once, or — far more commonly now — dragging a T cell onto a tumour cell by binding CD3 with one arm and a tumour antigen with the other.",
+      "requires": [
+        "Surface expression, as for any antibody.",
+        "For a T-cell engager: expression genuinely restricted to the target tissue. There is no therapeutic index to spend — the drug recruits a cytotoxic T cell to whatever it binds, so low-level expression on a vital tissue is lethal, not tolerable.",
+        "Enough antigen density to form a synapse, and little antigen shedding."
+      ],
+      "fails": [
+        "On-target off-tumour toxicity — the dominant cause of death for this class.",
+        "Cytokine release syndrome forcing step-up dosing, which lengthens every trial.",
+        "Antigen loss under treatment pressure, giving deep early responses that do not last."
+      ],
+      "economics": "≈2–3 years and $25–60M to first-in-human; the dose-escalation is slower than a plain antibody because of step-up dosing.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Annotated at the cell surface (surface).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Fc-fusion / ligand trap",
+      "what": "The receptor's binding domain fused to an antibody Fc, used to mop up a soluble ligand before it reaches its receptor.",
+      "requires": [
+        "The ligand is soluble and is the rate-limiting element — trapping does nothing against a membrane-bound or juxtacrine signal.",
+        "The trap does not also sequester a ligand you need."
+      ],
+      "fails": [
+        "Ligand redundancy: a trap for one cytokine in a family where three do the same job produces a clean pharmacodynamic result and no clinical effect.",
+        "Very high ligand turnover demanding impractical doses."
+      ],
+      "economics": "Similar to a monoclonal antibody. Often faster, because the binding domain is the native sequence rather than a discovery problem.",
+      "bd_note": "Commercially this is the modality that most often sits in a different patent estate from the receptor antibodies on the same axis — worth checking when a target looks crowded on paper.",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Reachable from outside the cell (surface).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Monoclonal antibody",
+      "what": "A single antibody binding one epitope, used to block a receptor or ligand, or to kill the cell it is bound to through Fc-mediated effector function.",
+      "requires": [
+        "The target is on the cell surface or secreted. An antibody cannot cross the plasma membrane, so an intracellular target rules the modality out entirely.",
+        "The epitope is accessible on the folded protein in vivo, not only on a recombinant fragment.",
+        "For blockade: the interaction being blocked is rate-limiting for the disease. Antibodies are exquisite blockers of a single interaction and useless against a redundant pathway."
+      ],
+      "fails": [
+        "The biology, not the molecule. Antibody CMC and safety are now routine; the great majority of antibody failures are the target being wrong.",
+        "Soluble decoy: a shed extracellular domain circulating in patients absorbs drug and flattens the dose-response.",
+        "Poor tissue penetration in solid tumours and behind the blood-brain barrier (roughly 0.1% of a systemic dose reaches the CNS)."
+      ],
+      "economics": "≈18–30 months and $15–40M from lead to first-in-human data.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Reachable from outside the cell (surface).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Oligonucleotide",
+      "what": "A short nucleic acid that degrades or blocks the target's mRNA, lowering the amount of protein made rather than blocking the protein itself.",
+      "requires": [
+        "Only that the target is a gene. Protein structure is irrelevant, so 'undruggable' in the small-molecule sense does not apply — this is the modality's whole appeal.",
+        "That the disease-relevant tissue can be reached. This is the entire risk. GalNAc conjugation makes hepatocyte targets close to routine; intrathecal dosing reaches the CNS; the eye is feasible. Most other tissues are still an open delivery problem.",
+        "That lowering the protein is therapeutic — a loss-of-function target, not a gain-of-function one."
+      ],
+      "fails": [
+        "Delivery, overwhelmingly. A programme aimed outside liver, CNS and eye is underwriting a delivery invention, and should be priced as one.",
+        "Durable knockdown creating durable toxicity, with no way to withdraw the drug.",
+        "Hepatotoxicity and thrombocytopenia as class effects for some chemistries."
+      ],
+      "economics": "≈2–3 years and $15–35M to first-in-human for a liver target, and considerably more anywhere else. Discovery is fast because the sequence is designed rather than screened.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Peptide",
+      "what": "A short chain of amino acids, typically engaging an extracellular receptor or a protein–protein interface too flat for a small molecule.",
+      "requires": [
+        "An extracellular or accessible binding site, unless a cell-penetrating strategy is part of the plan.",
+        "A tolerable half-life, which usually means engineering — lipidation, cyclisation or fusion. Native peptides are cleared in minutes."
+      ],
+      "fails": [
+        "Pharmacokinetics rather than pharmacology.",
+        "Injection-only delivery in an oral market, which caps commercial value even when the biology works."
+      ],
+      "economics": "≈2–3 years and $10–30M to first-in-human.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Reachable from outside the cell (surface).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Small molecule",
+      "what": "A synthetic compound, usually under 500 daltons, binding a pocket on the target to block or modulate its activity.",
+      "requires": [
+        "A defined binding pocket. Enzymes, GPCRs, ion channels and nuclear receptors have one; flat protein–protein interfaces and scaffolding proteins largely do not, which is what 'undruggable' has historically meant.",
+        "Selectivity that is achievable against the rest of the family — the practical constraint on most kinase programmes."
+      ],
+      "fails": [
+        "Off-target and family cross-reactivity producing dose-limiting toxicity before the target is fully engaged.",
+        "Idiosyncratic hepatotoxicity, which appears late and kills programmes at Phase 2–3.",
+        "Resistance mutations in the pocket, in oncology and infectious disease."
+      ],
+      "economics": "≈3–5 years and $10–30M from hit to first-in-human — cheaper per step than a biologic, with a longer discovery phase.",
+      "bd_note": "The only class here that routinely reaches intracellular targets and the CNS, and the only one where oral dosing is the default. Both matter more to commercial value than potency does.",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Molecular glue / degrader",
+      "what": "A small molecule that forces the target into contact with an E3 ubiquitin ligase, so the cell's own machinery destroys it. Removing the protein rather than inhibiting it.",
+      "requires": [
+        "An intracellular target — the machinery is cytoplasmic.",
+        "A ligandable surface anywhere on the protein. Crucially this need NOT be a functional active site, which is why degraders reach scaffolding and transcription-factor targets that defeated inhibitors.",
+        "The relevant E3 ligase is expressed in the tissue you are treating. Cereblon and VHL are the workhorses and their expression is not uniform."
+      ],
+      "fails": [
+        "Drug-like properties: bifunctional degraders are large and greasy, and oral bioavailability is the recurring reason a good degrader never becomes a drug. Monovalent glues avoid much of this and are correspondingly sought after.",
+        "The hook effect — too much drug forms binary rather than ternary complexes and degradation falls off at high dose, inverting the usual dose intuition.",
+        "Resistance through loss of the E3 ligase itself, seen clinically with cereblon."
+      ],
+      "economics": "≈3–5 years to first-in-human. Ternary-complex optimisation is the long pole; budget more medicinal chemistry than a conventional inhibitor.",
+      "bd_note": "The reason to care commercially: a degrader can open a target that an inhibitor could not, which resets the competitive clock on a mechanism that otherwise looks worked-out.",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated surface. The ubiquitin–proteasome system cannot reach a protein outside the cell.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Gene therapy",
+      "what": "A viral vector delivering a working copy of a gene, intended as a single administration.",
+      "requires": [
+        "Monogenic loss-of-function biology with a well-understood causal gene.",
+        "A tissue an AAV serotype actually reaches, at a dose that is safe.",
+        "Patients without pre-existing neutralising antibodies to the capsid, which excludes a large fraction of any population."
+      ],
+      "fails": [
+        "Dose-dependent hepatotoxicity and complement activation at the high systemic doses that non-CNS, non-ocular tissues require.",
+        "One-shot dosing with no redose path if expression fades.",
+        "A commercial model that has repeatedly failed on tiny populations and very high prices — a real diligence issue, not only a scientific one."
+      ],
+      "economics": "≈4–6 years and $80M+ to clinical data; CMC dominates the budget.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    },
+    {
+      "key": "Vaccine",
+      "what": "An immunogen intended to raise the patient's own immune response against the target or the cells carrying it.",
+      "requires": [
+        "The target is immunogenic and not subject to central tolerance — the recurring obstacle for self-antigen cancer vaccines.",
+        "A patient population with an immune system intact enough to respond."
+      ],
+      "fails": [
+        "Immune responses that are measurable and clinically inert — the most common outcome in therapeutic cancer vaccines.",
+        "Long, large, slow efficacy trials that are expensive to run."
+      ],
+      "economics": "Highly variable. Prophylactic trials are among the largest in medicine.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    },
+    {
+      "key": "mRNA",
+      "what": "Delivered mRNA instructing the patient's own cells to make a protein — a vaccine antigen, a missing enzyme, or a therapeutic antibody.",
+      "requires": [
+        "That ADDING protein helps. This inverts the usual target logic: mRNA suits loss-of-function biology, and has nothing to offer against a target you want to block.",
+        "That transient expression is enough, or that repeat dosing is tolerable.",
+        "A delivery route to the relevant tissue — in practice muscle for vaccines and liver for systemic LNPs."
+      ],
+      "fails": [
+        "Durability: expression is measured in days, so chronic replacement means chronic redosing.",
+        "Reactogenicity from the lipid nanoparticle, which limits dose.",
+        "Redosing immunogenicity against the carrier."
+      ],
+      "economics": "Fast to a first construct — weeks — and slow through CMC. ≈2–3 years and $20–50M to first-in-human outside the vaccine setting.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    }
+  ],
+  "literature": {
+    "reviews": [
+      {
+        "title": "Molecular characterization of allospecific T suppressor and tolerogenic dendritic cells: review",
+        "authors": "Suciu-Foca N, Manavalan JS, Scotto L, Kim-Schulze S, Galluzzo S, Naiyer AJ, Fan J, Vlad G, Cortesini R.",
+        "journal": "Int Immunopharmacol",
+        "year": "2005",
+        "pmid": "15589454",
+        "doi": "10.1016/j.intimp.2004.09.003",
+        "citations": 75,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/15589454"
+      },
+      {
+        "title": "Immune Checkpoint Inhibitors in Acute Myeloid Leukemia: Novel Combinations and Therapeutic Targets",
+        "authors": "Stahl M, Goldberg AD.",
+        "journal": "Curr Oncol Rep",
+        "year": "2019",
+        "pmid": "30904967",
+        "doi": "10.1007/s11912-019-0781-7",
+        "citations": 74,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/30904967"
+      },
+      {
+        "title": "The role of Treg cell subsets in allergic disease",
+        "authors": "Boonpiyathad T, Sözener ZC, Akdis M, Akdis CA.",
+        "journal": "Asian Pac J Allergy Immunol",
+        "year": "2020",
+        "pmid": "32563231",
+        "doi": "10.12932/ap-030220-0754",
+        "citations": 64,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/32563231"
+      },
+      {
+        "title": "CD8+ T suppressor cells and the ILT3 master switch",
+        "authors": "Vlad G, Cortesini R, Suciu-Foca N.",
+        "journal": "Hum Immunol",
+        "year": "2008",
+        "pmid": "18817834",
+        "doi": "10.1016/j.humimm.2008.08.286",
+        "citations": 41,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/18817834"
+      },
+      {
+        "title": "Inhibition of pathologic inflammation by leukocyte Ig-like receptor B4 and related inhibitory receptors",
+        "authors": "Katz HR.",
+        "journal": "Immunol Rev",
+        "year": "2007",
+        "pmid": "17498062",
+        "doi": "10.1111/j.1600-065x.2007.00522.x",
+        "citations": 37,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/17498062"
+      }
+    ],
+    "mechanism": [
+      {
+        "title": "LILRB4 suppresses immunity in solid tumors and is a potential target for immunotherapy",
+        "authors": "Sharma N, Atolagbe OT, Ge Z, Allison JP.",
+        "journal": "J Exp Med",
+        "year": "2021",
+        "pmid": "33974041",
+        "doi": "10.1084/jem.20201811",
+        "citations": 118,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/33974041"
+      },
+      {
+        "title": "Reduced Expression of Autophagy Markers and Expansion of Myeloid-Derived Suppressor Cells Correlate With Poor T Cell Response in Severe COVID-19 Patients",
+        "authors": "Tomić S, Đokić J, Stevanović D, Ilić N, Gruden-Movsesijan A, Dinić M, Radojević D, Bekić M, Mitrović N, Tomašević R, Mikić D, Stojanović D, Čolić M.",
+        "journal": "Front Immunol",
+        "year": "2021",
+        "pmid": "33692788",
+        "doi": "10.3389/fimmu.2021.614599",
+        "citations": 61,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/33692788"
+      },
+      {
+        "title": "The Fibronectin-ILT3 Interaction Functions as a Stromal Checkpoint that Suppresses Myeloid Cells",
+        "authors": "Paavola KJ, Roda JM, Lin VY, Chen P, O'Hollaren KP, Ventura R, Crawley SC, Li B, Chen HH, Malmersjö S, Sharkov NA, Horner G, Guo W, Kutach AK, Mondal K, Zhang Z, Lichtman JS, Song C, Rivera LB, Liu W, Luo J, Wang Y, Solloway MJ, Solloway MJ, Allan BB, Kekatpure A, Starck SR, Haldankar R, Fan B, Chu C, Tang J, Molgora M, Colonna M, Kaplan DD, Hsu JY.",
+        "journal": "Cancer Immunol Res",
+        "year": "2021",
+        "pmid": "34426457",
+        "doi": "10.1158/2326-6066.cir-21-0240",
+        "citations": 55,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/34426457"
+      },
+      {
+        "title": "LILRB4 promotes tumor metastasis by regulating MDSCs and inhibiting miR-1 family miRNAs",
+        "authors": "Su MT, Kumata S, Endo S, Okada Y, Takai T.",
+        "journal": "Oncoimmunology",
+        "year": "2022",
+        "pmid": "35402083",
+        "doi": "10.1080/2162402x.2022.2060907",
+        "citations": 45,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/35402083"
+      },
+      {
+        "title": "Antibody-mediated targeting of human microglial leukocyte Ig-like receptor B4 attenuates amyloid pathology in a mouse model",
+        "authors": "Hou J, Chen Y, Cai Z, Heo GS, Yuede CM, Wang Z, Lin K, Saadi F, Trsan T, Nguyen AT, Constantopoulos E, Larsen RA, Zhu Y, Wagner ND, McLaughlin N, Kuang XC, Barrow AD, Li D, Zhou Y, Wang S, Gilfillan S, Gross ML, Brioschi S, Liu Y, Holtzman DM, Colonna M.",
+        "journal": "Sci Transl Med",
+        "year": "2024",
+        "pmid": "38569016",
+        "doi": "10.1126/scitranslmed.adj9052",
+        "citations": 38,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/38569016"
+      }
+    ],
+    "search_url": "https://europepmc.org/search?query=(TITLE_ABS:\"LILRB4\"%20OR%20TITLE_ABS:\"CD85K\"%20OR%20TITLE_ABS:\"CD85k\"%20OR%20TITLE_ABS:\"HM18\"%20OR%20TITLE_ABS:\"ILT-3\")",
+    "note": "Reviews ranked by citation count; mechanism papers restricted to the last five years first, then ranked, so the list reflects current work rather than the field's founding papers."
+  },
+  "annotation": {
+    "accession": "Q8NHJ6",
+    "entry_name": "LIRB4_HUMAN",
+    "protein_name": "Leukocyte immunoglobulin-like receptor subfamily B member 4",
+    "gene_names": [
+      "LILRB4",
+      "ILT3",
+      "LIR5"
+    ],
+    "function": [
+      {
+        "text": "Inhibitory receptor involved in the down-regulation of the immune response and the development of immune tolerance. Receptor for FN1. Receptor for apolipoprotein APOE. Receptor for ALCAM/CD166. Inhibits receptor-mediated phosphorylation of cellular proteins and mobilization of intracellular calcium ions. Inhibits FCGR1A/CD64-mediated monocyte activation by inducing phosphatase-mediated down-regulation of the phosphorylation of multiple proteins including LCK, SYK, LAT and ERK, leading to a reduction in TNF production. This inhibition of monocyte activation occurs at least in part via binding to FN1. Inhibits T cell proliferation, inducing anergy, suppressing the differentiation of IFNG-producing CD8+ cytotoxic T cells and enhancing the generation of CD8+ T suppressor cells. Induces up-regulation of CD86 on dendritic cells. Interferes with TNFRSF5-signaling and NF-kappa-B up-regulation",
+        "pmids": [
+          "11875462",
+          "16493035",
+          "19833736",
+          "19860908",
+          "29263213",
+          "30333625",
+          "34089617",
+          "9151699"
+        ]
+      }
+    ],
+    "subunit": [
+      {
+        "text": "Interacts with PTPN6",
+        "pmids": [
+          "16493035",
+          "9151699"
+        ]
+      }
+    ],
+    "domains": [
+      {
+        "name": "Ig-like C2-type 1",
+        "count": 1,
+        "spans": [
+          [
+            27,
+            118
+          ]
+        ]
+      },
+      {
+        "name": "Ig-like C2-type 2",
+        "count": 1,
+        "spans": [
+          [
+            124,
+            218
+          ]
+        ]
+      }
+    ],
+    "disease": [],
+    "n_citations": 15,
+    "url": "https://www.uniprot.org/uniprotkb/Q8NHJ6",
+    "licence": "UniProt Knowledgebase (Swiss-Prot), CC BY 4.0",
+    "brief": {
+      "segments": [
+        {
+          "kind": "function",
+          "text": "Inhibitory receptor involved in the down-regulation of the immune response and the development of immune tolerance. Receptor for FN1. Receptor for apolipoprotein APOE.",
+          "pmids": [
+            "11875462",
+            "16493035",
+            "19833736",
+            "19860908"
+          ]
+        },
+        {
+          "kind": "subunit",
+          "text": "Interacts with PTPN6",
+          "pmids": [
+            "16493035",
+            "9151699"
+          ]
+        },
+        {
+          "kind": "domain",
+          "text": "UniProt annotates a Ig-like C2-type 1 domain and a Ig-like C2-type 2 domain.",
+          "pmids": []
+        }
+      ],
+      "text": "Inhibitory receptor involved in the down-regulation of the immune response and the development of immune tolerance. Receptor for FN1. Receptor for apolipoprotein APOE. Interacts with PTPN6. UniProt annotates a Ig-like C2-type 1 domain and a Ig-like C2-type 2 domain.",
+      "words": 39,
+      "accession": "Q8NHJ6",
+      "url": "https://www.uniprot.org/uniprotkb/Q8NHJ6",
+      "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)",
+      "note": "Curated by UniProt from the primary literature, not generated. Each statement links to the records the curator cited."
+    }
+  },
+  "header": {
+    "facts": [
+      {
+        "key": "function",
+        "label": "Function",
+        "value": "Inhibitory receptor involved in the down-regulation of the immune response and the development of immune tolerance.",
+        "note": "",
+        "pmids": [
+          "11875462",
+          "16493035",
+          "19833736"
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Where it sits",
+        "value": "Cell membrane",
+        "note": "Subcellular location, which decides which modalities can physically reach it.",
+        "pmids": []
+      },
+      {
+        "key": "topology",
+        "label": "How it sits",
+        "value": "Single-pass type I",
+        "note": "Membrane architecture. It constrains where an antibody can bind, not where the protein is.",
+        "pmids": []
+      },
+      {
+        "key": "domain",
+        "label": "Domains",
+        "value": "Ig-like C2-type 1, Ig-like C2-type 2",
+        "note": "",
+        "pmids": []
+      },
+      {
+        "key": "development",
+        "label": "In development",
+        "value": "AML M4, AML M5 and Relapsed/Refractory Acute Myeloid Leukemia, and 1 more at that phase",
+        "note": "Furthest programme: LILRB4 STAR-T cells (Peking University People's Hospital), Phase 1, Unclassified. 2 mechanism classes in the table.",
+        "pmids": []
+      }
+    ],
+    "mechanism": {
+      "text": "Inhibitory receptor involved in the down-regulation of the immune response and the development of immune tolerance. Receptor for FN1. Receptor for apolipoprotein APOE. Interacts with PTPN6.",
+      "pmids": [
+        "11875462",
+        "16493035",
+        "19833736",
+        "19860908",
+        "9151699"
+      ],
+      "accession": "Q8NHJ6",
+      "url": "https://www.uniprot.org/uniprotkb/Q8NHJ6",
+      "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
+    },
+    "accession": "Q8NHJ6",
+    "url": "https://www.uniprot.org/uniprotkb/Q8NHJ6",
+    "curated_source": true,
+    "development_unknown": false,
+    "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
+  },
+  "diagram": {
+    "svg": "<svg viewBox=\"0 0 720 250\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How LILRB4 is being drugged</title><desc id=\"tl-diagram-desc\">LILRB4 is in the plasma membrane. 2 mechanism classes are represented in the asset table, the most advanced reaching Phase 1.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"92\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"82\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"138\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"69\" x2=\"538\" y2=\"105\" stroke-width=\"2\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"64\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"85\" class=\"tl-arrow-detail\">2 assets · Phase 1</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"141\" x2=\"538\" y2=\"105\" stroke-width=\"2\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"136\" class=\"tl-arrow-label\">Cell therapy — target-directed CAR</text><text x=\"24\" y=\"157\" class=\"tl-arrow-detail\">1 asset · Phase 1 · Cell therapy (CAR-T)</text></g><g class=\"tl-target\"><rect x=\"574\" y=\"79\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"65\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"70\" class=\"tl-protein-label\">LILRB4</text></g></svg>",
+    "title": "How LILRB4 is being drugged",
+    "caption": "LILRB4 is in the plasma membrane. 2 mechanism classes are represented in the asset table, the most advanced reaching Phase 1.",
+    "placement": "in the plasma membrane",
+    "target_class": [],
+    "interventions": [
+      {
+        "label": "Unclassified",
+        "n": 2,
+        "max_phase": 1,
+        "modalities": [
+          "Other / unclassified"
+        ],
+        "phase_label": "Phase 1"
+      },
+      {
+        "label": "Cell therapy — target-directed CAR",
+        "n": 1,
+        "max_phase": 1,
+        "modalities": [
+          "Cell therapy (CAR-T)"
+        ],
+        "phase_label": "Phase 1"
+      }
+    ],
+    "note": "Generated from the target's annotated location, its protein family, and the mechanism classes present in the asset table. Arrow weight is the furthest phase that approach has reached. It is a schematic of how the target is being drugged — not a pathway map, and it draws no interaction it has not read from the data."
+  },
+  "pathway": {},
+  "feasibility": {
+    "lines": [
+      {
+        "key": "validation",
+        "label": "Has anyone made a medicine here?",
+        "value": "In humans, but never in a controlled trial",
+        "face": "science",
+        "detail": "Counted from approved drugs and the highest phase reached by any programme on this target. It says what has happened, not whether a new asset here is differentiated — the asset table and the mechanism split are where that is visible.",
+        "anchor": "#precedent"
+      },
+      {
+        "key": "window",
+        "label": "How contested is it?",
+        "value": "Emerging — 3 assets, furthest at Phase 1",
+        "face": "business",
+        "detail": "3 sponsors, phase-weighted score 2.2. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
+        "anchor": "#crowding"
+      },
+      {
+        "key": "licensing",
+        "label": "What has been licensed, and what has not?",
+        "value": "No deal on file · 3 programmes",
+        "face": "business",
+        "detail": "No deal has been entered for this target. The file is hand-maintained, so an empty one means nobody has filled it in, not that nothing has been licensed. The programme table below still shows who holds each one and how far it has gone.",
+        "anchor": "#licensing"
+      },
+      {
+        "key": "opening",
+        "label": "What has nobody tried?",
+        "value": "Untried here: Antibody-drug conjugate, Bispecific antibody",
+        "face": "business",
+        "detail": "Physically available against this target — the location and family allow it — and absent from the asset table. That is a modality gap rather than a proven opportunity, and the requirements listed under each one are what a company would have to satisfy.",
+        "anchor": "#modalities"
+      }
+    ],
+    "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
+  },
+  "narrative": {
+    "bottom_line": "LILRB4 carries 3 active programmes across 2 mechanism classes from 3 named sponsors, reaching Phase 1. Phase-weighted density scores 2.2, which this tool bands as Emerging. The most advanced asset is LILRB4 STAR-T (Hebei Yanda Ludaopei Hospital) at Phase 1.",
+    "competitive": "The field splits into 2 mechanism classes. Unclassified is the most advanced, and also the most crowded, with 2 assets.",
+    "failures": "0 of 4 trials stopped; 0 stated a reason. No stated reasons were available to classify.",
+    "whitespace": "No disease passes the whitespace screen at the configured thresholds, either because the well-evidenced indications already carry clinical assets or because association data was unavailable.",
+    "licensing": "Hebei Yanda Ludaopei Hospital holds the most advanced programme (Phase 1), and is a academic or non-industry. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",
+    "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent. Deal comparables are hand-maintained and not exhaustive.",
+    "_source": "template"
+  },
+  "generated": "2026-09-06 01:32 UTC",
+  "warnings": [],
+  "notes": [
+    "3 trials returned by the registry search did not name LILRB4 or any drug known to act on it, and were left out of the asset table.",
+    "No single-protein human ChEMBL target matched 'LILRB4'; action types and modalities rest on Open Targets alone."
+  ],
+  "rules_version": "2026-09-07-directed-discovery"
+}

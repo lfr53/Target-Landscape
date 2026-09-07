@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Target Landscape</title>
+<meta name="description" content="A reference for 28,000 human drug targets: what has been tried against each one, what stopped and why, what the running trials are designed to show, and which well-evidenced diseases have nothing in the clinic. From Open Targets, ChEMBL, ClinicalTrials.gov, UniProt and Europe PMC.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2312414f'/%3E%3Ctext x='16' y='22' font-family='ui-monospace,monospace' font-size='15' font-weight='600' fill='%23fcfcfa' text-anchor='middle'%3ETL%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<!-- ── Top bar ───────────────────────────────────────────────────────────── -->
+<header class="topbar">
+  <a class="brand" href="/" data-nav>
+    <span class="brand-mark">TL</span>
+    <span class="brand-name">Target Landscape</span>
+  </a>
+
+  <!-- Compact search, for when the reader is already inside a target page.
+       On the landing page it is hidden: the search box there is the page. -->
+  <div class="searchbox" id="topsearch" role="search" hidden>
+    <input id="search" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Gene symbol or target name — TNFRSF13C, PD-1, TL1A…"
+           aria-label="Search for a target" aria-expanded="false"
+           aria-controls="suggestions" aria-autocomplete="list">
+    <div id="suggestions" class="suggestions" role="listbox" hidden></div>
+  </div>
+
+  <div class="lens" role="group" aria-label="Reading mode" style="margin-left:auto">
+    <span class="lens-label">Mode</span>
+    <button class="lens-btn" data-lens="investor" aria-pressed="true"
+            title="Leads with what has been tried, who holds it, and what stopped">Investor</button>
+    <button class="lens-btn" data-lens="scientist" aria-pressed="false"
+            title="Leads with mechanism, binding partners, architecture and literature">Scientist</button>
+  </div>
+</header>
+
+<!-- ── Landing ───────────────────────────────────────────────────────────── -->
+<main id="view-home" class="view view-home">
+  <!-- A library front page. What the site is goes above the box, because a
+       first-time visitor needs it before they can think of a query; what the
+       site holds is shown underneath on a real target, because nobody can
+       picture a target page from a description of one. -->
+  <section class="home-search">
+    <div class="intro">
+      <p class="intro-lede">The whole picture on a drug target</p>
+      <p class="intro-sub">The science and the commerce together — mechanism, location and
+        tractability, and who is developing what, how far it got, why it stopped and what is
+        still open. Only the figures that bear on a decision, each linked back to its
+        record.</p>
+    </div>
+    <div class="searchbox big" role="search">
+      <input id="home-search" type="search" autocomplete="off" spellcheck="false"
+             placeholder="TNFRSF13C, PD-1, HER2, TL1A…"
+             aria-label="Search for a target" aria-expanded="false"
+             aria-controls="home-suggestions" aria-autocomplete="list">
+      <div id="home-suggestions" class="suggestions" role="listbox" hidden></div>
+    </div>
+    <p class="home-eg" id="home-eg" hidden></p>
+  </section>
+
+  <!-- The worked example: six tiles, real numbers, from a real target. -->
+  <p class="eg-note" id="tiles-note" hidden></p>
+  <div class="tiles" id="tiles"></div>
+  <!-- Under the grid, not inside it: as a grid child the legend took a cell
+       and pushed the six tiles out of their two rows of three. -->
+  <div id="tiles-legend"></div>
+
+  <section class="library" style="margin-top:40px">
+    <div class="section-head">
+      <h2>Browse by area</h2>
+      <button class="link" id="library-toggle">Show all</button>
+    </div>
+    <div id="area-chips" class="chips" style="margin-bottom:16px"></div>
+    <div id="library-grid" class="library-grid" aria-busy="true">
+      <div class="skeleton-row"></div><div class="skeleton-row"></div>
+      <div class="skeleton-row"></div><div class="skeleton-row"></div>
+    </div>
+    <p class="hint" id="browse-more" style="margin-top:14px"></p>
+  </section>
+</main>
+
+<!-- ── Building ──────────────────────────────────────────────────────────── -->
+<main id="view-building" class="view" hidden>
+  <div class="building">
+    <div class="building-symbol" id="build-symbol"></div>
+    <h2 id="build-label">Starting…</h2>
+    <div class="progress"><div class="progress-fill" id="build-fill"></div></div>
+    <ol class="stages" id="build-stages"></ol>
+    <p class="hint" id="build-hint">
+      Not in the library, so this is being built live from three public APIs.
+      Twenty to forty seconds. It will be cached afterwards.
+    </p>
+    <p class="error" id="build-error" hidden></p>
+    <button class="btn" id="build-cancel">Back</button>
+  </div>
+</main>
+
+<!-- ── Target ────────────────────────────────────────────────────────────── -->
+<main id="view-target" class="view" hidden>
+
+  <section class="target-head">
+    <div class="th-main">
+      <div class="th-eyebrow">
+        <span id="t-ensembl" class="mono"></span>
+        <span class="dot">·</span>
+        <span id="t-tier" class="tier"></span>
+      </div>
+      <h1 id="t-symbol"></h1>
+      <p id="t-name" class="th-name"></p>
+      <div id="t-tract" class="chips"></div>
+    </div>
+    <div class="th-side">
+      <div class="th-actions">
+        <a class="btn" id="t-export-html" target="_blank" rel="noopener">Open memo</a>
+        <a class="btn" id="t-export-md">Download .md</a>
+        <button class="btn" id="t-export-open" aria-expanded="false"
+                aria-controls="export-panel">Download data</button>
+        <button class="btn btn-quiet" id="t-rebuild">Rebuild</button>
+      </div>
+
+      <!-- Pick the tables worth taking away. Whatever the filters are set to
+           is what leaves, and the file says so at the top. -->
+      <div class="export-panel" id="export-panel" hidden>
+        <p class="export-h">Take the data with you</p>
+        <div id="export-choices" class="export-choices"></div>
+        <p class="export-note" id="export-note"></p>
+        <div class="export-actions">
+          <button class="btn btn-primary" id="t-export-csv">Download CSV</button>
+          <button class="link" id="t-export-close">Close</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="t-warnings" class="note" hidden></div>
+
+  <!-- Two columns from here down. The card sits beside the introduction,
+       level with the top of it, rather than under it: the introduction runs
+       to ten lines on a well-annotated protein, and a card that starts below
+       it starts below the fold. -->
+  <div class="t-split">
+    <div class="t-left">
+      <p class="t-intro" id="t-intro" hidden></p>
+      <!-- Investor: the six questions. Scientist: the mechanism, at length.
+           Same page, different first thing — neither hides anything, and both
+           blocks stay reachable through the tabs below. -->
+      <section class="t-main" id="t-lensblock"></section>
+    </div>
+    <aside class="t-card" id="t-card"></aside>
+  </div>
+
+  <!-- The eight views. This is the weight of the page. -->
+  <div class="workspace">
+
+    <!-- Filters -->
+    <aside class="filters" id="filters">
+      <div class="filters-head">
+        <h2>Filter</h2>
+        <button class="link" id="f-reset">Reset</button>
+      </div>
+      <p class="filters-note" id="f-count"></p>
+      <div id="filter-groups"></div>
+      <div class="filters-foot">
+        <p class="hint">Filters apply to every view — the tables, the matrix
+        and the termination notices all narrow together.</p>
+      </div>
+    </aside>
+
+    <!-- Views -->
+    <section class="panel">
+      <nav class="tabs" role="tablist" id="tabs"></nav>
+      <div id="tab-panels"></div>
+    </section>
+  </div>
+
+  <footer class="method" id="t-method"></footer>
+</main>
+
+<!-- ── Asset detail drawer ───────────────────────────────────────────────── -->
+<div id="drawer" class="drawer" hidden>
+  <div class="drawer-scrim" data-close-drawer></div>
+  <aside class="drawer-body" role="dialog" aria-modal="true" aria-labelledby="d-name">
+    <button class="drawer-close" data-close-drawer aria-label="Close">✕</button>
+    <div id="drawer-content"></div>
+  </aside>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

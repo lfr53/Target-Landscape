@@ -1,0 +1,41 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      # The engine depends only on the standard library; the web layer needs
+      # FastAPI. The whole suite runs offline against fixtures and mocked
+      # payloads, so there is no network flake to chase.
+      - name: Install web dependencies
+        run: pip install -r requirements-web.txt httpx
+
+      - name: Run the test suite
+        run: python -m unittest discover -s . -p "test_*.py" -v
+
+      - name: Build the offline demo memo
+        run: |
+          python -m landscape --fixture fixtures/TNFRSF13C.json --out out --format html,md
+          test -s out/TNFRSF13C_landscape.html
+          test -s out/TNFRSF13C_landscape.md
+
+      - name: Build the static site export
+        run: |
+          python scripts/make_static_demo.py --out out/demo.html
+          test -s out/demo.html

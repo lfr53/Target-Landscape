@@ -1,0 +1,1876 @@
+{
+  "target": {
+    "ensembl_id": "ENSG00000181634",
+    "symbol": "TNFSF15",
+    "name": "TNF superfamily member 15",
+    "biotype": "protein_coding",
+    "function": "Cytokine that signals through TNFRSF25 receptor (PubMed:11911831). Functions as a T-cell costimulator, that increases IL-2 responsiveness and secretion of proinflammatory cytokines which enhances T-cell activation, proliferation and the survival of activated T-cells (PubMed:10597252, PubMed:11911831). Inhibits vascular endothelial growth and angiogenesis (in vitro) (PubMed:11923219, PubMed:9872942). Binds to the decoy receptor TNFRSF6B, blocking the activation normally triggered by TNFSF15 and leading to decreased T- cell activation and reduced inflammation (PubMed:21300286). {ECO:0000269|PubMed:10597252, ECO:0000269|PubMed:11911831, ECO:0000269|PubMed:11923219, ECO:0000269|PubMed:21300286, ECO:0000269|PubMed:9872942}.",
+    "synonyms": [
+      "MGC129934",
+      "MGC129935",
+      "TL1",
+      "TL1A",
+      "TNF ligand-related molecule 1",
+      "TNF superfamily ligand TL1A",
+      "TNFSF15",
+      "TNLG1B",
+      "Tumor necrosis factor ligand superfamily member 15",
+      "Tumor necrosis factor ligand superfamily member 15, membrane form",
+      "Tumor necrosis factor ligand superfamily member 15, secreted form",
+      "VEGI",
+      "VEGI192A",
+      "Vascular endothelial cell growth inhibitor",
+      "tumor necrosis factor (ligand) superfamily, member 15",
+      "tumor necrosis factor ligand 1B",
+      "tumor necrosis factor ligand superfamily member 15",
+      "tumor necrosis factor superfamily member 15",
+      "vascular endothelial cell growth inhibitor",
+      "vascular endothelial growth inhibitor",
+      "vascular endothelial growth inhibitor-192A"
+    ],
+    "tractability": {
+      "SM": [
+        "Med-Quality Pocket"
+      ],
+      "AB": [
+        "GO CC high conf",
+        "UniProt loc med conf",
+        "UniProt SigP or TMHMM"
+      ]
+    },
+    "locations": [
+      "Cytoplasm",
+      "Membrane",
+      "Nuclear membrane",
+      "Nucleus",
+      "Secreted"
+    ],
+    "topology": [
+      "Single-pass type II membrane protein"
+    ],
+    "target_class": [],
+    "provenance": [
+      {
+        "source": "opentargets",
+        "identifier": "ENSG00000181634",
+        "url": "https://platform.opentargets.org/target/ENSG00000181634",
+        "retrieved": null
+      }
+    ]
+  },
+  "assets": [
+    {
+      "name": "BCD-261",
+      "sponsor": "Biocad",
+      "modality": "Other / unclassified",
+      "action_type": "",
+      "mechanism_text": "",
+      "mechanism_class": "Unclassified",
+      "max_phase": 2,
+      "indications": [
+        "Crohn's Disease (CD)",
+        "Ulcerative Colitis (UC)",
+        "Healthy"
+      ],
+      "indication_phase": {
+        "Crohn's Disease (CD)": 2,
+        "Ulcerative Colitis (UC)": 2,
+        "Healthy": 1
+      },
+      "trials": [
+        "NCT07078994",
+        "NCT07080034",
+        "NCT06715540"
+      ],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "named_by_class": false,
+      "provenance": [
+        {
+          "source": "ctgov",
+          "identifier": "NCT07078994",
+          "url": "https://clinicaltrials.gov/study/NCT07078994",
+          "retrieved": null
+        },
+        {
+          "source": "ctgov",
+          "identifier": "NCT07080034",
+          "url": "https://clinicaltrials.gov/study/NCT07080034",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Phase 2"
+    },
+    {
+      "name": "BB-TL1A-VIAL-HLE",
+      "sponsor": "Vial Australia Pty Ltd",
+      "modality": "Other / unclassified",
+      "action_type": "",
+      "mechanism_text": "",
+      "mechanism_class": "Unclassified",
+      "max_phase": 1,
+      "indications": [
+        "Ulcerative Colitis (UC)"
+      ],
+      "indication_phase": {
+        "Ulcerative Colitis (UC)": 1
+      },
+      "trials": [
+        "NCT07029971"
+      ],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": false,
+      "named_by_class": false,
+      "provenance": [
+        {
+          "source": "ctgov",
+          "identifier": "NCT07029971",
+          "url": "https://clinicaltrials.gov/study/NCT07029971",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Phase 1"
+    }
+  ],
+  "trials": [
+    {
+      "nct_id": "NCT07078994",
+      "title": "Clinical Study of the Efficacy, Safety, Pharmacokinetics, Pharmacodynamics, and Immunogenicity of BCD-261 in Subjects With Moderate to Severe Active Crohn's Disease",
+      "status": "RECRUITING",
+      "why_stopped": "",
+      "phase": 2,
+      "sponsor": "Biocad",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Crohn's Disease (CD)"
+      ],
+      "interventions": [
+        "anti-TL1A monoclonal antibody, high dose",
+        "anti-TL1A monoclonal antibody, low dose",
+        "anti-TL1A monoclonal antibody, medium dose"
+      ],
+      "brief_summary": "The aim of the study is to evaluate the efficacy, safety, pharmacokinetics, pharmacodynamics and immunogenicity of study drug (BCD-261) in comparison with placebo and to characterize the dose-response relationship in patients with moderate to severe active Crohn's Disease. The study will be conducted in a population of male and female subjects ≥18 years and ≤75 years with moderate to severe active",
+      "countries": [
+        "Russia"
+      ],
+      "enrollment": 204,
+      "start_date": "2025-08-14",
+      "completion_date": "2027-05",
+      "allocation": "RANDOMIZED",
+      "masking": "DOUBLE",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Proportion of subjects who achieved clinical remission",
+        "Proportion of subjects who achieved an endoscopic response"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "scale",
+      "evidence_level": "confirmatory",
+      "evidence_note": "Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation."
+    },
+    {
+      "nct_id": "NCT07080034",
+      "title": "Study of the Efficacy, Safety, Pharmacokinetics, Pharmacodynamics, and Immunogenicity of BCD-261 in Subjects With Moderate to Severe Active Ulcerative Colitis",
+      "status": "RECRUITING",
+      "why_stopped": "",
+      "phase": 2,
+      "sponsor": "Biocad",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Ulcerative Colitis (UC)"
+      ],
+      "interventions": [
+        "anti-TL1A monoclonal antibody, high dose",
+        "anti-TL1A monoclonal antibody, low dose",
+        "anti-TL1A monoclonal antibody, medium dose"
+      ],
+      "brief_summary": "The aim of the study is to evaluate the efficacy, safety, pharmacokinetics, pharmacodynamics and immunogenicity of study drug (BCD-261) in comparison with placebo and to characterize the dose-response relationship in patients with moderate to severe active ulcerative colitis. The study will be conducted in a population of male and female subjects ≥18 years and ≤75 years with moderate to severe act",
+      "countries": [
+        "Russia"
+      ],
+      "enrollment": 198,
+      "start_date": "2025-08-14",
+      "completion_date": "2027-01",
+      "allocation": "RANDOMIZED",
+      "masking": "DOUBLE",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Proportion of subjects who achieved clinical remission"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "scale",
+      "evidence_level": "confirmatory",
+      "evidence_note": "Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation."
+    },
+    {
+      "nct_id": "NCT06715540",
+      "title": "Safety, Pharmacodynamics, Pharmacokinetics, and Immunogenicity of Ascending Doses BCD-261 in Healthy Subjects",
+      "status": "RECRUITING",
+      "why_stopped": "",
+      "phase": 1,
+      "sponsor": "Biocad",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Healthy"
+      ],
+      "interventions": [
+        "BCD-261, dose 1",
+        "BCD-261, dose 2",
+        "BCD-261, dose 3",
+        "BCD-261, dose 4",
+        "BCD-261, dose 5",
+        "BCD-261, dose 6",
+        "BCD-261, pre-specified therapeautic dose X",
+        "BCD-261, pre-specified therapeautic dose Y",
+        "anti-TL1A"
+      ],
+      "brief_summary": "The goal of this clinical trial is to investigate the safety, tolerability, pharmacodynamics, pharmacokinetics, and immunogenicity of BCD-261 after single subcutaneous injection at ascending doses and proposed therapeutic doses to healthy male subjects aged from 18 to 45 years old.\n\nThe study consists of the first stage (dose escalation) and the second stage (dose expansion).",
+      "countries": [
+        "Russia"
+      ],
+      "enrollment": 48,
+      "start_date": "2024-03-29",
+      "completion_date": "2025-02",
+      "allocation": "NON_RANDOMIZED",
+      "masking": "NONE",
+      "intervention_model": "SEQUENTIAL",
+      "primary_purpose": "OTHER",
+      "primary_outcomes": [
+        "Proportion of subjects with adverse reactions",
+        "Proportion of subjects with serious adverse reactions",
+        "Proportion of subjects with CTCAE 5.0 grade 3 or higher adverse reactions",
+        "Proportion of subjects who prematurely withdrew from the study due to adverse reactions"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "other",
+      "evidence_level": "unclear",
+      "evidence_note": "The registry entry does not carry enough design detail to say what a result here would establish."
+    },
+    {
+      "nct_id": "NCT07029971",
+      "title": "A First-in-Human Study of BB-TL1A-VIAL-HLE in Healthy Adults and People With Ulcerative Colitis",
+      "status": "TERMINATED",
+      "why_stopped": "Study terminated based on interim analysis results indicating the primary pharmacokinetic endpoint was unlikely to be met.",
+      "phase": 1,
+      "sponsor": "Vial Australia Pty Ltd",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Ulcerative Colitis (UC)"
+      ],
+      "interventions": [
+        "BB-TL1A-VIAL-HLE"
+      ],
+      "brief_summary": "The goal of this clinical trial is to learn if BB-TL1A-VIAL-HLE is safe in healthy adults and is safe and effective in treating adults with moderate-to-severe ulcerative colitis. The main questions it aims to answer are:\n\nIs the intervention safe in healthy adults and in adults with moderate-to-severe ulcerative colitis? Is the intervention effective in treating adults with moderate-to-severe ulce",
+      "countries": [
+        "Australia"
+      ],
+      "enrollment": 16,
+      "start_date": "2025-06-23",
+      "completion_date": "2025-12-23",
+      "allocation": "NON_RANDOMIZED",
+      "masking": "NONE",
+      "intervention_model": "SEQUENTIAL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Incidence of dose limiting or intolerable treatment related adverse events",
+        "Incidence, severity and causal relationship of treatment emergent AEs (TEAEs) and withdrawals due to TEAEs",
+        "Incidence and magnitude of abnormal laboratory findings",
+        "Abnormal and clinically relevant changes in vital signs, blood pressure and electrocardiogram parameters",
+        "Percentage of participants who achieve endoscopic improvement at 12 weeks post-dose (Ph-1b)"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "efficacy",
+      "failure_rationale": "matched “interim analysis” · also matched: Science — PK/PD or biomarker",
+      "endpoint_class": "surrogate",
+      "evidence_level": "signal",
+      "evidence_note": "An efficacy endpoint without a stated randomisation. A positive result is a signal to follow, not a controlled comparison."
+    },
+    {
+      "nct_id": "NCT01744327",
+      "title": "TL1A Expression in Psoriatic Skin",
+      "status": "UNKNOWN",
+      "why_stopped": "",
+      "phase": -1,
+      "sponsor": "Bispebjerg Hospital",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Psoriasis"
+      ],
+      "interventions": [],
+      "brief_summary": "TL1A is a newly discovered signal molecule that may be crucially involved in the maintenance of chronic inflammatory disorders. TL1A has also been demonstrated in psoriatic skin but the importance of TL1A in psoriasis is still unknown. Understanding inflammatory signal molecules in psoriasis is important because the development of new drugs directed against relevant signal molecules (e.g. TNF-α an",
+      "countries": [
+        "Denmark"
+      ],
+      "enrollment": 20,
+      "start_date": "2012-12",
+      "completion_date": "2013-12",
+      "allocation": "",
+      "masking": "",
+      "intervention_model": "",
+      "primary_purpose": "",
+      "primary_outcomes": [
+        "Expression of TL1A in psoriatic skin"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "other",
+      "evidence_level": "unclear",
+      "evidence_note": "The registry entry does not carry enough design detail to say what a result here would establish."
+    },
+    {
+      "nct_id": "NCT05197140",
+      "title": "Role of the Protein Matrix in the Anabolic Response to a Ground Beef Patty as Opposed to the Impossible (Vegi-) Burger",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": -1,
+      "sponsor": "University of Arkansas",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Protein Metabolism"
+      ],
+      "interventions": [],
+      "brief_summary": "Several of the investigator's recent studies have shown that all dietary proteins are not equal when it comes to making proteins in human bodies. Generally, foods made from animal muscle tissue are much more efficient at making new proteins in the body that those from plant sources. This study will measure the amount of protein growth in participants after consuming either one beef patty, one vegi",
+      "countries": [
+        "United States"
+      ],
+      "enrollment": 33,
+      "start_date": "2022-05-01",
+      "completion_date": "2022-11-03",
+      "allocation": "RANDOMIZED",
+      "masking": "SINGLE",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "BASIC_SCIENCE",
+      "primary_outcomes": [
+        "Postprandial Plasma Essential Amino Acid Concentration Incremental Area-under-the-curve [ Time Frame: 360 Minutes]"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "other",
+      "evidence_level": "unclear",
+      "evidence_note": "The registry entry does not carry enough design detail to say what a result here would establish."
+    },
+    {
+      "nct_id": "NCT07642297",
+      "title": "TL1A Inhibition in Systemic Sclerosis-Related Skin Fibrosis and Immunological Alterations: A Proof-of-Concept In Vitro Study (FIBROSTOP)",
+      "status": "NOT_YET_RECRUITING",
+      "why_stopped": "",
+      "phase": -1,
+      "sponsor": "Fondazione Policlinico Universitario Campus Bio-Medico",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Systemic Sclerosis (SSc)",
+        "Diffuse Cutaneous Systemic Sclerosis",
+        "Skin Fibrosis"
+      ],
+      "interventions": [],
+      "brief_summary": "Systemic Sclerosis (SSc) is a rare autoimmune connective tissue disease characterized by microvascular injury, immune activation, and progressive fibrosis of the skin and internal organs. Diffuse cutaneous SSc (dcSSc), particularly in its early phase, is associated with aggressive fibrotic evolution and high morbidity. Despite advances in immunomodulatory therapy, no treatment has proven capable o",
+      "countries": [
+        "Italy"
+      ],
+      "enrollment": 20,
+      "start_date": "2026-09-01",
+      "completion_date": "2027-09-01",
+      "allocation": "",
+      "masking": "",
+      "intervention_model": "",
+      "primary_purpose": "",
+      "primary_outcomes": [
+        "T-cell cytokine production and activation following TL1A stimulation and inhibition",
+        "Endothelial cell activation and angiogenic capacity following TL1A stimulation and inhibition",
+        "Fibrotic and inflammatory marker expression in ex vivo skin cultures following TL1A modulation"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "biomarker",
+      "evidence_level": "mechanistic",
+      "evidence_note": "The primary endpoint measures what the drug does to the body, not what it does to the disease. A positive result confirms the molecule reaches and engages the target — necessary, and routinely mistaken for proof of concept. It cannot support an efficacy claim."
+    }
+  ],
+  "associations": [
+    {
+      "disease_id": "MONDO_0005265",
+      "name": "inflammatory bowel disease",
+      "score": 0.5179222030405484,
+      "genetic_score": 0.8084163696053841,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005011",
+      "name": "Crohn disease",
+      "score": 0.5174675823359054,
+      "genetic_score": 0.8401877152340904,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005101",
+      "name": "ulcerative colitis",
+      "score": 0.4875580870620816,
+      "genetic_score": 0.7928210548380819,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005124",
+      "name": "leprosy",
+      "score": 0.4511259419209351,
+      "genetic_score": 0.7156562478751259,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005388",
+      "name": "primary biliary cholangitis",
+      "score": 0.43517544303027306,
+      "genetic_score": 0.6950447441317174,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005083",
+      "name": "psoriasis",
+      "score": 0.42979311290763655,
+      "genetic_score": 0.6869936202164157,
+      "n_assets": 1,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005377",
+      "name": "nephrotic syndrome",
+      "score": 0.4035719068102967,
+      "genetic_score": 0.6638451422362717,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005306",
+      "name": "ankylosing spondylitis",
+      "score": 0.3898154943403005,
+      "genetic_score": 0.6385912750568888,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0000155",
+      "name": "Oral ulcer",
+      "score": 0.3797137615557965,
+      "genetic_score": 0.6246003049155903,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007179",
+      "name": "autoimmune disease",
+      "score": 0.3731947835323649,
+      "genetic_score": 0.6005495791090448,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004979",
+      "name": "asthma",
+      "score": 0.3670083978685473,
+      "genetic_score": 0.5665217971119342,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007915",
+      "name": "systemic lupus erythematosus",
+      "score": 0.32541559614594734,
+      "genetic_score": 0.5149402881518664,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005147",
+      "name": "type 1 diabetes mellitus",
+      "score": 0.3144493837142016,
+      "genetic_score": 0.5149402881518664,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0015517",
+      "name": "common variable immunodeficiency",
+      "score": 0.31304806009852215,
+      "genetic_score": 0.5149402881518664,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005130",
+      "name": "celiac disease",
+      "score": 0.31304806009852215,
+      "genetic_score": 0.5149402881518664,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0011429",
+      "name": "juvenile idiopathic arthritis",
+      "score": 0.31304806009852215,
+      "genetic_score": 0.5149402881518664,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005623",
+      "name": "autoimmune thyroid disease",
+      "score": 0.31304806009852215,
+      "genetic_score": 0.5149402881518664,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018646",
+      "name": "sclerosing cholangitis",
+      "score": 0.3017937119425916,
+      "genetic_score": 0.4946039476200895,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004678",
+      "name": "dermatophytosis",
+      "score": 0.2830611724964775,
+      "genetic_score": 0.4656141350438907,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0004267",
+      "name": "biliary liver cirrhosis",
+      "score": 0.278918286639173,
+      "genetic_score": 0.45522780895482984,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0004329",
+      "name": "alcohol drinking",
+      "score": 0.24170556747666302,
+      "genetic_score": 0.3975873050456601,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005249",
+      "name": "pneumonia",
+      "score": 0.1573788556393507,
+      "genetic_score": 0.2578123883662518,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0003240",
+      "name": "thyroid gland disorder",
+      "score": 0.1330749450690849,
+      "genetic_score": 0.21889817984529936,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007699",
+      "name": "Hashimoto thyroiditis",
+      "score": 0.1330749450690849,
+      "genetic_score": 0.21889817984529936,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005342",
+      "name": "IgA glomerulonephritis",
+      "score": 0.1295482210159248,
+      "genetic_score": 0.21157715957891834,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005292",
+      "name": "colitis",
+      "score": 0.12213441176290243,
+      "genetic_score": 0.14252026077908322,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.10445647802757359,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0024647",
+      "name": "urolithiasis",
+      "score": 0.08707757723303798,
+      "genetic_score": 0.14323600247781462,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0043579",
+      "name": "enteritis",
+      "score": 0.08701203566592901,
+      "genetic_score": 0.14252026077908322,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0024331",
+      "name": "colorectal carcinoma",
+      "score": 0.07944261444872373,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007256",
+      "name": "hepatocellular carcinoma",
+      "score": 0.07900905393339316,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005052",
+      "name": "irritable bowel syndrome",
+      "score": 0.07694418102594945,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004992",
+      "name": "cancer",
+      "score": 0.07633797091853227,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004948",
+      "name": "B-cell chronic lymphocytic leukemia",
+      "score": 0.07428555079162505,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0008383",
+      "name": "rheumatoid arthritis",
+      "score": 0.07050381914049489,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005401",
+      "name": "colonic neoplasm",
+      "score": 0.0693609181763184,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0021063",
+      "name": "malignant colon neoplasm",
+      "score": 0.0680156285568991,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.06747451412613766,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007254",
+      "name": "breast cancer",
+      "score": 0.0674722094512866,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007374",
+      "name": "Schnyder corneal dystrophy",
+      "score": 0.06541563427919223,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0006502",
+      "name": "acute respiratory distress syndrome",
+      "score": 0.0635677350057687,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005015",
+      "name": "diabetes mellitus",
+      "score": 0.06011462723016465,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005036",
+      "name": "gastric adenocarcinoma",
+      "score": 0.056597048302132254,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005233",
+      "name": "non-small cell lung carcinoma",
+      "score": 0.055467776523928994,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0019338",
+      "name": "sarcoidosis",
+      "score": 0.04978035320461441,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0016063",
+      "name": "Cowden disease",
+      "score": 0.04872361850328333,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005539",
+      "name": "small bowel Crohn disease",
+      "score": 0.048034921232807705,
+      "genetic_score": 0.07901379798740678,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0008433",
+      "name": "small cell lung carcinoma",
+      "score": 0.047840058967519736,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0002345",
+      "name": "cervicitis",
+      "score": 0.046360306793906306,
+      "genetic_score": 0.07625918439408258,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0000924",
+      "name": "Abnormality of the skeletal system",
+      "score": 0.04411868525027093,
+      "genetic_score": 0.07257188716807915,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0001056",
+      "name": "gastric cancer",
+      "score": 0.040269716378913994,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007191",
+      "name": "Behcet disease",
+      "score": 0.0399146243059478,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005159",
+      "name": "prostate carcinoma",
+      "score": 0.03868606670159005,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_1331",
+      "name": "Familial prostate cancer",
+      "score": 0.03868606670159005,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0008315",
+      "name": "prostate cancer",
+      "score": 0.03868606670159005,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005632",
+      "name": "acute chest syndrome",
+      "score": 0.03695798546847018,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005313",
+      "name": "necrotizing enterocolitis",
+      "score": 0.03658840561378548,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007027",
+      "name": "metabolic dysfunction-associated steatohepatitis",
+      "score": 0.03621882575910078,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005099",
+      "name": "subarachnoid hemorrhage",
+      "score": 0.03568225583013401,
+      "genetic_score": 0.05869460137620756,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007763",
+      "name": "nonpapillary renal cell carcinoma",
+      "score": 0.03460911564274947,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    }
+  ],
+  "deals": [],
+  "mechanism_clusters": {
+    "Unclassified": [
+      "BB-TL1A-VIAL-HLE",
+      "BCD-261"
+    ]
+  },
+  "crowding": {
+    "n_total": 2,
+    "n_active": 1,
+    "n_dormant": 1,
+    "weighted_score": 1.5,
+    "verdict": "Open",
+    "by_phase": {
+      "Phase 2": 1
+    },
+    "n_sponsors": 1,
+    "n_mechanism_classes": 1,
+    "lead_phase": "Phase 2",
+    "weights_used": {
+      "Approved": 5.0,
+      "Phase 3": 3.0,
+      "Phase 2": 1.5,
+      "Phase 1": 0.75,
+      "Preclinical": 0.25,
+      "Unknown": 0.25
+    },
+    "bands_used": [
+      {
+        "from": 0.0,
+        "verdict": "Open"
+      },
+      {
+        "from": 2.0,
+        "verdict": "Emerging"
+      },
+      {
+        "from": 8.0,
+        "verdict": "Contested"
+      },
+      {
+        "from": 20.0,
+        "verdict": "Crowded"
+      },
+      {
+        "from": 45.0,
+        "verdict": "Saturated"
+      }
+    ],
+    "dormant_assets": [
+      {
+        "name": "BB-TL1A-VIAL-HLE",
+        "phase": "Phase 1",
+        "sponsor": "Vial Australia Pty Ltd"
+      }
+    ],
+    "matrix": {
+      "mechanisms": [
+        "Unclassified"
+      ],
+      "rows": [
+        {
+          "indication": "Ulcerative Colitis (UC)",
+          "n_assets": 2,
+          "cells": {
+            "Unclassified": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "Crohn's Disease (CD)",
+          "n_assets": 1,
+          "cells": {
+            "Unclassified": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "Healthy",
+          "n_assets": 1,
+          "cells": {
+            "Unclassified": 1
+          },
+          "max_phase": 1
+        }
+      ]
+    },
+    "indications_omitted": 0
+  },
+  "failures": {
+    "n_trials": 4,
+    "n_stopped": 1,
+    "n_with_reason": 1,
+    "counts": {
+      "Science — efficacy": 1
+    },
+    "n_science": 1,
+    "n_business": 0,
+    "n_operational": 0,
+    "n_cmc": 0,
+    "n_unexplained": 0,
+    "science_share_of_stated": 1.0,
+    "reporting_rate": 1.0,
+    "cases": [
+      {
+        "nct_id": "NCT07029971",
+        "phase": 1,
+        "sponsor": "Vial Australia Pty Ltd",
+        "status": "TERMINATED",
+        "conditions": [
+          "Ulcerative Colitis (UC)"
+        ],
+        "why_stopped": "Study terminated based on interim analysis results indicating the primary pharmacokinetic endpoint was unlikely to be met.",
+        "class": "Science — efficacy",
+        "evidence": "matched “interim analysis” · also matched: Science — PK/PD or biomarker",
+        "url": "https://clinicaltrials.gov/study/NCT07029971"
+      }
+    ]
+  },
+  "whitespace": [
+    {
+      "disease": "inflammatory bowel disease",
+      "disease_id": "MONDO_0005265",
+      "association_score": 0.518,
+      "genetic_score": 0.808,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "leprosy",
+      "disease_id": "MONDO_0005124",
+      "association_score": 0.451,
+      "genetic_score": 0.716,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "primary biliary cholangitis",
+      "disease_id": "MONDO_0005388",
+      "association_score": 0.435,
+      "genetic_score": 0.695,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "psoriasis",
+      "disease_id": "MONDO_0005083",
+      "association_score": 0.43,
+      "genetic_score": 0.687,
+      "highest_phase": "None in clinic",
+      "n_assets": 1
+    },
+    {
+      "disease": "nephrotic syndrome",
+      "disease_id": "MONDO_0005377",
+      "association_score": 0.404,
+      "genetic_score": 0.664,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "ankylosing spondylitis",
+      "disease_id": "MONDO_0005306",
+      "association_score": 0.39,
+      "genetic_score": 0.639,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "Oral ulcer",
+      "disease_id": "HP_0000155",
+      "association_score": 0.38,
+      "genetic_score": 0.625,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "autoimmune disease",
+      "disease_id": "MONDO_0007179",
+      "association_score": 0.373,
+      "genetic_score": 0.601,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "asthma",
+      "disease_id": "MONDO_0004979",
+      "association_score": 0.367,
+      "genetic_score": 0.567,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    }
+  ],
+  "licensing": {
+    "assets": [
+      {
+        "asset": "BCD-261",
+        "sponsor": "Biocad",
+        "sponsor_scale": "Small or private company",
+        "phase": 2,
+        "phase_label": "Phase 2",
+        "mechanism": "Unclassified",
+        "is_active": true,
+        "territory": {
+          "countries": [
+            "Russia"
+          ],
+          "covered": [],
+          "absent": [
+            "China",
+            "EU/UK",
+            "Japan",
+            "US"
+          ]
+        },
+        "signals": [
+          {
+            "code": "small_sponsor",
+            "headline": "Small or private sponsor",
+            "evidence": "Biocad is not on the large-pharma list. Small holders partner or sell far more often than large ones, and are reachable directly."
+          }
+        ]
+      },
+      {
+        "asset": "BB-TL1A-VIAL-HLE",
+        "sponsor": "Vial Australia Pty Ltd",
+        "sponsor_scale": "Small or private company",
+        "phase": 1,
+        "phase_label": "Phase 1",
+        "mechanism": "Unclassified",
+        "is_active": false,
+        "territory": {
+          "countries": [
+            "Australia"
+          ],
+          "covered": [],
+          "absent": [
+            "China",
+            "EU/UK",
+            "Japan",
+            "US"
+          ]
+        },
+        "signals": [
+          {
+            "code": "dormant_early",
+            "headline": "Dormant, early",
+            "evidence": "No active trial, but the programme never passed Phase 1, so there is little human data to license."
+          },
+          {
+            "code": "small_sponsor",
+            "headline": "Small or private sponsor",
+            "evidence": "Vial Australia Pty Ltd is not on the large-pharma list. Small holders partner or sell far more often than large ones, and are reachable directly."
+          }
+        ]
+      }
+    ],
+    "holders": [
+      {
+        "sponsor": "Biocad",
+        "scale": "Small or private company",
+        "n": 1,
+        "lead_phase": 2
+      },
+      {
+        "sponsor": "Vial Australia Pty Ltd",
+        "scale": "Small or private company",
+        "n": 1,
+        "lead_phase": 1
+      }
+    ],
+    "deals": {
+      "deals": [],
+      "by_asset": {},
+      "by_stage": [],
+      "n": 0,
+      "n_matched": 0,
+      "n_acquisitions": 0,
+      "curated": true
+    }
+  },
+  "precedent": {
+    "tier": "in_flight",
+    "tier_label": "Controlled trials running, no readout yet",
+    "read": "Controlled trials are running and have not reported. Their registered designs and completion dates are under Trials, with what a positive result in each could support.",
+    "evidence": [
+      "2 controlled efficacy trials are running now, so the mechanism is being tested on a public timetable.",
+      "Human genetic association with Crohn disease scores 0.84 in Open Targets. Genetically supported targets have historically succeeded at about twice the base rate, which is the strongest prior available before any clinical data exists."
+    ],
+    "approved": [],
+    "n_approved": 0,
+    "n_withdrawn": 0,
+    "n_phase3": 0,
+    "n_controlled_running": 2,
+    "n_science_failures": 0,
+    "genetic_score": 0.84,
+    "genetic_disease": "Crohn disease"
+  },
+  "readouts": {
+    "n_trials": 4,
+    "n_active": 3,
+    "n_controlled": 2,
+    "n_confirmatory": 2,
+    "n_undescribed": 0,
+    "by_level": {
+      "confirmatory": 2,
+      "unclear": 1
+    },
+    "level_labels": {
+      "confirmatory": "Confirmatory",
+      "controlled": "Controlled",
+      "signal": "Signal-generating",
+      "dose": "Dose and safety",
+      "mechanistic": "Mechanistic",
+      "unclear": "Design not stated"
+    },
+    "verdict": "4 trials on record, 3 still running. 2 of those are controlled efficacy studies; the other 1 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
+    "catalysts": [
+      {
+        "nct_id": "NCT07080034",
+        "title": "Study of the Efficacy, Safety, Pharmacokinetics, Pharmacodynamics, and Immunogenicity of BCD-261 in Subjects With Moderate to Severe Active Ulcerative Colitis",
+        "sponsor": "Biocad",
+        "phase": 2,
+        "phase_label": "Phase 2",
+        "date": "2027-01",
+        "date_iso": "2027-01-01",
+        "estimated": true,
+        "months_away": 4,
+        "conditions": [
+          "Ulcerative Colitis (UC)"
+        ],
+        "level": "confirmatory",
+        "level_label": "Confirmatory",
+        "note": "Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation.",
+        "endpoints": [
+          "Proportion of subjects who achieved clinical remission"
+        ],
+        "endpoint_label": "Validated clinical scale",
+        "url": "https://clinicaltrials.gov/study/NCT07080034"
+      },
+      {
+        "nct_id": "NCT07078994",
+        "title": "Clinical Study of the Efficacy, Safety, Pharmacokinetics, Pharmacodynamics, and Immunogenicity of BCD-261 in Subjects With Moderate to Severe Active Crohn's Disease",
+        "sponsor": "Biocad",
+        "phase": 2,
+        "phase_label": "Phase 2",
+        "date": "2027-05",
+        "date_iso": "2027-05-01",
+        "estimated": true,
+        "months_away": 8,
+        "conditions": [
+          "Crohn's Disease (CD)"
+        ],
+        "level": "confirmatory",
+        "level_label": "Confirmatory",
+        "note": "Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation.",
+        "endpoints": [
+          "Proportion of subjects who achieved clinical remission",
+          "Proportion of subjects who achieved an endoscopic response"
+        ],
+        "endpoint_label": "Validated clinical scale",
+        "url": "https://clinicaltrials.gov/study/NCT07078994"
+      }
+    ],
+    "next_catalyst": {
+      "nct_id": "NCT07080034",
+      "title": "Study of the Efficacy, Safety, Pharmacokinetics, Pharmacodynamics, and Immunogenicity of BCD-261 in Subjects With Moderate to Severe Active Ulcerative Colitis",
+      "sponsor": "Biocad",
+      "phase": 2,
+      "phase_label": "Phase 2",
+      "date": "2027-01",
+      "date_iso": "2027-01-01",
+      "estimated": true,
+      "months_away": 4,
+      "conditions": [
+        "Ulcerative Colitis (UC)"
+      ],
+      "level": "confirmatory",
+      "level_label": "Confirmatory",
+      "note": "Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation.",
+      "endpoints": [
+        "Proportion of subjects who achieved clinical remission"
+      ],
+      "endpoint_label": "Validated clinical scale",
+      "url": "https://clinicaltrials.gov/study/NCT07080034",
+      "is_interpretable": true
+    }
+  },
+  "modalities": [
+    {
+      "key": "Fc-fusion / ligand trap",
+      "what": "The receptor's binding domain fused to an antibody Fc, used to mop up a soluble ligand before it reaches its receptor.",
+      "requires": [
+        "The ligand is soluble and is the rate-limiting element — trapping does nothing against a membrane-bound or juxtacrine signal.",
+        "The trap does not also sequester a ligand you need."
+      ],
+      "fails": [
+        "Ligand redundancy: a trap for one cytokine in a family where three do the same job produces a clean pharmacodynamic result and no clinical effect.",
+        "Very high ligand turnover demanding impractical doses."
+      ],
+      "economics": "Similar to a monoclonal antibody. Often faster, because the binding domain is the native sequence rather than a discovery problem.",
+      "bd_note": "Commercially this is the modality that most often sits in a different patent estate from the receptor antibodies on the same axis — worth checking when a target looks crowded on paper.",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Reachable from outside the cell (secreted, intracellular).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Molecular glue / degrader",
+      "what": "A small molecule that forces the target into contact with an E3 ubiquitin ligase, so the cell's own machinery destroys it. Removing the protein rather than inhibiting it.",
+      "requires": [
+        "An intracellular target — the machinery is cytoplasmic.",
+        "A ligandable surface anywhere on the protein. Crucially this need NOT be a functional active site, which is why degraders reach scaffolding and transcription-factor targets that defeated inhibitors.",
+        "The relevant E3 ligase is expressed in the tissue you are treating. Cereblon and VHL are the workhorses and their expression is not uniform."
+      ],
+      "fails": [
+        "Drug-like properties: bifunctional degraders are large and greasy, and oral bioavailability is the recurring reason a good degrader never becomes a drug. Monovalent glues avoid much of this and are correspondingly sought after.",
+        "The hook effect — too much drug forms binary rather than ternary complexes and degradation falls off at high dose, inverting the usual dose intuition.",
+        "Resistance through loss of the E3 ligase itself, seen clinically with cereblon."
+      ],
+      "economics": "≈3–5 years to first-in-human. Ternary-complex optimisation is the long pole; budget more medicinal chemistry than a conventional inhibitor.",
+      "bd_note": "The reason to care commercially: a degrader can open a target that an inhibitor could not, which resets the competitive clock on a mechanism that otherwise looks worked-out.",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Intracellular (secreted, intracellular), where the degradation machinery is.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Monoclonal antibody",
+      "what": "A single antibody binding one epitope, used to block a receptor or ligand, or to kill the cell it is bound to through Fc-mediated effector function.",
+      "requires": [
+        "The target is on the cell surface or secreted. An antibody cannot cross the plasma membrane, so an intracellular target rules the modality out entirely.",
+        "The epitope is accessible on the folded protein in vivo, not only on a recombinant fragment.",
+        "For blockade: the interaction being blocked is rate-limiting for the disease. Antibodies are exquisite blockers of a single interaction and useless against a redundant pathway."
+      ],
+      "fails": [
+        "The biology, not the molecule. Antibody CMC and safety are now routine; the great majority of antibody failures are the target being wrong.",
+        "Soluble decoy: a shed extracellular domain circulating in patients absorbs drug and flattens the dose-response.",
+        "Poor tissue penetration in solid tumours and behind the blood-brain barrier (roughly 0.1% of a systemic dose reaches the CNS)."
+      ],
+      "economics": "≈18–30 months and $15–40M from lead to first-in-human data.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Reachable from outside the cell (secreted, intracellular).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Oligonucleotide",
+      "what": "A short nucleic acid that degrades or blocks the target's mRNA, lowering the amount of protein made rather than blocking the protein itself.",
+      "requires": [
+        "Only that the target is a gene. Protein structure is irrelevant, so 'undruggable' in the small-molecule sense does not apply — this is the modality's whole appeal.",
+        "That the disease-relevant tissue can be reached. This is the entire risk. GalNAc conjugation makes hepatocyte targets close to routine; intrathecal dosing reaches the CNS; the eye is feasible. Most other tissues are still an open delivery problem.",
+        "That lowering the protein is therapeutic — a loss-of-function target, not a gain-of-function one."
+      ],
+      "fails": [
+        "Delivery, overwhelmingly. A programme aimed outside liver, CNS and eye is underwriting a delivery invention, and should be priced as one.",
+        "Durable knockdown creating durable toxicity, with no way to withdraw the drug.",
+        "Hepatotoxicity and thrombocytopenia as class effects for some chemistries."
+      ],
+      "economics": "≈2–3 years and $15–35M to first-in-human for a liver target, and considerably more anywhere else. Discovery is fast because the sequence is designed rather than screened.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Peptide",
+      "what": "A short chain of amino acids, typically engaging an extracellular receptor or a protein–protein interface too flat for a small molecule.",
+      "requires": [
+        "An extracellular or accessible binding site, unless a cell-penetrating strategy is part of the plan.",
+        "A tolerable half-life, which usually means engineering — lipidation, cyclisation or fusion. Native peptides are cleared in minutes."
+      ],
+      "fails": [
+        "Pharmacokinetics rather than pharmacology.",
+        "Injection-only delivery in an oral market, which caps commercial value even when the biology works."
+      ],
+      "economics": "≈2–3 years and $10–30M to first-in-human.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Reachable from outside the cell (secreted, intracellular).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Small molecule",
+      "what": "A synthetic compound, usually under 500 daltons, binding a pocket on the target to block or modulate its activity.",
+      "requires": [
+        "A defined binding pocket. Enzymes, GPCRs, ion channels and nuclear receptors have one; flat protein–protein interfaces and scaffolding proteins largely do not, which is what 'undruggable' has historically meant.",
+        "Selectivity that is achievable against the rest of the family — the practical constraint on most kinase programmes."
+      ],
+      "fails": [
+        "Off-target and family cross-reactivity producing dose-limiting toxicity before the target is fully engaged.",
+        "Idiosyncratic hepatotoxicity, which appears late and kills programmes at Phase 2–3.",
+        "Resistance mutations in the pocket, in oncology and infectious disease."
+      ],
+      "economics": "≈3–5 years and $10–30M from hit to first-in-human — cheaper per step than a biologic, with a longer discovery phase.",
+      "bd_note": "The only class here that routinely reaches intracellular targets and the CNS, and the only one where oral dosing is the default. Both matter more to commercial value than potency does.",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Antibody-drug conjugate",
+      "what": "An antibody used as a delivery vehicle: it carries a cytotoxic payload, is taken into the cell, and releases the payload inside.",
+      "requires": [
+        "Surface expression, AND internalisation after binding. This is the requirement people forget. A non-internalising antigen cannot deliver a payload, however specific the antibody is.",
+        "A real expression differential against normal tissue — the payload is toxic to any cell it enters.",
+        "High enough antigen copy number; the delivered dose scales with it."
+      ],
+      "fails": [
+        "Payload toxicity sets the dose, not the antibody. Neutropenia, ocular toxicity and interstitial lung disease are the recurring dose-limiters, and they are largely payload-class effects you can predict in advance.",
+        "Linker instability releasing payload in circulation, which converts a targeted drug into a systemic chemotherapy.",
+        "A narrow therapeutic index that looks fine in xenografts and disappears in patients with normal-tissue expression."
+      ],
+      "economics": "≈2.5–4 years and $40–90M to first-in-human. Manufacturing and COGS are materially higher than a naked antibody — worth modelling early.",
+      "bd_note": "",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Secreted, not membrane-bound. There is no cell to bind, so payload delivery and cell killing have nothing to act on.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Bispecific antibody",
+      "what": "Two binding arms in one molecule: either blocking two pathways at once, or — far more commonly now — dragging a T cell onto a tumour cell by binding CD3 with one arm and a tumour antigen with the other.",
+      "requires": [
+        "Surface expression, as for any antibody.",
+        "For a T-cell engager: expression genuinely restricted to the target tissue. There is no therapeutic index to spend — the drug recruits a cytotoxic T cell to whatever it binds, so low-level expression on a vital tissue is lethal, not tolerable.",
+        "Enough antigen density to form a synapse, and little antigen shedding."
+      ],
+      "fails": [
+        "On-target off-tumour toxicity — the dominant cause of death for this class.",
+        "Cytokine release syndrome forcing step-up dosing, which lengthens every trial.",
+        "Antigen loss under treatment pressure, giving deep early responses that do not last."
+      ],
+      "economics": "≈2–3 years and $25–60M to first-in-human; the dose-escalation is slower than a plain antibody because of step-up dosing.",
+      "bd_note": "",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Secreted, not membrane-bound. There is no cell to bind, so payload delivery and cell killing have nothing to act on.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Cell therapy (CAR-T)",
+      "what": "A patient's or donor's T cells engineered with a receptor against a surface antigen, expanded, and infused back as a living drug.",
+      "requires": [
+        "Surface expression with near-absolute tissue restriction. The cells persist and multiply, so there is no dose to back off — anything the CAR recognises will be destroyed for as long as the cells live.",
+        "The antigen is present on essentially every malignant cell, or escape is immediate.",
+        "A tolerable consequence if the normal tissue carrying the antigen is also destroyed — B-cell aplasia after CD19 is survivable, and that is why CD19 worked first."
+      ],
+      "fails": [
+        "On-target off-tumour toxicity, which in this modality has been fatal rather than dose-limiting.",
+        "Antigen escape driving relapse after deep remission.",
+        "The solid-tumour wall: trafficking, persistence and an immunosuppressive microenvironment. Success remains overwhelmingly haematological.",
+        "Manufacturing — vein-to-vein time, failure rates and cost of goods are commercial risks, not technical footnotes."
+      ],
+      "economics": "≈3–5 years and $50–150M to meaningful clinical data, with process development a large fraction of it. Any seed plan much shorter than this is worth interrogating.",
+      "bd_note": "",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Secreted, not membrane-bound. There is no cell to bind, so payload delivery and cell killing have nothing to act on.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Gene therapy",
+      "what": "A viral vector delivering a working copy of a gene, intended as a single administration.",
+      "requires": [
+        "Monogenic loss-of-function biology with a well-understood causal gene.",
+        "A tissue an AAV serotype actually reaches, at a dose that is safe.",
+        "Patients without pre-existing neutralising antibodies to the capsid, which excludes a large fraction of any population."
+      ],
+      "fails": [
+        "Dose-dependent hepatotoxicity and complement activation at the high systemic doses that non-CNS, non-ocular tissues require.",
+        "One-shot dosing with no redose path if expression fades.",
+        "A commercial model that has repeatedly failed on tiny populations and very high prices — a real diligence issue, not only a scientific one."
+      ],
+      "economics": "≈4–6 years and $80M+ to clinical data; CMC dominates the budget.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    },
+    {
+      "key": "Vaccine",
+      "what": "An immunogen intended to raise the patient's own immune response against the target or the cells carrying it.",
+      "requires": [
+        "The target is immunogenic and not subject to central tolerance — the recurring obstacle for self-antigen cancer vaccines.",
+        "A patient population with an immune system intact enough to respond."
+      ],
+      "fails": [
+        "Immune responses that are measurable and clinically inert — the most common outcome in therapeutic cancer vaccines.",
+        "Long, large, slow efficacy trials that are expensive to run."
+      ],
+      "economics": "Highly variable. Prophylactic trials are among the largest in medicine.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    },
+    {
+      "key": "mRNA",
+      "what": "Delivered mRNA instructing the patient's own cells to make a protein — a vaccine antigen, a missing enzyme, or a therapeutic antibody.",
+      "requires": [
+        "That ADDING protein helps. This inverts the usual target logic: mRNA suits loss-of-function biology, and has nothing to offer against a target you want to block.",
+        "That transient expression is enough, or that repeat dosing is tolerable.",
+        "A delivery route to the relevant tissue — in practice muscle for vaccines and liver for systemic LNPs."
+      ],
+      "fails": [
+        "Durability: expression is measured in days, so chronic replacement means chronic redosing.",
+        "Reactogenicity from the lipid nanoparticle, which limits dose.",
+        "Redosing immunogenicity against the carrier."
+      ],
+      "economics": "Fast to a first construct — weeks — and slow through CMC. ≈2–3 years and $20–50M to first-in-human outside the vaccine setting.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    }
+  ],
+  "literature": {
+    "reviews": [
+      {
+        "title": "Proinflammatory cytokines in the pathogenesis of inflammatory bowel diseases",
+        "authors": "Strober W, Fuss IJ.",
+        "journal": "Gastroenterology",
+        "year": "2011",
+        "pmid": "21530742",
+        "doi": "10.1053/j.gastro.2011.02.016",
+        "citations": 857,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/21530742"
+      },
+      {
+        "title": "The role of TNF superfamily members in T-cell function and diseases",
+        "authors": "Croft M.",
+        "journal": "Nat Rev Immunol",
+        "year": "2009",
+        "pmid": "19319144",
+        "doi": "10.1038/nri2526",
+        "citations": 716,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/19319144"
+      },
+      {
+        "title": "Crohn's disease: Th1, Th17 or both? The change of a paradigm: new immunological and genetic insights implicate Th17 cells in the pathogenesis of Crohn's disease",
+        "authors": "Brand S.",
+        "journal": "Gut",
+        "year": "2009",
+        "pmid": "19592695",
+        "doi": "10.1136/gut.2008.163667",
+        "citations": 523,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/19592695"
+      },
+      {
+        "title": "MELAS syndrome: Clinical manifestations, pathogenesis, and treatment options",
+        "authors": "El-Hattab AW, Adesina AM, Jones J, Scaglia F.",
+        "journal": "Mol Genet Metab",
+        "year": "2015",
+        "pmid": "26095523",
+        "doi": "10.1016/j.ymgme.2015.06.004",
+        "citations": 441,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/26095523"
+      },
+      {
+        "title": "The genetics of Crohn's disease",
+        "authors": "Van Limbergen J, Wilson DC, Satsangi J.",
+        "journal": "Annu Rev Genomics Hum Genet",
+        "year": "2009",
+        "pmid": "19453248",
+        "doi": "10.1146/annurev-genom-082908-150013",
+        "citations": 192,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/19453248"
+      }
+    ],
+    "mechanism": [
+      {
+        "title": "STING agonist-based treatment promotes vascular normalization and tertiary lymphoid structure formation in the therapeutic melanoma microenvironment",
+        "authors": "Chelvanambi M, Fecek RJ, Taylor JL, Storkus WJ.",
+        "journal": "J Immunother Cancer",
+        "year": "2021",
+        "pmid": "33526609",
+        "doi": "10.1136/jitc-2020-001906",
+        "citations": 182,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/33526609"
+      },
+      {
+        "title": "Genome-wide association analyses define pathogenic signaling pathways and prioritize drug targets for IgA nephropathy",
+        "authors": "Kiryluk K, Sanchez-Rodriguez E, Zhou XJ, Zanoni F, Liu L, Mladkova N, Khan A, Marasa M, Zhang JY, Balderes O, Sanna-Cherchi S, Bomback AS, Canetta PA, Appel GB, Radhakrishnan J, Trimarchi H, Sprangers B, Cattran DC, Reich H, Pei Y, Ravani P, Galesic K, Maixnerova D, Tesar V, Stengel B, Metzger M, Canaud G, Maillard N, Berthoux F, Berthelot L, Pillebout E, Monteiro R, Nelson R, Wyatt RJ, Smoyer W, Mahan J, Samhar AA, Hidalgo G, Quiroga A, Weng P, Sreedharan R, Selewski D, Davis K, Kallash M, Vasylyeva TL, Rheault M, Chishti A, Ranch D, Wenderfer SE, Samsonov D, Claes DJ, Akchurin O, Goumenos D, Stangou M, Nagy J, Kovacs T, Fiaccadori E, Amoroso A, Barlassina C, Cusi D, Del Vecchio L, Battaglia GG, Bodria M, Boer E, Bono L, Boscutti G, Caridi G, Lugani F, Ghiggeri G, Coppo R, Peruzzi L, Esposito V, Esposito C, Feriozzi S, Polci R, Frasca G, Galliani M, Garozzo M, Mitrotti A, Gesualdo L, Granata S, Zaza G, Londrino F, Magistroni R, Pisani I, Magnano A, Marcantoni C, Messa P, Mignani R, Pani A, Ponticelli C, Roccatello D, Salvadori M, Salvi E, Santoro D, Gembillo G, Savoldi S, Spotti D, Zamboli P, Izzi C, Alberici F, Delbarba E, Florczak M, Krata N, Mucha K, Pączek L, Niemczyk S, Moszczuk B, Pańczyk-Tomaszewska M, Mizerska-Wasiak M, Perkowska-Ptasińska A, Bączkowska T, Durlik M, Pawlaczyk K, Sikora P, Zaniew M, Kaminska D, Krajewska M, Kuzmiuk-Glembin I, Heleniak Z, Bullo-Piontecka B, Liberek T, Dębska-Slizien A, Hryszko T, Materna-Kiryluk A, Miklaszewska M, Szczepańska M, Szczepańska M, Dyga K, Machura E, Siniewicz-Luzeńczyk K, Pawlak-Bratkowska M, Tkaczyk M, Runowski D, Kwella N, Drożdż D, Habura I, Kronenberg F, Prikhodina L, van Heel D, Fontaine B, Cotsapas C, Wijmenga C, Franke A, Annese V, Gregersen PK, Parameswaran S, Weirauch M, Kottyan L, Harley JB, Suzuki H, Narita I, Goto S, Lee H, Kim DK, Kim YS, Park JH, Cho B, Choi M, Van Wijk A, Huerta A, Ars E, Ballarin J, Lundberg S, Vogt B, Mani LY, Caliskan Y, Barratt J, Abeygunaratne T, Kalra PA, Gale DP, Panzer U, Rauen T, Floege J, Schlosser P, Ekici AB, Eckardt KU, Chen N, Xie J, Lifton RP, Loos RJF, Kenny EE, Ionita-Laza I, Köttgen A, Julian BA, Novak J, Scolari F, Zhang H, Gharavi AG.",
+        "journal": "Nat Genet",
+        "year": "2023",
+        "pmid": "37337107",
+        "doi": "10.1038/s41588-023-01422-x",
+        "citations": 176,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/37337107"
+      },
+      {
+        "title": "New and Emerging Treatments for Inflammatory Bowel Disease",
+        "authors": "Higashiyama M, Hokari R.",
+        "journal": "Digestion",
+        "year": "2023",
+        "pmid": "36366823",
+        "doi": "10.1159/000527422",
+        "citations": 93,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/36366823"
+      },
+      {
+        "title": "Anti-TL1A Antibody PF-06480605 Safety and Efficacy for Ulcerative Colitis: A Phase 2a Single-Arm Study",
+        "authors": "Danese S, Klopocka M, Scherl EJ, Romatowski J, Allegretti JR, Peeva E, Vincent MS, Schoenbeck U, Ye Z, Hassan-Zahraee M, Rath N, Li G, Neelakantan S, Banfield C, Lepsy C, Chandra DE, Hung KE.",
+        "journal": "Clin Gastroenterol Hepatol",
+        "year": "2021",
+        "pmid": "34126262",
+        "doi": "10.1016/j.cgh.2021.06.011",
+        "citations": 85,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/34126262"
+      },
+      {
+        "title": "Role of TL1A in Inflammatory Autoimmune Diseases: A Comprehensive Review",
+        "authors": "Xu WD, Li R, Huang AF.",
+        "journal": "Front Immunol",
+        "year": "2022",
+        "pmid": "35911746",
+        "doi": "10.3389/fimmu.2022.891328",
+        "citations": 57,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/35911746"
+      }
+    ],
+    "search_url": "https://europepmc.org/search?query=(TITLE_ABS:\"TNFSF15\"%20OR%20TITLE_ABS:\"MGC129934\"%20OR%20TITLE_ABS:\"MGC129935\"%20OR%20TITLE_ABS:\"TL1\"%20OR%20TITLE_ABS:\"TL1A\")",
+    "note": "Reviews ranked by citation count; mechanism papers restricted to the last five years first, then ranked, so the list reflects current work rather than the field's founding papers."
+  },
+  "annotation": {
+    "accession": "O95150",
+    "entry_name": "TNF15_HUMAN",
+    "protein_name": "Tumor necrosis factor ligand superfamily member 15",
+    "gene_names": [
+      "TNFSF15",
+      "TL1",
+      "TL1A",
+      "VEGI"
+    ],
+    "function": [
+      {
+        "text": "Cytokine that signals through TNFRSF25 receptor. Functions as a T-cell costimulator, that increases IL-2 responsiveness and secretion of proinflammatory cytokines which enhances T-cell activation, proliferation and the survival of activated T-cells. Inhibits vascular endothelial growth and angiogenesis (in vitro). Binds to the decoy receptor TNFRSF6B, blocking the activation normally triggered by TNFSF15 and leading to decreased T-cell activation and reduced inflammation",
+        "pmids": [
+          "10597252",
+          "11911831",
+          "11923219",
+          "21300286",
+          "9872942"
+        ]
+      }
+    ],
+    "subunit": [
+      {
+        "text": "Homotrimer. TNFSF15 binds TNFRSF6B with 3:3 stoichiometry",
+        "pmids": [
+          "17935696",
+          "21300286"
+        ]
+      }
+    ],
+    "domains": [
+      {
+        "name": "THD",
+        "count": 1,
+        "spans": [
+          [
+            95,
+            251
+          ]
+        ]
+      }
+    ],
+    "disease": [],
+    "n_citations": 10,
+    "url": "https://www.uniprot.org/uniprotkb/O95150",
+    "licence": "UniProt Knowledgebase (Swiss-Prot), CC BY 4.0",
+    "brief": {
+      "segments": [
+        {
+          "kind": "function",
+          "text": "Cytokine that signals through TNFRSF25 receptor. Functions as a T-cell costimulator, that increases IL-2 responsiveness and secretion of proinflammatory cytokines which enhances T-cell activation, proliferation and the survival of activated T-cells. Inhibits vascular endothelial growth and angiogenesis (in vitro).",
+          "pmids": [
+            "10597252",
+            "11911831",
+            "11923219",
+            "21300286"
+          ]
+        },
+        {
+          "kind": "subunit",
+          "text": "Homotrimer. TNFSF15 binds TNFRSF6B with 3:3 stoichiometry",
+          "pmids": [
+            "17935696",
+            "21300286"
+          ]
+        },
+        {
+          "kind": "domain",
+          "text": "UniProt annotates a THD domain.",
+          "pmids": []
+        }
+      ],
+      "text": "Cytokine that signals through TNFRSF25 receptor. Functions as a T-cell costimulator, that increases IL-2 responsiveness and secretion of proinflammatory cytokines which enhances T-cell activation, proliferation and the survival of activated T-cells. Inhibits vascular endothelial growth and angiogenesis (in vitro). Homotrimer. TNFSF15 binds TNFRSF6B with 3:3 stoichiometry. UniProt annotates a THD domain.",
+      "words": 51,
+      "accession": "O95150",
+      "url": "https://www.uniprot.org/uniprotkb/O95150",
+      "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)",
+      "note": "Curated by UniProt from the primary literature, not generated. Each statement links to the records the curator cited."
+    }
+  },
+  "header": {
+    "facts": [
+      {
+        "key": "function",
+        "label": "Function",
+        "value": "Cytokine that signals through TNFRSF25 receptor.",
+        "note": "",
+        "pmids": [
+          "10597252",
+          "11911831",
+          "11923219"
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Where it sits",
+        "value": "Cytoplasm, Membrane, Nuclear membrane",
+        "note": "Subcellular location, which decides which modalities can physically reach it.",
+        "pmids": []
+      },
+      {
+        "key": "topology",
+        "label": "How it sits",
+        "value": "Single-pass type II",
+        "note": "Membrane architecture. It constrains where an antibody can bind, not where the protein is.",
+        "pmids": []
+      },
+      {
+        "key": "domain",
+        "label": "Domains",
+        "value": "THD",
+        "note": "",
+        "pmids": []
+      },
+      {
+        "key": "development",
+        "label": "In development",
+        "value": "Ulcerative Colitis (UC), Crohn's Disease (CD) and Healthy",
+        "note": "Furthest programme: BCD-261 (Biocad), Phase 2, Unclassified.",
+        "pmids": []
+      }
+    ],
+    "mechanism": {
+      "text": "Cytokine that signals through TNFRSF25 receptor. Functions as a T-cell costimulator, that increases IL-2 responsiveness and secretion of proinflammatory cytokines which enhances T-cell activation, proliferation and the survival of activated T-cells. Inhibits vascular endothelial growth and angiogenesis (in vitro). Homotrimer. TNFSF15 binds TNFRSF6B with 3:3 stoichiometry.",
+      "pmids": [
+        "10597252",
+        "11911831",
+        "11923219",
+        "21300286",
+        "17935696"
+      ],
+      "accession": "O95150",
+      "url": "https://www.uniprot.org/uniprotkb/O95150",
+      "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
+    },
+    "accession": "O95150",
+    "url": "https://www.uniprot.org/uniprotkb/O95150",
+    "curated_source": true,
+    "development_unknown": false,
+    "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
+  },
+  "diagram": {
+    "svg": "<svg viewBox=\"0 0 720 250\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How TNFSF15 is being drugged</title><desc id=\"tl-diagram-desc\">TNFSF15 is secreted into the extracellular space. 1 mechanism class is represented in the asset table, the most advanced reaching Phase 2.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"92\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"82\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"138\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"125\" x2=\"538\" y2=\"125\" stroke-width=\"3\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"120\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"141\" class=\"tl-arrow-detail\">2 assets · Phase 2</text></g><g class=\"tl-target\"><ellipse cx=\"596\" cy=\"125\" rx=\"40\" ry=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"130\" class=\"tl-protein-label\">TNFSF15</text></g></svg>",
+    "title": "How TNFSF15 is being drugged",
+    "caption": "TNFSF15 is secreted into the extracellular space. 1 mechanism class is represented in the asset table, the most advanced reaching Phase 2.",
+    "placement": "secreted into the extracellular space",
+    "target_class": [],
+    "interventions": [
+      {
+        "label": "Unclassified",
+        "n": 2,
+        "max_phase": 2,
+        "modalities": [
+          "Other / unclassified"
+        ],
+        "phase_label": "Phase 2"
+      }
+    ],
+    "note": "Generated from the target's annotated location, its protein family, and the mechanism classes present in the asset table. Arrow weight is the furthest phase that approach has reached. It is a schematic of how the target is being drugged — not a pathway map, and it draws no interaction it has not read from the data."
+  },
+  "pathway": {},
+  "feasibility": {
+    "lines": [
+      {
+        "key": "validation",
+        "label": "Has anyone made a medicine here?",
+        "value": "2 controlled trials running, no readout yet",
+        "face": "science",
+        "detail": "Counted from approved drugs and the highest phase reached by any programme on this target. It says what has happened, not whether a new asset here is differentiated — the asset table and the mechanism split are where that is visible.",
+        "anchor": "#precedent"
+      },
+      {
+        "key": "evidence",
+        "label": "What can the running trials show?",
+        "value": "2 of 3 running trials are controlled efficacy studies · next readout 2027-01 (sponsor estimate)",
+        "face": "science",
+        "detail": "4 trials on record, 3 still running. 2 of those are controlled efficacy studies; the other 1 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Biocad · Study of the Efficacy, Safety, Pharmacokinetics, Pharmacodynamics, and Immunogenicity of BCD-261 in Subjects With Moderate to Severe Active Ulcerative Colitis — Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation.",
+        "anchor": "#readouts"
+      },
+      {
+        "key": "history",
+        "label": "Has anything stopped?",
+        "value": "1 stopped for efficacy, safety or PK",
+        "face": "science",
+        "detail": "Classified from the sponsors' own stated reasons. Science-class reasons are the ones that bear on the target rather than on a portfolio; the notices themselves are listed under Why they stopped, with the matched wording quoted so the classification can be checked.",
+        "anchor": "#failures"
+      },
+      {
+        "key": "window",
+        "label": "How contested is it?",
+        "value": "Open — 2 assets, furthest at Phase 2",
+        "face": "business",
+        "detail": "1 sponsor, phase-weighted score 1.5. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
+        "anchor": "#crowding"
+      },
+      {
+        "key": "licensing",
+        "label": "What has been licensed, and what has not?",
+        "value": "No deal on file · 2 programmes",
+        "face": "business",
+        "detail": "No deal has been entered for this target. The file is hand-maintained, so an empty one means nobody has filled it in, not that nothing has been licensed. The programme table below still shows who holds each one and how far it has gone.",
+        "anchor": "#licensing"
+      },
+      {
+        "key": "opening",
+        "label": "What has nobody tried?",
+        "value": "Untried here: Fc-fusion / ligand trap, Molecular glue / degrader",
+        "face": "business",
+        "detail": "Physically available against this target — the location and family allow it — and absent from the asset table. That is a modality gap rather than a proven opportunity, and the requirements listed under each one are what a company would have to satisfy.",
+        "anchor": "#modalities"
+      }
+    ],
+    "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
+  },
+  "narrative": {
+    "bottom_line": "TNFSF15 carries 1 active programme across 1 mechanism class from 1 named sponsor, reaching Phase 2. Phase-weighted density scores 1.5, which this tool bands as Open. The most advanced asset is BCD-261 (Biocad) at Phase 2.",
+    "competitive": "Every asset sits in one mechanism class — Unclassified — so there is no mechanistic differentiation on this target yet: 2 programmes competing on the same approach. A further 1 programme is dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
+    "failures": "1 of 4 trials stopped; 1 stated a reason. Of those with a stated reason, 1 was science-driven (efficacy, safety or PK/PD) and 0 were business-driven. At this count the split is indicative only — it is the individual notices below that carry the information, not the proportion.",
+    "whitespace": "9 diseases pass the screen: association evidence above threshold, genetic support, and nothing past preclinical. The strongest on genetic evidence is inflammatory bowel disease (association 0.518, genetic 0.808). Treat this as a hypothesis to check by hand rather than a finding — disease names are matched between EFO terms and sponsor free text, and that matching is imperfect.",
+    "licensing": "Biocad holds the most advanced programme (Phase 2), and is a small or private company. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",
+    "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent (100% of stopped trials here stated one). Deal comparables are hand-maintained and not exhaustive.",
+    "_source": "template"
+  },
+  "generated": "2026-09-06 01:33 UTC",
+  "warnings": [],
+  "notes": [
+    "7 trials returned by the registry search did not name TNFSF15 or any drug known to act on it, and were left out of the asset table.",
+    "No single-protein human ChEMBL target matched 'TNFSF15'; action types and modalities rest on Open Targets alone.",
+    "1 trial on this target list drugs this record does not tie to TNFSF15 -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
+  ],
+  "rules_version": "2026-09-07-directed-discovery"
+}

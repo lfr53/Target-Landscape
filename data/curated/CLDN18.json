@@ -1,0 +1,3828 @@
+{
+  "target": {
+    "ensembl_id": "ENSG00000066405",
+    "symbol": "CLDN18",
+    "name": "claudin 18",
+    "biotype": "protein_coding",
+    "function": "Involved in alveolar fluid homeostasis via regulation of alveolar epithelial tight junction composition and therefore ion transport and solute permeability, potentially via downstream regulation of the actin cytoskeleton organization and beta-2-adrenergic signaling (By similarity). Required for lung alveolarization and maintenance of the paracellular alveolar epithelial barrier (By similarity). Acts to maintain epithelial progenitor cell proliferation and organ size, via regulation of YAP1 localization away from the nucleus and thereby restriction of YAP1 target gene transcription (By similarity). Acts as a negative regulator of RANKL-induced osteoclast differentiation, potentially via relocation of TJP2/ZO-2 away from the nucleus, subsequently involved in bone resorption in response to calcium deficiency (By similarity). Mediates the osteoprotective effects of estrogen, potentially via acting downstream of estrogen signaling independently of RANKL signaling pathways (By similarity). .",
+    "synonyms": [
+      "CLDN18",
+      "Claudin-18",
+      "SFTA5",
+      "SFTPJ",
+      "UNQ778/PRO1572",
+      "claudin-18",
+      "surfactant associated 5",
+      "surfactant associated protein J",
+      "surfactant, pulmonary associated protein J"
+    ],
+    "tractability": {
+      "AB": [
+        "Advanced Clinical",
+        "UniProt loc med conf",
+        "UniProt SigP or TMHMM",
+        "GO CC med conf"
+      ]
+    },
+    "locations": [
+      "Cell junction, tight junction",
+      "Cell membrane",
+      "Lateral cell membrane"
+    ],
+    "topology": [
+      "Multi-pass membrane protein"
+    ],
+    "target_class": [
+      "Unclassified protein"
+    ],
+    "provenance": [
+      {
+        "source": "opentargets",
+        "identifier": "ENSG00000066405",
+        "url": "https://platform.opentargets.org/target/ENSG00000066405",
+        "retrieved": null
+      }
+    ]
+  },
+  "assets": [
+    {
+      "name": "Satricabtagene autoleucel",
+      "sponsor": "CARsgen Therapeutics",
+      "modality": "Cell therapy (CAR-T)",
+      "action_type": "",
+      "mechanism_text": "Claudin18.2-directed autologous CAR T-cell therapy",
+      "mechanism_class": "Cell therapy — target-directed CAR",
+      "max_phase": 4,
+      "indications": [
+        "gastroesophageal junction adenocarcinoma"
+      ],
+      "indication_phase": {
+        "gastroesophageal junction adenocarcinoma": 4
+      },
+      "trials": [
+        "NCT04581473"
+      ],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [
+        "satri-cel",
+        "CT041"
+      ],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "named_by_class": false,
+      "provenance": [
+        {
+          "source": "manual",
+          "identifier": "NMPA approval 22 June 2026 — third line and later CLDN18.2-positive HER2-negative gastric/GEJ",
+          "url": "https://www.onclive.com/view/china-s-nmpa-approves-first-car-t-cell-therapy-for-cldn18--2-her2-advanced-gastric-gej-adenocarcinoma",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "NMPA approval 22 June 2026 — third line and later CLDN18.2-positive HER2-negative gastric/GEJ",
+          "url": "https://www.onclive.com/view/china-s-nmpa-approves-first-car-t-cell-therapy-for-cldn18--2-her2-advanced-gastric-gej-adenocarcinoma",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "NMPA approval 22 June 2026 — third line and later CLDN18.2-positive HER2-negative gastric/GEJ",
+          "url": "https://www.onclive.com/view/china-s-nmpa-approves-first-car-t-cell-therapy-for-cldn18--2-her2-advanced-gastric-gej-adenocarcinoma",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Approved"
+    },
+    {
+      "name": "ZOLBETUXIMAB",
+      "sponsor": "AstraZeneca",
+      "modality": "Monoclonal antibody",
+      "action_type": "BINDING AGENT",
+      "mechanism_text": "Chimeric IgG1 against CLDN18.2; kills through ADCC and CDC",
+      "mechanism_class": "Depleting antibody (ADCC/CDC)",
+      "max_phase": 4,
+      "indications": [
+        "gastric cancer",
+        "neoplasm of esophagus",
+        "neoplasm",
+        "gastric adenocarcinoma",
+        "gastroesophageal junction adenocarcinoma",
+        "esophagogastric junction neoplasm",
+        "esophageal cancer",
+        "malignant pancreatic neoplasm",
+        "adenocarcinoma of the lower esophagus",
+        "esophageal adenocarcinoma",
+        "pancreatic adenocarcinoma",
+        "gastroesophageal adenocarcinoma",
+        "gastroesophageal junction cancer",
+        "Pharmacokinetics of Zolbetuximab",
+        "Pharmacokinetics of Oxaliplatin",
+        "Pharmacokinetics of Fluorouracil Bolus (5-FU)",
+        "Locally Advanced Unresectable Gastroesophageal Junction (GEJ) Adenocarcinoma Cancer",
+        "Gastric Cancer Adenocarcinoma Metastatic",
+        "Advanced Biliary Tract Cancer",
+        "Solid Tumors",
+        "CLDN18.2-positive Adenocarcinoma of Esophagus",
+        "HER2 + Gastric Cancer",
+        "GC/GEJC",
+        "GastroEsophageal Cancer",
+        "Gastric or Gastro-esophageal Junction (GEJ) Adenocarcinoma",
+        "Stomach Neoplasm",
+        "Gastric (Stomach) Cancer"
+      ],
+      "indication_phase": {
+        "gastric cancer": 3,
+        "neoplasm of esophagus": 4,
+        "neoplasm": 3,
+        "gastric adenocarcinoma": 3,
+        "gastroesophageal junction adenocarcinoma": 3,
+        "esophagogastric junction neoplasm": 4,
+        "esophageal cancer": 3,
+        "malignant pancreatic neoplasm": 2,
+        "adenocarcinoma of the lower esophagus": 2,
+        "esophageal adenocarcinoma": 4,
+        "pancreatic adenocarcinoma": 2,
+        "gastroesophageal adenocarcinoma": 3,
+        "gastroesophageal junction cancer": 3,
+        "Pharmacokinetics of Zolbetuximab": 2,
+        "Pharmacokinetics of Oxaliplatin": 2,
+        "Pharmacokinetics of Fluorouracil Bolus (5-FU)": 2,
+        "Locally Advanced Unresectable Gastroesophageal Junction (GEJ) Adenocarcinoma Cancer": 3,
+        "Gastric Cancer Adenocarcinoma Metastatic": 3,
+        "Advanced Biliary Tract Cancer": 2,
+        "Solid Tumors": 2,
+        "CLDN18.2-positive Adenocarcinoma of Esophagus": 2,
+        "HER2 + Gastric Cancer": 2,
+        "GC/GEJC": 2,
+        "GastroEsophageal Cancer": 2,
+        "Gastric or Gastro-esophageal Junction (GEJ) Adenocarcinoma": 1,
+        "Stomach Neoplasm": 2,
+        "Gastric (Stomach) Cancer": 2
+      },
+      "trials": [
+        "NCT07290985",
+        "NCT03505320",
+        "NCT03504397",
+        "NCT06396091",
+        "NCT07723534",
+        "NCT03653507",
+        "NCT07431281",
+        "NCT00909025",
+        "NCT01197885",
+        "NCT01671774",
+        "NCT06901531",
+        "NCT06881017",
+        "NCT06048081",
+        "NCT01630083",
+        "NCT06962137",
+        "NCT07680569",
+        "NCT06468280",
+        "NCT04086758",
+        "NCT06732856",
+        "NCT03816163",
+        "NCT03528629",
+        "NCT06902545"
+      ],
+      "chembl_id": "CHEMBL2109427",
+      "drug_id": "CHEMBL2109427",
+      "synonyms": [
+        "Claudiximab",
+        "IMAB-362",
+        "IMAB362",
+        "Vyloy",
+        "Zolbetuximab",
+        "Zolbetuximab-clzb",
+        "VYLOY"
+      ],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "named_by_class": false,
+      "provenance": [
+        {
+          "source": "opentargets",
+          "identifier": "CHEMBL2109427",
+          "url": "https://platform.opentargets.org/drug/CHEMBL2109427",
+          "retrieved": null
+        },
+        {
+          "source": "chembl",
+          "identifier": "CHEMBL2109427",
+          "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2109427/",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Phase correction only: FDA approved Vyloy on 21 October 2024, and Open Targets still records this programme at Phase 3",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Phase correction only: FDA approved Vyloy on 21 October 2024, and Open Targets still records this programme at Phase 3",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Phase correction only: FDA approved Vyloy on 21 October 2024, and Open Targets still records this programme at Phase 3",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Approved"
+    },
+    {
+      "name": "ASKB589",
+      "sponsor": "AskGene Pharma",
+      "modality": "Monoclonal antibody",
+      "action_type": "",
+      "mechanism_text": "Second-generation humanised anti-CLDN18.2 antibody with enhanced ADCC",
+      "mechanism_class": "Depleting antibody (ADCC/CDC)",
+      "max_phase": 3,
+      "indications": [
+        "gastroesophageal junction adenocarcinoma"
+      ],
+      "indication_phase": {
+        "gastroesophageal junction adenocarcinoma": 3
+      },
+      "trials": [
+        "NCT06206733"
+      ],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "named_by_class": false,
+      "provenance": [
+        {
+          "source": "manual",
+          "identifier": "First-line pivotal with tislelizumab and CAPOX; first patient dosed January 2024",
+          "url": "https://ask-gene.com/askgene-pharma-dosed-first-in-phase-3-pivotal-trial-of-askb589-in-first-line-advanced-gastric-and-gastroesophageal-junction-cancers/",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "First-line pivotal with tislelizumab and CAPOX; first patient dosed January 2024",
+          "url": "https://ask-gene.com/askgene-pharma-dosed-first-in-phase-3-pivotal-trial-of-askb589-in-first-line-advanced-gastric-and-gastroesophageal-junction-cancers/",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "First-line pivotal with tislelizumab and CAPOX; first patient dosed January 2024",
+          "url": "https://ask-gene.com/askgene-pharma-dosed-first-in-phase-3-pivotal-trial-of-askb589-in-first-line-advanced-gastric-and-gastroesophageal-junction-cancers/",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Phase 3"
+    },
+    {
+      "name": "Arcotatug tavatecan",
+      "sponsor": "Innovent Biologics",
+      "modality": "Antibody-drug conjugate",
+      "action_type": "",
+      "mechanism_text": "Anti-CLDN18.2 antibody-drug conjugate",
+      "mechanism_class": "ADC — payload delivery",
+      "max_phase": 3,
+      "indications": [
+        "gastroesophageal junction adenocarcinoma",
+        "Pancreatic ductal adenocarcinoma"
+      ],
+      "indication_phase": {
+        "gastroesophageal junction adenocarcinoma": 3,
+        "Pancreatic ductal adenocarcinoma": 3
+      },
+      "trials": [],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [
+        "IBI343"
+      ],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "named_by_class": false,
+      "provenance": [
+        {
+          "source": "manual",
+          "identifier": "Phase 3 met primary endpoint; NDA accepted by China NMPA — first CLDN18.2 ADC under regulatory review",
+          "url": "https://www.prnewswire.com/news-releases/worlds-first-cldn18-2-adc-for-regulatory-review-innovent-biologics-announces-ibi343-arcotatug-tavatecan-met-primary-endpoint-in-international-phase-3-study-in-advanced-refractory-gastric-cancer-and-nda-accepted-by-china-nmpa-302791220.html",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Phase 3 met primary endpoint; NDA accepted by China NMPA — first CLDN18.2 ADC under regulatory review",
+          "url": "https://www.prnewswire.com/news-releases/worlds-first-cldn18-2-adc-for-regulatory-review-innovent-biologics-announces-ibi343-arcotatug-tavatecan-met-primary-endpoint-in-international-phase-3-study-in-advanced-refractory-gastric-cancer-and-nda-accepted-by-china-nmpa-302791220.html",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Phase 3 met primary endpoint; NDA accepted by China NMPA — first CLDN18.2 ADC under regulatory review",
+          "url": "https://www.prnewswire.com/news-releases/worlds-first-cldn18-2-adc-for-regulatory-review-innovent-biologics-announces-ibi343-arcotatug-tavatecan-met-primary-endpoint-in-international-phase-3-study-in-advanced-refractory-gastric-cancer-and-nda-accepted-by-china-nmpa-302791220.html",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Phase 3"
+    },
+    {
+      "name": "SHR-A1904",
+      "sponsor": "Jiangsu HengRui Pharmaceuticals",
+      "modality": "Antibody-drug conjugate",
+      "action_type": "",
+      "mechanism_text": "CLDN18.2-targeting antibody-drug conjugate",
+      "mechanism_class": "ADC — payload delivery",
+      "max_phase": 3,
+      "indications": [
+        "gastroesophageal junction adenocarcinoma"
+      ],
+      "indication_phase": {
+        "gastroesophageal junction adenocarcinoma": 3
+      },
+      "trials": [
+        "NCT06649292"
+      ],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "named_by_class": false,
+      "provenance": [
+        {
+          "source": "manual",
+          "identifier": "Phase 3 second-line against investigator's choice in CLDN18.2-positive patients",
+          "url": "https://clinicaltrials.gov/study/NCT06649292",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Phase 3 second-line against investigator's choice in CLDN18.2-positive patients",
+          "url": "https://clinicaltrials.gov/study/NCT06649292",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Phase 3 second-line against investigator's choice in CLDN18.2-positive patients",
+          "url": "https://clinicaltrials.gov/study/NCT06649292",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Phase 3"
+    },
+    {
+      "name": "Sonesitatug vedotin",
+      "sponsor": "AstraZeneca / KYM Biosciences",
+      "modality": "Monoclonal antibody",
+      "action_type": "",
+      "mechanism_text": "Anti-CLDN18.2 antibody joined by a cleavable linker to MMAE",
+      "mechanism_class": "Blocking antibody",
+      "max_phase": 3,
+      "indications": [
+        "gastroesophageal junction adenocarcinoma",
+        "gastric cancer",
+        "esophageal cancer"
+      ],
+      "indication_phase": {
+        "gastroesophageal junction adenocarcinoma": 3,
+        "gastric cancer": 3,
+        "esophageal cancer": 3
+      },
+      "trials": [
+        "NCT07431281"
+      ],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [
+        "AZD0901",
+        "CMG901"
+      ],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "named_by_class": false,
+      "provenance": [
+        {
+          "source": "manual",
+          "identifier": "CLARITY-Gastric01 met overall survival in 2L+; licensed from KYM Biosciences (Keymed / Lepu) in 2023",
+          "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/sone-ve-improved-survival-in-gastric-cancers.html",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "CLARITY-Gastric01 met overall survival in 2L+; licensed from KYM Biosciences (Keymed / Lepu) in 2023",
+          "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/sone-ve-improved-survival-in-gastric-cancers.html",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "CLARITY-Gastric01 met overall survival in 2L+; licensed from KYM Biosciences (Keymed / Lepu) in 2023",
+          "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/sone-ve-improved-survival-in-gastric-cancers.html",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Phase 3"
+    },
+    {
+      "name": "Osemitamab",
+      "sponsor": "Transcenta",
+      "modality": "Monoclonal antibody",
+      "action_type": "",
+      "mechanism_text": "ADCC-enhanced humanised anti-CLDN18.2 antibody",
+      "mechanism_class": "Depleting antibody (ADCC/CDC)",
+      "max_phase": 2,
+      "indications": [
+        "gastroesophageal junction adenocarcinoma",
+        "Pancreatic ductal adenocarcinoma"
+      ],
+      "indication_phase": {
+        "gastroesophageal junction adenocarcinoma": 2,
+        "Pancreatic ductal adenocarcinoma": 2
+      },
+      "trials": [],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [
+        "TST001"
+      ],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "named_by_class": false,
+      "provenance": [
+        {
+          "source": "manual",
+          "identifier": "Recorded as Phase 2 — the company's pipeline lists Phase III but the trials it names (TranStar101 and TranStar102) are Phase 1/2a",
+          "url": "https://www.transcenta.com/pipelineDet/id-3.html",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Recorded as Phase 2 — the company's pipeline lists Phase III but the trials it names (TranStar101 and TranStar102) are Phase 1/2a",
+          "url": "https://www.transcenta.com/pipelineDet/id-3.html",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Recorded as Phase 2 — the company's pipeline lists Phase III but the trials it names (TranStar101 and TranStar102) are Phase 1/2a",
+          "url": "https://www.transcenta.com/pipelineDet/id-3.html",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Phase 2"
+    }
+  ],
+  "trials": [
+    {
+      "nct_id": "NCT03504397",
+      "title": "A Study to Compare Zolbetuximab (IMAB362) and Chemotherapy With Placebo and Chemotherapy in Adults With Gastric Cancer.",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "why_stopped": "",
+      "phase": 3,
+      "sponsor": "Astellas Pharma Global Development, Inc.",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Locally Advanced Unresectable Gastroesophageal Junction (GEJ) Adenocarcinoma or Cancer",
+        "Locally Advanced Unresectable Gastric Adenocarcinoma or Cancer",
+        "Metastatic Gastric Adenocarcinoma or Cancer",
+        "Metastatic Gastroesophageal Junction (GEJ) Adenocarcinoma"
+      ],
+      "interventions": [
+        "IMAB362",
+        "fluorouracil",
+        "folinic acid",
+        "oxaliplatin",
+        "placebo",
+        "zolbetuximab"
+      ],
+      "brief_summary": "Zolbetuximab is being studied in people with cancer in and around the stomach or where the food pipe (esophagus) joins the stomach, called gastroesophageal junction (GEJ) cancer. Most people with this type of cancer have a protein called Claudin 18.2 in their tumor. Zolbetuximab is thought to work by attaching to the Claudin 18.2 protein in their tumor, which switches on the body's immune system t",
+      "countries": [
+        "Australia",
+        "Belgium",
+        "Brazil",
+        "Canada",
+        "Chile",
+        "China",
+        "Colombia",
+        "France",
+        "Germany",
+        "Israel",
+        "Italy",
+        "Japan",
+        "Mexico",
+        "Peru",
+        "Poland",
+        "South Korea",
+        "Spain",
+        "Taiwan",
+        "United Kingdom",
+        "United States"
+      ],
+      "enrollment": 565,
+      "start_date": "2018-06-21",
+      "completion_date": "2022-09-09",
+      "allocation": "RANDOMIZED",
+      "masking": "DOUBLE",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Progression Free Survival (PFS)"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "surrogate",
+      "evidence_level": "confirmatory",
+      "evidence_note": "Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation."
+    },
+    {
+      "nct_id": "NCT03653507",
+      "title": "A Study of Zolbetuximab (IMAB362) Plus CAPOX Compared With Placebo Plus CAPOX as First-line Treatment of Subjects With Claudin (CLDN) 18.2-positive, HER2-negative, Locally Advanced Unresectable or Metastatic Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma (GLOW).",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "why_stopped": "",
+      "phase": 3,
+      "sponsor": "Astellas Pharma Global Development, Inc.",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Locally Advanced Unresectable Gastroesophageal Junction (GEJ) Adenocarcinoma or Cancer",
+        "Locally Advanced Unresectable Gastric Adenocarcinoma or Cancer",
+        "Metastatic Gastric Adenocarcinoma or Cancer",
+        "Metastatic Gastroesophageal Junction (GEJ) Adenocarcinoma"
+      ],
+      "interventions": [
+        "IMAB362",
+        "capecitabine",
+        "oxaliplatin",
+        "placebo",
+        "zolbetuximab"
+      ],
+      "brief_summary": "Zolbetuximab is being studied in people with cancer in and around the stomach or where the food pipe (esophagus) joins the stomach, called GEJ cancer. Most people with this type of cancer have a protein called Claudin 18.2 in their tumor. Zolbetuximab is thought to work by attaching to the Claudin 18.2 protein in their tumor, which switches on the body's immune system to attack the tumor.\n\nThere i",
+      "countries": [
+        "Argentina",
+        "Canada",
+        "China",
+        "Croatia",
+        "Greece",
+        "Ireland",
+        "Japan",
+        "Malaysia",
+        "Netherlands",
+        "Portugal",
+        "Romania",
+        "South Korea",
+        "Spain",
+        "Taiwan",
+        "Thailand",
+        "Turkey (Türkiye)",
+        "United Kingdom",
+        "United States"
+      ],
+      "enrollment": 507,
+      "start_date": "2018-11-28",
+      "completion_date": "2022-10-25",
+      "allocation": "RANDOMIZED",
+      "masking": "DOUBLE",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Progression Free Survival (PFS)"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "surrogate",
+      "evidence_level": "confirmatory",
+      "evidence_note": "Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation."
+    },
+    {
+      "nct_id": "NCT06901531",
+      "title": "A Study of Zolbetuximab Together With Pembrolizumab and Chemotherapy in Adults With Gastric Cancer",
+      "status": "RECRUITING",
+      "why_stopped": "",
+      "phase": 3,
+      "sponsor": "Astellas Pharma Global Development, Inc.",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Locally Advanced Unresectable Gastroesophageal Junction (GEJ) Adenocarcinoma or Cancer",
+        "Locally Advanced Unresectable Gastric Adenocarcinoma or Cancer",
+        "Metastatic Gastric Adenocarcinoma or Cancer",
+        "Metastatic Gastroesophageal Junction (GEJ) Adenocarcinoma"
+      ],
+      "interventions": [
+        "5-fluorouracil (5-FU)",
+        "Capecitabine",
+        "Folinic acid (leucovorin or local equivalent)",
+        "IMAB362",
+        "Oxaliplatin",
+        "Pembrolizumab",
+        "Placebo",
+        "VYLOY",
+        "zolbetuximab"
+      ],
+      "brief_summary": "Zolbetuximab is being studied in people with cancer in and around the stomach or where the food pipe (esophagus) joins the stomach, called gastroesophageal junction (GEJ) cancer. Zolbetuximab with chemotherapy may be used to treat stomach and GEJ cancer when the cancer cells do not have a protein called HER2 (human epidermal growth factor receptor 2) on their surface (HER2-negative) but do have a ",
+      "countries": [
+        "Australia",
+        "Belgium",
+        "Brazil",
+        "Chile",
+        "China",
+        "Czechia",
+        "France",
+        "Germany",
+        "Italy",
+        "Japan",
+        "Lithuania",
+        "Mexico",
+        "Netherlands",
+        "Poland",
+        "Portugal",
+        "Romania",
+        "South Korea",
+        "Spain",
+        "Taiwan",
+        "Turkey (Türkiye)",
+        "United Kingdom",
+        "United States"
+      ],
+      "enrollment": 500,
+      "start_date": "2025-05-22",
+      "completion_date": "2027-03-31",
+      "allocation": "RANDOMIZED",
+      "masking": "DOUBLE",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Overall Survival (OS)"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "hard",
+      "evidence_level": "confirmatory",
+      "evidence_note": "Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation."
+    },
+    {
+      "nct_id": "NCT07431281",
+      "title": "Sonesitatug Vedotin in Combination With Capecitabine With or Without Rilvegostomig in Participants With Advanced or Metastatic Gastric, Gastroesophageal Junction, or Esophageal Adenocarcinoma Expressing Claudin18.2",
+      "status": "RECRUITING",
+      "why_stopped": "",
+      "phase": 3,
+      "sponsor": "AstraZeneca",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Gastric Cancer",
+        "Gastroesophageal Junction Adenocarcinoma",
+        "Esophageal Cancer"
+      ],
+      "interventions": [
+        "5-Fluorouracil",
+        "AZD0901",
+        "AZD2936",
+        "Capecitabine",
+        "Leucovorin",
+        "Nivolumab",
+        "Oxaliplatin",
+        "Rilvegostomig",
+        "Sonesitatug vedotin",
+        "Zolbetuximab"
+      ],
+      "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of sonesitatug vedotin in combination with capecitabine with or without rilvegostomig in first-line (1L) Claudin18.2 (CLDN18.2)-positive, human epidermal growth factor receptor 2 (HER2)-negative, gastric, gastroesophageal junction (GEJ), and esophageal adenocarcinoma.",
+      "countries": [
+        "Australia",
+        "Austria",
+        "Belgium",
+        "Brazil",
+        "Canada",
+        "China",
+        "France",
+        "Germany",
+        "Hungary",
+        "India",
+        "Italy",
+        "Japan",
+        "Netherlands",
+        "Poland",
+        "Puerto Rico",
+        "South Korea",
+        "Spain",
+        "Taiwan",
+        "Thailand",
+        "Turkey (Türkiye)",
+        "United Kingdom",
+        "United States"
+      ],
+      "enrollment": 2130,
+      "start_date": "2026-02-03",
+      "completion_date": "2029-08-16",
+      "allocation": "RANDOMIZED",
+      "masking": "SINGLE",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Progression Free Survival (PFS) (Cohort 1 and Cohort 2)",
+        "Overall Survival (OS) (Cohort 1)"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "hard",
+      "evidence_level": "controlled",
+      "evidence_note": "Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question."
+    },
+    {
+      "nct_id": "NCT01197885",
+      "title": "Efficacy and Safety Study of Multiple Doses of IMAB362 in Patients With Advanced Gastroesophageal Cancer",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": 2,
+      "sponsor": "Ganymed Pharmaceuticals GmbH",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Solid Tumors"
+      ],
+      "interventions": [
+        "IMAB362"
+      ],
+      "brief_summary": "IMAB362 is a monoclonal antibody specific for gastric or lower esophageal adenocarcinoma. Preclinically IMAB362 was shown to inhibit tumor growth and to kill cancer cells by indirect (complement-dependent cytotoxicity, antibody-dependent cellular cytotoxicity) and direct mechanisms (antiproliferative and proapoptotic effects). The aim of this phase II study is to establish efficacy and safety of m",
+      "countries": [
+        "Bulgaria",
+        "Germany",
+        "Latvia",
+        "Lithuania",
+        "Switzerland"
+      ],
+      "enrollment": 54,
+      "start_date": "2010-09-03",
+      "completion_date": "2015-08-13",
+      "allocation": "NA",
+      "masking": "NONE",
+      "intervention_model": "SINGLE_GROUP",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Rate of remission (CR, PR) according to RECIST Criteria"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "surrogate",
+      "evidence_level": "signal",
+      "evidence_note": "Single-arm with an efficacy endpoint. There is no comparator, so the result cannot separate the drug from patient selection or the natural history of the disease. In oncology a single-arm response rate can still support accelerated approval; everywhere else, treat it as a hypothesis."
+    },
+    {
+      "nct_id": "NCT01630083",
+      "title": "Efficacy and Safety of IMAB362 in Combination With the EOX Regimen for CLDN18.2-positive Gastric Cancer",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": 2,
+      "sponsor": "Astellas Pharma Global Development, Inc.",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "CLDN18.2-positive Adenocarcinoma of the Gastroesophageal Junction",
+        "CLDN18.2-positive Adenocarcinoma of Esophagus",
+        "CLDN18.2-positive Gastric Adenocarcinoma"
+      ],
+      "interventions": [
+        "IMAB362",
+        "capecitabine",
+        "epirubicin",
+        "oxaliplatin",
+        "zolbetuximab"
+      ],
+      "brief_summary": "The purpose of the trial is to assess the therapeutic effects and the safety profile of IMAB362 combined with EOX (epirubicin, oxaliplatin, capecitabine) as first-line treatment for patients with advanced adenocarcinoma of the stomach, the esophagus or the gastroesophageal junction compared to EOX alone.\n\nFurthermore, sufficient binding of IMAB362 to the target cells is necessary for antitumoral a",
+      "countries": [
+        "Bulgaria",
+        "Czechia",
+        "Germany",
+        "Latvia",
+        "Russia",
+        "Ukraine"
+      ],
+      "enrollment": 252,
+      "start_date": "2012-07-19",
+      "completion_date": "2019-01-31",
+      "allocation": "RANDOMIZED",
+      "masking": "",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Progression-free survival (PFS)",
+        "Number of Participants with Adverse Events (AEs)"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "surrogate",
+      "evidence_level": "controlled",
+      "evidence_note": "Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question."
+    },
+    {
+      "nct_id": "NCT03505320",
+      "title": "A Study of Zolbetuximab (IMAB362) in Adults With Gastric Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "why_stopped": "",
+      "phase": 2,
+      "sponsor": "Astellas Pharma Global Development, Inc.",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Pharmacokinetics of Zolbetuximab",
+        "Gastric Cancer",
+        "Gastro-esophageal Junction (GEJ) Cancer",
+        "Pharmacokinetics of Oxaliplatin",
+        "Pharmacokinetics of Fluorouracil Bolus (5-FU)"
+      ],
+      "interventions": [
+        "Docetaxel",
+        "IMAB362",
+        "Pembrolizumab",
+        "fluorouracil",
+        "folinic acid",
+        "leucovorin",
+        "nivolumab",
+        "oxaliplatin",
+        "zolbetuximab"
+      ],
+      "brief_summary": "Zolbetuximab is being studied as a treatment for people with cancer in and around the stomach or cancer where the food pipe (esophagus) joins the stomach (gastroesophageal junction cancer). Most people with this type of cancer have a protein called Claudin 18.2 in their tumor. Zolbetuximab is thought to work by attaching to Claudin 18.2 in their tumor. This switches on the body's immune system to ",
+      "countries": [
+        "France",
+        "Italy",
+        "Japan",
+        "South Korea",
+        "Taiwan",
+        "United States"
+      ],
+      "enrollment": 143,
+      "start_date": "2018-06-29",
+      "completion_date": "2027-06-30",
+      "allocation": "NON_RANDOMIZED",
+      "masking": "DOUBLE",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Objective Response Rate (ORR) of zolbetuximab as a single agent by central review (Cohort 1)"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "surrogate",
+      "evidence_level": "signal",
+      "evidence_note": "An efficacy endpoint without a stated randomisation. A positive result is a signal to follow, not a controlled comparison."
+    },
+    {
+      "nct_id": "NCT03816163",
+      "title": "A Study of Zolbetuximab (IMAB362) in Adults With Pancreatic Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "why_stopped": "",
+      "phase": 2,
+      "sponsor": "Astellas Pharma Global Development, Inc.",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Pancreatic Cancer",
+        "Metastatic Pancreatic Cancer",
+        "Metastatic Pancreatic Adenocarcinoma"
+      ],
+      "interventions": [
+        "IMAB362",
+        "gemcitabine",
+        "nab-paclitaxel",
+        "zolbetuximab"
+      ],
+      "brief_summary": "Zolbetuximab is being studied as a treatment for people with pancreatic cancer. Most people with pancreatic cancer have a protein called Claudin 18.2 (CLDN18.2) in their tumor. Zolbetuximab is thought to work by attaching to CLDN 18.2 in their tumor. This switches on the body's immune system to attack the tumor. Zolbetuximab is a potential treatment for people with pancreatic cancer.\n\nThere is an ",
+      "countries": [
+        "Australia",
+        "Brazil",
+        "China",
+        "France",
+        "Ireland",
+        "Italy",
+        "Japan",
+        "Mexico",
+        "South Korea",
+        "Spain",
+        "Taiwan",
+        "Turkey (Türkiye)",
+        "United States"
+      ],
+      "enrollment": 393,
+      "start_date": "2019-03-15",
+      "completion_date": "2026-08-31",
+      "allocation": "RANDOMIZED",
+      "masking": "NONE",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Dose Limiting Toxicities (DLT) - (safety lead in)",
+        "Overall Survival (OS)",
+        "Safety assessed by Adverse Events (AEs)",
+        "Safety assessed by incidence of serious adverse events (SAE)",
+        "Safety assessed by incidence of treatment emergent adverse events (TEAE)",
+        "Number of participants with laboratory value abnormalities and/or adverse events (AEs)",
+        "Number of participants with vital sign abnormalities and /or adverse events (AEs)",
+        "Number of participants with electrocardiograms (ECG) abnormalities and or adverse events",
+        "Number of participants with Eastern Cooperative Oncology Group (ECOG) performance status abnormalities and or adverse events"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "hard",
+      "evidence_level": "controlled",
+      "evidence_note": "Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question."
+    },
+    {
+      "nct_id": "NCT06468280",
+      "title": "Synergistic Effects of PD-1 Antibody and Chemotherapy/Targeted Therapy Followed by Surgery-centric Local Treatment in Patients With Limited-metastatic Gastric Cancer",
+      "status": "RECRUITING",
+      "why_stopped": "",
+      "phase": 2,
+      "sponsor": "Shanghai Zhongshan Hospital",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Gastric Cancer",
+        "GastroEsophageal Cancer"
+      ],
+      "interventions": [
+        "PD-1 Monoclonal Antibody",
+        "Trastuzumab",
+        "XELOX/SOX Chemotherapy Regimen",
+        "Zolbetuximab"
+      ],
+      "brief_summary": "ROSETTE trial is an open-label, randomized phase II study designed to investigate treatment strategies for patients with limited metastatic gastric or gastroesophageal adenocarcinoma. Eligible patients are randomized to receive either systemic treatment followed by surgeon-led local treatment, or systemic treatment alone. Systemic treatment combines immunotherapy with chemotherapy, with or without",
+      "countries": [
+        "China"
+      ],
+      "enrollment": 84,
+      "start_date": "2024-11-08",
+      "completion_date": "2027-12",
+      "allocation": "RANDOMIZED",
+      "masking": "NONE",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Event-Free Survival (EFS) Rate"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "surrogate",
+      "evidence_level": "controlled",
+      "evidence_note": "Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question."
+    },
+    {
+      "nct_id": "NCT06732856",
+      "title": "A Phase Ib/II Trial of Neoadjuvant Zolbetuximab Plus Docetaxel, Oxaliplatin and S-1 Chemotherapy in Patients With Locally Advanced Gastric Cancer",
+      "status": "RECRUITING",
+      "why_stopped": "",
+      "phase": 2,
+      "sponsor": "Asan Medical Center",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Stomach Neoplasm",
+        "Gastric (Stomach) Cancer"
+      ],
+      "interventions": [
+        "Docetaxel",
+        "Oxaliplatin",
+        "S-1",
+        "zolbetuximab"
+      ],
+      "brief_summary": "Claudin 18.2 is a promising therapeutic target overexpressed on the surface of gastric cancer cells. The addition of zolbetuximab, the monoclonal antibody targeting Claudin 18.2 to chemotherapy in two recent Phase 3 studies prolonged survival outcomes, indicating that Claudin 18.2 is a valid target in gastric cancer. Asan Medical Center researchers conducted a study on Claudin 18.2 expression in p",
+      "countries": [
+        "South Korea"
+      ],
+      "enrollment": 57,
+      "start_date": "2025-04-04",
+      "completion_date": "2027-12-31",
+      "allocation": "NA",
+      "masking": "NONE",
+      "intervention_model": "SINGLE_GROUP",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Evaluation of R0 resection rate in patients who underwent prior chemotherapy as a clinical trial.(phase II part)",
+        "Recommended phase 2 dose (RP2D) (phase Ib part)"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "safety",
+      "evidence_level": "dose",
+      "evidence_note": "Registered at Phase 2 with a safety or operational primary endpoint. Whatever else this study collects, its registered question is not whether the drug works."
+    },
+    {
+      "nct_id": "NCT06881017",
+      "title": "Establishment of Precision Targeted Therapy Strategies for Advanced Gastric Cancer Based on Novel Molecular Subtyping",
+      "status": "NOT_YET_RECRUITING",
+      "why_stopped": "",
+      "phase": 2,
+      "sponsor": "China Medical University, China",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Gastric Cancer",
+        "HER2 + Gastric Cancer",
+        "CLDN18.2-positive Adenocarcinoma of the Gastroesophageal Junction",
+        "PD-L1 Positive"
+      ],
+      "interventions": [
+        "Adebrelimab",
+        "Apatinib",
+        "Capecitabine",
+        "Oxaliplatin",
+        "S-1",
+        "SHR-1701",
+        "SHR-A1811",
+        "SHR-A1904",
+        "Trastuzumab",
+        "zolbetuximab"
+      ],
+      "brief_summary": "This study is a prospective, umbrella-design, Phase II clinical trial. Eligible participants with advanced or metastatic gastric cancer who are treatment-naïve for advanced-stage systemic therapy will undergo biomarker profiling (HER2, CLDN18.2, and PD-L1) via next-generation sequencing (NGS) or immunohistochemistry (IHC). Participants will be stratified into distinct molecular subtypes and assign",
+      "countries": [],
+      "enrollment": 140,
+      "start_date": "2025-05-01",
+      "completion_date": "2029-08-01",
+      "allocation": "NON_RANDOMIZED",
+      "masking": "NONE",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "ORR"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "surrogate",
+      "evidence_level": "signal",
+      "evidence_note": "An efficacy endpoint without a stated randomisation. A positive result is a signal to follow, not a controlled comparison."
+    },
+    {
+      "nct_id": "NCT06962137",
+      "title": "Phase II RAINSPOT: Zolbetuximab-Paclitaxel-Ramucirumab for CLDN18.2 Positive Gastro-esophageal Cancer",
+      "status": "RECRUITING",
+      "why_stopped": "",
+      "phase": 2,
+      "sponsor": "Universitaire Ziekenhuizen KU Leuven",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Gastric Cancer Adenocarcinoma Metastatic",
+        "Gastric Adenocarcinoma and Gastroesophageal Junction Adenocarcinoma"
+      ],
+      "interventions": [
+        "zolbetuximab"
+      ],
+      "brief_summary": "This study examines whether adding the drug Zolbetuximab to an existing treatment (Paclitaxel and Ramucirumab) can improve patients' survival. The goal is to see if this combination works better for patients whose tumours contain a specific protein (CLDN18.2). The results will be compared to past patient data from those who only received the standard treatment.\n\nZolbetuximab (Vyloy) is a cancer me",
+      "countries": [
+        "Belgium"
+      ],
+      "enrollment": 100,
+      "start_date": "2025-12-11",
+      "completion_date": "2029-12-31",
+      "allocation": "NON_RANDOMIZED",
+      "masking": "NONE",
+      "intervention_model": "SINGLE_GROUP",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "OS (overall survival)"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "hard",
+      "evidence_level": "signal",
+      "evidence_note": "Single-arm with an efficacy endpoint. There is no comparator, so the result cannot separate the drug from patient selection or the natural history of the disease. In oncology a single-arm response rate can still support accelerated approval; everywhere else, treat it as a hypothesis."
+    },
+    {
+      "nct_id": "NCT07290985",
+      "title": "AACR Adaptive Biomarker-Driven Organ Preservation Trial in Gastroesophageal Adenocarcinomas",
+      "status": "RECRUITING",
+      "why_stopped": "",
+      "phase": 2,
+      "sponsor": "American Association for Cancer Research",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Gastroesophageal Adenocarcinoma"
+      ],
+      "interventions": [
+        "Fluorouracil",
+        "Leucovorin",
+        "Oxaliplatin",
+        "Tislelizumab",
+        "Zanidatamab",
+        "Zolbetuximab"
+      ],
+      "brief_summary": "This study will test a new personalized treatment approach for patients with stomach or esophageal cancer. It will take place in two stages and aims to find the best combination of chemotherapy, immunotherapy, and targeted drugs based on each patient's tumor biomarkers.\n\nUpon enrollment onto the study, patients will consent to tumor biomarker testing and may receive one cycle of standard chemother",
+      "countries": [
+        "Canada",
+        "United States"
+      ],
+      "enrollment": 242,
+      "start_date": "2026-07-20",
+      "completion_date": "2028-06-01",
+      "allocation": "NON_RANDOMIZED",
+      "masking": "NONE",
+      "intervention_model": "SINGLE_GROUP",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Pathological Complete Response (pathCR) Rate (Stage I).",
+        "Organ Preservation Rate (Stage II)"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "surrogate",
+      "evidence_level": "signal",
+      "evidence_note": "Single-arm with an efficacy endpoint. There is no comparator, so the result cannot separate the drug from patient selection or the natural history of the disease. In oncology a single-arm response rate can still support accelerated approval; everywhere else, treat it as a hypothesis."
+    },
+    {
+      "nct_id": "NCT07680569",
+      "title": "Phase Ib/IIa Open-label Study, to Evaluate Safety, Tolerability, and Antitumor Activity of HCB101 in Combination With Multiple Agents in Subjects With Advanced Gastric or Gastro-esophageal (GEJ) Adenocarcinoma",
+      "status": "NOT_YET_RECRUITING",
+      "why_stopped": "",
+      "phase": 2,
+      "sponsor": "Kaohsiung Medical University Chung-Ho Memorial Hospital",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "GC/GEJC"
+      ],
+      "interventions": [
+        "CAPOX (oxaliplatin/capecitabine)",
+        "Oxaliplatin + 5-Fluorouracil/Leucovorin",
+        "Zolbetuximab"
+      ],
+      "brief_summary": "This is an open-label, dose-escalation and dose-expansion phase Ib/IIa clinical study to evaluate the safety, tolerability, and preliminary efficacy of HCB101 in combination therapies in subjects with gastric or GEJ adenocarcinoma. A total of about 40 subjects will be enrolled in this study.\n\nPart-I: Dose-Escalation Phase (Phase Ib)\n\nThis phase includes Screening, Treatment, and Follow-up Periods:",
+      "countries": [],
+      "enrollment": 40,
+      "start_date": "2026-06",
+      "completion_date": "2027-12",
+      "allocation": "NON_RANDOMIZED",
+      "masking": "NONE",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Number/incidence and percentage of subjects with AEs, SAEs and TEAEs.",
+        "MTD or RP2D of HCB101 in combination therapy"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "safety",
+      "evidence_level": "dose",
+      "evidence_note": "Registered at Phase 2 with a safety or operational primary endpoint. Whatever else this study collects, its registered question is not whether the drug works."
+    },
+    {
+      "nct_id": "NCT07723534",
+      "title": "Zolbetuximab With mFOLFOX6 or CAPOX in Claudin 18.2 Overexpressed Advanced or Metastatic Biliary Tract Cancers",
+      "status": "NOT_YET_RECRUITING",
+      "why_stopped": "",
+      "phase": 2,
+      "sponsor": "Midhun Malla",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Advanced Biliary Tract Cancer",
+        "Metastatic Biliary Tract Carcinoma"
+      ],
+      "interventions": [
+        "CAPOX",
+        "Zolbetuximab",
+        "mFOLFOX6"
+      ],
+      "brief_summary": "Subjects will receive zolbetuximab with either CAPOX every 3 weeks or mFOLFOX6 every 2 weeks. The chemotherapy regimen chosen, mFOLFOX6 or CAPOX is per the treating investigator discretion and subject preference.\n\nStudy treatment will continue for a maximum of 2 years, or until disease progression per RECIST 1.1, intolerable side effects, or investigator/subject preference. Disease evaluation will",
+      "countries": [
+        "United States"
+      ],
+      "enrollment": 32,
+      "start_date": "2026-08",
+      "completion_date": "2029-02",
+      "allocation": "NA",
+      "masking": "NONE",
+      "intervention_model": "SINGLE_GROUP",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Progression free survival (PFS) rate"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "surrogate",
+      "evidence_level": "signal",
+      "evidence_note": "Single-arm with an efficacy endpoint. There is no comparator, so the result cannot separate the drug from patient selection or the natural history of the disease. In oncology a single-arm response rate can still support accelerated approval; everywhere else, treat it as a hypothesis."
+    },
+    {
+      "nct_id": "NCT00909025",
+      "title": "Safety and Tolerability Study of Claudiximab in Patients With Advanced Gastroesophageal Cancer",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": 1,
+      "sponsor": "Ganymed Pharmaceuticals GmbH",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Solid Tumors"
+      ],
+      "interventions": [
+        "Claudiximab"
+      ],
+      "brief_summary": "Claudiximab is a monoclonal antibody specific for gastric and gastroesophageal adenocarcinomas. Preclinically, claudiximab was shown to inhibit tumor growth and to kill cancer cells by indirect (complement-dependent cytoxicity, antibody-dependent cellular cytotoxicity) and direct mechanisms (antiproliferative and proapoptotic effects). The aim of this phase I study is to establish safety, toxicity",
+      "countries": [
+        "Germany",
+        "Latvia"
+      ],
+      "enrollment": 15,
+      "start_date": "2009-05-31",
+      "completion_date": "2010-05-31",
+      "allocation": "NA",
+      "masking": "NONE",
+      "intervention_model": "SINGLE_GROUP",
+      "primary_purpose": "OTHER",
+      "primary_outcomes": [
+        "Determination of maximum tolerated dose of claudiximab (Phase I: toxicities as assessed by NCI CTCAE version 3.0)"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "safety",
+      "evidence_level": "dose",
+      "evidence_note": "A first-in-human safety and dose study. It establishes tolerability and a dose to take forward; it is not designed to say anything about efficacy, and a clean result is not evidence the mechanism works."
+    },
+    {
+      "nct_id": "NCT01671774",
+      "title": "Safety and Activity of IMAB362 in Combination With Zoledronic Acid and Interleukin-2 in CLDN18.2-positive Gastric Cancer",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": 1,
+      "sponsor": "Astellas Pharma Global Development, Inc.",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "CLDN18.2-positive Gastric Adenocarcinoma",
+        "CLDN18.2-positive Adenocarcinoma of the Gastroesophageal Junction",
+        "CLDN18.2-positive Adenocarcinoma of Esophagus"
+      ],
+      "interventions": [
+        "IMAB362",
+        "Interleukin-2 (1 million IU)",
+        "Interleukin-2 (3 million IU)",
+        "Zoledronic acid"
+      ],
+      "brief_summary": "The purpose of the trial is to assess the immunological effects and their kinetics, the safety and activity of IMAB362 plus Zoledronic acid with/without low to intermediate doses of Interleukin-2 in subjects with advanced gastroesophageal cancer.",
+      "countries": [
+        "Germany",
+        "Latvia"
+      ],
+      "enrollment": 29,
+      "start_date": "2012-10-16",
+      "completion_date": "2014-10-13",
+      "allocation": "NON_RANDOMIZED",
+      "masking": "",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Safety and Tolerability",
+        "Immune cell profile and kinetics"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "safety",
+      "evidence_level": "dose",
+      "evidence_note": "A first-in-human safety and dose study. It establishes tolerability and a dose to take forward; it is not designed to say anything about efficacy, and a clean result is not evidence the mechanism works."
+    },
+    {
+      "nct_id": "NCT04086758",
+      "title": "A Pharmacokinetic Study of Zolbetuximab (IMAB362) in Chinese Subjects With Locally Advanced Unresectable or Metastatic Gastric or Gastro-esophageal Junction (GEJ) Adenocarcinoma",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": 1,
+      "sponsor": "Astellas Pharma China, Inc.",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Gastric or Gastro-esophageal Junction (GEJ) Adenocarcinoma"
+      ],
+      "interventions": [
+        "IMAB362",
+        "zolbetuximab"
+      ],
+      "brief_summary": "A Pharmacokinetic Study of Zolbetuximab (IMAB362) in Chinese Subjects with Locally Advanced Unresectable or Metastatic Gastric or Gastro-esophageal Junction (GEJ) Adenocarcinoma",
+      "countries": [
+        "China"
+      ],
+      "enrollment": 12,
+      "start_date": "2019-10-18",
+      "completion_date": "2021-01-22",
+      "allocation": "NA",
+      "masking": "NONE",
+      "intervention_model": "SINGLE_GROUP",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Pharmacokinetics (PK) of zolbetuximab: Area under the concentration-time curve (AUC) from the time of dosing extrapolated to time infinity (AUCinf)",
+        "PK of zolbetuximab: Percentage of AUCinf (AUCinf (%extrap))",
+        "PK of zolbetuximab: AUC from the time of dosing to the last measurable concentration (AUClast)",
+        "PK of zolbetuximab: AUC from the time of dosing to the start of the next dosing interval (AUCtau)",
+        "PK of zolbetuximab: Maximum concertation (Cmax)",
+        "PK of zolbetuximab: Concentration immediately prior to dosing at multiple dosing (Ctrough)",
+        "PK of zolbetuximab: Time of the maximum concentration (tmax)",
+        "PK of zolbetuximab: Terminal elimination half-life (t1/2)",
+        "PK of zolbetuximab: Time of the last measurable concentration (tlast)",
+        "PK of zolbetuximab: Clearance (CL)",
+        "PK of zolbetuximab: Apparent volume of distribution during the terminal phase (Vz)",
+        "PK of zolbetuximab: Accumulation ratio calculated using AUC (Rac(AUC))",
+        "PK of zolbetuximab: Rac (Cmax)",
+        "Number of participants with adverse events (AEs)",
+        "Number of participants with laboratory test abnormalities and/or AEs",
+        "Number of participants with body weight abnormalities and/or AEs",
+        "Number of participants with vital sign abnormalities and/or AEs",
+        "Number of participants with 12-lead electrocardiogram (ECG) abnormalities and/or AEs",
+        "Eastern Cooperative Oncology Group (ECOG) performance status score"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "surrogate",
+      "evidence_level": "signal",
+      "evidence_note": "Single-arm with an efficacy endpoint. There is no comparator, so the result cannot separate the drug from patient selection or the natural history of the disease. In oncology a single-arm response rate can still support accelerated approval; everywhere else, treat it as a hypothesis."
+    },
+    {
+      "nct_id": "NCT06396091",
+      "title": "A Study of Zolbetuximab With Chemotherapy in Adults With Pancreatic Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "why_stopped": "",
+      "phase": 1,
+      "sponsor": "Astellas Pharma Global Development, Inc.",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Metastatic Pancreatic Adenocarcinoma"
+      ],
+      "interventions": [
+        "IMAB362",
+        "mFOLFIRINOX",
+        "zolbetuximab"
+      ],
+      "brief_summary": "Pancreatic cancer is difficult to diagnose early. By the time people have been diagnosed, the cancer has usually spread to other parts of the body (metastatic). The standard treatment is chemotherapy, but other treatments are needed to improve outcomes in people with pancreatic cancer.\n\nIn this study, zolbetuximab will be given together with chemotherapy to people with pancreatic cancer. Zolbetuxi",
+      "countries": [
+        "United States"
+      ],
+      "enrollment": 12,
+      "start_date": "2025-09-24",
+      "completion_date": "2026-07-31",
+      "allocation": "NA",
+      "masking": "NONE",
+      "intervention_model": "SINGLE_GROUP",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Incidence of Dose Limiting Toxicities (DLT)",
+        "Safety assessed by Adverse Events (AEs)",
+        "Number of participants with laboratory value abnormalities and/or adverse events (AEs)",
+        "Number of participants with vital sign abnormalities and/or adverse events (AEs)",
+        "Number of participants with electrocardiograms (ECG) abnormalities and or adverse events",
+        "Number of participants at each grade of Eastern Cooperative Oncology Group (ECOG) performance status scores"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "safety",
+      "evidence_level": "dose",
+      "evidence_note": "A first-in-human safety and dose study. It establishes tolerability and a dose to take forward; it is not designed to say anything about efficacy, and a clean result is not evidence the mechanism works."
+    },
+    {
+      "nct_id": "NCT03528629",
+      "title": "A Study of IMAB362 in Japanese Subjects With Locally Advanced or Metastatic Gastric or Gastro-esophageal Junction (GEJ) Adenocarcinoma",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": -1,
+      "sponsor": "Astellas Pharma Inc",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Gastric Cancer",
+        "Gastro-esophageal Junction (GEJ) Cancer"
+      ],
+      "interventions": [
+        "IMAB362",
+        "Zolbetuximab"
+      ],
+      "brief_summary": "The purpose of this study is to assess the safety, tolerability and antitumor activity of IMAB362 in Japanese subjects with locally advanced or metastatic Gastric or GEJ adenocarcinoma whose tumors have Claudin (CLDN) 18.2 Expression. This study will also assess pharmacokinetics and immunogenicity of IMAB362.",
+      "countries": [
+        "Japan"
+      ],
+      "enrollment": 18,
+      "start_date": "2018-06-08",
+      "completion_date": "2020-06-09",
+      "allocation": "NON_RANDOMIZED",
+      "masking": "NONE",
+      "intervention_model": "SEQUENTIAL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Dose Limiting Toxicities (DLT) in Safety Part",
+        "Safety and tolerability assessed by incidence of adverse events (AEs) in Safety Part",
+        "Number of participants with laboratory test abnormalities in Safety Part",
+        "Number of participants with body weight abnormalities in Safety Part",
+        "Number of participants with vital sign abnormalities in Safety Part",
+        "Number of participants with 12-lead electrocardiogram (ECG) abnormalities in Safety Part",
+        "Safety assessed by Eastern Cooperative Oncology Group (ECOG) performance status in Safety Part",
+        "Objective Response Rate (ORR) by local review in Expansion Part"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "surrogate",
+      "evidence_level": "signal",
+      "evidence_note": "An efficacy endpoint without a stated randomisation. A positive result is a signal to follow, not a controlled comparison."
+    },
+    {
+      "nct_id": "NCT06048081",
+      "title": "Early Access Program for Zolbetuximab",
+      "status": "AVAILABLE",
+      "why_stopped": "",
+      "phase": -1,
+      "sponsor": "Astellas Pharma Global Development, Inc.",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Locally Advanced Unresectable Gastroesophageal Junction (GEJ) Adenocarcinoma Cancer",
+        "Locally Advanced Unresectable Gastric Adenocarcinoma Cancer",
+        "Metastatic Gastric Adenocarcinoma Cancer",
+        "Metastatic Gastroesophageal Junction (GEJ) Adenocarcinoma"
+      ],
+      "interventions": [
+        "IMAB362",
+        "zolbetuximab"
+      ],
+      "brief_summary": "This program is to provide zolbetuximab to people with stomach cancer or gastroesophageal junction (the junction between stomach and esophagus) cancer who have not yet been treated with chemotherapy, immunotherapy, or zolbetuximab and who have tested positive for claudin18.2 (a protein found in some cancer cells). People will work with their doctor to see if they are capable of being treated with ",
+      "countries": [
+        "Brazil",
+        "France",
+        "Germany",
+        "Singapore",
+        "South Korea",
+        "United States"
+      ],
+      "enrollment": null,
+      "start_date": "",
+      "completion_date": "",
+      "allocation": "",
+      "masking": "",
+      "intervention_model": "",
+      "primary_purpose": "",
+      "primary_outcomes": [],
+      "completion_date_type": "",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "other",
+      "evidence_level": "unclear",
+      "evidence_note": "The registry entry does not carry enough design detail to say what a result here would establish."
+    },
+    {
+      "nct_id": "NCT06767449",
+      "title": "Zolbetuximab Claudin18.2 Positive, HER2 Negative, Advanced Gastric Cancer",
+      "status": "RECRUITING",
+      "why_stopped": "",
+      "phase": -1,
+      "sponsor": "Yonsei University",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Advanced Gastric Cancer"
+      ],
+      "interventions": [],
+      "brief_summary": "* Treatment effectiveness in the real world\n* Adverse effects\n* Tissue samples collected (multiplex IHC to assess PD-L1 expression, MMR gene status, and Claudin18.2)\n* Blood samples collected (ctDNA, scRNAseq, or immune cell profiling)",
+      "countries": [
+        "South Korea"
+      ],
+      "enrollment": 80,
+      "start_date": "2024-12-01",
+      "completion_date": "2026-12-01",
+      "allocation": "",
+      "masking": "",
+      "intervention_model": "",
+      "primary_purpose": "",
+      "primary_outcomes": [
+        "Treatment effectiveness",
+        "Number of participants with treatment-related adverse events as assessed by CTCAE V5.0",
+        "molecular marker Analysis"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "safety",
+      "evidence_level": "dose",
+      "evidence_note": "A first-in-human safety and dose study. It establishes tolerability and a dose to take forward; it is not designed to say anything about efficacy, and a clean result is not evidence the mechanism works."
+    },
+    {
+      "nct_id": "NCT06902545",
+      "title": "A Study to Observe the Safety of VYLOY (Zolbetuximab) in People in South Korea With Gastric or Gastroesophageal Junction Cancer.",
+      "status": "RECRUITING",
+      "why_stopped": "",
+      "phase": -1,
+      "sponsor": "Astellas Pharma Korea, Inc.",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Locally Advanced Unresectable Gastroesophageal Junction (GEJ) Adenocarcinoma or Cancer",
+        "Locally Advanced Unresectable Gastric Adenocarcinoma or Cancer",
+        "Metastatic Gastric Adenocarcinoma or Cancer",
+        "Metastatic Gastroesophageal Junction (GEJ) Adenocarcinoma"
+      ],
+      "interventions": [
+        "Vyloy",
+        "zolbetuximab"
+      ],
+      "brief_summary": "This study is for people in South Korea who have cancer in or around the stomach (gastric cancer) or cancer where the food pipe (esophagus) joins the stomach, called gastroesophageal junction (GEJ) cancer. Their cancer is locally advanced, unresectable, or metastatic. Locally advanced means the cancer has spread to tissue close by. Unresectable means the cancer cannot be removed by surgery. Metast",
+      "countries": [
+        "South Korea"
+      ],
+      "enrollment": 377,
+      "start_date": "2025-04-03",
+      "completion_date": "2030-07-31",
+      "allocation": "",
+      "masking": "",
+      "intervention_model": "",
+      "primary_purpose": "",
+      "primary_outcomes": [
+        "Number of patients with an adverse event (AE)",
+        "Number of patients with an adverse drug reaction (ADR)",
+        "Number of patients with a serious AE (SAE)",
+        "Number of patients with a serious ADR (SADR)",
+        "Number of patients with an unexpected AE (UAE)",
+        "Number of patients with an unexpected ADR (UADR)",
+        "Number of patients who died during the study",
+        "Number patients with an AE leading to death",
+        "Number of patients with an important risk compared to number of patients evaluated"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "hard",
+      "evidence_level": "signal",
+      "evidence_note": "An efficacy endpoint without a stated randomisation. A positive result is a signal to follow, not a controlled comparison."
+    },
+    {
+      "nct_id": "NCT07427992",
+      "title": "Real-WorlD ZolbetUximab in Patients With HER-2 Negative and CLaudin 18.2 PosItive MetastatiC AdEnocarcinoma",
+      "status": "RECRUITING",
+      "why_stopped": "",
+      "phase": -1,
+      "sponsor": "European Institute of Oncology",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Gastric Adenocarcinoma",
+        "Gastroesophageal Junction Adenocarcinoma"
+      ],
+      "interventions": [],
+      "brief_summary": "The primary objective is to validate, throughout a national real-world study, the efficacy and safety of Zolbetuximab combined with FOLFOX or XELOX regimens. Specific clinical issues will be studied by pre-planned subgroup analyses, addressing practical clinical needs which have not been specifically investigated in randomized clinical trials.",
+      "countries": [
+        "Italy"
+      ],
+      "enrollment": 70,
+      "start_date": "2025-06-20",
+      "completion_date": "2026-12-30",
+      "allocation": "",
+      "masking": "",
+      "intervention_model": "",
+      "primary_purpose": "",
+      "primary_outcomes": [
+        "Progression-free survival"
+      ],
+      "completion_date_type": "ESTIMATED",
+      "failure_class": "",
+      "failure_rationale": "",
+      "endpoint_class": "surrogate",
+      "evidence_level": "signal",
+      "evidence_note": "An efficacy endpoint without a stated randomisation. A positive result is a signal to follow, not a controlled comparison."
+    }
+  ],
+  "associations": [
+    {
+      "disease_id": "MONDO_0005036",
+      "name": "gastric adenocarcinoma",
+      "score": 0.5030845885879466,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0003219",
+      "name": "gastroesophageal junction adenocarcinoma",
+      "score": 0.4918149002605691,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0001056",
+      "name": "gastric cancer",
+      "score": 0.48938966953817153,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.39879853458254527,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0021085",
+      "name": "gastric neoplasm",
+      "score": 0.3746300199451185,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0021355",
+      "name": "neoplasm of esophagus",
+      "score": 0.37068859424875583,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005283",
+      "name": "retinal disorder",
+      "score": 0.25465550325445563,
+      "genetic_score": 0.41888896607133774,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005148",
+      "name": "type 2 diabetes mellitus",
+      "score": 0.24481897249441037,
+      "genetic_score": 0.4027086198893544,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005099",
+      "name": "subarachnoid hemorrhage",
+      "score": 0.2162519211723449,
+      "genetic_score": 0.3557179896493717,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007576",
+      "name": "esophageal cancer",
+      "score": 0.21047957703309064,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005098",
+      "name": "stroke disorder",
+      "score": 0.2038852868355315,
+      "genetic_score": 0.33537581520221715,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0004329",
+      "name": "alcohol drinking",
+      "score": 0.2038852868355315,
+      "genetic_score": 0.33537581520221715,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005155",
+      "name": "cirrhosis of liver",
+      "score": 0.18145552376346558,
+      "genetic_score": 0.29848055811015045,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005154",
+      "name": "liver disorder",
+      "score": 0.15695712483286695,
+      "genetic_score": 0.2581825521087346,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0002315",
+      "name": "Headache",
+      "score": 0.15447525304210144,
+      "genetic_score": 0.2541000614691486,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0009763",
+      "name": "Limb pain",
+      "score": 0.15447525304210144,
+      "genetic_score": 0.2541000614691486,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0002027",
+      "name": "Abdominal pain",
+      "score": 0.15447525304210144,
+      "genetic_score": 0.2541000614691486,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0002251",
+      "name": "Aganglionic megacolon",
+      "score": 0.11826555349910459,
+      "genetic_score": 0.19453785523571876,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004992",
+      "name": "cancer",
+      "score": 0.10018831673352595,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0009831",
+      "name": "malignant pancreatic neoplasm",
+      "score": 0.09239496367117545,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005061",
+      "name": "lung adenocarcinoma",
+      "score": 0.0915664834298698,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005028",
+      "name": "esophageal adenocarcinoma",
+      "score": 0.09124075003841803,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0002857",
+      "name": "Genu valgum",
+      "score": 0.0900820573321509,
+      "genetic_score": 0.1481781441013623,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0002970",
+      "name": "Genu varum",
+      "score": 0.0900820573321509,
+      "genetic_score": 0.1481781441013623,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0006047",
+      "name": "pancreatic adenocarcinoma",
+      "score": 0.0875724512389248,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007256",
+      "name": "hepatocellular carcinoma",
+      "score": 0.08611174601835567,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005138",
+      "name": "lung carcinoma",
+      "score": 0.07951019777236544,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_264675",
+      "name": "Congenital pulmonary alveolar proteinosis",
+      "score": 0.07612806404625247,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0013662",
+      "name": "Barrett esophagus",
+      "score": 0.07209628327319967,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0016575",
+      "name": "primary ciliary dyskinesia",
+      "score": 0.06890873931078854,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0008433",
+      "name": "small cell lung carcinoma",
+      "score": 0.06857239300088866,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0008903",
+      "name": "lung cancer",
+      "score": 0.06662696972575201,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_217563",
+      "name": "Neonatal acute respiratory distress with surfactant metabolism deficiency",
+      "score": 0.06478118886198349,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0011705",
+      "name": "lymphangioleiomyomatosis",
+      "score": 0.06346425264645698,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018956",
+      "name": "idiopathic bronchiectasis",
+      "score": 0.06234991805404725,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007776",
+      "name": "hypersensitivity pneumonitis, familial",
+      "score": 0.062222464334716406,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005233",
+      "name": "non-small cell lung carcinoma",
+      "score": 0.06134404488288039,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0009936",
+      "name": "familial primary pulmonary hypoplasia",
+      "score": 0.060736753318883896,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004979",
+      "name": "asthma",
+      "score": 0.059388200456070336,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0019091",
+      "name": "bronchopulmonary dysplasia",
+      "score": 0.05812690357838543,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0008259",
+      "name": "familial spontaneous pneumothorax",
+      "score": 0.05810719265280225,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0024331",
+      "name": "colorectal carcinoma",
+      "score": 0.057917629057966914,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005159",
+      "name": "prostate carcinoma",
+      "score": 0.05789126566616527,
+      "genetic_score": 0.09347893511434176,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0013574",
+      "name": "cutis laxa - Marfanoid syndrome",
+      "score": 0.05395681088469304,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_171719",
+      "name": "Cutis laxa-Marfanoid syndrome",
+      "score": 0.05395681088469304,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0024465",
+      "name": "surfactant metabolism dysfunction, pulmonary, 2",
+      "score": 0.052286309941518186,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0016323",
+      "name": "chronic respiratory distress with surfactant metabolism deficiency",
+      "score": 0.052286309941518186,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018800",
+      "name": "Kallmann syndrome",
+      "score": 0.052213808640136125,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005711",
+      "name": "congenital diaphragmatic hernia",
+      "score": 0.05111289390289426,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0020840",
+      "name": "pulmonary alveolar proteinosis with hypogammaglobulinemia",
+      "score": 0.05072853085402216,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0971012",
+      "name": "MHC class I deficiency 3",
+      "score": 0.0500632871155897,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0019087",
+      "name": "cholangiocarcinoma",
+      "score": 0.04948622632703355,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018555",
+      "name": "hypogonadotropic hypogonadism",
+      "score": 0.049016862821478276,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0009060",
+      "name": "cystic disease of lung",
+      "score": 0.04868845005616262,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0012579",
+      "name": "autoimmune pulmonary alveolar proteinosis",
+      "score": 0.04858866349539774,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_93160",
+      "name": "Hypocalcemic vitamin D-resistant rickets",
+      "score": 0.04849996433027342,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0009928",
+      "name": "pulmonary alveolar microlithiasis",
+      "score": 0.048267129021822064,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0010220",
+      "name": "Young syndrome",
+      "score": 0.047062298695549926,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0008660",
+      "name": "autosomal dominant hypophosphatemic rickets",
+      "score": 0.04643955664040621,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0003210",
+      "name": "intrahepatic cholangiocarcinoma",
+      "score": 0.046424773446218814,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    }
+  ],
+  "deals": [],
+  "mechanism_clusters": {
+    "Depleting antibody (ADCC/CDC)": [
+      "ASKB589",
+      "Osemitamab",
+      "ZOLBETUXIMAB"
+    ],
+    "Cell therapy — target-directed CAR": [
+      "Satricabtagene autoleucel"
+    ],
+    "ADC — payload delivery": [
+      "Arcotatug tavatecan",
+      "SHR-A1904"
+    ],
+    "Blocking antibody": [
+      "Sonesitatug vedotin"
+    ]
+  },
+  "crowding": {
+    "n_total": 7,
+    "n_active": 7,
+    "n_dormant": 0,
+    "weighted_score": 23.5,
+    "verdict": "Crowded",
+    "by_phase": {
+      "Approved": 2,
+      "Phase 3": 4,
+      "Phase 2": 1
+    },
+    "n_sponsors": 7,
+    "n_mechanism_classes": 4,
+    "lead_phase": "Approved",
+    "weights_used": {
+      "Approved": 5.0,
+      "Phase 3": 3.0,
+      "Phase 2": 1.5,
+      "Phase 1": 0.75,
+      "Preclinical": 0.25,
+      "Unknown": 0.25
+    },
+    "bands_used": [
+      {
+        "from": 0.0,
+        "verdict": "Open"
+      },
+      {
+        "from": 2.0,
+        "verdict": "Emerging"
+      },
+      {
+        "from": 8.0,
+        "verdict": "Contested"
+      },
+      {
+        "from": 20.0,
+        "verdict": "Crowded"
+      },
+      {
+        "from": 45.0,
+        "verdict": "Saturated"
+      }
+    ],
+    "dormant_assets": [],
+    "matrix": {
+      "mechanisms": [
+        "ADC — payload delivery",
+        "Blocking antibody",
+        "Cell therapy — target-directed CAR",
+        "Depleting antibody (ADCC/CDC)"
+      ],
+      "rows": [
+        {
+          "indication": "gastroesophageal junction adenocarcinoma",
+          "n_assets": 7,
+          "cells": {
+            "ADC — payload delivery": 3,
+            "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": 4,
+            "Depleting antibody (ADCC/CDC)": 3
+          },
+          "max_phase": 4
+        },
+        {
+          "indication": "esophageal adenocarcinoma",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 4
+          },
+          "max_phase": 4
+        },
+        {
+          "indication": "esophagogastric junction neoplasm",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 4
+          },
+          "max_phase": 4
+        },
+        {
+          "indication": "neoplasm of esophagus",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 4
+          },
+          "max_phase": 4
+        },
+        {
+          "indication": "Pancreatic ductal adenocarcinoma",
+          "n_assets": 2,
+          "cells": {
+            "ADC — payload delivery": 3,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 3
+        },
+        {
+          "indication": "esophageal cancer",
+          "n_assets": 2,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 3
+          },
+          "max_phase": 3
+        },
+        {
+          "indication": "gastric cancer",
+          "n_assets": 2,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 3
+          },
+          "max_phase": 3
+        },
+        {
+          "indication": "gastric adenocarcinoma",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 3
+          },
+          "max_phase": 3
+        },
+        {
+          "indication": "gastroesophageal adenocarcinoma",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 3
+          },
+          "max_phase": 3
+        },
+        {
+          "indication": "gastroesophageal junction cancer",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 3
+          },
+          "max_phase": 3
+        },
+        {
+          "indication": "neoplasm",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 3
+          },
+          "max_phase": 3
+        },
+        {
+          "indication": "Advanced Biliary Tract Cancer",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "CLDN18.2-positive Adenocarcinoma of Esophagus",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "GC/GEJC",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "Gastric (Stomach) Cancer",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "Gastric Cancer Adenocarcinoma Metastatic",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "GastroEsophageal Cancer",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "HER2 + Gastric Cancer",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "Pharmacokinetics of Fluorouracil Bolus (5-FU)",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "Pharmacokinetics of Oxaliplatin",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "Pharmacokinetics of Zolbetuximab",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "Solid Tumors",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "Stomach Neoplasm",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "adenocarcinoma of the lower esophagus",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "malignant pancreatic neoplasm",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "pancreatic adenocarcinoma",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 2
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "Gastric or Gastro-esophageal Junction (GEJ) Adenocarcinoma",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": 1
+          },
+          "max_phase": 1
+        },
+        {
+          "indication": "Locally Advanced Unresectable Gastroesophageal Junction (GEJ) Adenocarcinoma Cancer",
+          "n_assets": 1,
+          "cells": {
+            "ADC — payload delivery": -1,
+            "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
+            "Depleting antibody (ADCC/CDC)": -1
+          },
+          "max_phase": -1
+        }
+      ]
+    },
+    "indications_omitted": 0
+  },
+  "failures": {
+    "n_trials": 22,
+    "n_stopped": 0,
+    "n_with_reason": 0,
+    "counts": {},
+    "n_science": 0,
+    "n_business": 0,
+    "n_operational": 0,
+    "n_cmc": 0,
+    "n_unexplained": 0,
+    "science_share_of_stated": null,
+    "reporting_rate": null,
+    "cases": []
+  },
+  "whitespace": [],
+  "licensing": {
+    "assets": [
+      {
+        "asset": "Satricabtagene autoleucel",
+        "sponsor": "CARsgen Therapeutics",
+        "sponsor_scale": "Small or private company",
+        "phase": 4,
+        "phase_label": "Approved",
+        "mechanism": "Cell therapy — target-directed CAR",
+        "is_active": true,
+        "territory": {
+          "countries": [],
+          "covered": [],
+          "absent": [
+            "China",
+            "EU/UK",
+            "Japan",
+            "US"
+          ]
+        },
+        "signals": [
+          {
+            "code": "small_sponsor",
+            "headline": "Small or private sponsor",
+            "evidence": "CARsgen Therapeutics is not on the large-pharma list. Small holders partner or sell far more often than large ones, and are reachable directly."
+          },
+          {
+            "code": "no_linked_trials",
+            "headline": "No registered trial linked",
+            "evidence": "Nothing in the sources swept ties a registration to this programme, so its stage and territory rest on database records alone. Expected for a preclinical or recently disclosed asset; otherwise a gap in coverage."
+          }
+        ]
+      },
+      {
+        "asset": "ZOLBETUXIMAB",
+        "sponsor": "AstraZeneca",
+        "sponsor_scale": "Large pharma",
+        "phase": 4,
+        "phase_label": "Approved",
+        "mechanism": "Depleting antibody (ADCC/CDC)",
+        "is_active": true,
+        "territory": {
+          "countries": [
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Bulgaria",
+            "Canada",
+            "Chile",
+            "China",
+            "Colombia",
+            "Croatia",
+            "Czechia",
+            "France",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "India",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Japan",
+            "Latvia",
+            "Lithuania",
+            "Malaysia",
+            "Mexico",
+            "Netherlands",
+            "Peru",
+            "Poland",
+            "Portugal",
+            "Puerto Rico",
+            "Romania",
+            "Russia",
+            "Singapore",
+            "South Korea",
+            "Spain",
+            "Switzerland",
+            "Taiwan",
+            "Thailand",
+            "Turkey (Türkiye)",
+            "Ukraine",
+            "United Kingdom",
+            "United States"
+          ],
+          "covered": [
+            "China",
+            "EU/UK",
+            "Japan",
+            "US"
+          ],
+          "absent": []
+        },
+        "signals": [
+          {
+            "code": "large_active",
+            "headline": "Held and active at a large sponsor",
+            "evidence": "AstraZeneca is running this programme. Unlikely to be available except regionally, or if it is deprioritised later."
+          }
+        ]
+      },
+      {
+        "asset": "ASKB589",
+        "sponsor": "AskGene Pharma",
+        "sponsor_scale": "Small or private company",
+        "phase": 3,
+        "phase_label": "Phase 3",
+        "mechanism": "Depleting antibody (ADCC/CDC)",
+        "is_active": true,
+        "territory": {
+          "countries": [],
+          "covered": [],
+          "absent": [
+            "China",
+            "EU/UK",
+            "Japan",
+            "US"
+          ]
+        },
+        "signals": [
+          {
+            "code": "small_sponsor",
+            "headline": "Small or private sponsor",
+            "evidence": "AskGene Pharma is not on the large-pharma list. Small holders partner or sell far more often than large ones, and are reachable directly."
+          },
+          {
+            "code": "no_linked_trials",
+            "headline": "No registered trial linked",
+            "evidence": "Nothing in the sources swept ties a registration to this programme, so its stage and territory rest on database records alone. Expected for a preclinical or recently disclosed asset; otherwise a gap in coverage."
+          }
+        ]
+      },
+      {
+        "asset": "Arcotatug tavatecan",
+        "sponsor": "Innovent Biologics",
+        "sponsor_scale": "Large pharma",
+        "phase": 3,
+        "phase_label": "Phase 3",
+        "mechanism": "ADC — payload delivery",
+        "is_active": true,
+        "territory": {
+          "countries": [],
+          "covered": [],
+          "absent": [
+            "China",
+            "EU/UK",
+            "Japan",
+            "US"
+          ]
+        },
+        "signals": [
+          {
+            "code": "large_active",
+            "headline": "Held and active at a large sponsor",
+            "evidence": "Innovent Biologics is running this programme. Unlikely to be available except regionally, or if it is deprioritised later."
+          },
+          {
+            "code": "no_linked_trials",
+            "headline": "No registered trial linked",
+            "evidence": "Nothing in the sources swept ties a registration to this programme, so its stage and territory rest on database records alone. Expected for a preclinical or recently disclosed asset; otherwise a gap in coverage."
+          }
+        ]
+      },
+      {
+        "asset": "SHR-A1904",
+        "sponsor": "Jiangsu HengRui Pharmaceuticals",
+        "sponsor_scale": "Large pharma",
+        "phase": 3,
+        "phase_label": "Phase 3",
+        "mechanism": "ADC — payload delivery",
+        "is_active": true,
+        "territory": {
+          "countries": [],
+          "covered": [],
+          "absent": [
+            "China",
+            "EU/UK",
+            "Japan",
+            "US"
+          ]
+        },
+        "signals": [
+          {
+            "code": "large_active",
+            "headline": "Held and active at a large sponsor",
+            "evidence": "Jiangsu HengRui Pharmaceuticals is running this programme. Unlikely to be available except regionally, or if it is deprioritised later."
+          },
+          {
+            "code": "no_linked_trials",
+            "headline": "No registered trial linked",
+            "evidence": "Nothing in the sources swept ties a registration to this programme, so its stage and territory rest on database records alone. Expected for a preclinical or recently disclosed asset; otherwise a gap in coverage."
+          }
+        ]
+      },
+      {
+        "asset": "Sonesitatug vedotin",
+        "sponsor": "AstraZeneca / KYM Biosciences",
+        "sponsor_scale": "Large pharma",
+        "phase": 3,
+        "phase_label": "Phase 3",
+        "mechanism": "Blocking antibody",
+        "is_active": true,
+        "territory": {
+          "countries": [
+            "Australia",
+            "Austria",
+            "Belgium",
+            "Brazil",
+            "Canada",
+            "China",
+            "France",
+            "Germany",
+            "Hungary",
+            "India",
+            "Italy",
+            "Japan",
+            "Netherlands",
+            "Poland",
+            "Puerto Rico",
+            "South Korea",
+            "Spain",
+            "Taiwan",
+            "Thailand",
+            "Turkey (Türkiye)",
+            "United Kingdom",
+            "United States"
+          ],
+          "covered": [
+            "China",
+            "EU/UK",
+            "Japan",
+            "US"
+          ],
+          "absent": []
+        },
+        "signals": [
+          {
+            "code": "large_active",
+            "headline": "Held and active at a large sponsor",
+            "evidence": "AstraZeneca / KYM Biosciences is running this programme. Unlikely to be available except regionally, or if it is deprioritised later."
+          }
+        ]
+      },
+      {
+        "asset": "Osemitamab",
+        "sponsor": "Transcenta",
+        "sponsor_scale": "Small or private company",
+        "phase": 2,
+        "phase_label": "Phase 2",
+        "mechanism": "Depleting antibody (ADCC/CDC)",
+        "is_active": true,
+        "territory": {
+          "countries": [],
+          "covered": [],
+          "absent": [
+            "China",
+            "EU/UK",
+            "Japan",
+            "US"
+          ]
+        },
+        "signals": [
+          {
+            "code": "small_sponsor",
+            "headline": "Small or private sponsor",
+            "evidence": "Transcenta is not on the large-pharma list. Small holders partner or sell far more often than large ones, and are reachable directly."
+          },
+          {
+            "code": "no_linked_trials",
+            "headline": "No registered trial linked",
+            "evidence": "Nothing in the sources swept ties a registration to this programme, so its stage and territory rest on database records alone. Expected for a preclinical or recently disclosed asset; otherwise a gap in coverage."
+          }
+        ]
+      }
+    ],
+    "holders": [
+      {
+        "sponsor": "CARsgen Therapeutics",
+        "scale": "Small or private company",
+        "n": 1,
+        "lead_phase": 4
+      },
+      {
+        "sponsor": "AstraZeneca",
+        "scale": "Large pharma",
+        "n": 1,
+        "lead_phase": 4
+      },
+      {
+        "sponsor": "AskGene Pharma",
+        "scale": "Small or private company",
+        "n": 1,
+        "lead_phase": 3
+      },
+      {
+        "sponsor": "Innovent Biologics",
+        "scale": "Large pharma",
+        "n": 1,
+        "lead_phase": 3
+      },
+      {
+        "sponsor": "Jiangsu HengRui Pharmaceuticals",
+        "scale": "Large pharma",
+        "n": 1,
+        "lead_phase": 3
+      },
+      {
+        "sponsor": "AstraZeneca / KYM Biosciences",
+        "scale": "Large pharma",
+        "n": 1,
+        "lead_phase": 3
+      },
+      {
+        "sponsor": "Transcenta",
+        "scale": "Small or private company",
+        "n": 1,
+        "lead_phase": 2
+      }
+    ],
+    "deals": {
+      "deals": [],
+      "by_asset": {},
+      "by_stage": [],
+      "n": 0,
+      "n_matched": 0,
+      "n_acquisitions": 0,
+      "curated": true
+    }
+  },
+  "precedent": {
+    "tier": "approved",
+    "tier_label": "Approved drug on this target",
+    "read": "A drug against this target has been approved, so the mechanism has worked in patients. Whether a new asset differs from the approved one is a question about the asset rather than the target; the mechanism split and the asset table are where that shows.",
+    "evidence": [
+      "2 approved drugs act on this target. The mechanism changes the disease in humans; that question is closed.",
+      "6 controlled efficacy trials are running now, so the mechanism is being tested on a public timetable.",
+      "Human genetic association with retinal disorder scores 0.42 in Open Targets. Genetically supported targets have historically succeeded at about twice the base rate, which is the strongest prior available before any clinical data exists."
+    ],
+    "approved": [
+      {
+        "name": "Satricabtagene autoleucel",
+        "sponsor": "CARsgen Therapeutics",
+        "modality": "Cell therapy (CAR-T)",
+        "action_type": "",
+        "mechanism_text": "Claudin18.2-directed autologous CAR T-cell therapy",
+        "mechanism_class": "Cell therapy — target-directed CAR",
+        "max_phase": 4,
+        "indications": [
+          "gastroesophageal junction adenocarcinoma"
+        ],
+        "indication_phase": {
+          "gastroesophageal junction adenocarcinoma": 4
+        },
+        "trials": [
+          "NCT04581473"
+        ],
+        "chembl_id": "",
+        "drug_id": "",
+        "synonyms": [
+          "satri-cel",
+          "CT041"
+        ],
+        "first_approval": null,
+        "withdrawn": false,
+        "is_active": true,
+        "named_by_class": false,
+        "provenance": [
+          {
+            "source": "manual",
+            "identifier": "NMPA approval 22 June 2026 — third line and later CLDN18.2-positive HER2-negative gastric/GEJ",
+            "url": "https://www.onclive.com/view/china-s-nmpa-approves-first-car-t-cell-therapy-for-cldn18--2-her2-advanced-gastric-gej-adenocarcinoma",
+            "retrieved": null
+          },
+          {
+            "source": "manual",
+            "identifier": "NMPA approval 22 June 2026 — third line and later CLDN18.2-positive HER2-negative gastric/GEJ",
+            "url": "https://www.onclive.com/view/china-s-nmpa-approves-first-car-t-cell-therapy-for-cldn18--2-her2-advanced-gastric-gej-adenocarcinoma",
+            "retrieved": null
+          },
+          {
+            "source": "manual",
+            "identifier": "NMPA approval 22 June 2026 — third line and later CLDN18.2-positive HER2-negative gastric/GEJ",
+            "url": "https://www.onclive.com/view/china-s-nmpa-approves-first-car-t-cell-therapy-for-cldn18--2-her2-advanced-gastric-gej-adenocarcinoma",
+            "retrieved": null
+          }
+        ],
+        "phase_label": "Approved"
+      },
+      {
+        "name": "ZOLBETUXIMAB",
+        "sponsor": "AstraZeneca",
+        "modality": "Monoclonal antibody",
+        "action_type": "BINDING AGENT",
+        "mechanism_text": "Chimeric IgG1 against CLDN18.2; kills through ADCC and CDC",
+        "mechanism_class": "Depleting antibody (ADCC/CDC)",
+        "max_phase": 4,
+        "indications": [
+          "gastric cancer",
+          "neoplasm of esophagus",
+          "neoplasm",
+          "gastric adenocarcinoma",
+          "gastroesophageal junction adenocarcinoma",
+          "esophagogastric junction neoplasm",
+          "esophageal cancer",
+          "malignant pancreatic neoplasm",
+          "adenocarcinoma of the lower esophagus",
+          "esophageal adenocarcinoma",
+          "pancreatic adenocarcinoma",
+          "gastroesophageal adenocarcinoma",
+          "gastroesophageal junction cancer",
+          "Pharmacokinetics of Zolbetuximab",
+          "Pharmacokinetics of Oxaliplatin",
+          "Pharmacokinetics of Fluorouracil Bolus (5-FU)",
+          "Locally Advanced Unresectable Gastroesophageal Junction (GEJ) Adenocarcinoma Cancer",
+          "Gastric Cancer Adenocarcinoma Metastatic",
+          "Advanced Biliary Tract Cancer",
+          "Solid Tumors",
+          "CLDN18.2-positive Adenocarcinoma of Esophagus",
+          "HER2 + Gastric Cancer",
+          "GC/GEJC",
+          "GastroEsophageal Cancer",
+          "Gastric or Gastro-esophageal Junction (GEJ) Adenocarcinoma",
+          "Stomach Neoplasm",
+          "Gastric (Stomach) Cancer"
+        ],
+        "indication_phase": {
+          "gastric cancer": 3,
+          "neoplasm of esophagus": 4,
+          "neoplasm": 3,
+          "gastric adenocarcinoma": 3,
+          "gastroesophageal junction adenocarcinoma": 3,
+          "esophagogastric junction neoplasm": 4,
+          "esophageal cancer": 3,
+          "malignant pancreatic neoplasm": 2,
+          "adenocarcinoma of the lower esophagus": 2,
+          "esophageal adenocarcinoma": 4,
+          "pancreatic adenocarcinoma": 2,
+          "gastroesophageal adenocarcinoma": 3,
+          "gastroesophageal junction cancer": 3,
+          "Pharmacokinetics of Zolbetuximab": 2,
+          "Pharmacokinetics of Oxaliplatin": 2,
+          "Pharmacokinetics of Fluorouracil Bolus (5-FU)": 2,
+          "Locally Advanced Unresectable Gastroesophageal Junction (GEJ) Adenocarcinoma Cancer": 3,
+          "Gastric Cancer Adenocarcinoma Metastatic": 3,
+          "Advanced Biliary Tract Cancer": 2,
+          "Solid Tumors": 2,
+          "CLDN18.2-positive Adenocarcinoma of Esophagus": 2,
+          "HER2 + Gastric Cancer": 2,
+          "GC/GEJC": 2,
+          "GastroEsophageal Cancer": 2,
+          "Gastric or Gastro-esophageal Junction (GEJ) Adenocarcinoma": 1,
+          "Stomach Neoplasm": 2,
+          "Gastric (Stomach) Cancer": 2
+        },
+        "trials": [
+          "NCT07290985",
+          "NCT03505320",
+          "NCT03504397",
+          "NCT06396091",
+          "NCT07723534",
+          "NCT03653507",
+          "NCT07431281",
+          "NCT00909025",
+          "NCT01197885",
+          "NCT01671774",
+          "NCT06901531",
+          "NCT06881017",
+          "NCT06048081",
+          "NCT01630083",
+          "NCT06962137",
+          "NCT07680569",
+          "NCT06468280",
+          "NCT04086758",
+          "NCT06732856",
+          "NCT03816163",
+          "NCT03528629",
+          "NCT06902545"
+        ],
+        "chembl_id": "CHEMBL2109427",
+        "drug_id": "CHEMBL2109427",
+        "synonyms": [
+          "Claudiximab",
+          "IMAB-362",
+          "IMAB362",
+          "Vyloy",
+          "Zolbetuximab",
+          "Zolbetuximab-clzb",
+          "VYLOY"
+        ],
+        "first_approval": null,
+        "withdrawn": false,
+        "is_active": true,
+        "named_by_class": false,
+        "provenance": [
+          {
+            "source": "opentargets",
+            "identifier": "CHEMBL2109427",
+            "url": "https://platform.opentargets.org/drug/CHEMBL2109427",
+            "retrieved": null
+          },
+          {
+            "source": "chembl",
+            "identifier": "CHEMBL2109427",
+            "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2109427/",
+            "retrieved": null
+          },
+          {
+            "source": "manual",
+            "identifier": "Phase correction only: FDA approved Vyloy on 21 October 2024, and Open Targets still records this programme at Phase 3",
+            "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma",
+            "retrieved": null
+          },
+          {
+            "source": "manual",
+            "identifier": "Phase correction only: FDA approved Vyloy on 21 October 2024, and Open Targets still records this programme at Phase 3",
+            "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma",
+            "retrieved": null
+          },
+          {
+            "source": "manual",
+            "identifier": "Phase correction only: FDA approved Vyloy on 21 October 2024, and Open Targets still records this programme at Phase 3",
+            "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma",
+            "retrieved": null
+          }
+        ],
+        "phase_label": "Approved"
+      }
+    ],
+    "n_approved": 2,
+    "n_withdrawn": 0,
+    "n_phase3": 4,
+    "n_controlled_running": 6,
+    "n_science_failures": 0,
+    "genetic_score": 0.419,
+    "genetic_disease": "retinal disorder"
+  },
+  "readouts": {
+    "n_trials": 22,
+    "n_active": 16,
+    "n_controlled": 6,
+    "n_confirmatory": 3,
+    "n_undescribed": 1,
+    "by_level": {
+      "confirmatory": 3,
+      "controlled": 3,
+      "signal": 6,
+      "dose": 3,
+      "unclear": 1
+    },
+    "level_labels": {
+      "confirmatory": "Confirmatory",
+      "controlled": "Controlled",
+      "signal": "Signal-generating",
+      "dose": "Dose and safety",
+      "mechanistic": "Mechanistic",
+      "unclear": "Design not stated"
+    },
+    "verdict": "22 trials on record, 16 still running. 6 of those are controlled efficacy studies; the other 10 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
+    "catalysts": [
+      {
+        "nct_id": "NCT06901531",
+        "title": "A Study of Zolbetuximab Together With Pembrolizumab and Chemotherapy in Adults With Gastric Cancer",
+        "sponsor": "Astellas Pharma Global Development, Inc.",
+        "phase": 3,
+        "phase_label": "Phase 3",
+        "date": "2027-03-31",
+        "date_iso": "2027-03-31",
+        "estimated": true,
+        "months_away": 6,
+        "conditions": [
+          "Locally Advanced Unresectable Gastroesophageal Junction (GEJ) Adenocarcinoma or Cancer",
+          "Locally Advanced Unresectable Gastric Adenocarcinoma or Cancer",
+          "Metastatic Gastric Adenocarcinoma or Cancer"
+        ],
+        "level": "confirmatory",
+        "level_label": "Confirmatory",
+        "note": "Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation.",
+        "endpoints": [
+          "Overall Survival (OS)"
+        ],
+        "endpoint_label": "Hard clinical outcome",
+        "url": "https://clinicaltrials.gov/study/NCT06901531"
+      },
+      {
+        "nct_id": "NCT03505320",
+        "title": "A Study of Zolbetuximab (IMAB362) in Adults With Gastric Cancer",
+        "sponsor": "Astellas Pharma Global Development, Inc.",
+        "phase": 2,
+        "phase_label": "Phase 2",
+        "date": "2027-06-30",
+        "date_iso": "2027-06-30",
+        "estimated": true,
+        "months_away": 9,
+        "conditions": [
+          "Pharmacokinetics of Zolbetuximab",
+          "Gastric Cancer",
+          "Gastro-esophageal Junction (GEJ) Cancer"
+        ],
+        "level": "signal",
+        "level_label": "Signal-generating",
+        "note": "An efficacy endpoint without a stated randomisation. A positive result is a signal to follow, not a controlled comparison.",
+        "endpoints": [
+          "Objective Response Rate (ORR) of zolbetuximab as a single agent by central review (Cohort 1)"
+        ],
+        "endpoint_label": "Accepted surrogate",
+        "url": "https://clinicaltrials.gov/study/NCT03505320"
+      },
+      {
+        "nct_id": "NCT06468280",
+        "title": "Synergistic Effects of PD-1 Antibody and Chemotherapy/Targeted Therapy Followed by Surgery-centric Local Treatment in Patients With Limited-metastatic Gastric Cancer",
+        "sponsor": "Shanghai Zhongshan Hospital",
+        "phase": 2,
+        "phase_label": "Phase 2",
+        "date": "2027-12",
+        "date_iso": "2027-12-01",
+        "estimated": true,
+        "months_away": 15,
+        "conditions": [
+          "Gastric Cancer",
+          "GastroEsophageal Cancer"
+        ],
+        "level": "controlled",
+        "level_label": "Controlled",
+        "note": "Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question.",
+        "endpoints": [
+          "Event-Free Survival (EFS) Rate"
+        ],
+        "endpoint_label": "Accepted surrogate",
+        "url": "https://clinicaltrials.gov/study/NCT06468280"
+      },
+      {
+        "nct_id": "NCT07680569",
+        "title": "Phase Ib/IIa Open-label Study, to Evaluate Safety, Tolerability, and Antitumor Activity of HCB101 in Combination With Multiple Agents in Subjects With Advanced Gastric or Gastro-esophageal (GEJ) Adenocarcinoma",
+        "sponsor": "Kaohsiung Medical University Chung-Ho Memorial Hospital",
+        "phase": 2,
+        "phase_label": "Phase 2",
+        "date": "2027-12",
+        "date_iso": "2027-12-01",
+        "estimated": true,
+        "months_away": 15,
+        "conditions": [
+          "GC/GEJC"
+        ],
+        "level": "dose",
+        "level_label": "Dose and safety",
+        "note": "Registered at Phase 2 with a safety or operational primary endpoint. Whatever else this study collects, its registered question is not whether the drug works.",
+        "endpoints": [
+          "Number/incidence and percentage of subjects with AEs, SAEs and TEAEs.",
+          "MTD or RP2D of HCB101 in combination therapy"
+        ],
+        "endpoint_label": "Safety / tolerability",
+        "url": "https://clinicaltrials.gov/study/NCT07680569"
+      },
+      {
+        "nct_id": "NCT06732856",
+        "title": "A Phase Ib/II Trial of Neoadjuvant Zolbetuximab Plus Docetaxel, Oxaliplatin and S-1 Chemotherapy in Patients With Locally Advanced Gastric Cancer",
+        "sponsor": "Asan Medical Center",
+        "phase": 2,
+        "phase_label": "Phase 2",
+        "date": "2027-12-31",
+        "date_iso": "2027-12-31",
+        "estimated": true,
+        "months_away": 15,
+        "conditions": [
+          "Stomach Neoplasm",
+          "Gastric (Stomach) Cancer"
+        ],
+        "level": "dose",
+        "level_label": "Dose and safety",
+        "note": "Registered at Phase 2 with a safety or operational primary endpoint. Whatever else this study collects, its registered question is not whether the drug works.",
+        "endpoints": [
+          "Evaluation of R0 resection rate in patients who underwent prior chemotherapy as a clinical trial.(phase II part)",
+          "Recommended phase 2 dose (RP2D) (phase Ib part)"
+        ],
+        "endpoint_label": "Safety / tolerability",
+        "url": "https://clinicaltrials.gov/study/NCT06732856"
+      },
+      {
+        "nct_id": "NCT07290985",
+        "title": "AACR Adaptive Biomarker-Driven Organ Preservation Trial in Gastroesophageal Adenocarcinomas",
+        "sponsor": "American Association for Cancer Research",
+        "phase": 2,
+        "phase_label": "Phase 2",
+        "date": "2028-06-01",
+        "date_iso": "2028-06-01",
+        "estimated": true,
+        "months_away": 21,
+        "conditions": [
+          "Gastroesophageal Adenocarcinoma"
+        ],
+        "level": "signal",
+        "level_label": "Signal-generating",
+        "note": "Single-arm with an efficacy endpoint. There is no comparator, so the result cannot separate the drug from patient selection or the natural history of the disease. In oncology a single-arm response rate can still support accelerated approval; everywhere else, treat it as a hypothesis.",
+        "endpoints": [
+          "Pathological Complete Response (pathCR) Rate (Stage I).",
+          "Organ Preservation Rate (Stage II)"
+        ],
+        "endpoint_label": "Accepted surrogate",
+        "url": "https://clinicaltrials.gov/study/NCT07290985"
+      },
+      {
+        "nct_id": "NCT07723534",
+        "title": "Zolbetuximab With mFOLFOX6 or CAPOX in Claudin 18.2 Overexpressed Advanced or Metastatic Biliary Tract Cancers",
+        "sponsor": "Midhun Malla",
+        "phase": 2,
+        "phase_label": "Phase 2",
+        "date": "2029-02",
+        "date_iso": "2029-02-01",
+        "estimated": true,
+        "months_away": 29,
+        "conditions": [
+          "Advanced Biliary Tract Cancer",
+          "Metastatic Biliary Tract Carcinoma"
+        ],
+        "level": "signal",
+        "level_label": "Signal-generating",
+        "note": "Single-arm with an efficacy endpoint. There is no comparator, so the result cannot separate the drug from patient selection or the natural history of the disease. In oncology a single-arm response rate can still support accelerated approval; everywhere else, treat it as a hypothesis.",
+        "endpoints": [
+          "Progression free survival (PFS) rate"
+        ],
+        "endpoint_label": "Accepted surrogate",
+        "url": "https://clinicaltrials.gov/study/NCT07723534"
+      },
+      {
+        "nct_id": "NCT06881017",
+        "title": "Establishment of Precision Targeted Therapy Strategies for Advanced Gastric Cancer Based on Novel Molecular Subtyping",
+        "sponsor": "China Medical University, China",
+        "phase": 2,
+        "phase_label": "Phase 2",
+        "date": "2029-08-01",
+        "date_iso": "2029-08-01",
+        "estimated": true,
+        "months_away": 35,
+        "conditions": [
+          "Gastric Cancer",
+          "HER2 + Gastric Cancer",
+          "CLDN18.2-positive Adenocarcinoma of the Gastroesophageal Junction"
+        ],
+        "level": "signal",
+        "level_label": "Signal-generating",
+        "note": "An efficacy endpoint without a stated randomisation. A positive result is a signal to follow, not a controlled comparison.",
+        "endpoints": [
+          "ORR"
+        ],
+        "endpoint_label": "Accepted surrogate",
+        "url": "https://clinicaltrials.gov/study/NCT06881017"
+      }
+    ],
+    "next_catalyst": {
+      "nct_id": "NCT06901531",
+      "title": "A Study of Zolbetuximab Together With Pembrolizumab and Chemotherapy in Adults With Gastric Cancer",
+      "sponsor": "Astellas Pharma Global Development, Inc.",
+      "phase": 3,
+      "phase_label": "Phase 3",
+      "date": "2027-03-31",
+      "date_iso": "2027-03-31",
+      "estimated": true,
+      "months_away": 6,
+      "conditions": [
+        "Locally Advanced Unresectable Gastroesophageal Junction (GEJ) Adenocarcinoma or Cancer",
+        "Locally Advanced Unresectable Gastric Adenocarcinoma or Cancer",
+        "Metastatic Gastric Adenocarcinoma or Cancer"
+      ],
+      "level": "confirmatory",
+      "level_label": "Confirmatory",
+      "note": "Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation.",
+      "endpoints": [
+        "Overall Survival (OS)"
+      ],
+      "endpoint_label": "Hard clinical outcome",
+      "url": "https://clinicaltrials.gov/study/NCT06901531",
+      "is_interpretable": true
+    }
+  },
+  "modalities": [
+    {
+      "key": "Antibody-drug conjugate",
+      "what": "An antibody used as a delivery vehicle: it carries a cytotoxic payload, is taken into the cell, and releases the payload inside.",
+      "requires": [
+        "Surface expression, AND internalisation after binding. This is the requirement people forget. A non-internalising antigen cannot deliver a payload, however specific the antibody is.",
+        "A real expression differential against normal tissue — the payload is toxic to any cell it enters.",
+        "High enough antigen copy number; the delivered dose scales with it."
+      ],
+      "fails": [
+        "Payload toxicity sets the dose, not the antibody. Neutropenia, ocular toxicity and interstitial lung disease are the recurring dose-limiters, and they are largely payload-class effects you can predict in advance.",
+        "Linker instability releasing payload in circulation, which converts a targeted drug into a systemic chemotherapy.",
+        "A narrow therapeutic index that looks fine in xenografts and disappears in patients with normal-tissue expression."
+      ],
+      "economics": "≈2.5–4 years and $40–90M to first-in-human. Manufacturing and COGS are materially higher than a naked antibody — worth modelling early.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Annotated at the cell surface (surface).",
+      "in_use": true,
+      "speculative": false
+    },
+    {
+      "key": "Cell therapy (CAR-T)",
+      "what": "A patient's or donor's T cells engineered with a receptor against a surface antigen, expanded, and infused back as a living drug.",
+      "requires": [
+        "Surface expression with near-absolute tissue restriction. The cells persist and multiply, so there is no dose to back off — anything the CAR recognises will be destroyed for as long as the cells live.",
+        "The antigen is present on essentially every malignant cell, or escape is immediate.",
+        "A tolerable consequence if the normal tissue carrying the antigen is also destroyed — B-cell aplasia after CD19 is survivable, and that is why CD19 worked first."
+      ],
+      "fails": [
+        "On-target off-tumour toxicity, which in this modality has been fatal rather than dose-limiting.",
+        "Antigen escape driving relapse after deep remission.",
+        "The solid-tumour wall: trafficking, persistence and an immunosuppressive microenvironment. Success remains overwhelmingly haematological.",
+        "Manufacturing — vein-to-vein time, failure rates and cost of goods are commercial risks, not technical footnotes."
+      ],
+      "economics": "≈3–5 years and $50–150M to meaningful clinical data, with process development a large fraction of it. Any seed plan much shorter than this is worth interrogating.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Annotated at the cell surface (surface).",
+      "in_use": true,
+      "speculative": false
+    },
+    {
+      "key": "Monoclonal antibody",
+      "what": "A single antibody binding one epitope, used to block a receptor or ligand, or to kill the cell it is bound to through Fc-mediated effector function.",
+      "requires": [
+        "The target is on the cell surface or secreted. An antibody cannot cross the plasma membrane, so an intracellular target rules the modality out entirely.",
+        "The epitope is accessible on the folded protein in vivo, not only on a recombinant fragment.",
+        "For blockade: the interaction being blocked is rate-limiting for the disease. Antibodies are exquisite blockers of a single interaction and useless against a redundant pathway."
+      ],
+      "fails": [
+        "The biology, not the molecule. Antibody CMC and safety are now routine; the great majority of antibody failures are the target being wrong.",
+        "Soluble decoy: a shed extracellular domain circulating in patients absorbs drug and flattens the dose-response.",
+        "Poor tissue penetration in solid tumours and behind the blood-brain barrier (roughly 0.1% of a systemic dose reaches the CNS)."
+      ],
+      "economics": "≈18–30 months and $15–40M from lead to first-in-human data.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Reachable from outside the cell (surface).",
+      "in_use": true,
+      "speculative": false
+    },
+    {
+      "key": "Bispecific antibody",
+      "what": "Two binding arms in one molecule: either blocking two pathways at once, or — far more commonly now — dragging a T cell onto a tumour cell by binding CD3 with one arm and a tumour antigen with the other.",
+      "requires": [
+        "Surface expression, as for any antibody.",
+        "For a T-cell engager: expression genuinely restricted to the target tissue. There is no therapeutic index to spend — the drug recruits a cytotoxic T cell to whatever it binds, so low-level expression on a vital tissue is lethal, not tolerable.",
+        "Enough antigen density to form a synapse, and little antigen shedding."
+      ],
+      "fails": [
+        "On-target off-tumour toxicity — the dominant cause of death for this class.",
+        "Cytokine release syndrome forcing step-up dosing, which lengthens every trial.",
+        "Antigen loss under treatment pressure, giving deep early responses that do not last."
+      ],
+      "economics": "≈2–3 years and $25–60M to first-in-human; the dose-escalation is slower than a plain antibody because of step-up dosing.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Annotated at the cell surface (surface).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Fc-fusion / ligand trap",
+      "what": "The receptor's binding domain fused to an antibody Fc, used to mop up a soluble ligand before it reaches its receptor.",
+      "requires": [
+        "The ligand is soluble and is the rate-limiting element — trapping does nothing against a membrane-bound or juxtacrine signal.",
+        "The trap does not also sequester a ligand you need."
+      ],
+      "fails": [
+        "Ligand redundancy: a trap for one cytokine in a family where three do the same job produces a clean pharmacodynamic result and no clinical effect.",
+        "Very high ligand turnover demanding impractical doses."
+      ],
+      "economics": "Similar to a monoclonal antibody. Often faster, because the binding domain is the native sequence rather than a discovery problem.",
+      "bd_note": "Commercially this is the modality that most often sits in a different patent estate from the receptor antibodies on the same axis — worth checking when a target looks crowded on paper.",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Reachable from outside the cell (surface).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Oligonucleotide",
+      "what": "A short nucleic acid that degrades or blocks the target's mRNA, lowering the amount of protein made rather than blocking the protein itself.",
+      "requires": [
+        "Only that the target is a gene. Protein structure is irrelevant, so 'undruggable' in the small-molecule sense does not apply — this is the modality's whole appeal.",
+        "That the disease-relevant tissue can be reached. This is the entire risk. GalNAc conjugation makes hepatocyte targets close to routine; intrathecal dosing reaches the CNS; the eye is feasible. Most other tissues are still an open delivery problem.",
+        "That lowering the protein is therapeutic — a loss-of-function target, not a gain-of-function one."
+      ],
+      "fails": [
+        "Delivery, overwhelmingly. A programme aimed outside liver, CNS and eye is underwriting a delivery invention, and should be priced as one.",
+        "Durable knockdown creating durable toxicity, with no way to withdraw the drug.",
+        "Hepatotoxicity and thrombocytopenia as class effects for some chemistries."
+      ],
+      "economics": "≈2–3 years and $15–35M to first-in-human for a liver target, and considerably more anywhere else. Discovery is fast because the sequence is designed rather than screened.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Peptide",
+      "what": "A short chain of amino acids, typically engaging an extracellular receptor or a protein–protein interface too flat for a small molecule.",
+      "requires": [
+        "An extracellular or accessible binding site, unless a cell-penetrating strategy is part of the plan.",
+        "A tolerable half-life, which usually means engineering — lipidation, cyclisation or fusion. Native peptides are cleared in minutes."
+      ],
+      "fails": [
+        "Pharmacokinetics rather than pharmacology.",
+        "Injection-only delivery in an oral market, which caps commercial value even when the biology works."
+      ],
+      "economics": "≈2–3 years and $10–30M to first-in-human.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Reachable from outside the cell (surface).",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Small molecule",
+      "what": "A synthetic compound, usually under 500 daltons, binding a pocket on the target to block or modulate its activity.",
+      "requires": [
+        "A defined binding pocket. Enzymes, GPCRs, ion channels and nuclear receptors have one; flat protein–protein interfaces and scaffolding proteins largely do not, which is what 'undruggable' has historically meant.",
+        "Selectivity that is achievable against the rest of the family — the practical constraint on most kinase programmes."
+      ],
+      "fails": [
+        "Off-target and family cross-reactivity producing dose-limiting toxicity before the target is fully engaged.",
+        "Idiosyncratic hepatotoxicity, which appears late and kills programmes at Phase 2–3.",
+        "Resistance mutations in the pocket, in oncology and infectious disease."
+      ],
+      "economics": "≈3–5 years and $10–30M from hit to first-in-human — cheaper per step than a biologic, with a longer discovery phase.",
+      "bd_note": "The only class here that routinely reaches intracellular targets and the CNS, and the only one where oral dosing is the default. Both matter more to commercial value than potency does.",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Molecular glue / degrader",
+      "what": "A small molecule that forces the target into contact with an E3 ubiquitin ligase, so the cell's own machinery destroys it. Removing the protein rather than inhibiting it.",
+      "requires": [
+        "An intracellular target — the machinery is cytoplasmic.",
+        "A ligandable surface anywhere on the protein. Crucially this need NOT be a functional active site, which is why degraders reach scaffolding and transcription-factor targets that defeated inhibitors.",
+        "The relevant E3 ligase is expressed in the tissue you are treating. Cereblon and VHL are the workhorses and their expression is not uniform."
+      ],
+      "fails": [
+        "Drug-like properties: bifunctional degraders are large and greasy, and oral bioavailability is the recurring reason a good degrader never becomes a drug. Monovalent glues avoid much of this and are correspondingly sought after.",
+        "The hook effect — too much drug forms binary rather than ternary complexes and degradation falls off at high dose, inverting the usual dose intuition.",
+        "Resistance through loss of the E3 ligase itself, seen clinically with cereblon."
+      ],
+      "economics": "≈3–5 years to first-in-human. Ternary-complex optimisation is the long pole; budget more medicinal chemistry than a conventional inhibitor.",
+      "bd_note": "The reason to care commercially: a degrader can open a target that an inhibitor could not, which resets the competitive clock on a mechanism that otherwise looks worked-out.",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated surface. The ubiquitin–proteasome system cannot reach a protein outside the cell.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Gene therapy",
+      "what": "A viral vector delivering a working copy of a gene, intended as a single administration.",
+      "requires": [
+        "Monogenic loss-of-function biology with a well-understood causal gene.",
+        "A tissue an AAV serotype actually reaches, at a dose that is safe.",
+        "Patients without pre-existing neutralising antibodies to the capsid, which excludes a large fraction of any population."
+      ],
+      "fails": [
+        "Dose-dependent hepatotoxicity and complement activation at the high systemic doses that non-CNS, non-ocular tissues require.",
+        "One-shot dosing with no redose path if expression fades.",
+        "A commercial model that has repeatedly failed on tiny populations and very high prices — a real diligence issue, not only a scientific one."
+      ],
+      "economics": "≈4–6 years and $80M+ to clinical data; CMC dominates the budget.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    },
+    {
+      "key": "Vaccine",
+      "what": "An immunogen intended to raise the patient's own immune response against the target or the cells carrying it.",
+      "requires": [
+        "The target is immunogenic and not subject to central tolerance — the recurring obstacle for self-antigen cancer vaccines.",
+        "A patient population with an immune system intact enough to respond."
+      ],
+      "fails": [
+        "Immune responses that are measurable and clinically inert — the most common outcome in therapeutic cancer vaccines.",
+        "Long, large, slow efficacy trials that are expensive to run."
+      ],
+      "economics": "Highly variable. Prophylactic trials are among the largest in medicine.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    },
+    {
+      "key": "mRNA",
+      "what": "Delivered mRNA instructing the patient's own cells to make a protein — a vaccine antigen, a missing enzyme, or a therapeutic antibody.",
+      "requires": [
+        "That ADDING protein helps. This inverts the usual target logic: mRNA suits loss-of-function biology, and has nothing to offer against a target you want to block.",
+        "That transient expression is enough, or that repeat dosing is tolerable.",
+        "A delivery route to the relevant tissue — in practice muscle for vaccines and liver for systemic LNPs."
+      ],
+      "fails": [
+        "Durability: expression is measured in days, so chronic replacement means chronic redosing.",
+        "Reactogenicity from the lipid nanoparticle, which limits dose.",
+        "Redosing immunogenicity against the carrier."
+      ],
+      "economics": "Fast to a first construct — weeks — and slow through CMC. ≈2–3 years and $20–50M to first-in-human outside the vaccine setting.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    }
+  ],
+  "literature": {
+    "reviews": [
+      {
+        "title": "Claudins: Gatekeepers of lung epithelial function",
+        "authors": "Schlingmann B, Molina SA, Koval M.",
+        "journal": "Semin Cell Dev Biol",
+        "year": "2015",
+        "pmid": "25951797",
+        "doi": "10.1016/j.semcdb.2015.04.009",
+        "citations": 150,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/25951797"
+      },
+      {
+        "title": "Claudins and Gastric Cancer: An Overview",
+        "authors": "Hashimoto I, Oshima T.",
+        "journal": "Cancers (Basel)",
+        "year": "2022",
+        "pmid": "35053454",
+        "doi": "10.3390/cancers14020290",
+        "citations": 123,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/35053454"
+      },
+      {
+        "title": "Claudin heterogeneity and control of lung tight junctions",
+        "authors": "Koval M.",
+        "journal": "Annu Rev Physiol",
+        "year": "2013",
+        "pmid": "23072447",
+        "doi": "10.1146/annurev-physiol-030212-183809",
+        "citations": 118,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/23072447"
+      },
+      {
+        "title": "Molecular pathology of gastric cancer: research and practice",
+        "authors": "Yasui W, Sentani K, Sakamoto N, Anami K, Naito Y, Oue N.",
+        "journal": "Pathol Res Pract",
+        "year": "2011",
+        "pmid": "22005013",
+        "doi": "10.1016/j.prp.2011.09.006",
+        "citations": 100,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/22005013"
+      },
+      {
+        "title": "DNA Methylation and Genetic Aberrations in Gastric Cancer",
+        "authors": "Usui G, Matsusaka K, Mano Y, Urabe M, Funata S, Fukayama M, Ushiku T, Kaneda A.",
+        "journal": "Digestion",
+        "year": "2021",
+        "pmid": "33070127",
+        "doi": "10.1159/000511243",
+        "citations": 92,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/33070127"
+      }
+    ],
+    "mechanism": [
+      {
+        "title": "Zolbetuximab plus mFOLFOX6 in patients with CLDN18.2-positive, HER2-negative, untreated, locally advanced unresectable or metastatic gastric or gastro-oesophageal junction adenocarcinoma (SPOTLIGHT): a multicentre, randomised, double-blind, phase 3 trial",
+        "authors": "Shitara K, Lordick F, Bang YJ, Enzinger P, Ilson D, Shah MA, Van Cutsem E, Xu RH, Aprile G, Xu J, Chao J, Pazo-Cid R, Kang YK, Yang J, Moran D, Bhattacharya P, Arozullah A, Park JW, Oh M, Ajani JA.",
+        "journal": "Lancet",
+        "year": "2023",
+        "pmid": "37068504",
+        "doi": "10.1016/s0140-6736(23)00620-7",
+        "citations": 669,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/37068504"
+      },
+      {
+        "title": "Zolbetuximab plus CAPOX in CLDN18.2-positive gastric or gastroesophageal junction adenocarcinoma: the randomized, phase 3 GLOW trial",
+        "authors": "Shah MA, Shitara K, Ajani JA, Bang YJ, Enzinger P, Ilson D, Lordick F, Van Cutsem E, Gallego Plazas J, Huang J, Shen L, Oh SC, Sunpaweravong P, Soo Hoo HF, Turk HM, Oh M, Park JW, Moran D, Bhattacharya P, Arozullah A, Xu RH.",
+        "journal": "Nat Med",
+        "year": "2023",
+        "pmid": "37524953",
+        "doi": "10.1038/s41591-023-02465-7",
+        "citations": 531,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/37524953"
+      },
+      {
+        "title": "Claudins and Gastric Cancer: An Overview",
+        "authors": "Hashimoto I, Oshima T.",
+        "journal": "Cancers (Basel)",
+        "year": "2022",
+        "pmid": "35053454",
+        "doi": "10.3390/cancers14020290",
+        "citations": 123,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/35053454"
+      },
+      {
+        "title": "The dawn of precision medicine in diffuse-type gastric cancer",
+        "authors": "Ooki A, Yamaguchi K.",
+        "journal": "Ther Adv Med Oncol",
+        "year": "2022",
+        "pmid": "35281349",
+        "doi": "10.1177/17588359221083049",
+        "citations": 41,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/35281349"
+      },
+      {
+        "title": "Colitis-associated colorectal adenocarcinomas frequently express claudin 18 isoform 2: implications for claudin 18.2 monoclonal antibody therapy",
+        "authors": "Iwaya M, Hayashi H, Nakajima T, Matsuda K, Kinugawa Y, Tobe Y, Tateishi Y, Iwaya Y, Uehara T, Ota H.",
+        "journal": "Histopathology",
+        "year": "2021",
+        "pmid": "33590909",
+        "doi": "10.1111/his.14358",
+        "citations": 33,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/33590909"
+      }
+    ],
+    "search_url": "https://europepmc.org/search?query=(TITLE_ABS:\"CLDN18\"%20OR%20TITLE_ABS:\"Claudin-18\"%20OR%20TITLE_ABS:\"SFTA5\"%20OR%20TITLE_ABS:\"SFTPJ\")",
+    "note": "Reviews ranked by citation count; mechanism papers restricted to the last five years first, then ranked, so the list reflects current work rather than the field's founding papers."
+  },
+  "annotation": {
+    "accession": "P56856",
+    "entry_name": "CLD18_HUMAN",
+    "protein_name": "Claudin-18",
+    "gene_names": [
+      "CLDN18"
+    ],
+    "function": [
+      {
+        "text": "Involved in alveolar fluid homeostasis via regulation of alveolar epithelial tight junction composition and therefore ion transport and solute permeability, potentially via downstream regulation of the actin cytoskeleton organization and beta-2-adrenergic signaling. Required for lung alveolarization and maintenance of the paracellular alveolar epithelial barrier. Acts to maintain epithelial progenitor cell proliferation and organ size, via regulation of YAP1 localization away from the nucleus and thereby restriction of YAP1 target gene transcription. Acts as a negative regulator of RANKL-induced osteoclast differentiation, potentially via relocation of TJP2/ZO-2 away from the nucleus, subsequently involved in bone resorption in response to calcium deficiency. Mediates the osteoprotective effects of estrogen, potentially via acting downstream of estrogen signaling independently of RANKL signaling pathways",
+        "pmids": []
+      },
+      {
+        "text": "Involved in the maintenance of homeostasis of the alveolar microenvironment via regulation of pH and subsequent T-cell activation in the alveolar space, is therefore indirectly involved in limiting C.neoformans infection",
+        "pmids": []
+      },
+      {
+        "text": "Required for the formation of the gastric paracellular barrier via its role in tight junction formation, thereby involved in the response to gastric acidification",
+        "pmids": []
+      }
+    ],
+    "subunit": [
+      {
+        "text": "Interacts with TJP2/ZO-2. Interacts with TJP1/ZO-1. Interacts with YAP1 (phosphorylated); the interaction sequesters YAP1 away from the nucleus and thereby restricts transcription of YAP1 target genes",
+        "pmids": []
+      },
+      {
+        "text": "Interacts with CLDN19",
+        "pmids": [
+          "19706394"
+        ]
+      }
+    ],
+    "domains": [],
+    "disease": [],
+    "n_citations": 6,
+    "url": "https://www.uniprot.org/uniprotkb/P56856",
+    "licence": "UniProt Knowledgebase (Swiss-Prot), CC BY 4.0",
+    "brief": {
+      "segments": [
+        {
+          "kind": "function",
+          "text": "Involved in alveolar fluid homeostasis via regulation of alveolar epithelial tight junction composition and therefore ion transport and solute permeability, potentially via downstream regulation of the actin cytoskeleton organization and beta-2-adrenergic signaling. Required for lung alveolarization and maintenance of the paracellular alveolar epithelial barrier. Acts to maintain epithelial progenitor cell proliferation and organ size, via regulation of YAP1 localization away from the nucleus and thereby restriction of YAP1 target gene transcription.",
+          "pmids": []
+        },
+        {
+          "kind": "subunit",
+          "text": "Interacts with TJP2/ZO-2. Interacts with TJP1/ZO-1.",
+          "pmids": []
+        }
+      ],
+      "text": "Involved in alveolar fluid homeostasis via regulation of alveolar epithelial tight junction composition and therefore ion transport and solute permeability, potentially via downstream regulation of the actin cytoskeleton organization and beta-2-adrenergic signaling. Required for lung alveolarization and maintenance of the paracellular alveolar epithelial barrier. Acts to maintain epithelial progenitor cell proliferation and organ size, via regulation of YAP1 localization away from the nucleus and thereby restriction of YAP1 target gene transcription. Interacts with TJP2/ZO-2. Interacts with TJP1/ZO-1.",
+      "words": 77,
+      "accession": "P56856",
+      "url": "https://www.uniprot.org/uniprotkb/P56856",
+      "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)",
+      "note": "Curated by UniProt from the primary literature, not generated. Each statement links to the records the curator cited."
+    }
+  },
+  "header": {
+    "facts": [
+      {
+        "key": "class",
+        "label": "Target class",
+        "value": "Unclassified protein",
+        "note": "",
+        "pmids": []
+      },
+      {
+        "key": "function",
+        "label": "Function",
+        "value": "Involved in alveolar fluid homeostasis via regulation of alveolar epithelial tight junction composition and therefore ion transport and solute permeability, potentially via downstream regulation of the actin cytoskeleton organization and beta-2-adrenergic signaling.",
+        "note": "",
+        "pmids": []
+      },
+      {
+        "key": "location",
+        "label": "Where it sits",
+        "value": "Cell junction, tight junction, Cell membrane, Lateral cell membrane",
+        "note": "Subcellular location, which decides which modalities can physically reach it.",
+        "pmids": []
+      },
+      {
+        "key": "topology",
+        "label": "How it sits",
+        "value": "Multi-pass",
+        "note": "Membrane architecture. It constrains where an antibody can bind, not where the protein is.",
+        "pmids": []
+      },
+      {
+        "key": "development",
+        "label": "In development",
+        "value": "gastroesophageal junction adenocarcinoma, esophageal adenocarcinoma and esophagogastric junction neoplasm, and 1 more at that phase",
+        "note": "Furthest programme: Zolbetuximab (AstraZeneca), approved, Depleting antibody (ADCC/CDC). 4 mechanism classes in the table.",
+        "pmids": []
+      }
+    ],
+    "mechanism": {
+      "text": "Involved in alveolar fluid homeostasis via regulation of alveolar epithelial tight junction composition and therefore ion transport and solute permeability, potentially via downstream regulation of the actin cytoskeleton organization and beta-2-adrenergic signaling. Required for lung alveolarization and maintenance of the paracellular alveolar epithelial barrier. Acts to maintain epithelial progenitor cell proliferation and organ size, via regulation of YAP1 localization away from the nucleus and thereby restriction of YAP1 target gene transcription. Interacts with TJP2/ZO-2. Interacts with TJP1/ZO-1.",
+      "pmids": [],
+      "accession": "P56856",
+      "url": "https://www.uniprot.org/uniprotkb/P56856",
+      "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
+    },
+    "accession": "P56856",
+    "url": "https://www.uniprot.org/uniprotkb/P56856",
+    "curated_source": true,
+    "development_unknown": false,
+    "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
+  },
+  "diagram": {
+    "svg": "<svg viewBox=\"0 0 720 332\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How CLDN18 is being drugged</title><desc id=\"tl-diagram-desc\">CLDN18 is in the plasma membrane. 4 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"126\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"116\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"172\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"58\" x2=\"538\" y2=\"139\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"53\" class=\"tl-arrow-label\">Depleting antibody (ADCC/CDC)</text><text x=\"24\" y=\"74\" class=\"tl-arrow-detail\">3 assets · Approved · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"130\" x2=\"538\" y2=\"139\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"125\" class=\"tl-arrow-label\">Cell therapy — target-directed CAR</text><text x=\"24\" y=\"146\" class=\"tl-arrow-detail\">1 asset · Approved · Cell therapy (CAR-T)</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"202\" x2=\"538\" y2=\"139\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"197\" class=\"tl-arrow-label\">ADC — payload delivery</text><text x=\"24\" y=\"218\" class=\"tl-arrow-detail\">2 assets · Phase 3 · Antibody-drug conjugate</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"274\" x2=\"538\" y2=\"139\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"269\" class=\"tl-arrow-label\">Blocking antibody</text><text x=\"24\" y=\"290\" class=\"tl-arrow-detail\">1 asset · Phase 3 · Monoclonal antibody</text></g><g class=\"tl-target\"><rect x=\"574\" y=\"113\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"99\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"104\" class=\"tl-protein-label\">CLDN18</text></g></svg>",
+    "title": "How CLDN18 is being drugged",
+    "caption": "CLDN18 is in the plasma membrane. 4 mechanism classes are represented in the asset table, the most advanced reaching Approved.",
+    "placement": "in the plasma membrane",
+    "target_class": [
+      "Unclassified protein"
+    ],
+    "interventions": [
+      {
+        "label": "Depleting antibody (ADCC/CDC)",
+        "n": 3,
+        "max_phase": 4,
+        "modalities": [
+          "Monoclonal antibody"
+        ],
+        "phase_label": "Approved"
+      },
+      {
+        "label": "Cell therapy — target-directed CAR",
+        "n": 1,
+        "max_phase": 4,
+        "modalities": [
+          "Cell therapy (CAR-T)"
+        ],
+        "phase_label": "Approved"
+      },
+      {
+        "label": "ADC — payload delivery",
+        "n": 2,
+        "max_phase": 3,
+        "modalities": [
+          "Antibody-drug conjugate"
+        ],
+        "phase_label": "Phase 3"
+      },
+      {
+        "label": "Blocking antibody",
+        "n": 1,
+        "max_phase": 3,
+        "modalities": [
+          "Monoclonal antibody"
+        ],
+        "phase_label": "Phase 3"
+      }
+    ],
+    "note": "Generated from the target's annotated location, its protein family, and the mechanism classes present in the asset table. Arrow weight is the furthest phase that approach has reached. It is a schematic of how the target is being drugged — not a pathway map, and it draws no interaction it has not read from the data."
+  },
+  "pathway": {},
+  "feasibility": {
+    "lines": [
+      {
+        "key": "validation",
+        "label": "Has anyone made a medicine here?",
+        "value": "2 approved drugs on this target",
+        "face": "science",
+        "detail": "Counted from approved drugs and the highest phase reached by any programme on this target. It says what has happened, not whether a new asset here is differentiated — the asset table and the mechanism split are where that is visible.",
+        "anchor": "#precedent"
+      },
+      {
+        "key": "evidence",
+        "label": "What can the running trials show?",
+        "value": "6 of 16 running trials are controlled efficacy studies · next readout 2027-03-31 (sponsor estimate)",
+        "face": "science",
+        "detail": "22 trials on record, 16 still running. 6 of those are controlled efficacy studies; the other 10 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Astellas Pharma Global Development, Inc. · A Study of Zolbetuximab Together With Pembrolizumab and Chemotherapy in Adults With Gastric Cancer — Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation.",
+        "anchor": "#readouts"
+      },
+      {
+        "key": "window",
+        "label": "How contested is it?",
+        "value": "Crowded — 7 assets, 2 already approved",
+        "face": "business",
+        "detail": "7 sponsors, phase-weighted score 23.5. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
+        "anchor": "#crowding"
+      },
+      {
+        "key": "licensing",
+        "label": "What has been licensed, and what has not?",
+        "value": "No deal on file · 7 programmes",
+        "face": "business",
+        "detail": "No deal has been entered for this target. The file is hand-maintained, so an empty one means nobody has filled it in, not that nothing has been licensed. The programme table below still shows who holds each one and how far it has gone.",
+        "anchor": "#licensing"
+      },
+      {
+        "key": "opening",
+        "label": "What has nobody tried?",
+        "value": "Untried here: Bispecific antibody, Fc-fusion / ligand trap",
+        "face": "business",
+        "detail": "Physically available against this target — the location and family allow it — and absent from the asset table. That is a modality gap rather than a proven opportunity, and the requirements listed under each one are what a company would have to satisfy.",
+        "anchor": "#modalities"
+      }
+    ],
+    "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
+  },
+  "narrative": {
+    "bottom_line": "CLDN18 carries 7 active programmes across 4 mechanism classes from 7 named sponsors, reaching Approved. Phase-weighted density scores 23.5, which this tool bands as Crowded. The most advanced asset is Satricabtagene autoleucel (CARsgen Therapeutics) at Approved.",
+    "competitive": "The field splits into 4 mechanism classes. Depleting antibody (ADCC/CDC) is the most advanced, and also the most crowded, with 3 assets.",
+    "failures": "0 of 22 trials stopped; 0 stated a reason. No stated reasons were available to classify.",
+    "whitespace": "No disease passes the whitespace screen at the configured thresholds, either because the well-evidenced indications already carry clinical assets or because association data was unavailable.",
+    "licensing": "CARsgen Therapeutics holds the most advanced programme (Approved), and is a small or private company. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",
+    "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent. Deal comparables are hand-maintained and not exhaustive.",
+    "_source": "template"
+  },
+  "generated": "2026-09-07 02:05 UTC",
+  "warnings": [],
+  "notes": [
+    "The registry search returned 2 trials that never names CLDN18 or any drug known to act on it. Those are not counted as work on this target.",
+    "1 trial name CLDN18 as a genotype or a patient-selection criterion rather than as a drug target. They are listed under trials; their drugs are not counted as programmes against this target.",
+    "21 trials on this target list drugs this record does not tie to CLDN18 -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
+  ],
+  "rules_version": "2026-09-07-directed-discovery"
+}

@@ -1,0 +1,1271 @@
+{
+  "target": {
+    "ensembl_id": "ENSG00000006062",
+    "symbol": "MAP3K14",
+    "name": "mitogen-activated protein kinase kinase kinase 14",
+    "biotype": "protein_coding",
+    "function": "Lymphotoxin beta-activated kinase which seems to be exclusively involved in the activation of NF-kappa-B and its transcriptional activity. Phosphorylates CHUK/IKKA, thereby promoting proteolytic processing of NFKB2/P100, which leads to NF-kappa-B activation via the non-canonical pathway (PubMed:25406581, PubMed:29230214). Has an essential role in the non-canonical NF-kappa-B signaling that regulates genes encoding molecules involved in B-cell survival, lymphoid organogenesis, and immune response (PubMed:25406581). Could act in a receptor-selective manner. .",
+    "synonyms": [
+      "FTDCR1B",
+      "HS",
+      "HSNIK",
+      "HsNIK",
+      "IMD112",
+      "MAP3K14",
+      "Mitogen-activated protein kinase kinase kinase 14",
+      "NF-kappa-beta-inducing kinase",
+      "NIK",
+      "Serine/threonine-protein kinase NIK",
+      "mitogen-activated protein kinase kinase kinase 14",
+      "serine/threonine protein-kinase",
+      "serine/threonine-protein kinase NIK"
+    ],
+    "tractability": {
+      "SM": [
+        "Structure with Ligand",
+        "High-Quality Ligand",
+        "Druggable Family"
+      ],
+      "PR": [
+        "UniProt Ubiquitination",
+        "Database Ubiquitination",
+        "Small Molecule Binder"
+      ]
+    },
+    "locations": [
+      "Cytoplasm",
+      "Nucleus",
+      "Vesicle"
+    ],
+    "topology": [],
+    "target_class": [
+      "Enzyme",
+      "Kinase",
+      "Protein Kinase",
+      "STE protein kinase group",
+      "STE protein kinase unique family"
+    ],
+    "provenance": [
+      {
+        "source": "opentargets",
+        "identifier": "ENSG00000006062",
+        "url": "https://platform.opentargets.org/target/ENSG00000006062",
+        "retrieved": null
+      }
+    ]
+  },
+  "assets": [],
+  "trials": [],
+  "associations": [
+    {
+      "disease_id": "MONDO_0957535",
+      "name": "immunodeficiency 112",
+      "score": 0.5743648152817822,
+      "genetic_score": 0.6839221473130737,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018642",
+      "name": "NIK deficiency",
+      "score": 0.5115032405106208,
+      "genetic_score": 0.598795419199744,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0000924",
+      "name": "Abnormality of the skeletal system",
+      "score": 0.3226601682151108,
+      "genetic_score": 0.530751476126471,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0000568",
+      "name": "autoimmune disorder of central nervous system",
+      "score": 0.2692652164826992,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004980",
+      "name": "atopic eczema",
+      "score": 0.2110606616972196,
+      "genetic_score": 0.34454494557744375,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005301",
+      "name": "multiple sclerosis",
+      "score": 0.2035528138253378,
+      "genetic_score": 0.3336974955839338,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005147",
+      "name": "type 1 diabetes mellitus",
+      "score": 0.1837932537408709,
+      "genetic_score": 0.29450438242533367,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004979",
+      "name": "asthma",
+      "score": 0.18198276143178171,
+      "genetic_score": 0.2967401725005607,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005081",
+      "name": "preeclampsia",
+      "score": 0.17162261239798943,
+      "genetic_score": 0.2672358104162676,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0001877",
+      "name": "Abnormal erythrocyte morphology",
+      "score": 0.15995152681273064,
+      "genetic_score": 0.2631081159913801,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.10566026976340359,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007256",
+      "name": "hepatocellular carcinoma",
+      "score": 0.09998106842398974,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018177",
+      "name": "glioblastoma",
+      "score": 0.09640282044623115,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0021042",
+      "name": "glioma",
+      "score": 0.09630311302900156,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0002714",
+      "name": "central nervous system cancer",
+      "score": 0.09630311302900156,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.08672991963619563,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007254",
+      "name": "breast cancer",
+      "score": 0.08632436216067985,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005105",
+      "name": "melanoma",
+      "score": 0.08549787904715797,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005292",
+      "name": "colitis",
+      "score": 0.08522971538236075,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007027",
+      "name": "metabolic dysfunction-associated steatohepatitis",
+      "score": 0.07758057017912971,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005361",
+      "name": "eosinophilic esophagitis",
+      "score": 0.07576387021036386,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0009688",
+      "name": "myasthenia gravis",
+      "score": 0.07391597093694036,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0011735",
+      "name": "hyper-IgM syndrome type 3",
+      "score": 0.07367574403139532,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005087",
+      "name": "respiratory system disorder",
+      "score": 0.07299993918960851,
+      "genetic_score": 0.11855952986106615,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0015517",
+      "name": "common variable immunodeficiency",
+      "score": 0.07081634165368524,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0010315",
+      "name": "T-B+ severe combined immunodeficiency due to gamma chain deficiency",
+      "score": 0.06970070737211985,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0016462",
+      "name": "isolated agammaglobulinemia",
+      "score": 0.06966696079255422,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0012757",
+      "name": "lung fibrosis-immunodeficiency-46,XX gonadal dysgenesis syndrome",
+      "score": 0.069168255728697,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_137631",
+      "name": "Lung fibrosis - immunodeficiency - 46,XX gonadal dysgenesis",
+      "score": 0.069168255728697,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0011225",
+      "name": "severe combined immunodeficiency due to DCLRE1C deficiency",
+      "score": 0.06870843679282679,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_277",
+      "name": "Severe combined immunodeficiency due to adenosine deaminase deficiency",
+      "score": 0.06551019539145614,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0011096",
+      "name": "autosomal agammaglobulinemia",
+      "score": 0.06503173320513848,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0011086",
+      "name": "severe combined immunodeficiency, autosomal recessive, T cell-negative, B cell-negative, NK cell-positive",
+      "score": 0.06479576673402937,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0010938",
+      "name": "T-B+ severe combined immunodeficiency due to JAK3 deficiency",
+      "score": 0.06193521865876978,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_572",
+      "name": "Immunodeficiency by defective expression of HLA class 2",
+      "score": 0.05994954822840547,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0009338",
+      "name": "hepatic veno-occlusive disease-immunodeficiency syndrome",
+      "score": 0.05972595241632123,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_79124",
+      "name": "Hepatic veno-occlusive disease - immunodeficiency",
+      "score": 0.05972595241632123,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0017979",
+      "name": "autoimmune lymphoproliferative syndrome",
+      "score": 0.059180822130661295,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0009478",
+      "name": "combined immunodeficiency due to DOCK8 deficiency",
+      "score": 0.05907364397280272,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_540",
+      "name": "Familial hemophagocytic lymphohistiocytosis",
+      "score": 0.058990950480317036,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004784",
+      "name": "allergic asthma",
+      "score": 0.05800290418449353,
+      "genetic_score": 0.09221873635560517,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_2442",
+      "name": "X-linked lymphoproliferative disease",
+      "score": 0.057985231300756286,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004948",
+      "name": "B-cell chronic lymphocytic leukemia",
+      "score": 0.05747233659131052,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0010421",
+      "name": "Bruton-type agammaglobulinemia",
+      "score": 0.05651984717693145,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_47",
+      "name": "X-linked agammaglobulinemia",
+      "score": 0.05651984717693145,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0010023",
+      "name": "combined immunodeficiency due to ZAP70 deficiency",
+      "score": 0.05583797234503818,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0007915",
+      "name": "systemic lupus erythematosus",
+      "score": 0.05563272548238496,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018646",
+      "name": "sclerosing cholangitis",
+      "score": 0.054707057989702976,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0016672",
+      "name": "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome",
+      "score": 0.0544362380850757,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_79259",
+      "name": "Glycogen storage disease due to glucose-6-phosphatase deficiency type b",
+      "score": 0.054264178130505804,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0010066",
+      "name": "familial isolated congenital asplenia",
+      "score": 0.05400670416507547,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0019338",
+      "name": "sarcoidosis",
+      "score": 0.05391061340285746,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0001952",
+      "name": "Glucose intolerance",
+      "score": 0.0539048643828957,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005271",
+      "name": "allergic disease",
+      "score": 0.05368172449117059,
+      "genetic_score": 0.0883023605681273,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0001977",
+      "name": "Abnormal thrombosis",
+      "score": 0.05368172449117059,
+      "genetic_score": 0.0883023605681273,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005015",
+      "name": "diabetes mellitus",
+      "score": 0.05353632674493688,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0001513",
+      "name": "Obesity",
+      "score": 0.05353049777479742,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0019115",
+      "name": "obesity due to melanocortin 4 receptor deficiency",
+      "score": 0.05353049777479742,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0011122",
+      "name": "obesity disorder",
+      "score": 0.05353049777479742,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_364",
+      "name": "Glycogen storage disease due to glucose-6-phosphatase deficiency",
+      "score": 0.05351516295834482,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    }
+  ],
+  "deals": [],
+  "mechanism_clusters": {},
+  "crowding": {
+    "n_total": 0,
+    "n_active": 0,
+    "n_dormant": 0,
+    "weighted_score": 0,
+    "verdict": "Open",
+    "by_phase": {},
+    "n_sponsors": 0,
+    "n_mechanism_classes": 0,
+    "lead_phase": "Unknown",
+    "weights_used": {
+      "Approved": 5.0,
+      "Phase 3": 3.0,
+      "Phase 2": 1.5,
+      "Phase 1": 0.75,
+      "Preclinical": 0.25,
+      "Unknown": 0.25
+    },
+    "bands_used": [
+      {
+        "from": 0.0,
+        "verdict": "Open"
+      },
+      {
+        "from": 2.0,
+        "verdict": "Emerging"
+      },
+      {
+        "from": 8.0,
+        "verdict": "Contested"
+      },
+      {
+        "from": 20.0,
+        "verdict": "Crowded"
+      },
+      {
+        "from": 45.0,
+        "verdict": "Saturated"
+      }
+    ],
+    "dormant_assets": [],
+    "matrix": {
+      "mechanisms": [],
+      "rows": []
+    },
+    "indications_omitted": 0
+  },
+  "failures": {
+    "n_trials": 0,
+    "n_stopped": 0,
+    "n_with_reason": 0,
+    "counts": {},
+    "n_science": 0,
+    "n_business": 0,
+    "n_operational": 0,
+    "n_cmc": 0,
+    "n_unexplained": 0,
+    "science_share_of_stated": null,
+    "reporting_rate": null,
+    "cases": []
+  },
+  "whitespace": [
+    {
+      "disease": "immunodeficiency 112",
+      "disease_id": "MONDO_0957535",
+      "association_score": 0.574,
+      "genetic_score": 0.684,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "NIK deficiency",
+      "disease_id": "MONDO_0018642",
+      "association_score": 0.512,
+      "genetic_score": 0.599,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    }
+  ],
+  "licensing": {
+    "assets": [],
+    "holders": [],
+    "deals": {
+      "deals": [],
+      "by_asset": {},
+      "by_stage": [],
+      "n": 0,
+      "n_matched": 0,
+      "n_acquisitions": 0,
+      "curated": true
+    }
+  },
+  "precedent": {
+    "tier": "preclinical",
+    "tier_label": "Preclinical",
+    "read": "No clinical precedent in the public record. What is here is the genetics, the tractability and the modality fit — and preclinical work is invisible to all of the sources this is built from.",
+    "evidence": [
+      "Human genetic association with immunodeficiency 112 scores 0.68 in Open Targets. Genetically supported targets have historically succeeded at about twice the base rate, which is the strongest prior available before any clinical data exists."
+    ],
+    "approved": [],
+    "n_approved": 0,
+    "n_withdrawn": 0,
+    "n_phase3": 0,
+    "n_controlled_running": 0,
+    "n_science_failures": 0,
+    "genetic_score": 0.684,
+    "genetic_disease": "immunodeficiency 112"
+  },
+  "readouts": {
+    "n_trials": 0,
+    "n_active": 0,
+    "n_controlled": 0,
+    "n_confirmatory": 0,
+    "n_undescribed": 0,
+    "by_level": {},
+    "level_labels": {
+      "confirmatory": "Confirmatory",
+      "controlled": "Controlled",
+      "signal": "Signal-generating",
+      "dose": "Dose and safety",
+      "mechanistic": "Mechanistic",
+      "unclear": "Design not stated"
+    },
+    "verdict": "No trial is currently running on this target.",
+    "catalysts": [],
+    "next_catalyst": null
+  },
+  "modalities": [
+    {
+      "key": "Molecular glue / degrader",
+      "what": "A small molecule that forces the target into contact with an E3 ubiquitin ligase, so the cell's own machinery destroys it. Removing the protein rather than inhibiting it.",
+      "requires": [
+        "An intracellular target — the machinery is cytoplasmic.",
+        "A ligandable surface anywhere on the protein. Crucially this need NOT be a functional active site, which is why degraders reach scaffolding and transcription-factor targets that defeated inhibitors.",
+        "The relevant E3 ligase is expressed in the tissue you are treating. Cereblon and VHL are the workhorses and their expression is not uniform."
+      ],
+      "fails": [
+        "Drug-like properties: bifunctional degraders are large and greasy, and oral bioavailability is the recurring reason a good degrader never becomes a drug. Monovalent glues avoid much of this and are correspondingly sought after.",
+        "The hook effect — too much drug forms binary rather than ternary complexes and degradation falls off at high dose, inverting the usual dose intuition.",
+        "Resistance through loss of the E3 ligase itself, seen clinically with cereblon."
+      ],
+      "economics": "≈3–5 years to first-in-human. Ternary-complex optimisation is the long pole; budget more medicinal chemistry than a conventional inhibitor.",
+      "bd_note": "The reason to care commercially: a degrader can open a target that an inhibitor could not, which resets the competitive clock on a mechanism that otherwise looks worked-out.",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Intracellular (intracellular), where the degradation machinery is.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Oligonucleotide",
+      "what": "A short nucleic acid that degrades or blocks the target's mRNA, lowering the amount of protein made rather than blocking the protein itself.",
+      "requires": [
+        "Only that the target is a gene. Protein structure is irrelevant, so 'undruggable' in the small-molecule sense does not apply — this is the modality's whole appeal.",
+        "That the disease-relevant tissue can be reached. This is the entire risk. GalNAc conjugation makes hepatocyte targets close to routine; intrathecal dosing reaches the CNS; the eye is feasible. Most other tissues are still an open delivery problem.",
+        "That lowering the protein is therapeutic — a loss-of-function target, not a gain-of-function one."
+      ],
+      "fails": [
+        "Delivery, overwhelmingly. A programme aimed outside liver, CNS and eye is underwriting a delivery invention, and should be priced as one.",
+        "Durable knockdown creating durable toxicity, with no way to withdraw the drug.",
+        "Hepatotoxicity and thrombocytopenia as class effects for some chemistries."
+      ],
+      "economics": "≈2–3 years and $15–35M to first-in-human for a liver target, and considerably more anywhere else. Discovery is fast because the sequence is designed rather than screened.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Small molecule",
+      "what": "A synthetic compound, usually under 500 daltons, binding a pocket on the target to block or modulate its activity.",
+      "requires": [
+        "A defined binding pocket. Enzymes, GPCRs, ion channels and nuclear receptors have one; flat protein–protein interfaces and scaffolding proteins largely do not, which is what 'undruggable' has historically meant.",
+        "Selectivity that is achievable against the rest of the family — the practical constraint on most kinase programmes."
+      ],
+      "fails": [
+        "Off-target and family cross-reactivity producing dose-limiting toxicity before the target is fully engaged.",
+        "Idiosyncratic hepatotoxicity, which appears late and kills programmes at Phase 2–3.",
+        "Resistance mutations in the pocket, in oncology and infectious disease."
+      ],
+      "economics": "≈3–5 years and $10–30M from hit to first-in-human — cheaper per step than a biologic, with a longer discovery phase.",
+      "bd_note": "The only class here that routinely reaches intracellular targets and the CNS, and the only one where oral dosing is the default. Both matter more to commercial value than potency does.",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Antibody-drug conjugate",
+      "what": "An antibody used as a delivery vehicle: it carries a cytotoxic payload, is taken into the cell, and releases the payload inside.",
+      "requires": [
+        "Surface expression, AND internalisation after binding. This is the requirement people forget. A non-internalising antigen cannot deliver a payload, however specific the antibody is.",
+        "A real expression differential against normal tissue — the payload is toxic to any cell it enters.",
+        "High enough antigen copy number; the delivered dose scales with it."
+      ],
+      "fails": [
+        "Payload toxicity sets the dose, not the antibody. Neutropenia, ocular toxicity and interstitial lung disease are the recurring dose-limiters, and they are largely payload-class effects you can predict in advance.",
+        "Linker instability releasing payload in circulation, which converts a targeted drug into a systemic chemotherapy.",
+        "A narrow therapeutic index that looks fine in xenografts and disappears in patients with normal-tissue expression."
+      ],
+      "economics": "≈2.5–4 years and $40–90M to first-in-human. Manufacturing and COGS are materially higher than a naked antibody — worth modelling early.",
+      "bd_note": "",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated intracellular only — nothing on the surface to bind.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Bispecific antibody",
+      "what": "Two binding arms in one molecule: either blocking two pathways at once, or — far more commonly now — dragging a T cell onto a tumour cell by binding CD3 with one arm and a tumour antigen with the other.",
+      "requires": [
+        "Surface expression, as for any antibody.",
+        "For a T-cell engager: expression genuinely restricted to the target tissue. There is no therapeutic index to spend — the drug recruits a cytotoxic T cell to whatever it binds, so low-level expression on a vital tissue is lethal, not tolerable.",
+        "Enough antigen density to form a synapse, and little antigen shedding."
+      ],
+      "fails": [
+        "On-target off-tumour toxicity — the dominant cause of death for this class.",
+        "Cytokine release syndrome forcing step-up dosing, which lengthens every trial.",
+        "Antigen loss under treatment pressure, giving deep early responses that do not last."
+      ],
+      "economics": "≈2–3 years and $25–60M to first-in-human; the dose-escalation is slower than a plain antibody because of step-up dosing.",
+      "bd_note": "",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated intracellular only — nothing on the surface to bind.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Cell therapy (CAR-T)",
+      "what": "A patient's or donor's T cells engineered with a receptor against a surface antigen, expanded, and infused back as a living drug.",
+      "requires": [
+        "Surface expression with near-absolute tissue restriction. The cells persist and multiply, so there is no dose to back off — anything the CAR recognises will be destroyed for as long as the cells live.",
+        "The antigen is present on essentially every malignant cell, or escape is immediate.",
+        "A tolerable consequence if the normal tissue carrying the antigen is also destroyed — B-cell aplasia after CD19 is survivable, and that is why CD19 worked first."
+      ],
+      "fails": [
+        "On-target off-tumour toxicity, which in this modality has been fatal rather than dose-limiting.",
+        "Antigen escape driving relapse after deep remission.",
+        "The solid-tumour wall: trafficking, persistence and an immunosuppressive microenvironment. Success remains overwhelmingly haematological.",
+        "Manufacturing — vein-to-vein time, failure rates and cost of goods are commercial risks, not technical footnotes."
+      ],
+      "economics": "≈3–5 years and $50–150M to meaningful clinical data, with process development a large fraction of it. Any seed plan much shorter than this is worth interrogating.",
+      "bd_note": "",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated intracellular only — nothing on the surface to bind.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Fc-fusion / ligand trap",
+      "what": "The receptor's binding domain fused to an antibody Fc, used to mop up a soluble ligand before it reaches its receptor.",
+      "requires": [
+        "The ligand is soluble and is the rate-limiting element — trapping does nothing against a membrane-bound or juxtacrine signal.",
+        "The trap does not also sequester a ligand you need."
+      ],
+      "fails": [
+        "Ligand redundancy: a trap for one cytokine in a family where three do the same job produces a clean pharmacodynamic result and no clinical effect.",
+        "Very high ligand turnover demanding impractical doses."
+      ],
+      "economics": "Similar to a monoclonal antibody. Often faster, because the binding domain is the native sequence rather than a discovery problem.",
+      "bd_note": "Commercially this is the modality that most often sits in a different patent estate from the receptor antibodies on the same axis — worth checking when a target looks crowded on paper.",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated intracellular. Antibodies do not cross the plasma membrane.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Monoclonal antibody",
+      "what": "A single antibody binding one epitope, used to block a receptor or ligand, or to kill the cell it is bound to through Fc-mediated effector function.",
+      "requires": [
+        "The target is on the cell surface or secreted. An antibody cannot cross the plasma membrane, so an intracellular target rules the modality out entirely.",
+        "The epitope is accessible on the folded protein in vivo, not only on a recombinant fragment.",
+        "For blockade: the interaction being blocked is rate-limiting for the disease. Antibodies are exquisite blockers of a single interaction and useless against a redundant pathway."
+      ],
+      "fails": [
+        "The biology, not the molecule. Antibody CMC and safety are now routine; the great majority of antibody failures are the target being wrong.",
+        "Soluble decoy: a shed extracellular domain circulating in patients absorbs drug and flattens the dose-response.",
+        "Poor tissue penetration in solid tumours and behind the blood-brain barrier (roughly 0.1% of a systemic dose reaches the CNS)."
+      ],
+      "economics": "≈18–30 months and $15–40M from lead to first-in-human data.",
+      "bd_note": "",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated intracellular. Antibodies do not cross the plasma membrane.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Peptide",
+      "what": "A short chain of amino acids, typically engaging an extracellular receptor or a protein–protein interface too flat for a small molecule.",
+      "requires": [
+        "An extracellular or accessible binding site, unless a cell-penetrating strategy is part of the plan.",
+        "A tolerable half-life, which usually means engineering — lipidation, cyclisation or fusion. Native peptides are cleared in minutes."
+      ],
+      "fails": [
+        "Pharmacokinetics rather than pharmacology.",
+        "Injection-only delivery in an oral market, which caps commercial value even when the biology works."
+      ],
+      "economics": "≈2–3 years and $10–30M to first-in-human.",
+      "bd_note": "",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated intracellular. Antibodies do not cross the plasma membrane.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Gene therapy",
+      "what": "A viral vector delivering a working copy of a gene, intended as a single administration.",
+      "requires": [
+        "Monogenic loss-of-function biology with a well-understood causal gene.",
+        "A tissue an AAV serotype actually reaches, at a dose that is safe.",
+        "Patients without pre-existing neutralising antibodies to the capsid, which excludes a large fraction of any population."
+      ],
+      "fails": [
+        "Dose-dependent hepatotoxicity and complement activation at the high systemic doses that non-CNS, non-ocular tissues require.",
+        "One-shot dosing with no redose path if expression fades.",
+        "A commercial model that has repeatedly failed on tiny populations and very high prices — a real diligence issue, not only a scientific one."
+      ],
+      "economics": "≈4–6 years and $80M+ to clinical data; CMC dominates the budget.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    },
+    {
+      "key": "Vaccine",
+      "what": "An immunogen intended to raise the patient's own immune response against the target or the cells carrying it.",
+      "requires": [
+        "The target is immunogenic and not subject to central tolerance — the recurring obstacle for self-antigen cancer vaccines.",
+        "A patient population with an immune system intact enough to respond."
+      ],
+      "fails": [
+        "Immune responses that are measurable and clinically inert — the most common outcome in therapeutic cancer vaccines.",
+        "Long, large, slow efficacy trials that are expensive to run."
+      ],
+      "economics": "Highly variable. Prophylactic trials are among the largest in medicine.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    },
+    {
+      "key": "mRNA",
+      "what": "Delivered mRNA instructing the patient's own cells to make a protein — a vaccine antigen, a missing enzyme, or a therapeutic antibody.",
+      "requires": [
+        "That ADDING protein helps. This inverts the usual target logic: mRNA suits loss-of-function biology, and has nothing to offer against a target you want to block.",
+        "That transient expression is enough, or that repeat dosing is tolerable.",
+        "A delivery route to the relevant tissue — in practice muscle for vaccines and liver for systemic LNPs."
+      ],
+      "fails": [
+        "Durability: expression is measured in days, so chronic replacement means chronic redosing.",
+        "Reactogenicity from the lipid nanoparticle, which limits dose.",
+        "Redosing immunogenicity against the carrier."
+      ],
+      "economics": "Fast to a first construct — weeks — and slow through CMC. ≈2–3 years and $20–50M to first-in-human outside the vaccine setting.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    }
+  ],
+  "literature": {
+    "reviews": [
+      {
+        "title": "NF-κB Signaling Regulates Physiological and Pathological Chondrogenesis",
+        "authors": "Jimi E, Fei H, Nakatomi C.",
+        "journal": "Int J Mol Sci",
+        "year": "2019",
+        "pmid": "31842396",
+        "doi": "10.3390/ijms20246275",
+        "citations": 261,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/31842396"
+      },
+      {
+        "title": "Mantle cell lymphoma: 2019 update on the diagnosis, pathogenesis, prognostication, and management",
+        "authors": "Jain P, Wang M.",
+        "journal": "Am J Hematol",
+        "year": "2019",
+        "pmid": "30963600",
+        "doi": "10.1002/ajh.25487",
+        "citations": 182,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/30963600"
+      },
+      {
+        "title": "BIRC3 and BIRC5: multi-faceted inhibitors in cancer",
+        "authors": "Frazzi R.",
+        "journal": "Cell Biosci",
+        "year": "2021",
+        "pmid": "33413657",
+        "doi": "10.1186/s13578-020-00521-0",
+        "citations": 169,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/33413657"
+      },
+      {
+        "title": "Genetic mutations and features of mantle cell lymphoma: a systematic review and meta-analysis",
+        "authors": "Hill HA, Qi X, Jain P, Nomie K, Wang Y, Zhou S, Wang ML.",
+        "journal": "Blood Adv",
+        "year": "2020",
+        "pmid": "32598477",
+        "doi": "10.1182/bloodadvances.2019001350",
+        "citations": 97,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/32598477"
+      },
+      {
+        "title": "NF-κB deregulation in Hodgkin lymphoma",
+        "authors": "Weniger MA, Küppers R.",
+        "journal": "Semin Cancer Biol",
+        "year": "2016",
+        "pmid": "27221964",
+        "doi": "10.1016/j.semcancer.2016.05.001",
+        "citations": 78,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/27221964"
+      }
+    ],
+    "mechanism": [
+      {
+        "title": "BIRC3 and BIRC5: multi-faceted inhibitors in cancer",
+        "authors": "Frazzi R.",
+        "journal": "Cell Biosci",
+        "year": "2021",
+        "pmid": "33413657",
+        "doi": "10.1186/s13578-020-00521-0",
+        "citations": 169,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/33413657"
+      },
+      {
+        "title": "Noncanonical NF-κB Signaling Upregulation in Inflammatory Bowel Disease Patients is Associated With Loss of Response to Anti-TNF Agents",
+        "authors": "Nguyen VQ, Eden K, Morrison HA, Sammons MB, Knight KK, Sorrentino S, Brock RM, Grider DJ, Allen IC, Sorrentino D.",
+        "journal": "Front Pharmacol",
+        "year": "2021",
+        "pmid": "34177575",
+        "doi": "10.3389/fphar.2021.655887",
+        "citations": 33,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/34177575"
+      },
+      {
+        "title": "EGR1 knockdown confers protection against ferroptosis and ameliorates intervertebral disc cartilage degeneration by inactivating the MAP3K14/NF-κB axis",
+        "authors": "Zhang J, He L, Li Q, Gao J, Zhang E, Feng H.",
+        "journal": "Genomics",
+        "year": "2023",
+        "pmid": "37453477",
+        "doi": "10.1016/j.ygeno.2023.110683",
+        "citations": 23,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/37453477"
+      },
+      {
+        "title": "Potentially functional variants of <i>MAP3K14</i> in the NF-κB signaling pathway genes predict survival of HBV-related hepatocellular carcinoma patients",
+        "authors": "Huang Q, Liu Y, Qiu M, Lin Q, Wei X, Zhou Z, Liang X, Li R, Chen W, Zhou X, Yu H.",
+        "journal": "Front Oncol",
+        "year": "2022",
+        "pmid": "36119471",
+        "doi": "10.3389/fonc.2022.990160",
+        "citations": 21,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/36119471"
+      },
+      {
+        "title": "Inhibition of non-canonical NF-κB signaling suppresses periodontal inflammation and bone loss",
+        "authors": "Aoki T, Hiura F, Li A, Yang N, Takakura-Hino N, Mukai S, Matsuda M, Nishimura F, Jimi E.",
+        "journal": "Front Immunol",
+        "year": "2023",
+        "pmid": "37143646",
+        "doi": "10.3389/fimmu.2023.1179007",
+        "citations": 17,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/37143646"
+      }
+    ],
+    "search_url": "https://europepmc.org/search?query=(TITLE_ABS:\"MAP3K14\"%20OR%20TITLE_ABS:\"FTDCR1B\"%20OR%20TITLE_ABS:\"HSNIK\"%20OR%20TITLE_ABS:\"HsNIK\"%20OR%20TITLE_ABS:\"IMD112\")",
+    "note": "Reviews ranked by citation count; mechanism papers restricted to the last five years first, then ranked, so the list reflects current work rather than the field's founding papers."
+  },
+  "annotation": {
+    "accession": "Q99558",
+    "entry_name": "M3K14_HUMAN",
+    "protein_name": "Mitogen-activated protein kinase kinase kinase 14",
+    "gene_names": [
+      "MAP3K14",
+      "NIK"
+    ],
+    "function": [
+      {
+        "text": "Lymphotoxin beta-activated kinase which seems to be exclusively involved in the activation of NF-kappa-B and its transcriptional activity. Phosphorylates CHUK/IKKA, thereby promoting proteolytic processing of NFKB2/P100, which leads to NF-kappa-B activation via the non-canonical pathway. Has an essential role in the non-canonical NF-kappa-B signaling that regulates genes encoding molecules involved in B-cell survival, lymphoid organogenesis, and immune response. Could act in a receptor-selective manner",
+        "pmids": [
+          "15084608",
+          "25406581",
+          "29230214"
+        ]
+      }
+    ],
+    "subunit": [
+      {
+        "text": "Interacts with TRAF2, TRAF5, TRAF6, IKKA and NFKB2/P100. Interacts with TRAF3 and PELI3. Interacts with NIBP; the interaction is direct. Interacts with ARRB1 and ARRB2. Interacts with GRB10. Interacts with ZFP91. Interacts with NLRP12; this interaction promotes proteasomal degradation of MAP3K14. Directly interacts with DDX3X. Interacts (via C-terminus and kinase domain) with PPPC3A (via N-terminus) and PPP3CB",
+        "pmids": [
+          "12853971",
+          "12874243",
+          "15084608",
+          "15173580",
+          "15951441",
+          "17237370",
+          "20682767",
+          "30341167"
+        ]
+      }
+    ],
+    "domains": [
+      {
+        "name": "Protein kinase",
+        "count": 1,
+        "spans": [
+          [
+            400,
+            655
+          ]
+        ]
+      }
+    ],
+    "disease": [
+      {
+        "name": "Immunodeficiency 112",
+        "acronym": "IMD112",
+        "description": "An autosomal recessive, primary immunologic disorder characterized by variable abnormalities affecting lymphoid immunity, including hypogammaglobulinemia, lymphopenia or paradoxical lymphocytosis, and recurrent bacterial, viral, and fungal infections.",
+        "mim": "620449",
+        "pmids": [
+          "25406581",
+          "29230214"
+        ]
+      }
+    ],
+    "n_citations": 17,
+    "url": "https://www.uniprot.org/uniprotkb/Q99558",
+    "licence": "UniProt Knowledgebase (Swiss-Prot), CC BY 4.0",
+    "brief": {
+      "segments": [
+        {
+          "kind": "function",
+          "text": "Lymphotoxin beta-activated kinase which seems to be exclusively involved in the activation of NF-kappa-B and its transcriptional activity. Phosphorylates CHUK/IKKA, thereby promoting proteolytic processing of NFKB2/P100, which leads to NF-kappa-B activation via the non-canonical pathway. Has an essential role in the non-canonical NF-kappa-B signaling that regulates genes encoding molecules involved in B-cell survival, lymphoid organogenesis, and immune response.",
+          "pmids": [
+            "15084608",
+            "25406581",
+            "29230214"
+          ]
+        },
+        {
+          "kind": "subunit",
+          "text": "Interacts with TRAF2, TRAF5, TRAF6, IKKA and NFKB2/P100. Interacts with TRAF3 and PELI3.",
+          "pmids": [
+            "12853971",
+            "12874243",
+            "15084608",
+            "15173580"
+          ]
+        },
+        {
+          "kind": "domain",
+          "text": "UniProt annotates a Protein kinase domain.",
+          "pmids": []
+        },
+        {
+          "kind": "disease",
+          "text": "Separately, germline variants in MAP3K14 cause Immunodeficiency 112 (IMD112) — genetic validation of the target, not an indication being pursued against it.",
+          "pmids": [
+            "25406581",
+            "29230214"
+          ]
+        }
+      ],
+      "text": "Lymphotoxin beta-activated kinase which seems to be exclusively involved in the activation of NF-kappa-B and its transcriptional activity. Phosphorylates CHUK/IKKA, thereby promoting proteolytic processing of NFKB2/P100, which leads to NF-kappa-B activation via the non-canonical pathway. Has an essential role in the non-canonical NF-kappa-B signaling that regulates genes encoding molecules involved in B-cell survival, lymphoid organogenesis, and immune response. Interacts with TRAF2, TRAF5, TRAF6, IKKA and NFKB2/P100. Interacts with TRAF3 and PELI3. UniProt annotates a Protein kinase domain. Separately, germline variants in MAP3K14 cause Immunodeficiency 112 (IMD112) — genetic validation of the target, not an indication being pursued against it.",
+      "words": 99,
+      "accession": "Q99558",
+      "url": "https://www.uniprot.org/uniprotkb/Q99558",
+      "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)",
+      "note": "Curated by UniProt from the primary literature, not generated. Each statement links to the records the curator cited."
+    }
+  },
+  "header": {
+    "facts": [
+      {
+        "key": "class",
+        "label": "Target class",
+        "value": "Enzyme and Kinase",
+        "note": "",
+        "pmids": []
+      },
+      {
+        "key": "function",
+        "label": "Function",
+        "value": "Lymphotoxin beta-activated kinase which seems to be exclusively involved in the activation of NF-kappa-B and its transcriptional activity.",
+        "note": "",
+        "pmids": [
+          "15084608",
+          "25406581",
+          "29230214"
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Where it sits",
+        "value": "Cytoplasm, Nucleus, Vesicle",
+        "note": "Subcellular location, which decides which modalities can physically reach it.",
+        "pmids": []
+      },
+      {
+        "key": "domain",
+        "label": "Domains",
+        "value": "Protein kinase",
+        "note": "",
+        "pmids": []
+      },
+      {
+        "key": "development",
+        "label": "In development",
+        "value": "Nothing in the public record",
+        "note": "No asset against this target was found in Open Targets, ChEMBL or ClinicalTrials.gov. Preclinical and undisclosed work is invisible to all three.",
+        "pmids": []
+      },
+      {
+        "key": "genetics",
+        "label": "Germline variants cause",
+        "value": "Immunodeficiency 112 (IMD112)",
+        "note": "A Mendelian disease caused by variants in this gene. It is not an indication anyone is developing against the target.",
+        "pmids": [
+          "25406581",
+          "29230214"
+        ]
+      }
+    ],
+    "mechanism": {
+      "text": "Lymphotoxin beta-activated kinase which seems to be exclusively involved in the activation of NF-kappa-B and its transcriptional activity. Phosphorylates CHUK/IKKA, thereby promoting proteolytic processing of NFKB2/P100, which leads to NF-kappa-B activation via the non-canonical pathway. Has an essential role in the non-canonical NF-kappa-B signaling that regulates genes encoding molecules involved in B-cell survival, lymphoid organogenesis, and immune response. Interacts with TRAF2, TRAF5, TRAF6, IKKA and NFKB2/P100. Interacts with TRAF3 and PELI3.",
+      "pmids": [
+        "15084608",
+        "25406581",
+        "29230214",
+        "12853971",
+        "12874243",
+        "15173580"
+      ],
+      "accession": "Q99558",
+      "url": "https://www.uniprot.org/uniprotkb/Q99558",
+      "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
+    },
+    "accession": "Q99558",
+    "url": "https://www.uniprot.org/uniprotkb/Q99558",
+    "curated_source": true,
+    "development_unknown": false,
+    "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
+  },
+  "diagram": {
+    "svg": "<svg viewBox=\"0 0 720 250\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How MAP3K14 is being drugged</title><desc id=\"tl-diagram-desc\">MAP3K14 is in the nucleus. No programme has been recorded against it.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"216\" y=\"18\" width=\"504\" height=\"214\" rx=\"26\" class=\"tl-cell\"/><text x=\"706\" y=\"38\" class=\"tl-zone\" text-anchor=\"end\">Nucleus</text><text x=\"24\" y=\"125\" class=\"tl-empty\">Nothing has been recorded against this target.</text><g class=\"tl-target\"><rect x=\"552\" y=\"101\" width=\"88\" height=\"48\" rx=\"14\" class=\"tl-protein\"/><text x=\"596\" y=\"130\" class=\"tl-protein-label\">MAP3K14</text></g></svg>",
+    "title": "How MAP3K14 is being drugged",
+    "caption": "MAP3K14 is in the nucleus. No programme has been recorded against it.",
+    "placement": "in the nucleus",
+    "target_class": [
+      "Enzyme",
+      "Kinase",
+      "Protein Kinase",
+      "STE protein kinase group",
+      "STE protein kinase unique family"
+    ],
+    "interventions": [],
+    "note": "Generated from the target's annotated location, its protein family, and the mechanism classes present in the asset table. Arrow weight is the furthest phase that approach has reached. It is a schematic of how the target is being drugged — not a pathway map, and it draws no interaction it has not read from the data."
+  },
+  "pathway": {},
+  "feasibility": {
+    "lines": [
+      {
+        "key": "validation",
+        "label": "Has anyone made a medicine here?",
+        "value": "No clinical precedent",
+        "face": "science",
+        "detail": "Counted from approved drugs and the highest phase reached by any programme on this target. It says what has happened, not whether a new asset here is differentiated — the asset table and the mechanism split are where that is visible.",
+        "anchor": "#precedent"
+      },
+      {
+        "key": "window",
+        "label": "How contested is it?",
+        "value": "Open — 0 assets",
+        "face": "business",
+        "detail": "0 sponsors, phase-weighted score 0. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
+        "anchor": "#crowding"
+      },
+      {
+        "key": "opening",
+        "label": "What has nobody tried?",
+        "value": "Untried here: Molecular glue / degrader, Oligonucleotide",
+        "face": "business",
+        "detail": "Physically available against this target — the location and family allow it — and absent from the asset table. That is a modality gap rather than a proven opportunity, and the requirements listed under each one are what a company would have to satisfy.",
+        "anchor": "#modalities"
+      }
+    ],
+    "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
+  },
+  "narrative": {
+    "bottom_line": "MAP3K14 carries 0 active programmes across 0 mechanism classes from 0 named sponsors, reaching Unknown. Phase-weighted density scores 0, which this tool bands as Open.",
+    "competitive": "No assets were resolved against this target.",
+    "failures": "0 of 0 trials stopped; 0 stated a reason. No stated reasons were available to classify.",
+    "whitespace": "2 diseases pass the screen: association evidence above threshold, genetic support, and nothing past preclinical. The strongest on genetic evidence is immunodeficiency 112 (association 0.574, genetic 0.684). Treat this as a hypothesis to check by hand rather than a finding — disease names are matched between EFO terms and sponsor free text, and that matching is imperfect.",
+    "licensing": "No programmes resolved against this target, so there is nothing to place.",
+    "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent. Deal comparables are hand-maintained and not exhaustive.",
+    "_source": "template"
+  },
+  "generated": "2026-09-06 01:32 UTC",
+  "warnings": [],
+  "notes": [
+    "75 trials returned by the registry search did not name MAP3K14 or any drug known to act on it, and were left out of the asset table."
+  ],
+  "rules_version": "2026-09-07-directed-discovery"
+}

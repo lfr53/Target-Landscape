@@ -1,0 +1,1351 @@
+{
+  "target": {
+    "ensembl_id": "ENSG00000187796",
+    "symbol": "CARD9",
+    "name": "caspase recruitment domain family member 9",
+    "biotype": "protein_coding",
+    "function": "Adapter protein that plays a key role in innate immune response against fungi by forming signaling complexes downstream of C- type lectin receptors (PubMed:26961233, PubMed:33558980). CARD9- mediated signals are essential for antifungal immunity against a subset of fungi from the phylum Ascomycota (PubMed:24231284, PubMed:25057046, PubMed:25702837, PubMed:26521038, PubMed:26679537, PubMed:26961233, PubMed:27777981, PubMed:29080677, PubMed:33558980). Transduces signals in myeloid cells downstream of C-type lectin receptors CLEC7A (dectin- 1), CLEC6A (dectin-2) and CLEC4E (Mincle), which detect pathogen- associated molecular pattern metabolites (PAMPs), such as fungal carbohydrates, and trigger CARD9 activation (By similarity). Upon activation, CARD9 homooligomerizes to form a nucleating helical template that recruits BCL10 via CARD-CARD interaction, thereby promoting polymerization of BCL10 and subsequent recruitment of MALT1: this leads to activation of NF-kappa-B and MAP kinase p38 (MAPK11, MAPK12, MAPK13 and/or MAPK14) pathways which stimulate expression of genes encoding pro-inflammatory cytokines and chemokines (PubMed:11053425, PubMed:26488816, PubMed:26961233, PubMed:31296852, PubMed:33558980). CARD9 signaling in antigen-presenting cells links innate sensing of fungi to the activation of adaptive immunity and provides a cytokine milieu that induces the development and subsequent of interleukin 17-producing T helper (Th17) cells (PubMed:24231284). Also involved in activation of myeloid cells via classical ITAM- associated receptors and TLR: required for TLR-mediated activation of MAPK, while it is not required for TLR-induced activation of NF-kappa-B (By similarity). CARD9 can also be engaged independently of BCL10: forms a complex with RASGRF1 downstream of C-type lectin receptors, which recruits and activates HRAS, leading to ERK activation and the production of cytokines (By similarity). Acts as an important regulator of the intestinal commensal fungi (mycobiota) component of the gut microbiota (PubMed:33548172). Plays an essential role in antifungal immunity against dissemination of gut fungi: acts by promoting induction of antifungal IgG antibodies response in CX3CR1(+) macrophages to confer protection against disseminated C.albicans or C.auris infection (PubMed:33548172). Also mediates immunity against other pathogens, such as certain bacteria, viruses and parasites; CARD9 signaling is however redundant with other innate immune responses (By similarity). In response to L.monocytogenes infection, required for the production of inflammatory cytokines activated by intracellular peptidoglycan: acts by connecting NOD2 recognition of peptidoglycan to downstream activation of MAP kinases (MAPK) without activating NF- kappa-B (By similarity). {ECO:0000250|UniProtKB:A2AIV8, ECO:0000269|PubMed:11053425, ECO:0000269|PubMed:24231284, ECO:0000269|PubMed:25057046, ECO:0000269|PubMed:25702837, ECO:0000269|PubMed:26488816, ECO:0000269|PubMed:26521038, ECO:0000269|PubMed:26679537, ECO:0000269|PubMed:26961233, ECO:0000269|PubMed:27777981, ECO:0000269|PubMed:29080677, ECO:0000269|PubMed:31296852, ECO:0000269|PubMed:33548172, ECO:0000269|PubMed:33558980}.",
+    "synonyms": [
+      "CANDF2",
+      "CARD9",
+      "Caspase recruitment domain-containing protein 9",
+      "IMD103",
+      "caspase recruitment domain protein 9",
+      "caspase recruitment domain-containing protein 9",
+      "hCARD9"
+    ],
+    "tractability": {
+      "SM": [
+        "Structure with Ligand"
+      ],
+      "AB": [
+        "GO CC high conf"
+      ],
+      "PR": [
+        "UniProt Ubiquitination",
+        "Database Ubiquitination",
+        "Half-life Data"
+      ]
+    },
+    "locations": [
+      "Cytoplasm"
+    ],
+    "topology": [],
+    "target_class": [],
+    "provenance": [
+      {
+        "source": "opentargets",
+        "identifier": "ENSG00000187796",
+        "url": "https://platform.opentargets.org/target/ENSG00000187796",
+        "retrieved": null
+      }
+    ]
+  },
+  "assets": [],
+  "trials": [
+    {
+      "nct_id": "NCT04966585",
+      "title": "Pilot Study of Posaconazole in Crohn's Disease",
+      "status": "TERMINATED",
+      "why_stopped": "Recruitment challenges; changes in manufacturing",
+      "phase": 4,
+      "sponsor": "Cedars-Sinai Medical Center",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Crohn Disease",
+        "CARD9 S12N Risk Allele"
+      ],
+      "interventions": [
+        "Matching Placebo Tablet",
+        "Noxafil",
+        "Posaconazole Delayed Release Oral Tablet"
+      ],
+      "brief_summary": "This trial is designed to evaluate the effects of oral antifungal treatment with posaconazole on active Crohn's disease (CD) activity and the burden of Malassezia spp. in CD patients with the caspase recruitment domain family member 9 (CARD9) S12N risk allele. Further, this project will investigate the hypothesis that the microbial changes induced by antifungal treatment are associated with dampen",
+      "countries": [
+        "United States"
+      ],
+      "enrollment": 10,
+      "start_date": "2022-08-17",
+      "completion_date": "2025-01-22",
+      "allocation": "RANDOMIZED",
+      "masking": "TRIPLE",
+      "intervention_model": "PARALLEL",
+      "primary_purpose": "TREATMENT",
+      "primary_outcomes": [
+        "Number of Subjects With Medically Defined Endoscopic Response"
+      ],
+      "completion_date_type": "ACTUAL",
+      "failure_class": "cmc",
+      "failure_rationale": "matched “manufactur” · also matched: Operational — recruitment",
+      "endpoint_class": "other",
+      "evidence_level": "unclear",
+      "evidence_note": "The registry entry does not carry enough design detail to say what a result here would establish."
+    }
+  ],
+  "associations": [
+    {
+      "disease_id": "Orphanet_1334",
+      "name": "Chronic mucocutaneous candidosis",
+      "score": 0.7606919501917293,
+      "genetic_score": 0.9631730517704179,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005265",
+      "name": "inflammatory bowel disease",
+      "score": 0.4416603660265667,
+      "genetic_score": 0.705333241891877,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005011",
+      "name": "Crohn disease",
+      "score": 0.39719196689246566,
+      "genetic_score": 0.6506186685006593,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005101",
+      "name": "ulcerative colitis",
+      "score": 0.3889634220931702,
+      "genetic_score": 0.6356523243073232,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005342",
+      "name": "IgA glomerulonephritis",
+      "score": 0.3793025136781352,
+      "genetic_score": 0.6204272748484457,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0021660",
+      "name": "deep seated dermatophytosis",
+      "score": 0.37227727431854635,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004678",
+      "name": "dermatophytosis",
+      "score": 0.3713083930695326,
+      "genetic_score": 0.6034236993919447,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0002040",
+      "name": "dermatomycosis",
+      "score": 0.36873984619886213,
+      "genetic_score": 0.6065490474368647,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0021094",
+      "name": "immunodeficiency disease",
+      "score": 0.34361986779577475,
+      "genetic_score": 0.5592963338026914,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005306",
+      "name": "ankylosing spondylitis",
+      "score": 0.34163488640551276,
+      "genetic_score": 0.5560169270903815,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005083",
+      "name": "psoriasis",
+      "score": 0.3136065455225542,
+      "genetic_score": 0.5150314929034527,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018646",
+      "name": "sclerosing cholangitis",
+      "score": 0.31347308613058467,
+      "genetic_score": 0.5150314929034527,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005292",
+      "name": "colitis",
+      "score": 0.22774065272772903,
+      "genetic_score": 0.3363757338037356,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0043579",
+      "name": "enteritis",
+      "score": 0.20559677465901613,
+      "genetic_score": 0.3363757338037356,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0003847",
+      "name": "hereditary disease",
+      "score": 0.19322442502952614,
+      "genetic_score": 0.31783950704364267,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0000544",
+      "name": "infection",
+      "score": 0.10229122620703053,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.09635238098445478,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0001369",
+      "name": "Arthritis",
+      "score": 0.0857285643812294,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005578",
+      "name": "arthritic joint disease",
+      "score": 0.0857285643812294,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005311",
+      "name": "atherosclerosis",
+      "score": 0.08207078829285235,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018076",
+      "name": "tuberculosis",
+      "score": 0.08129105854904796,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0100806",
+      "name": "Sepsis",
+      "score": 0.07904192200423137,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005580",
+      "name": "esophageal squamous cell carcinoma",
+      "score": 0.07447034071896741,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005233",
+      "name": "non-small cell lung carcinoma",
+      "score": 0.07428555079162505,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004948",
+      "name": "B-cell chronic lymphocytic leukemia",
+      "score": 0.07232472434038123,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005148",
+      "name": "type 2 diabetes mellitus",
+      "score": 0.06679606810630875,
+      "genetic_score": 0.10679808203130714,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005068",
+      "name": "myocardial infarction",
+      "score": 0.06411450786856057,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005138",
+      "name": "lung carcinoma",
+      "score": 0.05992839201652359,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0008903",
+      "name": "lung cancer",
+      "score": 0.05992839201652359,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005140",
+      "name": "ovarian carcinoma",
+      "score": 0.059851404244772546,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0008170",
+      "name": "ovarian cancer",
+      "score": 0.059851404244772546,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018177",
+      "name": "glioblastoma",
+      "score": 0.058393617040182894,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0016471",
+      "name": "pachyonychia congenita",
+      "score": 0.05783924725815583,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0015243",
+      "name": "allergic bronchopulmonary aspergillosis",
+      "score": 0.05606074686855646,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005147",
+      "name": "type 1 diabetes mellitus",
+      "score": 0.05330500317578492,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0042233",
+      "name": "disseminated candidiasis",
+      "score": 0.051215144329357025,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0018905",
+      "name": "diffuse large B-cell lymphoma",
+      "score": 0.046751851617614776,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004975",
+      "name": "Alzheimer disease",
+      "score": 0.04670779744752151,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005812",
+      "name": "influenza",
+      "score": 0.04599215969409622,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0002026",
+      "name": "candidiasis",
+      "score": 0.045956696297245456,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0002041",
+      "name": "fungal infectious disease",
+      "score": 0.04518002308019724,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_1001283",
+      "name": "Candidiasis, Invasive",
+      "score": 0.044166279765437515,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005249",
+      "name": "pneumonia",
+      "score": 0.042758335965605083,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004979",
+      "name": "asthma",
+      "score": 0.035356650435898564,
+      "genetic_score": 0.0510242618382814,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0019121",
+      "name": "pneumocystosis",
+      "score": 0.03492303772414791,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0002032",
+      "name": "colon carcinoma",
+      "score": 0.03314925974380284,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0019115",
+      "name": "obesity due to melanocortin 4 receptor deficiency",
+      "score": 0.03249833040319476,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "HP_0001513",
+      "name": "Obesity",
+      "score": 0.03249833040319476,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0011122",
+      "name": "obesity disorder",
+      "score": 0.03249833040319476,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005062",
+      "name": "lymphoma",
+      "score": 0.0314758842906471,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005061",
+      "name": "lung adenocarcinoma",
+      "score": 0.028131174035007197,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004992",
+      "name": "cancer",
+      "score": 0.02649555712561231,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_1001418",
+      "name": "Salmonella Infections",
+      "score": 0.02640442739580703,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "Orphanet_91088",
+      "name": "Other metabolic disease",
+      "score": 0.025892215929541842,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005066",
+      "name": "metabolic disease",
+      "score": 0.025892215929541842,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0019087",
+      "name": "cholangiocarcinoma",
+      "score": 0.025131430118559724,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0000491",
+      "name": "limb ischemia",
+      "score": 0.025131430118559724,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0012382",
+      "name": "hyperinsulinemic hypoglycemia, familial, 4",
+      "score": 0.02510614671975535,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0004981",
+      "name": "atrial fibrillation",
+      "score": 0.02498887566148179,
+      "genetic_score": 0.04110480298029913,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0005845",
+      "name": "meningoencephalitis",
+      "score": 0.023468320772478565,
+      "genetic_score": 0.0,
+      "n_assets": 0,
+      "highest_phase": -1
+    }
+  ],
+  "deals": [],
+  "mechanism_clusters": {},
+  "crowding": {
+    "n_total": 0,
+    "n_active": 0,
+    "n_dormant": 0,
+    "weighted_score": 0,
+    "verdict": "Open",
+    "by_phase": {},
+    "n_sponsors": 0,
+    "n_mechanism_classes": 0,
+    "lead_phase": "Unknown",
+    "weights_used": {
+      "Approved": 5.0,
+      "Phase 3": 3.0,
+      "Phase 2": 1.5,
+      "Phase 1": 0.75,
+      "Preclinical": 0.25,
+      "Unknown": 0.25
+    },
+    "bands_used": [
+      {
+        "from": 0.0,
+        "verdict": "Open"
+      },
+      {
+        "from": 2.0,
+        "verdict": "Emerging"
+      },
+      {
+        "from": 8.0,
+        "verdict": "Contested"
+      },
+      {
+        "from": 20.0,
+        "verdict": "Crowded"
+      },
+      {
+        "from": 45.0,
+        "verdict": "Saturated"
+      }
+    ],
+    "dormant_assets": [],
+    "matrix": {
+      "mechanisms": [],
+      "rows": []
+    },
+    "indications_omitted": 0
+  },
+  "failures": {
+    "n_trials": 0,
+    "n_stopped": 0,
+    "n_with_reason": 0,
+    "counts": {},
+    "n_science": 0,
+    "n_business": 0,
+    "n_operational": 0,
+    "n_cmc": 0,
+    "n_unexplained": 0,
+    "science_share_of_stated": null,
+    "reporting_rate": null,
+    "cases": []
+  },
+  "whitespace": [
+    {
+      "disease": "Chronic mucocutaneous candidosis",
+      "disease_id": "Orphanet_1334",
+      "association_score": 0.761,
+      "genetic_score": 0.963,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "inflammatory bowel disease",
+      "disease_id": "MONDO_0005265",
+      "association_score": 0.442,
+      "genetic_score": 0.705,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "ulcerative colitis",
+      "disease_id": "MONDO_0005101",
+      "association_score": 0.389,
+      "genetic_score": 0.636,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "IgA glomerulonephritis",
+      "disease_id": "MONDO_0005342",
+      "association_score": 0.379,
+      "genetic_score": 0.62,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "dermatomycosis",
+      "disease_id": "MONDO_0002040",
+      "association_score": 0.369,
+      "genetic_score": 0.607,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    },
+    {
+      "disease": "dermatophytosis",
+      "disease_id": "MONDO_0004678",
+      "association_score": 0.371,
+      "genetic_score": 0.603,
+      "highest_phase": "None in clinic",
+      "n_assets": 0
+    }
+  ],
+  "licensing": {
+    "assets": [],
+    "holders": [],
+    "deals": {
+      "deals": [],
+      "by_asset": {},
+      "by_stage": [],
+      "n": 0,
+      "n_matched": 0,
+      "n_acquisitions": 0,
+      "curated": true
+    }
+  },
+  "precedent": {
+    "tier": "preclinical",
+    "tier_label": "Preclinical",
+    "read": "No clinical precedent in the public record. What is here is the genetics, the tractability and the modality fit — and preclinical work is invisible to all of the sources this is built from.",
+    "evidence": [
+      "Human genetic association with Chronic mucocutaneous candidosis scores 0.96 in Open Targets. Genetically supported targets have historically succeeded at about twice the base rate, which is the strongest prior available before any clinical data exists."
+    ],
+    "approved": [],
+    "n_approved": 0,
+    "n_withdrawn": 0,
+    "n_phase3": 0,
+    "n_controlled_running": 0,
+    "n_science_failures": 0,
+    "genetic_score": 0.963,
+    "genetic_disease": "Chronic mucocutaneous candidosis"
+  },
+  "readouts": {
+    "n_trials": 0,
+    "n_active": 0,
+    "n_controlled": 0,
+    "n_confirmatory": 0,
+    "n_undescribed": 0,
+    "by_level": {},
+    "level_labels": {
+      "confirmatory": "Confirmatory",
+      "controlled": "Controlled",
+      "signal": "Signal-generating",
+      "dose": "Dose and safety",
+      "mechanistic": "Mechanistic",
+      "unclear": "Design not stated"
+    },
+    "verdict": "No trial is currently running on this target.",
+    "catalysts": [],
+    "next_catalyst": null
+  },
+  "modalities": [
+    {
+      "key": "Molecular glue / degrader",
+      "what": "A small molecule that forces the target into contact with an E3 ubiquitin ligase, so the cell's own machinery destroys it. Removing the protein rather than inhibiting it.",
+      "requires": [
+        "An intracellular target — the machinery is cytoplasmic.",
+        "A ligandable surface anywhere on the protein. Crucially this need NOT be a functional active site, which is why degraders reach scaffolding and transcription-factor targets that defeated inhibitors.",
+        "The relevant E3 ligase is expressed in the tissue you are treating. Cereblon and VHL are the workhorses and their expression is not uniform."
+      ],
+      "fails": [
+        "Drug-like properties: bifunctional degraders are large and greasy, and oral bioavailability is the recurring reason a good degrader never becomes a drug. Monovalent glues avoid much of this and are correspondingly sought after.",
+        "The hook effect — too much drug forms binary rather than ternary complexes and degradation falls off at high dose, inverting the usual dose intuition.",
+        "Resistance through loss of the E3 ligase itself, seen clinically with cereblon."
+      ],
+      "economics": "≈3–5 years to first-in-human. Ternary-complex optimisation is the long pole; budget more medicinal chemistry than a conventional inhibitor.",
+      "bd_note": "The reason to care commercially: a degrader can open a target that an inhibitor could not, which resets the competitive clock on a mechanism that otherwise looks worked-out.",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Intracellular (intracellular), where the degradation machinery is.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Oligonucleotide",
+      "what": "A short nucleic acid that degrades or blocks the target's mRNA, lowering the amount of protein made rather than blocking the protein itself.",
+      "requires": [
+        "Only that the target is a gene. Protein structure is irrelevant, so 'undruggable' in the small-molecule sense does not apply — this is the modality's whole appeal.",
+        "That the disease-relevant tissue can be reached. This is the entire risk. GalNAc conjugation makes hepatocyte targets close to routine; intrathecal dosing reaches the CNS; the eye is feasible. Most other tissues are still an open delivery problem.",
+        "That lowering the protein is therapeutic — a loss-of-function target, not a gain-of-function one."
+      ],
+      "fails": [
+        "Delivery, overwhelmingly. A programme aimed outside liver, CNS and eye is underwriting a delivery invention, and should be priced as one.",
+        "Durable knockdown creating durable toxicity, with no way to withdraw the drug.",
+        "Hepatotoxicity and thrombocytopenia as class effects for some chemistries."
+      ],
+      "economics": "≈2–3 years and $15–35M to first-in-human for a liver target, and considerably more anywhere else. Discovery is fast because the sequence is designed rather than screened.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Small molecule",
+      "what": "A synthetic compound, usually under 500 daltons, binding a pocket on the target to block or modulate its activity.",
+      "requires": [
+        "A defined binding pocket. Enzymes, GPCRs, ion channels and nuclear receptors have one; flat protein–protein interfaces and scaffolding proteins largely do not, which is what 'undruggable' has historically meant.",
+        "Selectivity that is achievable against the rest of the family — the practical constraint on most kinase programmes."
+      ],
+      "fails": [
+        "Off-target and family cross-reactivity producing dose-limiting toxicity before the target is fully engaged.",
+        "Idiosyncratic hepatotoxicity, which appears late and kills programmes at Phase 2–3.",
+        "Resistance mutations in the pocket, in oncology and infectious disease."
+      ],
+      "economics": "≈3–5 years and $10–30M from hit to first-in-human — cheaper per step than a biologic, with a longer discovery phase.",
+      "bd_note": "The only class here that routinely reaches intracellular targets and the CNS, and the only one where oral dosing is the default. Both matter more to commercial value than potency does.",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Antibody-drug conjugate",
+      "what": "An antibody used as a delivery vehicle: it carries a cytotoxic payload, is taken into the cell, and releases the payload inside.",
+      "requires": [
+        "Surface expression, AND internalisation after binding. This is the requirement people forget. A non-internalising antigen cannot deliver a payload, however specific the antibody is.",
+        "A real expression differential against normal tissue — the payload is toxic to any cell it enters.",
+        "High enough antigen copy number; the delivered dose scales with it."
+      ],
+      "fails": [
+        "Payload toxicity sets the dose, not the antibody. Neutropenia, ocular toxicity and interstitial lung disease are the recurring dose-limiters, and they are largely payload-class effects you can predict in advance.",
+        "Linker instability releasing payload in circulation, which converts a targeted drug into a systemic chemotherapy.",
+        "A narrow therapeutic index that looks fine in xenografts and disappears in patients with normal-tissue expression."
+      ],
+      "economics": "≈2.5–4 years and $40–90M to first-in-human. Manufacturing and COGS are materially higher than a naked antibody — worth modelling early.",
+      "bd_note": "",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated intracellular only — nothing on the surface to bind.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Bispecific antibody",
+      "what": "Two binding arms in one molecule: either blocking two pathways at once, or — far more commonly now — dragging a T cell onto a tumour cell by binding CD3 with one arm and a tumour antigen with the other.",
+      "requires": [
+        "Surface expression, as for any antibody.",
+        "For a T-cell engager: expression genuinely restricted to the target tissue. There is no therapeutic index to spend — the drug recruits a cytotoxic T cell to whatever it binds, so low-level expression on a vital tissue is lethal, not tolerable.",
+        "Enough antigen density to form a synapse, and little antigen shedding."
+      ],
+      "fails": [
+        "On-target off-tumour toxicity — the dominant cause of death for this class.",
+        "Cytokine release syndrome forcing step-up dosing, which lengthens every trial.",
+        "Antigen loss under treatment pressure, giving deep early responses that do not last."
+      ],
+      "economics": "≈2–3 years and $25–60M to first-in-human; the dose-escalation is slower than a plain antibody because of step-up dosing.",
+      "bd_note": "",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated intracellular only — nothing on the surface to bind.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Cell therapy (CAR-T)",
+      "what": "A patient's or donor's T cells engineered with a receptor against a surface antigen, expanded, and infused back as a living drug.",
+      "requires": [
+        "Surface expression with near-absolute tissue restriction. The cells persist and multiply, so there is no dose to back off — anything the CAR recognises will be destroyed for as long as the cells live.",
+        "The antigen is present on essentially every malignant cell, or escape is immediate.",
+        "A tolerable consequence if the normal tissue carrying the antigen is also destroyed — B-cell aplasia after CD19 is survivable, and that is why CD19 worked first."
+      ],
+      "fails": [
+        "On-target off-tumour toxicity, which in this modality has been fatal rather than dose-limiting.",
+        "Antigen escape driving relapse after deep remission.",
+        "The solid-tumour wall: trafficking, persistence and an immunosuppressive microenvironment. Success remains overwhelmingly haematological.",
+        "Manufacturing — vein-to-vein time, failure rates and cost of goods are commercial risks, not technical footnotes."
+      ],
+      "economics": "≈3–5 years and $50–150M to meaningful clinical data, with process development a large fraction of it. Any seed plan much shorter than this is worth interrogating.",
+      "bd_note": "",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated intracellular only — nothing on the surface to bind.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Fc-fusion / ligand trap",
+      "what": "The receptor's binding domain fused to an antibody Fc, used to mop up a soluble ligand before it reaches its receptor.",
+      "requires": [
+        "The ligand is soluble and is the rate-limiting element — trapping does nothing against a membrane-bound or juxtacrine signal.",
+        "The trap does not also sequester a ligand you need."
+      ],
+      "fails": [
+        "Ligand redundancy: a trap for one cytokine in a family where three do the same job produces a clean pharmacodynamic result and no clinical effect.",
+        "Very high ligand turnover demanding impractical doses."
+      ],
+      "economics": "Similar to a monoclonal antibody. Often faster, because the binding domain is the native sequence rather than a discovery problem.",
+      "bd_note": "Commercially this is the modality that most often sits in a different patent estate from the receptor antibodies on the same axis — worth checking when a target looks crowded on paper.",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated intracellular. Antibodies do not cross the plasma membrane.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Monoclonal antibody",
+      "what": "A single antibody binding one epitope, used to block a receptor or ligand, or to kill the cell it is bound to through Fc-mediated effector function.",
+      "requires": [
+        "The target is on the cell surface or secreted. An antibody cannot cross the plasma membrane, so an intracellular target rules the modality out entirely.",
+        "The epitope is accessible on the folded protein in vivo, not only on a recombinant fragment.",
+        "For blockade: the interaction being blocked is rate-limiting for the disease. Antibodies are exquisite blockers of a single interaction and useless against a redundant pathway."
+      ],
+      "fails": [
+        "The biology, not the molecule. Antibody CMC and safety are now routine; the great majority of antibody failures are the target being wrong.",
+        "Soluble decoy: a shed extracellular domain circulating in patients absorbs drug and flattens the dose-response.",
+        "Poor tissue penetration in solid tumours and behind the blood-brain barrier (roughly 0.1% of a systemic dose reaches the CNS)."
+      ],
+      "economics": "≈18–30 months and $15–40M from lead to first-in-human data.",
+      "bd_note": "",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated intracellular. Antibodies do not cross the plasma membrane.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Peptide",
+      "what": "A short chain of amino acids, typically engaging an extracellular receptor or a protein–protein interface too flat for a small molecule.",
+      "requires": [
+        "An extracellular or accessible binding site, unless a cell-penetrating strategy is part of the plan.",
+        "A tolerable half-life, which usually means engineering — lipidation, cyclisation or fusion. Native peptides are cleared in minutes."
+      ],
+      "fails": [
+        "Pharmacokinetics rather than pharmacology.",
+        "Injection-only delivery in an oral market, which caps commercial value even when the biology works."
+      ],
+      "economics": "≈2–3 years and $10–30M to first-in-human.",
+      "bd_note": "",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated intracellular. Antibodies do not cross the plasma membrane.",
+      "in_use": false,
+      "speculative": false
+    },
+    {
+      "key": "Gene therapy",
+      "what": "A viral vector delivering a working copy of a gene, intended as a single administration.",
+      "requires": [
+        "Monogenic loss-of-function biology with a well-understood causal gene.",
+        "A tissue an AAV serotype actually reaches, at a dose that is safe.",
+        "Patients without pre-existing neutralising antibodies to the capsid, which excludes a large fraction of any population."
+      ],
+      "fails": [
+        "Dose-dependent hepatotoxicity and complement activation at the high systemic doses that non-CNS, non-ocular tissues require.",
+        "One-shot dosing with no redose path if expression fades.",
+        "A commercial model that has repeatedly failed on tiny populations and very high prices — a real diligence issue, not only a scientific one."
+      ],
+      "economics": "≈4–6 years and $80M+ to clinical data; CMC dominates the budget.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    },
+    {
+      "key": "Vaccine",
+      "what": "An immunogen intended to raise the patient's own immune response against the target or the cells carrying it.",
+      "requires": [
+        "The target is immunogenic and not subject to central tolerance — the recurring obstacle for self-antigen cancer vaccines.",
+        "A patient population with an immune system intact enough to respond."
+      ],
+      "fails": [
+        "Immune responses that are measurable and clinically inert — the most common outcome in therapeutic cancer vaccines.",
+        "Long, large, slow efficacy trials that are expensive to run."
+      ],
+      "economics": "Highly variable. Prophylactic trials are among the largest in medicine.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    },
+    {
+      "key": "mRNA",
+      "what": "Delivered mRNA instructing the patient's own cells to make a protein — a vaccine antigen, a missing enzyme, or a therapeutic antibody.",
+      "requires": [
+        "That ADDING protein helps. This inverts the usual target logic: mRNA suits loss-of-function biology, and has nothing to offer against a target you want to block.",
+        "That transient expression is enough, or that repeat dosing is tolerable.",
+        "A delivery route to the relevant tissue — in practice muscle for vaccines and liver for systemic LNPs."
+      ],
+      "fails": [
+        "Durability: expression is measured in days, so chronic replacement means chronic redosing.",
+        "Reactogenicity from the lipid nanoparticle, which limits dose.",
+        "Redosing immunogenicity against the carrier."
+      ],
+      "economics": "Fast to a first construct — weeks — and slow through CMC. ≈2–3 years and $20–50M to first-in-human outside the vaccine setting.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "This modality is not constrained by where the protein sits.",
+      "in_use": false,
+      "speculative": true
+    }
+  ],
+  "literature": {
+    "reviews": [
+      {
+        "title": "The SYK tyrosine kinase: a crucial  player in diverse biological functions",
+        "authors": "Mócsai A, Ruland J, Tybulewicz VL.",
+        "journal": "Nat Rev Immunol",
+        "year": "2010",
+        "pmid": "20467426",
+        "doi": "10.1038/nri2765",
+        "citations": 1116,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/20467426"
+      },
+      {
+        "title": "New IBD genetics: common pathways with other diseases",
+        "authors": "Lees CW, Barrett JC, Parkes M, Satsangi J.",
+        "journal": "Gut",
+        "year": "2011",
+        "pmid": "21300624",
+        "doi": "10.1136/gut.2009.199679",
+        "citations": 480,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/21300624"
+      },
+      {
+        "title": "The role of Dectin-1 in the host defence against fungal infections",
+        "authors": "Drummond RA, Brown GD.",
+        "journal": "Curr Opin Microbiol",
+        "year": "2011",
+        "pmid": "21803640",
+        "doi": "10.1016/j.mib.2011.07.001",
+        "citations": 231,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/21803640"
+      },
+      {
+        "title": "Inborn errors of human IL-17 immunity underlie chronic mucocutaneous candidiasis",
+        "authors": "Puel A, Cypowyj S, Maródi L, Abel L, Picard C, Casanova JL.",
+        "journal": "Curr Opin Allergy Clin Immunol",
+        "year": "2012",
+        "pmid": "23026768",
+        "doi": "10.1097/aci.0b013e328358cc0b",
+        "citations": 228,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/23026768"
+      },
+      {
+        "title": "Pattern recognition: recent insights from Dectin-1",
+        "authors": "Reid DM, Gow NA, Brown GD.",
+        "journal": "Curr Opin Immunol",
+        "year": "2009",
+        "pmid": "19223162",
+        "doi": "10.1016/j.coi.2009.01.003",
+        "citations": 211,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/19223162"
+      }
+    ],
+    "mechanism": [
+      {
+        "title": "Human gut mycobiota tune immunity via CARD9-dependent induction of anti-fungal IgG antibodies",
+        "authors": "Doron I, Leonardi I, Li XV, Fiers WD, Semon A, Bialt-DeCelie M, Migaud M, Gao IH, Lin WY, Kusakabe T, Puel A, Iliev ID.",
+        "journal": "Cell",
+        "year": "2021",
+        "pmid": "33548172",
+        "doi": "10.1016/j.cell.2021.01.016",
+        "citations": 176,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/33548172"
+      },
+      {
+        "title": "The intratumor mycobiome promotes lung cancer progression via myeloid-derived suppressor cells",
+        "authors": "Liu NN, Yi CX, Wei LQ, Zhou JA, Jiang T, Hu CC, Wang L, Wang YY, Zou Y, Zhao YK, Zhang LL, Nie YT, Zhu YJ, Yi XY, Zeng LB, Li JQ, Huang XT, Ji HB, Kozlakidis Z, Zhong L, Heeschen C, Zheng XQ, Chen C, Zhang P, Wang H.",
+        "journal": "Cancer Cell",
+        "year": "2023",
+        "pmid": "37738973",
+        "doi": "10.1016/j.ccell.2023.08.012",
+        "citations": 164,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/37738973"
+      },
+      {
+        "title": "TREM2 is a receptor for non-glycosylated mycolic acids of mycobacteria that limits anti-mycobacterial macrophage activation",
+        "authors": "Iizasa E, Chuma Y, Uematsu T, Kubota M, Kawaguchi H, Umemura M, Toyonaga K, Kiyohara H, Yano I, Colonna M, Sugita M, Matsuzaki G, Yamasaki S, Yoshida H, Hara H.",
+        "journal": "Nat Commun",
+        "year": "2021",
+        "pmid": "33863908",
+        "doi": "10.1038/s41467-021-22620-3",
+        "citations": 75,
+        "open_access": true,
+        "url": "https://europepmc.org/article/MED/33863908"
+      },
+      {
+        "title": "Dectin-1 limits autoimmune neuroinflammation and promotes myeloid cell-astrocyte crosstalk via Card9-independent expression of Oncostatin M",
+        "authors": "Deerhake ME, Danzaki K, Inoue M, Cardakli ED, Nonaka T, Aggarwal N, Barclay WE, Ji RR, Shinohara ML.",
+        "journal": "Immunity",
+        "year": "2021",
+        "pmid": "33581044",
+        "doi": "10.1016/j.immuni.2021.01.004",
+        "citations": 68,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/33581044"
+      },
+      {
+        "title": "Candida albicans extracellular vesicles trigger type I IFN signalling via cGAS and STING",
+        "authors": "Brown Harding H, Kwaku GN, Reardon CM, Khan NS, Zamith-Miranda D, Zarnowski R, Tam JM, Bohaen CK, Richey L, Mosallanejad K, Crossen AJ, Reedy JL, Ward RA, Vargas-Blanco DA, Basham KJ, Bhattacharyya RP, Nett JE, Mansour MK, van de Veerdonk FL, Kumar V, Kagan JC, Andes DR, Nosanchuk JD, Vyas JM.",
+        "journal": "Nat Microbiol",
+        "year": "2024",
+        "pmid": "38168615",
+        "doi": "10.1038/s41564-023-01546-0",
+        "citations": 66,
+        "open_access": false,
+        "url": "https://europepmc.org/article/MED/38168615"
+      }
+    ],
+    "search_url": "https://europepmc.org/search?query=(TITLE_ABS:\"CARD9\"%20OR%20TITLE_ABS:\"CANDF2\"%20OR%20TITLE_ABS:\"IMD103\"%20OR%20TITLE_ABS:\"hCARD9\")",
+    "note": "Reviews ranked by citation count; mechanism papers restricted to the last five years first, then ranked, so the list reflects current work rather than the field's founding papers."
+  },
+  "annotation": {
+    "accession": "Q9H257",
+    "entry_name": "CARD9_HUMAN",
+    "protein_name": "Caspase recruitment domain-containing protein 9",
+    "gene_names": [
+      "CARD9"
+    ],
+    "function": [
+      {
+        "text": "Adapter protein that plays a key role in innate immune response against fungi by forming signaling complexes downstream of C-type lectin receptors. CARD9-mediated signals are essential for antifungal immunity against a subset of fungi from the phylum Ascomycota. Transduces signals in myeloid cells downstream of C-type lectin receptors CLEC7A (dectin-1), CLEC6A (dectin-2) and CLEC4E (Mincle), which detect pathogen-associated molecular pattern metabolites (PAMPs), such as fungal carbohydrates, and trigger CARD9 activation. Upon activation, CARD9 homooligomerizes to form a nucleating helical template that recruits BCL10 via CARD-CARD interaction, thereby promoting polymerization of BCL10 and subsequent recruitment of MALT1: this leads to activation of NF-kappa-B and MAP kinase p38 (MAPK11, MAPK12, MAPK13 and/or MAPK14) pathways which stimulate expression of genes encoding pro-inflammatory cytokines and chemokines. CARD9 signaling in antigen-presenting cells links innate sensing of fungi to the activation of adaptive immunity and provides a cytokine milieu that induces the development and subsequent of interleukin 17-producing T helper (Th17) cells. Also involved in activation of myeloid cells via classical ITAM-associated receptors and TLR: required for TLR-mediated activation of MAPK, while it is not required for TLR-induced activation of NF-kappa-B. CARD9 can also be engaged independently of BCL10: forms a complex with RASGRF1 downstream of C-type lectin receptors, which recruits and activates HRAS, leading to ERK activation and the production of cytokines. Acts as an important regulator of the intestinal commensal fungi (mycobiota) component of the gut microbiota. Plays an essential role in antifungal immunity against dissemination of gut fungi: acts by promoting induction of antifungal IgG antibodies response in CX3CR1(+) macrophages to confer protection against disseminated C.albicans or C.auris infection. Also mediates immunity against other pathogens, such as certain bacteria, viruses and parasites; CARD9 signaling is however redundant with other innate immune responses. In response to L.monocytogenes infection, required for the production of inflammatory cytokines activated by intracellular peptidoglycan: acts by connecting NOD2 recognition of peptidoglycan to downstream activation of MAP kinases (MAPK) without activating NF-kappa-B",
+        "pmids": [
+          "11053425",
+          "24231284",
+          "25057046",
+          "25702837",
+          "26488816",
+          "26521038",
+          "26679537",
+          "26961233",
+          "27777981",
+          "29080677",
+          "31296852",
+          "33548172",
+          "33558980"
+        ]
+      }
+    ],
+    "subunit": [
+      {
+        "text": "Monomer. Homodimer; homodimerization is mediated by the CARD domain which forms an extensive interaction with the adjacent linker and coiled-coil regions; leads to an autoinhibited state. Homomultimer; polymerizes following activation, forming a nucleating helical template that seeds BCL10-filament formation via a CARD-CARD interaction. Interacts (via CARD domain) with BCL10 (via CARD domain); interaction takes place following CARD9 activation and polymerization, leading to the formation of a filamentous CBM complex assembly. Component of a CBM complex (CARD9-BCL10, MALT1), composed of CARD9, BCL10 and MALT1. Interacts with RASGRF1. Interacts with NOD2 (via NACHT domain); interaction is direct. Interacts with RIPK2. Interacts with VHL; without leading to protein degradation",
+        "pmids": [
+          "11053425",
+          "24960071",
+          "26488816",
+          "26521038",
+          "30206119",
+          "31296852"
+        ]
+      }
+    ],
+    "domains": [
+      {
+        "name": "CARD",
+        "count": 1,
+        "spans": [
+          [
+            6,
+            98
+          ]
+        ]
+      }
+    ],
+    "disease": [
+      {
+        "name": "Immunodeficiency 103, susceptibility to fungal infections",
+        "acronym": "IMD103",
+        "description": "An autosomal recessive primary immunodeficiency disorder with altered immune responses and impaired clearance of fungal infections, selective against Candida. It is characterized by persistent and/or recurrent infections of the skin, nails and mucous membranes caused by organisms of the genus Candida, mainly Candida albicans.",
+        "mim": "212050",
+        "pmids": [
+          "19864672",
+          "23335372",
+          "24131138",
+          "24231284",
+          "24704721",
+          "25057046",
+          "25372963",
+          "25702837",
+          "25933095",
+          "26044242",
+          "26440558",
+          "26521038",
+          "26658378",
+          "26679537",
+          "26941346",
+          "26961233",
+          "27777981",
+          "28391957",
+          "28984994",
+          "29080677",
+          "29307770",
+          "31296852",
+          "31469433",
+          "33548172",
+          "33558980"
+        ]
+      }
+    ],
+    "n_citations": 35,
+    "url": "https://www.uniprot.org/uniprotkb/Q9H257",
+    "licence": "UniProt Knowledgebase (Swiss-Prot), CC BY 4.0",
+    "brief": {
+      "segments": [
+        {
+          "kind": "function",
+          "text": "Adapter protein that plays a key role in innate immune response against fungi by forming signaling complexes downstream of C-type lectin receptors. CARD9-mediated signals are essential for antifungal immunity against a subset of fungi from the phylum Ascomycota. Transduces signals in myeloid cells downstream of C-type lectin receptors CLEC7A (dectin-1), CLEC6A (dectin-2) and CLEC4E (Mincle), which detect pathogen-associated molecular pattern metabolites (PAMPs), such as fungal carbohydrates, and trigger CARD9 activation.",
+          "pmids": [
+            "11053425",
+            "24231284",
+            "25057046",
+            "25702837"
+          ]
+        },
+        {
+          "kind": "subunit",
+          "text": "Monomer. Homodimer; homodimerization is mediated by the CARD domain which forms an extensive interaction with the adjacent linker and coiled-coil regions; leads to an autoinhibited state.",
+          "pmids": [
+            "11053425",
+            "24960071",
+            "26488816",
+            "26521038"
+          ]
+        },
+        {
+          "kind": "domain",
+          "text": "UniProt annotates a CARD domain.",
+          "pmids": []
+        },
+        {
+          "kind": "disease",
+          "text": "Separately, germline variants in CARD9 cause Immunodeficiency 103, susceptibility to fungal infections (IMD103) — genetic validation of the target, not an indication being pursued against it.",
+          "pmids": [
+            "19864672",
+            "23335372",
+            "24131138",
+            "24231284"
+          ]
+        }
+      ],
+      "text": "Adapter protein that plays a key role in innate immune response against fungi by forming signaling complexes downstream of C-type lectin receptors. CARD9-mediated signals are essential for antifungal immunity against a subset of fungi from the phylum Ascomycota. Transduces signals in myeloid cells downstream of C-type lectin receptors CLEC7A (dectin-1), CLEC6A (dectin-2) and CLEC4E (Mincle), which detect pathogen-associated molecular pattern metabolites (PAMPs), such as fungal carbohydrates, and trigger CARD9 activation. Monomer. Homodimer; homodimerization is mediated by the CARD domain which forms an extensive interaction with the adjacent linker and coiled-coil regions; leads to an autoinhibited state. UniProt annotates a CARD domain. Separately, germline variants in CARD9 cause Immunodeficiency 103, susceptibility to fungal infections (IMD103) — genetic validation of the target, not an indication being pursued against it.",
+      "words": 127,
+      "accession": "Q9H257",
+      "url": "https://www.uniprot.org/uniprotkb/Q9H257",
+      "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)",
+      "note": "Curated by UniProt from the primary literature, not generated. Each statement links to the records the curator cited."
+    }
+  },
+  "header": {
+    "facts": [
+      {
+        "key": "function",
+        "label": "Function",
+        "value": "Adapter protein that plays a key role in innate immune response against fungi by forming signaling complexes downstream of C-type lectin receptors.",
+        "note": "",
+        "pmids": [
+          "11053425",
+          "24231284",
+          "25057046"
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Where it sits",
+        "value": "Cytoplasm",
+        "note": "Subcellular location, which decides which modalities can physically reach it.",
+        "pmids": []
+      },
+      {
+        "key": "domain",
+        "label": "Domains",
+        "value": "CARD",
+        "note": "",
+        "pmids": []
+      },
+      {
+        "key": "development",
+        "label": "In development",
+        "value": "Nothing in the public record",
+        "note": "No asset against this target was found in Open Targets, ChEMBL or ClinicalTrials.gov. Preclinical and undisclosed work is invisible to all three.",
+        "pmids": []
+      },
+      {
+        "key": "genetics",
+        "label": "Germline variants cause",
+        "value": "Immunodeficiency 103, susceptibility to fungal infections (IMD103)",
+        "note": "A Mendelian disease caused by variants in this gene. It is not an indication anyone is developing against the target.",
+        "pmids": [
+          "19864672",
+          "23335372",
+          "24131138"
+        ]
+      }
+    ],
+    "mechanism": {
+      "text": "Adapter protein that plays a key role in innate immune response against fungi by forming signaling complexes downstream of C-type lectin receptors. CARD9-mediated signals are essential for antifungal immunity against a subset of fungi from the phylum Ascomycota. Transduces signals in myeloid cells downstream of C-type lectin receptors CLEC7A (dectin-1), CLEC6A (dectin-2) and CLEC4E (Mincle), which detect pathogen-associated molecular pattern metabolites (PAMPs), such as fungal carbohydrates, and trigger CARD9 activation. Monomer. Homodimer; homodimerization is mediated by the CARD domain which forms an extensive interaction with the adjacent linker and coiled-coil regions; leads to an autoinhibited state.",
+      "pmids": [
+        "11053425",
+        "24231284",
+        "25057046",
+        "25702837",
+        "24960071",
+        "26488816"
+      ],
+      "accession": "Q9H257",
+      "url": "https://www.uniprot.org/uniprotkb/Q9H257",
+      "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
+    },
+    "accession": "Q9H257",
+    "url": "https://www.uniprot.org/uniprotkb/Q9H257",
+    "curated_source": true,
+    "development_unknown": false,
+    "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
+  },
+  "diagram": {
+    "svg": "<svg viewBox=\"0 0 720 250\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How CARD9 is being drugged</title><desc id=\"tl-diagram-desc\">CARD9 is in the cytoplasm. No programme has been recorded against it.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"216\" y=\"18\" width=\"504\" height=\"214\" rx=\"26\" class=\"tl-cell\"/><text x=\"706\" y=\"38\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><text x=\"24\" y=\"125\" class=\"tl-empty\">Nothing has been recorded against this target.</text><g class=\"tl-target\"><rect x=\"552\" y=\"101\" width=\"88\" height=\"48\" rx=\"14\" class=\"tl-protein\"/><text x=\"596\" y=\"130\" class=\"tl-protein-label\">CARD9</text></g></svg>",
+    "title": "How CARD9 is being drugged",
+    "caption": "CARD9 is in the cytoplasm. No programme has been recorded against it.",
+    "placement": "in the cytoplasm",
+    "target_class": [],
+    "interventions": [],
+    "note": "Generated from the target's annotated location, its protein family, and the mechanism classes present in the asset table. Arrow weight is the furthest phase that approach has reached. It is a schematic of how the target is being drugged — not a pathway map, and it draws no interaction it has not read from the data."
+  },
+  "pathway": {},
+  "feasibility": {
+    "lines": [
+      {
+        "key": "validation",
+        "label": "Has anyone made a medicine here?",
+        "value": "No clinical precedent",
+        "face": "science",
+        "detail": "Counted from approved drugs and the highest phase reached by any programme on this target. It says what has happened, not whether a new asset here is differentiated — the asset table and the mechanism split are where that is visible.",
+        "anchor": "#precedent"
+      },
+      {
+        "key": "window",
+        "label": "How contested is it?",
+        "value": "Open — 0 assets",
+        "face": "business",
+        "detail": "0 sponsors, phase-weighted score 0. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
+        "anchor": "#crowding"
+      },
+      {
+        "key": "opening",
+        "label": "What has nobody tried?",
+        "value": "Untried here: Molecular glue / degrader, Oligonucleotide",
+        "face": "business",
+        "detail": "Physically available against this target — the location and family allow it — and absent from the asset table. That is a modality gap rather than a proven opportunity, and the requirements listed under each one are what a company would have to satisfy.",
+        "anchor": "#modalities"
+      }
+    ],
+    "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
+  },
+  "narrative": {
+    "bottom_line": "CARD9 carries 0 active programmes across 0 mechanism classes from 0 named sponsors, reaching Unknown. Phase-weighted density scores 0, which this tool bands as Open.",
+    "competitive": "No assets were resolved against this target.",
+    "failures": "0 of 0 trials stopped; 0 stated a reason. No stated reasons were available to classify.",
+    "whitespace": "6 diseases pass the screen: association evidence above threshold, genetic support, and nothing past preclinical. The strongest on genetic evidence is Chronic mucocutaneous candidosis (association 0.761, genetic 0.963). Treat this as a hypothesis to check by hand rather than a finding — disease names are matched between EFO terms and sponsor free text, and that matching is imperfect.",
+    "licensing": "No programmes resolved against this target, so there is nothing to place.",
+    "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent. Deal comparables are hand-maintained and not exhaustive.",
+    "_source": "template"
+  },
+  "generated": "2026-09-06 01:25 UTC",
+  "warnings": [],
+  "notes": [
+    "No single-protein human ChEMBL target matched 'CARD9'; action types and modalities rest on Open Targets alone.",
+    "1 trial on this target list drugs this record does not tie to CARD9 -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
+  ],
+  "rules_version": "2026-09-07-directed-discovery"
+}

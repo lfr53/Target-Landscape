@@ -1,0 +1,42 @@
+# Reference target set for calibrating the competitive-density bands.
+#
+#   python -m landscape --calibrate --out out/calibration
+#
+# The density score is only interpretable relative to other targets, so the
+# band thresholds in config.py have to be derived from a spread that actually
+# covers the range. This file is that spread. Each target is annotated with the
+# band it ought to land in on prior knowledge — if a run puts a target far from
+# its annotation, either the thresholds or the retrieval is wrong, and the
+# index page makes which one obvious.
+#
+# The annotations are expectations, not ground truth. Update them when the
+# field moves, and record the date you last ran this.
+#
+# Last full run: NOT YET RUN — the bands currently in config.py were set by
+# hand against a handful of targets. Running this set and recording the
+# results is the honest version of that section.
+
+# --- expect Saturated: many approved and late-stage assets -------------------
+PDCD1          # PD-1
+ERBB2          # HER2
+EGFR
+
+# --- expect Crowded ----------------------------------------------------------
+TNFRSF17       # BCMA
+CD19
+KRAS
+
+# --- expect Contested: several sponsors, late-stage but not approved-heavy ---
+TNFSF15        # TL1A
+IL23A
+TNFSF13B       # BAFF — the ligand, contrast with the receptor below
+CLDN18
+
+# --- expect Emerging ---------------------------------------------------------
+TNFRSF13C      # BAFF-R — one Phase 3 plus a cell-therapy tail
+LILRB4
+MAP3K14        # NIK, upstream of the non-canonical NF-kB pathway
+
+# --- expect Open: well-evidenced biology, little or nothing in the clinic ----
+PTPN22
+CARD9

@@ -1,0 +1,586 @@
+{
+  "_meta": {
+    "status": "ILLUSTRATIVE — hand-curated, not a live pull",
+    "compiled": "2026-09-03",
+    "purpose": "Offline demo and regression test for the analysis layer. Every NCT identifier here was verified against a public source; trial statuses, dates and Open Targets association scores are approximate placeholders.",
+    "before_publishing": "Regenerate against the live APIs: python -m landscape TNFRSF13C --save-fixture fixtures/TNFRSF13C.json",
+    "why_this_target": "TNFRSF13C (BAFF-R) is a clean test case: one dominant late-stage asset, a genuinely instructive termination, a cell-therapy tail the drug databases do not carry, and a well-evidenced monogenic indication with nothing in the clinic. It also exercises the tool's target discipline — belimumab, atacicept, telitacicept and povetacicept all sit on the BAFF/APRIL axis but bind the ligands or TACI, not BAFF-R, and a naive keyword sweep pulls them in wrongly."
+  },
+  "target": {
+    "ensembl_id": "ENSG00000159958",
+    "symbol": "TNFRSF13C",
+    "name": "TNF receptor superfamily member 13C",
+    "biotype": "protein_coding",
+    "function": "Receptor for BAFF/TNFSF13B. Delivers the principal survival and maturation signal to transitional and mature B cells, acting largely through the non-canonical NF-kB pathway via NIK and p100 processing. Biallelic loss-of-function variants cause a B-cell maturation defect presenting as common variable immunodeficiency.",
+    "synonyms": [
+      "BAFF-R",
+      "BAFFR",
+      "BR3",
+      "CD268",
+      "TNFRSF13C"
+    ],
+    "tractability": {
+      "AB": [
+        "Predicted Tractable - High confidence",
+        "UniProt loc high conf",
+        "Human Protein Atlas loc"
+      ],
+      "SM": [
+        "Predicted Tractable - Low confidence"
+      ],
+      "OC": [
+        "UniProt loc high conf"
+      ]
+    },
+    "provenance": [
+      {
+        "source": "opentargets",
+        "identifier": "ENSG00000159958",
+        "url": "https://platform.opentargets.org/target/ENSG00000159958",
+        "retrieved": "2026-09-03"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "name": "Ianalumab",
+      "sponsor": "Novartis Pharmaceuticals",
+      "modality": "Antibody",
+      "action_type": "ANTAGONIST",
+      "mechanism_text": "Afucosylated fully human IgG1 monoclonal antibody against BAFF-R. Dual mechanism: ADCC-mediated B cell depletion plus blockade of BAFF-R mediated survival signalling.",
+      "mechanism_class": "",
+      "max_phase": 3,
+      "indications": [
+        "Sjogren's Disease",
+        "Immune Thrombocytopenia",
+        "Lupus Nephritis",
+        "Systemic Lupus Erythematosus",
+        "Rheumatoid Arthritis",
+        "Hidradenitis Suppurativa",
+        "Autoimmune Hepatitis",
+        "Warm Autoimmune Haemolytic Anaemia"
+      ],
+      "trials": [
+        "NCT05350072",
+        "NCT05349214",
+        "NCT05885555",
+        "NCT05653219",
+        "NCT06711887",
+        "NCT03827798",
+        "NCT03574545",
+        "NCT03656562"
+      ],
+      "chembl_id": "CHEMBL4297516",
+      "drug_id": "CHEMBL4297516",
+      "synonyms": [
+        "VAY736",
+        "VAY-736",
+        "anti-BAFF-R mAb"
+      ],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "provenance": [
+        {
+          "source": "manual",
+          "identifier": "novartis-2025-08-11",
+          "url": "https://www.novartis.com/news/media-releases/novartis-announces-both-ianalumab-phase-iii-clinical-trials-met-primary-endpoint-patients-sjogrens-disease",
+          "retrieved": "2026-09-03"
+        }
+      ]
+    },
+    {
+      "name": "BAFFR CAR-T",
+      "sponsor": "",
+      "modality": "",
+      "action_type": "",
+      "mechanism_text": "Autologous chimeric antigen receptor T cells directed against BAFF-R, developed to address CD19-antigen-escape relapse in B-cell malignancies and being extended to B-cell driven autoimmune disease.",
+      "mechanism_class": "",
+      "max_phase": 1,
+      "indications": [
+        "Relapsed/Refractory B-cell Malignancies"
+      ],
+      "trials": [
+        "NCT07345728"
+      ],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [
+        "anti-BAFF-R CAR T",
+        "BAFF-R CAR T cells"
+      ],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "provenance": [
+        {
+          "source": "ctgov",
+          "identifier": "NCT07345728",
+          "url": "https://clinicaltrials.gov/study/NCT07345728",
+          "retrieved": "2026-09-03"
+        }
+      ]
+    },
+    {
+      "name": "LMY-920",
+      "sponsor": "Luminary Therapeutics",
+      "modality": "",
+      "action_type": "",
+      "mechanism_text": "Autologous BAFF-ligand CAR T cells. Uses BAFF itself as the binding domain, so a single construct engages BAFF-R, TACI and BCMA rather than one receptor.",
+      "mechanism_class": "",
+      "max_phase": 1,
+      "indications": [
+        "B-cell Non-Hodgkin Lymphoma",
+        "Multiple Myeloma"
+      ],
+      "trials": [],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [
+        "BAFF CAR-T",
+        "autologous BAFF-expressing CAR T cells"
+      ],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "provenance": [
+        {
+          "source": "manual",
+          "identifier": "nci-intervention-lmy920",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/intervention/autologous-baff-expressing-car-t-cells-lmy-920",
+          "retrieved": "2026-09-03"
+        }
+      ]
+    },
+    {
+      "name": "Bispecific BAFF-R/BCMA CAR-T",
+      "sponsor": "City of Hope",
+      "modality": "",
+      "action_type": "",
+      "mechanism_text": "Bispecific chimeric antigen receptor T cells targeting BAFF-R and BCMA simultaneously, reported to control heterogeneous plasma cell populations in multiple myeloma. Preclinical.",
+      "mechanism_class": "",
+      "max_phase": 0,
+      "indications": [
+        "Multiple Myeloma"
+      ],
+      "trials": [],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "provenance": [
+        {
+          "source": "manual",
+          "identifier": "pubmed-41376157",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41376157/",
+          "retrieved": "2026-09-03"
+        }
+      ]
+    }
+  ],
+  "trials": [
+    {
+      "nct_id": "NCT05350072",
+      "title": "Two-arm Study to Assess Efficacy and Safety of Ianalumab (VAY736) in Patients With Active Sjogren's Syndrome (NEPTUNUS-1)",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": 3,
+      "sponsor": "Novartis Pharmaceuticals",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Sjogren's Disease"
+      ],
+      "interventions": [
+        "Ianalumab",
+        "VAY736",
+        "Placebo"
+      ],
+      "countries": [
+        "United States",
+        "Germany",
+        "Japan",
+        "China",
+        "United Kingdom"
+      ],
+      "enrollment": 275,
+      "start_date": "2022-06",
+      "completion_date": "2025-05",
+      "failure_class": "",
+      "failure_rationale": ""
+    },
+    {
+      "nct_id": "NCT05349214",
+      "title": "Three-arm Study to Assess Efficacy and Safety of Ianalumab (VAY736) in Patients With Active Sjogren's Syndrome (NEPTUNUS-2)",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": 3,
+      "sponsor": "Novartis Pharmaceuticals",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Sjogren's Disease"
+      ],
+      "interventions": [
+        "Ianalumab",
+        "VAY736",
+        "Placebo"
+      ],
+      "countries": [
+        "United States",
+        "Spain",
+        "Italy",
+        "Japan",
+        "China"
+      ],
+      "enrollment": 504,
+      "start_date": "2022-06",
+      "completion_date": "2025-05",
+      "failure_class": "",
+      "failure_rationale": ""
+    },
+    {
+      "nct_id": "NCT05885555",
+      "title": "A Study of Ianalumab (VAY736) in Patients With Primary Immune Thrombocytopenia (ITP) Previously Treated With at Least Two Lines of Therapies (VAYHIT1)",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "why_stopped": "",
+      "phase": 3,
+      "sponsor": "Novartis Pharmaceuticals",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Immune Thrombocytopenia"
+      ],
+      "interventions": [
+        "Ianalumab",
+        "Placebo"
+      ],
+      "countries": [
+        "United States",
+        "France",
+        "Japan"
+      ],
+      "enrollment": 63,
+      "start_date": "2023-08",
+      "completion_date": "2026-06",
+      "failure_class": "",
+      "failure_rationale": ""
+    },
+    {
+      "nct_id": "NCT05653219",
+      "title": "Study of Ianalumab in Addition to Eltrombopag in Primary Immune Thrombocytopenia (VAYHIT2)",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": 3,
+      "sponsor": "Novartis Pharmaceuticals",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Immune Thrombocytopenia"
+      ],
+      "interventions": [
+        "Ianalumab",
+        "Eltrombopag",
+        "Placebo"
+      ],
+      "countries": [
+        "United States",
+        "Germany",
+        "China"
+      ],
+      "enrollment": 94,
+      "start_date": "2023-02",
+      "completion_date": "2026-03",
+      "failure_class": "",
+      "failure_rationale": ""
+    },
+    {
+      "nct_id": "NCT06711887",
+      "title": "Phase III Extension Study of Efficacy and Safety of Ianalumab With or Without Study Treatment Withdrawal in Participants With Lupus Nephritis (SIRIUS-LN Extension)",
+      "status": "RECRUITING",
+      "why_stopped": "",
+      "phase": 3,
+      "sponsor": "Novartis Pharmaceuticals",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Lupus Nephritis"
+      ],
+      "interventions": [
+        "Ianalumab"
+      ],
+      "countries": [
+        "United States",
+        "Brazil",
+        "China",
+        "Japan"
+      ],
+      "enrollment": 400,
+      "start_date": "2025-03",
+      "completion_date": "2030-01",
+      "failure_class": "",
+      "failure_rationale": ""
+    },
+    {
+      "nct_id": "NCT03827798",
+      "title": "Study of Efficacy and Safety of VAY736 in Patients With Moderate to Severe Hidradenitis Suppurativa",
+      "status": "TERMINATED",
+      "why_stopped": "Study did not meet the target criteria for progression despite demonstrating efficacy versus placebo; sponsor decision not to advance the programme in this indication. No new safety signals were identified.",
+      "phase": 2,
+      "sponsor": "Novartis Pharmaceuticals",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Hidradenitis Suppurativa"
+      ],
+      "interventions": [
+        "VAY736",
+        "Ianalumab",
+        "Placebo"
+      ],
+      "countries": [
+        "United States",
+        "Germany",
+        "Canada"
+      ],
+      "enrollment": 248,
+      "start_date": "2019-04",
+      "completion_date": "2025-06",
+      "failure_class": "",
+      "failure_rationale": ""
+    },
+    {
+      "nct_id": "NCT03574545",
+      "title": "Study Comparing Two VAY736 Drug Products in Patients With Rheumatoid Arthritis",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": 1,
+      "sponsor": "Novartis Pharmaceuticals",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Rheumatoid Arthritis"
+      ],
+      "interventions": [
+        "VAY736"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "enrollment": 48,
+      "start_date": "2018-08",
+      "completion_date": "2019-11",
+      "failure_class": "",
+      "failure_rationale": ""
+    },
+    {
+      "nct_id": "NCT03656562",
+      "title": "Study of the Efficacy and Safety of VAY736 and CFZ533 in Patients With Systemic Lupus Erythematosus",
+      "status": "COMPLETED",
+      "why_stopped": "",
+      "phase": 2,
+      "sponsor": "Novartis Pharmaceuticals",
+      "sponsor_class": "INDUSTRY",
+      "conditions": [
+        "Systemic Lupus Erythematosus"
+      ],
+      "interventions": [
+        "VAY736",
+        "CFZ533",
+        "Iscalimab",
+        "Placebo"
+      ],
+      "countries": [
+        "United States",
+        "Mexico",
+        "Poland"
+      ],
+      "enrollment": 67,
+      "start_date": "2018-11",
+      "completion_date": "2022-04",
+      "failure_class": "",
+      "failure_rationale": ""
+    },
+    {
+      "nct_id": "NCT07345728",
+      "title": "Clinical Study Evaluating the Safety and Efficacy of BAFFR CAR-T Therapy for Relapsed/Refractory B-cell Malignancies",
+      "status": "RECRUITING",
+      "why_stopped": "",
+      "phase": 1,
+      "sponsor": "",
+      "sponsor_class": "OTHER",
+      "conditions": [
+        "Relapsed/Refractory B-cell Malignancies"
+      ],
+      "interventions": [
+        "BAFFR CAR-T"
+      ],
+      "countries": [
+        "China"
+      ],
+      "enrollment": 20,
+      "start_date": "2026-01",
+      "completion_date": "2028-12",
+      "failure_class": "",
+      "failure_rationale": ""
+    }
+  ],
+  "associations": [
+    {
+      "disease_id": "EFO_0000699",
+      "name": "Sjogren syndrome",
+      "score": 0.71,
+      "genetic_score": 0.42,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0002690",
+      "name": "systemic lupus erythematosus",
+      "score": 0.68,
+      "genetic_score": 0.51,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0003778",
+      "name": "common variable immunodeficiency",
+      "score": 0.62,
+      "genetic_score": 0.6,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0003767",
+      "name": "inflammatory bowel disease",
+      "score": 0.44,
+      "genetic_score": 0.31,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0000685",
+      "name": "rheumatoid arthritis",
+      "score": 0.55,
+      "genetic_score": 0.29,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0003888",
+      "name": "immune thrombocytopenic purpura",
+      "score": 0.49,
+      "genetic_score": 0.12,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0003885",
+      "name": "multiple sclerosis",
+      "score": 0.46,
+      "genetic_score": 0.33,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0004228",
+      "name": "IgA glomerulonephritis",
+      "score": 0.41,
+      "genetic_score": 0.27,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0006812",
+      "name": "autoimmune hepatitis",
+      "score": 0.38,
+      "genetic_score": 0.09,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0000305",
+      "name": "B-cell non-Hodgkin lymphoma",
+      "score": 0.37,
+      "genetic_score": 0.06,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "EFO_0000384",
+      "name": "Crohn's disease",
+      "score": 0.36,
+      "genetic_score": 0.25,
+      "n_assets": 0,
+      "highest_phase": -1
+    },
+    {
+      "disease_id": "MONDO_0015517",
+      "name": "selective IgA deficiency",
+      "score": 0.36,
+      "genetic_score": 0.34,
+      "n_assets": 0,
+      "highest_phase": -1
+    }
+  ],
+  "deals": [],
+  "warnings": [
+    "Illustrative fixture, not a live pull. NCT identifiers are verified; trial statuses, enrolment, dates and Open Targets association scores are hand-entered approximations. Regenerate with --save-fixture against the live APIs before citing any figure."
+  ],
+  "generated": "2026-09-03 (hand-curated fixture)",
+  "annotation": {
+    "accession": "Q96RJ3",
+    "entry_name": "TR13C_HUMAN",
+    "protein_name": "Tumor necrosis factor receptor superfamily member 13C",
+    "gene_names": [
+      "TNFRSF13C",
+      "BAFFR",
+      "BR3"
+    ],
+    "function": [
+      {
+        "text": "B-cell receptor specific for TNFSF13B/TALL1/BAFF/BLyS. Promotes the survival of mature B-cells and the B-cell response",
+        "pmids": [
+          "11591325",
+          "12387744"
+        ]
+      }
+    ],
+    "subunit": [],
+    "domains": [],
+    "disease": [
+      {
+        "name": "Immunodeficiency, common variable, 4",
+        "acronym": "CVID4",
+        "description": "A primary immunodeficiency characterized by antibody deficiency, hypogammaglobulinemia, recurrent bacterial infections and an inability to mount an antibody response to antigen. The defect results from a failure of B-cell differentiation and impaired secretion of immunoglobulins; the numbers of circulating B-cells is usually in the normal range, but can be low.",
+        "mim": "613494",
+        "pmids": [
+          "19666484"
+        ]
+      }
+    ],
+    "n_citations": 10,
+    "url": "https://www.uniprot.org/uniprotkb/Q96RJ3",
+    "licence": "UniProt Knowledgebase (Swiss-Prot), CC BY 4.0",
+    "brief": {
+      "segments": [
+        {
+          "kind": "function",
+          "text": "B-cell receptor specific for TNFSF13B/TALL1/BAFF/BLyS. Promotes the survival of mature B-cells and the B-cell response",
+          "pmids": [
+            "11591325",
+            "12387744"
+          ]
+        },
+        {
+          "kind": "disease",
+          "text": "Separately, germline variants in TNFRSF13C cause Immunodeficiency, common variable, 4 (CVID4) — genetic validation of the target, not an indication being pursued against it.",
+          "pmids": [
+            "19666484"
+          ]
+        }
+      ],
+      "text": "B-cell receptor specific for TNFSF13B/TALL1/BAFF/BLyS. Promotes the survival of mature B-cells and the B-cell response. Separately, germline variants in TNFRSF13C cause Immunodeficiency, common variable, 4 (CVID4) — genetic validation of the target, not an indication being pursued against it.",
+      "words": 39,
+      "accession": "Q96RJ3",
+      "url": "https://www.uniprot.org/uniprotkb/Q96RJ3",
+      "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)",
+      "note": "Curated by UniProt from the primary literature, not generated. Each statement links to the records the curator cited."
+    }
+  }
+}

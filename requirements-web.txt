@@ -1,0 +1,4 @@
+# Web layer only. The landscape engine itself needs nothing beyond the
+# standard library — keep it that way.
+fastapi>=0.110
+uvicorn[standard]>=0.27

@@ -1,0 +1,3 @@
+# The pipeline itself needs nothing beyond the standard library.
+# Install this only to enable the optional LLM pass:
+anthropic>=0.40.0
