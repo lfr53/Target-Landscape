@@ -41,8 +41,7 @@ jobs:
       # payloads, both standard library only.
       - name: Build the site
         run: |
-          mkdir -p site
-          python scripts/make_static_demo.py --out site/index.html
+          python scripts/make_static_demo.py --out-dir site
           test -s site/index.html
 
       - uses: actions/configure-pages@v5
