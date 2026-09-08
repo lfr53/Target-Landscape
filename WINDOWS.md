@@ -81,29 +81,43 @@ project holds no API key of any kind, by design.
 
 Run it again after later changes; it commits and pushes on top.
 
-## 7-DEPLOY-SPACE.bat -- put it online
+## Putting it online
 
-Publishes the site to a Hugging Face Space, so there is a link that opens the
-running tool rather than a repository someone has to install.
+There is nothing to run here: pushing to GitHub publishes the site.
+
+Every curated target is precomputed and committed, so the site is already a
+set of static files — the web server exists to look up targets that are not
+in the curated set, and nothing else. GitHub rebuilds the static export from a
+clean checkout on each push to `main` and serves the result. If the export
+breaks, the deploy fails rather than publishing a stale page.
+
+Switch it on once, in the repository on github.com: **Settings** -> **Pages**
+-> under *Build and deployment*, set **Source** to **GitHub Actions**. Nothing
+else. The next `5-PUSH-GITHUB.bat` publishes, and the **Actions** tab shows the
+build; the address is `https://<your-username>.github.io/Target-Landscape/`.
+
+Live lookup of a target outside the curated set is the one thing the published
+site cannot do, and the page says so.
+
+### 7-DEPLOY-SPACE.bat — the other route, no longer free
+
+Hugging Face put Docker Spaces behind a paid plan in July 2026: free CPU-basic
+now runs static Spaces only. The script still works if you ever have a PRO
+account, and the notes below still apply to it.
 
 Create the Space first at <https://huggingface.co/new-space>: **SDK Docker**,
-template **Blank**, hardware **CPU basic** (free). Then run this and paste the
-Space URL; it is remembered afterwards.
+template **Blank**, hardware **CPU basic**. Then run the script and paste the
+Space URL; it is remembered afterwards. Sign-in there is an access token rather
+than a password — make one with **write** permission at
+<https://huggingface.co/settings/tokens>, and use your Hugging Face username as
+the username. As with GitHub, this project holds no API key.
 
-Sign-in there is an access token rather than a password. Make one with **write**
-permission at <https://huggingface.co/settings/tokens>; the username is your
-Hugging Face username. As with GitHub, this project holds no API key.
-
-Two things it does that are worth knowing. It deploys the **last commit**, not
-the working folder, and warns you if those differ -- so run 5-PUSH-GITHUB.bat
-first. And it swaps `SPACE_README.md` in as `README.md`, because a Space reads
-its build configuration from the first lines of that file; that block would sit
-at the top of the GitHub page as a wall of YAML, which is why the two are
-separate files. Nothing in your own repository is changed: the swap happens in
-a temporary copy that is deleted afterwards.
-
-The Space rebuilds the Docker image on each push, two or three minutes. The
-Logs tab there says when the server is up.
+It deploys the **last commit**, not the working folder, and warns you if those
+differ — so run 5-PUSH-GITHUB.bat first. And it swaps `SPACE_README.md` in as
+`README.md`, because a Space reads its build configuration from the first lines
+of that file; that block would sit at the top of the GitHub page as a wall of
+YAML, which is why the two are separate files. Nothing in your own repository is
+changed: the swap happens in a temporary copy that is deleted afterwards.
 
 ## If something goes wrong
 

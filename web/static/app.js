@@ -210,6 +210,13 @@ async function route() {
   loadLibrary();
 }
 
+// Back and forward. ``currentPath`` is what the app is showing; the browser
+// moving through history is the one case where the address bar is ahead of it,
+// so clear it and let ``route`` read the URL again. Both events are wired: the
+// served build changes the pathname, the static build changes the hash.
+window.addEventListener('popstate', () => { currentPath = null; route(); });
+window.addEventListener('hashchange', () => { currentPath = null; route(); });
+
 // ── The worked example ───────────────────────────────────────────────────
 //
 // Six tiles, on a real target, with that target's real numbers. A first-time
