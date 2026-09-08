@@ -34,7 +34,18 @@ def read(name: str) -> str:
         return fh.read()
 
 
-def build(symbols: list[str] | None = None) -> str:
+def build(symbols: list[str] | None = None, split: bool = False) -> tuple[str, dict]:
+    """The page, and the per-target records.
+
+    ``split=False`` inlines every record: one file, opens from a file path, and
+    the right thing to email someone. It stops scaling at a few dozen targets,
+    because the reader downloads all of them to look at one.
+
+    ``split=True`` leaves the records out and lets the page fetch the one it
+    needs from ``targets/<SYMBOL>.json``. The first paint is then the shell and
+    the index -- tens of kilobytes -- whatever the library holds. It needs to be
+    served over http, which is what the published site is.
+    """
     library = store.index()
     if symbols:
         wanted = {s.upper() for s in symbols}
@@ -89,16 +100,20 @@ def build(symbols: list[str] | None = None) -> str:
             showcase = {"symbol": pick, "tiles": showcase_mod.tiles(landscape)}
 
     html = read("index.html")
-    data = json.dumps(
-        {
-            "library": library,
-            "targets": targets,
-            "showcase": showcase,
-            "index": index_rows,
-            "areas": target_index.areas(),
-        },
-        ensure_ascii=False,
-    )
+    payload = {
+        "library": library,
+        "showcase": showcase,
+        "index": index_rows,
+        "areas": target_index.areas(),
+    }
+    if split:
+        # The names only. The page needs to know which targets it can open
+        # before it opens any of them -- the search list marks them.
+        payload["built"] = sorted(targets)
+        payload["data_base"] = "targets/"
+    else:
+        payload["targets"] = targets
+    data = json.dumps(payload, ensure_ascii=False)
 
     # Inline the stylesheet and script, and drop in the payload before the app
     # runs so the static shim is active from the first line.
@@ -133,16 +148,39 @@ def build(symbols: list[str] | None = None) -> str:
         '<span class="brand-name">Target Landscape</span>'
         '<span class="chip" style="margin-left:8px">static demo</span>',
     )
-    return html
+    return html, targets
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Export a self-contained demo page.")
+    parser = argparse.ArgumentParser(description="Export the site as static files.")
     parser.add_argument("symbols", nargs="*", help="limit to these curated targets")
-    parser.add_argument("--out", default="out/demo.html")
+    parser.add_argument("--out", default="out/demo.html",
+                        help="one self-contained file, for sending to someone")
+    parser.add_argument("--out-dir",
+                        help="a directory to serve: index.html plus one file per "
+                             "target, fetched on demand")
     args = parser.parse_args(argv)
 
-    html = build(args.symbols or None)
+    if args.out_dir:
+        html, targets = build(args.symbols or None, split=True)
+        data_dir = os.path.join(args.out_dir, "targets")
+        os.makedirs(data_dir, exist_ok=True)
+        total = 0
+        for symbol, record in sorted(targets.items()):
+            path = os.path.join(data_dir, symbol + ".json")
+            with open(path, "w", encoding="utf-8") as fh:
+                json.dump(record, fh, ensure_ascii=False, separators=(",", ":"))
+            total += os.path.getsize(path)
+        index = os.path.join(args.out_dir, "index.html")
+        with open(index, "w", encoding="utf-8") as fh:
+            fh.write(html)
+        if "TL_STATIC" not in html:
+            raise SystemExit("The payload did not make it into the page.")
+        print(f"{index} — {len(html) / 1024:.0f} KB shell, "
+              f"{len(targets)} targets in {data_dir} — {total / 1024 / 1024:.1f} MB")
+        return 0
+
+    html, _targets = build(args.symbols or None)
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as fh:
         fh.write(html)

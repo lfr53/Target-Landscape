@@ -117,7 +117,31 @@ function staticResult(status, body) {
   return { ok: status >= 200 && status < 300, status, json: async () => body };
 }
 
-function staticApi(path) {
+// Which targets this copy actually holds. The single-file export inlines every
+// record; the split export -- the one that scales past a handful -- ships each
+// in its own file beside the page and fetches it when it is opened, so opening
+// the site does not download a library the reader may never look at.
+const BUILT = new Set(
+  (STATIC && (STATIC.built || Object.keys(STATIC.targets || {}))) || []);
+
+function isBuilt(symbol) {
+  return BUILT.has(String(symbol || '').toUpperCase());
+}
+
+async function staticTarget(symbol) {
+  if (STATIC.targets) return STATIC.targets[symbol] || null;
+  try {
+    const res = await fetch(
+      (STATIC.data_base || 'targets/') + encodeURIComponent(symbol) + '.json');
+    return res.ok ? await res.json() : null;
+  } catch (err) {
+    // A page opened from a file path cannot fetch its neighbours. That is what
+    // the single-file export is for; this one is meant to be served.
+    return null;
+  }
+}
+
+async function staticApi(path) {
   if (path === '/api/library') {
     return staticResult(200, {
       targets: STATIC.library, count: STATIC.library.length, empty_hint: '',
@@ -130,10 +154,10 @@ function staticApi(path) {
   let match = path.match(/^\/api\/target\/([^?]+)/);
   if (match) {
     const symbol = decodeURIComponent(match[1]).toUpperCase();
-    const record = STATIC.targets[symbol];
+    const record = await staticTarget(symbol);
     return record
       ? staticResult(200, record)
-      : staticResult(404, { detail: { symbol, message: 'Not in this static demo.' } });
+      : staticResult(404, { detail: { symbol, message: 'Not built in this copy.' } });
   }
   match = path.match(/^\/api\/search\?q=([^&]*)/);
   if (match) {
@@ -145,7 +169,7 @@ function staticApi(path) {
           || (r.name || '').toLowerCase().includes(q)
           || (r.aliases || []).some((a) => a.toLowerCase().includes(q)))
         .slice(0, 12)
-        .map((r) => ({ ...r, tier: STATIC.targets[r.symbol] ? 'curated' : 'index',
+        .map((r) => ({ ...r, tier: isBuilt(r.symbol) ? 'curated' : 'index',
                        matched_on: r.symbol })),
     });
   }
@@ -156,7 +180,7 @@ function staticApi(path) {
     return staticResult(200, {
       targets: pool
         .filter((r) => !decoded || (r.areas || []).includes(decoded))
-        .map((r) => ({ ...r, tier: STATIC.targets[r.symbol] ? 'curated' : 'index' })),
+        .map((r) => ({ ...r, tier: isBuilt(r.symbol) ? 'curated' : 'index' })),
       areas: STATIC.areas || [],
       area: decoded,
       index_size: pool.length,
@@ -483,9 +507,21 @@ function renderTargetGrid(rows, indexSize) {
   const total = indexSize ? indexSize.toLocaleString() : '';
   $('#browse-more').textContent = list.length > shown.length
     ? 'Showing ' + shown.length + ' of ' + list.length + '. These are the targets that come '
-      + 'up in drug development; all ' + total + ' human genes are searchable above.'
-    : (total ? total + ' human genes indexed, and any of them can be opened. '
-        + 'The ones marked instant are already built; the rest are built live on first view.' : '');
+      + 'up in drug development'
+      + (STATIC
+        // The published copy ships a trimmed index, so "all human genes" would
+        // be a claim it cannot back. It says what it actually carries.
+        ? ', and the ' + list.length.toLocaleString() + ' here are searchable above. '
+          + 'The ones marked instant are built in this copy.'
+        : '; all ' + total + ' human genes are searchable above.')
+    : (total ? total + ' human genes indexed. '
+        + (STATIC
+          ? 'This published copy carries the ' + STATIC.library.length + ' marked instant, '
+            + 'each fully built. Any other one opens onto a page saying it is not built, '
+            + 'rather than onto a guess. Run the project locally and it builds any of them '
+            + 'from the same public APIs.'
+          : 'Any of them can be opened. The ones marked instant are already built; the rest '
+            + 'are built live on first view.') : '');
 }
 
 // ── Search ───────────────────────────────────────────────────────────────
@@ -578,7 +614,7 @@ async function runSearch(q) {
     r.symbol === typed
     || (r.matched_on || '').toUpperCase() === typed
     || (r.aliases || []).some((a) => a.toUpperCase() === typed));
-  if (/^[A-Z0-9-]{2,32}$/.test(typed) && !covered) {
+  if (!STATIC && /^[A-Z0-9-]{2,32}$/.test(typed) && !covered) {
     state.suggestions.push({ symbol: typed, name: 'Look this up directly', tier: 'live' });
   }
   state.suggestIndex = 0;
@@ -601,7 +637,10 @@ function paintSuggestions() {
         ? el('span', { class: 'sg-alias', text: '= ' + row.matched_on }) : null,
       el('span', { class: 'sg-name', text: row.name || '' }),
       el('span', { class: 'sg-tier ' + (row.tier || ''),
-        text: row.tier === 'curated' ? 'instant' : (row.tier === 'index' ? 'build' : 'live') }),
+        // "build" and "live" are promises. The published copy is a set of
+        // files and cannot keep them, so there it says what is true instead.
+        text: row.tier === 'curated' ? 'instant'
+          : (STATIC ? 'not built' : (row.tier === 'index' ? 'build' : 'live')) }),
     ]));
   });
   suggestBox.hidden = false;
@@ -635,8 +674,10 @@ async function openTarget(symbol, force) {
   }
 
   if (STATIC) {
-    buildFailed('This is a static demo — only the targets in the library below are '
-      + 'available. The full version builds any target live from the public APIs.');
+    buildFailed('Not built in this published copy. It carries the ' + STATIC.library.length
+      + ' targets in the library below, each one complete. The engine builds any human gene '
+      + 'from Open Targets, ChEMBL and ClinicalTrials.gov in about half a minute — but it '
+      + 'needs a server to do that, and this copy is a single file.');
     return;
   }
 
