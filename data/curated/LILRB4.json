@@ -54,10 +54,10 @@
     {
       "name": "LILRB4 STAR-T",
       "sponsor": "Hebei Yanda Ludaopei Hospital",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "Relapsed/Refractory Acute Myeloid Leukemia"
@@ -88,10 +88,10 @@
     {
       "name": "LILRB4 STAR-T cells",
       "sponsor": "Peking University People's Hospital",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "Relapsed/Refractory Acute Myeloid Leukemia and Chronic Granulocytic-Mononocytic Leukemia",
@@ -796,11 +796,9 @@
   ],
   "deals": [],
   "mechanism_clusters": {
-    "Unclassified": [
-      "LILRB4 STAR-T",
-      "LILRB4 STAR-T cells"
-    ],
     "Cell therapy — target-directed CAR": [
+      "LILRB4 STAR-T",
+      "LILRB4 STAR-T cells",
       "anti-ILT3 CAR-T"
     ]
   },
@@ -814,7 +812,7 @@
       "Phase 1": 3
     },
     "n_sponsors": 3,
-    "n_mechanism_classes": 2,
+    "n_mechanism_classes": 1,
     "lead_phase": "Phase 1",
     "weights_used": {
       "Approved": 5.0,
@@ -849,16 +847,14 @@
     "dormant_assets": [],
     "matrix": {
       "mechanisms": [
-        "Cell therapy — target-directed CAR",
-        "Unclassified"
+        "Cell therapy — target-directed CAR"
       ],
       "rows": [
         {
           "indication": "AML M4",
           "n_assets": 1,
           "cells": {
-            "Cell therapy — target-directed CAR": 1,
-            "Unclassified": -1
+            "Cell therapy — target-directed CAR": 1
           },
           "max_phase": 1
         },
@@ -866,8 +862,7 @@
           "indication": "AML M5",
           "n_assets": 1,
           "cells": {
-            "Cell therapy — target-directed CAR": 1,
-            "Unclassified": -1
+            "Cell therapy — target-directed CAR": 1
           },
           "max_phase": 1
         },
@@ -875,8 +870,7 @@
           "indication": "Relapsed/Refractory Acute Myeloid Leukemia",
           "n_assets": 1,
           "cells": {
-            "Cell therapy — target-directed CAR": -1,
-            "Unclassified": 1
+            "Cell therapy — target-directed CAR": 1
           },
           "max_phase": 1
         },
@@ -884,8 +878,7 @@
           "indication": "Relapsed/Refractory Acute Myeloid Leukemia and Chronic Granulocytic-Mononocytic Leukemia",
           "n_assets": 1,
           "cells": {
-            "Cell therapy — target-directed CAR": -1,
-            "Unclassified": 1
+            "Cell therapy — target-directed CAR": 1
           },
           "max_phase": 1
         },
@@ -893,8 +886,7 @@
           "indication": "Acute Myelogenous Leukemia",
           "n_assets": 1,
           "cells": {
-            "Cell therapy — target-directed CAR": -1,
-            "Unclassified": -1
+            "Cell therapy — target-directed CAR": -1
           },
           "max_phase": -1
         },
@@ -902,8 +894,7 @@
           "indication": "Chronic Myelomonocytic Leukemia",
           "n_assets": 1,
           "cells": {
-            "Cell therapy — target-directed CAR": -1,
-            "Unclassified": -1
+            "Cell therapy — target-directed CAR": -1
           },
           "max_phase": -1
         }
@@ -934,7 +925,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -968,7 +959,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -1593,7 +1584,7 @@
         "key": "development",
         "label": "In development",
         "value": "AML M4, AML M5 and Relapsed/Refractory Acute Myeloid Leukemia, and 1 more at that phase",
-        "note": "Furthest programme: LILRB4 STAR-T cells (Peking University People's Hospital), Phase 1, Unclassified. 2 mechanism classes in the table.",
+        "note": "Furthest programme: LILRB4 STAR-T cells (Peking University People's Hospital), Phase 1, Cell therapy — target-directed CAR.",
         "pmids": []
       }
     ],
@@ -1617,24 +1608,15 @@
     "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
   },
   "diagram": {
-    "svg": "<svg viewBox=\"0 0 720 250\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How LILRB4 is being drugged</title><desc id=\"tl-diagram-desc\">LILRB4 is in the plasma membrane. 2 mechanism classes are represented in the asset table, the most advanced reaching Phase 1.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"92\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"82\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"138\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"69\" x2=\"538\" y2=\"105\" stroke-width=\"2\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"64\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"85\" class=\"tl-arrow-detail\">2 assets · Phase 1</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"141\" x2=\"538\" y2=\"105\" stroke-width=\"2\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"136\" class=\"tl-arrow-label\">Cell therapy — target-directed CAR</text><text x=\"24\" y=\"157\" class=\"tl-arrow-detail\">1 asset · Phase 1 · Cell therapy (CAR-T)</text></g><g class=\"tl-target\"><rect x=\"574\" y=\"79\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"65\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"70\" class=\"tl-protein-label\">LILRB4</text></g></svg>",
+    "svg": "<svg viewBox=\"0 0 720 250\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How LILRB4 is being drugged</title><desc id=\"tl-diagram-desc\">LILRB4 is in the plasma membrane. 1 mechanism class is represented in the asset table, the most advanced reaching Phase 1.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"92\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"82\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"138\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"105\" x2=\"538\" y2=\"105\" stroke-width=\"2\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"100\" class=\"tl-arrow-label\">Cell therapy — target-directed CAR</text><text x=\"24\" y=\"121\" class=\"tl-arrow-detail\">3 assets · Phase 1 · Cell therapy (CAR-T)</text></g><g class=\"tl-target\"><rect x=\"574\" y=\"79\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"65\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"70\" class=\"tl-protein-label\">LILRB4</text></g></svg>",
     "title": "How LILRB4 is being drugged",
-    "caption": "LILRB4 is in the plasma membrane. 2 mechanism classes are represented in the asset table, the most advanced reaching Phase 1.",
+    "caption": "LILRB4 is in the plasma membrane. 1 mechanism class is represented in the asset table, the most advanced reaching Phase 1.",
     "placement": "in the plasma membrane",
     "target_class": [],
     "interventions": [
       {
-        "label": "Unclassified",
-        "n": 2,
-        "max_phase": 1,
-        "modalities": [
-          "Other / unclassified"
-        ],
-        "phase_label": "Phase 1"
-      },
-      {
         "label": "Cell therapy — target-directed CAR",
-        "n": 1,
+        "n": 3,
         "max_phase": 1,
         "modalities": [
           "Cell therapy (CAR-T)"
@@ -1683,8 +1665,8 @@
     "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
   },
   "narrative": {
-    "bottom_line": "LILRB4 carries 3 active programmes across 2 mechanism classes from 3 named sponsors, reaching Phase 1. Phase-weighted density scores 2.2, which this tool bands as Emerging. The most advanced asset is LILRB4 STAR-T (Hebei Yanda Ludaopei Hospital) at Phase 1.",
-    "competitive": "The field splits into 2 mechanism classes. Unclassified is the most advanced, and also the most crowded, with 2 assets.",
+    "bottom_line": "LILRB4 carries 3 active programmes across 1 mechanism class from 3 named sponsors, reaching Phase 1. Phase-weighted density scores 2.2, which this tool bands as Emerging. The most advanced asset is LILRB4 STAR-T (Hebei Yanda Ludaopei Hospital) at Phase 1.",
+    "competitive": "Every asset sits in one mechanism class — Cell therapy — target-directed CAR — so there is no mechanistic differentiation on this target yet: 3 programmes competing on the same approach.",
     "failures": "0 of 4 trials stopped; 0 stated a reason. No stated reasons were available to classify.",
     "whitespace": "No disease passes the whitespace screen at the configured thresholds, either because the well-evidenced indications already carry clinical assets or because association data was unavailable.",
     "licensing": "Hebei Yanda Ludaopei Hospital holds the most advanced programme (Phase 1), and is a academic or non-industry. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",

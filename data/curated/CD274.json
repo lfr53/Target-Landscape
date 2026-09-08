@@ -2196,7 +2196,7 @@
       "modality": "Other / unclassified",
       "action_type": "",
       "mechanism_text": "[network sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Target binding — mechanism unresolved",
       "max_phase": 2,
       "indications": [
         "Bladder Carcinoma Infiltrating the Muscle of the Bladder Wall",
@@ -2421,42 +2421,6 @@
       "phase_label": "Phase 2"
     },
     {
-      "name": "Immune checkpoint inhibitors(anti-PD1/PD-L1/CTLA4 antibodies)",
-      "sponsor": "Chinese PLA General Hospital",
-      "modality": "Monoclonal antibody",
-      "action_type": "",
-      "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Blocking antibody",
-      "max_phase": 2,
-      "indications": [
-        "non-Hodgkin lymphoma",
-        "solid tumor"
-      ],
-      "indication_phase": {
-        "non-Hodgkin lymphoma": 2,
-        "solid tumor": 2
-      },
-      "trials": [
-        "NCT05320640"
-      ],
-      "chembl_id": "",
-      "drug_id": "",
-      "synonyms": [],
-      "first_approval": null,
-      "withdrawn": false,
-      "is_active": true,
-      "named_by_class": false,
-      "provenance": [
-        {
-          "source": "ctgov",
-          "identifier": "NCT05320640",
-          "url": "https://clinicaltrials.gov/study/NCT05320640",
-          "retrieved": null
-        }
-      ],
-      "phase_label": "Phase 2"
-    },
-    {
       "name": "PACMILIMAB",
       "sponsor": "CytomX Therapeutics",
       "modality": "Monoclonal antibody",
@@ -2558,10 +2522,10 @@
     {
       "name": "PD-L1 t-haNK",
       "sponsor": "ImmunityBio, Inc.",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 2,
       "indications": [
         "triple-negative breast carcinoma"
@@ -2738,40 +2702,6 @@
       "phase_label": "Phase 1"
     },
     {
-      "name": "PD1/PD-L1 checkpoint inhibitor",
-      "sponsor": "Peking Union Medical College Hospital",
-      "modality": "Other / unclassified",
-      "action_type": "",
-      "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
-      "max_phase": 1,
-      "indications": [
-        "hepatocellular carcinoma"
-      ],
-      "indication_phase": {
-        "hepatocellular carcinoma": 1
-      },
-      "trials": [
-        "NCT05339321"
-      ],
-      "chembl_id": "",
-      "drug_id": "",
-      "synonyms": [],
-      "first_approval": null,
-      "withdrawn": false,
-      "is_active": true,
-      "named_by_class": false,
-      "provenance": [
-        {
-          "source": "ctgov",
-          "identifier": "NCT05339321",
-          "url": "https://clinicaltrials.gov/study/NCT05339321",
-          "retrieved": null
-        }
-      ],
-      "phase_label": "Phase 1"
-    },
-    {
       "name": "oHSV2-PD-L1/CD3-BsAb",
       "sponsor": "Binhui Biopharmaceutical Co., Ltd.",
       "modality": "Other / unclassified",
@@ -2804,40 +2734,6 @@
         }
       ],
       "phase_label": "Phase 1"
-    },
-    {
-      "name": "PD-1/PD-L1 inhibitor",
-      "sponsor": "Tongji Hospital",
-      "modality": "Other / unclassified",
-      "action_type": "",
-      "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Named only by class",
-      "max_phase": -1,
-      "indications": [
-        "non-small cell lung carcinoma"
-      ],
-      "indication_phase": {
-        "non-small cell lung carcinoma": -1
-      },
-      "trials": [
-        "NCT04835025"
-      ],
-      "chembl_id": "",
-      "drug_id": "",
-      "synonyms": [],
-      "first_approval": null,
-      "withdrawn": false,
-      "is_active": false,
-      "named_by_class": true,
-      "provenance": [
-        {
-          "source": "ctgov",
-          "identifier": "NCT04835025",
-          "url": "https://clinicaltrials.gov/study/NCT04835025",
-          "retrieved": null
-        }
-      ],
-      "phase_label": "Unknown"
     }
   ],
   "trials": [
@@ -15270,16 +15166,6 @@
   ],
   "deals": [],
   "mechanism_clusters": {
-    "Blocking antibody": [
-      "ADEBRELIMAB",
-      "ATEZOLIZUMAB",
-      "COSIBELIMAB",
-      "DANBURSTOTUG",
-      "DURVALUMAB",
-      "ERFONRILIMAB",
-      "Immune checkpoint inhibitors(anti-PD1/PD-L1/CTLA4 antibodies)",
-      "SOCAZOLIMAB"
-    ],
     "Antibody — mechanism unresolved": [
       "AVELUMAB",
       "Antibody against cell death ligand 1 (PD-L1)",
@@ -15289,43 +15175,52 @@
       "SUGEMALIMAB",
       "humanized IgG1 monoclonal antibody against PD-L1"
     ],
+    "Blocking antibody": [
+      "ADEBRELIMAB",
+      "ATEZOLIZUMAB",
+      "COSIBELIMAB",
+      "DANBURSTOTUG",
+      "DURVALUMAB",
+      "ERFONRILIMAB",
+      "SOCAZOLIMAB"
+    ],
     "Ligand trap / decoy receptor": [
       "BINTRAFUSP ALFA"
     ],
     "Unclassified": [
       "ABSK043",
-      "Anti-(Homo sapiens CD274 (Programmed Death Ligand 1, PDL1, pd-l1, B7 Homolog 1, B7H1))",
       "B1962",
       "PD-L1 LNA (RO7191863)",
-      "PD-L1 t-haNK",
       "PD-L1/IDO Peptide",
-      "PD1/PD-L1 checkpoint inhibitor",
       "PM8002",
       "oHSV2-PD-L1/CD3-BsAb"
+    ],
+    "Cell therapy — target-directed CAR": [
+      "PD-L1 t-haNK"
     ],
     "Other / unclassified — inhibition": [
       "INCB-086550"
     ],
+    "Target binding — mechanism unresolved": [
+      "Anti-(Homo sapiens CD274 (Programmed Death Ligand 1, PDL1, pd-l1, B7 Homolog 1, B7H1))"
+    ],
     "Active immunisation": [
       "PD-L1/IDO Peptide Vaccine"
-    ],
-    "Named only by class": [
-      "PD-1/PD-L1 inhibitor"
     ]
   },
   "crowding": {
-    "n_total": 28,
-    "n_active": 22,
-    "n_dormant": 6,
-    "weighted_score": 57.2,
+    "n_total": 25,
+    "n_active": 20,
+    "n_dormant": 5,
+    "weighted_score": 55.0,
     "verdict": "Saturated",
     "by_phase": {
       "Approved": 5,
       "Phase 3": 6,
-      "Phase 2": 8,
-      "Phase 1": 3
+      "Phase 2": 7,
+      "Phase 1": 2
     },
-    "n_sponsors": 17,
+    "n_sponsors": 15,
     "n_mechanism_classes": 6,
     "lead_phase": "Approved",
     "weights_used": {
@@ -15383,11 +15278,6 @@
         "name": "oHSV2-PD-L1/CD3-BsAb",
         "phase": "Phase 1",
         "sponsor": "Binhui Biopharmaceutical Co., Ltd."
-      },
-      {
-        "name": "PD-1/PD-L1 inhibitor",
-        "phase": "Unknown",
-        "sponsor": "Tongji Hospital"
       }
     ],
     "matrix": {
@@ -15395,26 +15285,13 @@
         "Active immunisation",
         "Antibody — mechanism unresolved",
         "Blocking antibody",
+        "Cell therapy — target-directed CAR",
         "Ligand trap / decoy receptor",
-        "Named only by class",
         "Other / unclassified — inhibition",
+        "Target binding — mechanism unresolved",
         "Unclassified"
       ],
       "rows": [
-        {
-          "indication": "solid tumor",
-          "n_assets": 14,
-          "cells": {
-            "Active immunisation": -1,
-            "Antibody — mechanism unresolved": 4,
-            "Blocking antibody": 4,
-            "Ligand trap / decoy receptor": 1,
-            "Named only by class": -1,
-            "Other / unclassified — inhibition": 2,
-            "Unclassified": 1
-          },
-          "max_phase": 4
-        },
         {
           "indication": "cancer",
           "n_assets": 13,
@@ -15422,24 +15299,26 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 4
         },
         {
-          "indication": "non-small cell lung carcinoma",
-          "n_assets": 12,
+          "indication": "solid tumor",
+          "n_assets": 13,
           "cells": {
             "Active immunisation": -1,
-            "Antibody — mechanism unresolved": 3,
+            "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
-            "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
-            "Other / unclassified — inhibition": -1,
-            "Unclassified": 2
+            "Cell therapy — target-directed CAR": -1,
+            "Ligand trap / decoy receptor": 1,
+            "Other / unclassified — inhibition": 2,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": 1
           },
           "max_phase": 4
         },
@@ -15450,24 +15329,26 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
         },
         {
-          "indication": "hepatocellular carcinoma",
-          "n_assets": 10,
+          "indication": "non-small cell lung carcinoma",
+          "n_assets": 11,
           "cells": {
             "Active immunisation": -1,
-            "Antibody — mechanism unresolved": 4,
-            "Blocking antibody": 3,
-            "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
+            "Antibody — mechanism unresolved": 3,
+            "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
+            "Ligand trap / decoy receptor": 3,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": 2
           },
           "max_phase": 4
         },
@@ -15478,9 +15359,25 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
+          },
+          "max_phase": 4
+        },
+        {
+          "indication": "hepatocellular carcinoma",
+          "n_assets": 9,
+          "cells": {
+            "Active immunisation": -1,
+            "Antibody — mechanism unresolved": 4,
+            "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
+            "Ligand trap / decoy receptor": -1,
+            "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15492,9 +15389,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15506,9 +15404,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15520,9 +15419,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15534,9 +15434,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15548,9 +15449,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15562,9 +15464,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15576,9 +15479,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15590,9 +15494,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 4
@@ -15604,9 +15509,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15618,9 +15524,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15632,9 +15539,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15646,23 +15554,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": -1
-          },
-          "max_phase": 4
-        },
-        {
-          "indication": "non-Hodgkin lymphoma",
-          "n_assets": 5,
-          "cells": {
-            "Active immunisation": -1,
-            "Antibody — mechanism unresolved": 4,
-            "Blocking antibody": 4,
-            "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
-            "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15674,9 +15569,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15688,9 +15584,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15702,9 +15599,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15716,9 +15614,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15730,9 +15629,25 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
+          },
+          "max_phase": 4
+        },
+        {
+          "indication": "non-Hodgkin lymphoma",
+          "n_assets": 4,
+          "cells": {
+            "Active immunisation": -1,
+            "Antibody — mechanism unresolved": 4,
+            "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
+            "Ligand trap / decoy receptor": -1,
+            "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15744,9 +15659,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15758,9 +15674,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15772,9 +15689,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15786,9 +15704,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15800,9 +15719,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15814,9 +15734,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15828,9 +15749,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15842,9 +15764,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15856,9 +15779,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15870,9 +15794,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15884,9 +15809,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15898,9 +15824,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15912,9 +15839,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15926,9 +15854,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15940,9 +15869,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15954,9 +15884,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15968,9 +15899,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15982,9 +15914,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15996,9 +15929,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16010,9 +15944,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16024,9 +15959,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16038,9 +15974,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16052,9 +15989,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16066,9 +16004,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16080,9 +16019,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16094,9 +16034,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16108,9 +16049,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16122,9 +16064,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16136,9 +16079,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16150,9 +16094,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16164,9 +16109,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16178,9 +16124,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16192,9 +16139,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16206,9 +16154,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16220,9 +16169,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16234,9 +16184,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16248,9 +16199,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16262,9 +16214,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16276,9 +16229,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16290,9 +16244,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16304,9 +16259,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16318,9 +16274,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16332,9 +16289,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16346,9 +16304,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16360,9 +16319,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16374,9 +16334,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16388,9 +16349,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16402,9 +16364,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16416,9 +16379,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16430,9 +16394,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16444,9 +16409,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16458,9 +16424,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -16472,9 +16439,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16486,9 +16454,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -16500,9 +16469,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -16514,9 +16484,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -16528,9 +16499,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16542,9 +16514,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": 2,
             "Ligand trap / decoy receptor": 1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -16556,9 +16529,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16570,9 +16544,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16584,9 +16559,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16598,9 +16574,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16612,9 +16589,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16626,9 +16604,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16640,9 +16619,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16654,9 +16634,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16668,9 +16649,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16682,9 +16664,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16696,9 +16679,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16710,9 +16694,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16724,9 +16709,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16738,9 +16724,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16752,9 +16739,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16766,9 +16754,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16780,9 +16769,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16794,9 +16784,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16808,9 +16799,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16822,9 +16814,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16836,9 +16829,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16850,9 +16844,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16864,9 +16859,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16878,9 +16874,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16892,9 +16889,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16906,9 +16904,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16920,9 +16919,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16934,9 +16934,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16948,9 +16949,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16962,9 +16964,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16976,9 +16979,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -16990,9 +16994,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17004,9 +17009,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17018,9 +17024,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17032,9 +17039,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17046,9 +17054,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17060,9 +17069,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17074,9 +17084,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17088,9 +17099,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17102,9 +17114,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17116,9 +17129,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17130,9 +17144,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17144,9 +17159,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17158,9 +17174,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17172,9 +17189,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17186,9 +17204,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17200,9 +17219,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17214,9 +17234,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17228,9 +17249,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17242,9 +17264,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17256,9 +17279,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17270,9 +17294,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17284,9 +17309,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -17298,10 +17324,11 @@
             "Active immunisation": 1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": 1
           },
           "max_phase": 2
         },
@@ -17312,9 +17339,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17326,9 +17354,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17340,10 +17369,11 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -17354,9 +17384,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17368,9 +17399,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 2
@@ -17382,9 +17414,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17396,9 +17429,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17410,9 +17444,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17424,9 +17459,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17438,9 +17474,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17452,9 +17489,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17466,9 +17504,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17480,9 +17519,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17494,9 +17534,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17508,9 +17549,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17522,9 +17564,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17536,9 +17579,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17550,9 +17594,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17564,9 +17609,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17578,9 +17624,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17592,10 +17639,11 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -17606,9 +17654,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17620,9 +17669,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17634,9 +17684,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17648,9 +17699,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17662,9 +17714,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17676,9 +17729,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17690,9 +17744,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17704,9 +17759,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17718,9 +17774,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17732,9 +17789,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17746,9 +17804,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17760,9 +17819,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17774,9 +17834,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17788,9 +17849,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17802,9 +17864,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17816,9 +17879,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17830,9 +17894,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17844,9 +17909,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17858,9 +17924,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17872,9 +17939,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17886,9 +17954,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17900,9 +17969,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17914,9 +17984,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17928,9 +17999,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17942,9 +18014,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17956,9 +18029,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17970,9 +18044,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17984,9 +18059,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17998,9 +18074,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18012,9 +18089,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18026,9 +18104,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18040,9 +18119,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18054,9 +18134,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18068,9 +18149,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18082,9 +18164,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18096,9 +18179,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 2
@@ -18110,9 +18194,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 2
@@ -18124,9 +18209,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18138,9 +18224,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18152,9 +18239,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18166,9 +18254,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18180,9 +18269,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18194,9 +18284,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18208,9 +18299,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18222,9 +18314,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18236,9 +18329,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18250,9 +18344,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18264,9 +18359,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18278,9 +18374,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18292,9 +18389,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18306,9 +18404,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18320,9 +18419,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18334,9 +18434,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18348,9 +18449,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18362,9 +18464,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 2
@@ -18376,9 +18479,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18390,9 +18494,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18404,9 +18509,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18418,9 +18524,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18432,9 +18539,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18446,9 +18554,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18460,9 +18569,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18474,9 +18584,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18488,9 +18599,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18502,9 +18614,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18516,9 +18629,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18530,9 +18644,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18544,9 +18659,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18558,9 +18674,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18572,9 +18689,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18586,9 +18704,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18600,9 +18719,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18614,9 +18734,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18628,9 +18749,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18642,9 +18764,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18656,9 +18779,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18670,9 +18794,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18684,9 +18809,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18698,9 +18824,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18712,9 +18839,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18726,9 +18854,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18740,9 +18869,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18754,9 +18884,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18768,9 +18899,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18782,9 +18914,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18796,9 +18929,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18810,9 +18944,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18824,9 +18959,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18838,9 +18974,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18852,9 +18989,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18866,9 +19004,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18880,9 +19019,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18894,9 +19034,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18908,9 +19049,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18922,9 +19064,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18936,9 +19079,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18950,9 +19094,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18964,9 +19109,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18978,9 +19124,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -18992,9 +19139,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19006,9 +19154,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19020,9 +19169,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19034,9 +19184,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19048,9 +19199,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19062,9 +19214,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19076,9 +19229,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19090,9 +19244,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19104,9 +19259,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19118,9 +19274,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19132,9 +19289,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19146,9 +19304,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19160,9 +19319,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19174,9 +19334,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19188,9 +19349,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19202,9 +19364,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19216,9 +19379,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19230,9 +19394,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19244,9 +19409,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19258,9 +19424,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19272,9 +19439,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19286,9 +19454,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19300,9 +19469,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19314,9 +19484,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19328,9 +19499,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19342,9 +19514,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19356,9 +19529,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19370,9 +19544,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19384,9 +19559,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19398,9 +19574,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19412,9 +19589,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19426,9 +19604,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19440,9 +19619,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19454,9 +19634,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19468,9 +19649,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19482,9 +19664,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19496,9 +19679,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19510,9 +19694,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19524,9 +19709,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19538,9 +19724,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19552,9 +19739,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19566,9 +19754,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19580,9 +19769,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19594,9 +19784,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -19608,9 +19799,10 @@
             "Active immunisation": 1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 1
@@ -19622,9 +19814,10 @@
             "Active immunisation": 1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 1
@@ -19636,9 +19829,10 @@
             "Active immunisation": 1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 1
@@ -19650,9 +19844,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -19664,9 +19859,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -19678,9 +19874,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -19692,9 +19889,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -19706,9 +19904,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -19720,9 +19919,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 1,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -19734,9 +19934,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -19748,9 +19949,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -19762,9 +19964,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -19776,9 +19979,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -19790,9 +19994,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -19804,9 +20009,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": 1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -19818,9 +20024,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -19832,9 +20039,10 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -19844,9 +20052,9 @@
     "indications_omitted": 0
   },
   "failures": {
-    "n_trials": 169,
-    "n_stopped": 37,
-    "n_with_reason": 18,
+    "n_trials": 166,
+    "n_stopped": 36,
+    "n_with_reason": 17,
     "counts": {
       "Not stated": 19,
       "Operational — recruitment": 9,
@@ -19854,16 +20062,15 @@
       "Science — efficacy": 2,
       "Business — strategic / portfolio": 2,
       "Science — safety / tolerability": 1,
-      "Business — funding / company": 1,
-      "External — COVID-19": 1
+      "Business — funding / company": 1
     },
     "n_science": 3,
     "n_business": 3,
-    "n_operational": 12,
+    "n_operational": 11,
     "n_cmc": 0,
     "n_unexplained": 19,
-    "science_share_of_stated": 0.16666666666666666,
-    "reporting_rate": 0.4864864864864865,
+    "science_share_of_stated": 0.17647058823529413,
+    "reporting_rate": 0.4722222222222222,
     "cases": [
       {
         "nct_id": "NCT02982694",
@@ -20358,19 +20565,6 @@
         "class": "Not stated",
         "evidence": "",
         "url": "https://clinicaltrials.gov/study/NCT05938296"
-      },
-      {
-        "nct_id": "NCT04835025",
-        "phase": -1,
-        "sponsor": "Tongji Hospital",
-        "status": "SUSPENDED",
-        "conditions": [
-          "Non Small Cell Lung Cancer"
-        ],
-        "why_stopped": "because of COVID-19",
-        "class": "External — COVID-19",
-        "evidence": "matched “COVID”",
-        "url": "https://clinicaltrials.gov/study/NCT04835025"
       }
     ]
   },
@@ -20875,7 +21069,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
+        "mechanism": "Target binding — mechanism unresolved",
         "is_active": false,
         "territory": {
           "countries": [
@@ -21034,40 +21228,6 @@
         ]
       },
       {
-        "asset": "Immune checkpoint inhibitors(anti-PD1/PD-L1/CTLA4 antibodies)",
-        "sponsor": "Chinese PLA General Hospital",
-        "sponsor_scale": "Academic or non-industry",
-        "phase": 2,
-        "phase_label": "Phase 2",
-        "mechanism": "Blocking antibody",
-        "is_active": true,
-        "territory": {
-          "countries": [
-            "China"
-          ],
-          "covered": [
-            "China"
-          ],
-          "absent": [
-            "EU/UK",
-            "Japan",
-            "US"
-          ]
-        },
-        "signals": [
-          {
-            "code": "academic",
-            "headline": "Academic origin",
-            "evidence": "Sponsored by Chinese PLA General Hospital. Academic programmes at this stage are usually seeking a commercial partner, and the institution's tech-transfer office is the contact."
-          },
-          {
-            "code": "territory_gap",
-            "headline": "Territory gap: EU/UK, Japan, US",
-            "evidence": "Trials run in China but not in EU/UK, Japan, US. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
-          }
-        ]
-      },
-      {
         "asset": "PACMILIMAB",
         "sponsor": "CytomX Therapeutics",
         "sponsor_scale": "Small or private company",
@@ -21162,7 +21322,7 @@
         "sponsor_scale": "Small or private company",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": false,
         "territory": {
           "countries": [
@@ -21332,40 +21492,6 @@
         ]
       },
       {
-        "asset": "PD1/PD-L1 checkpoint inhibitor",
-        "sponsor": "Peking Union Medical College Hospital",
-        "sponsor_scale": "Academic or non-industry",
-        "phase": 1,
-        "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
-        "is_active": true,
-        "territory": {
-          "countries": [
-            "China"
-          ],
-          "covered": [
-            "China"
-          ],
-          "absent": [
-            "EU/UK",
-            "Japan",
-            "US"
-          ]
-        },
-        "signals": [
-          {
-            "code": "academic",
-            "headline": "Academic origin",
-            "evidence": "Sponsored by Peking Union Medical College Hospital. Academic programmes at this stage are usually seeking a commercial partner, and the institution's tech-transfer office is the contact."
-          },
-          {
-            "code": "territory_gap",
-            "headline": "Territory gap: EU/UK, Japan, US",
-            "evidence": "Trials run in China but not in EU/UK, Japan, US. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
-          }
-        ]
-      },
-      {
         "asset": "oHSV2-PD-L1/CD3-BsAb",
         "sponsor": "Binhui Biopharmaceutical Co., Ltd.",
         "sponsor_scale": "Small or private company",
@@ -21401,40 +21527,6 @@
             "code": "territory_gap",
             "headline": "Territory gap: China, EU/UK, Japan",
             "evidence": "Trials run in US but not in China, EU/UK, Japan. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
-          }
-        ]
-      },
-      {
-        "asset": "PD-1/PD-L1 inhibitor",
-        "sponsor": "Tongji Hospital",
-        "sponsor_scale": "Academic or non-industry",
-        "phase": -1,
-        "phase_label": "Unknown",
-        "mechanism": "Named only by class",
-        "is_active": false,
-        "territory": {
-          "countries": [
-            "China"
-          ],
-          "covered": [
-            "China"
-          ],
-          "absent": [
-            "EU/UK",
-            "Japan",
-            "US"
-          ]
-        },
-        "signals": [
-          {
-            "code": "dormant_early",
-            "headline": "Dormant, early",
-            "evidence": "No active trial, but the programme never passed Phase 1, so there is little human data to license."
-          },
-          {
-            "code": "academic",
-            "headline": "Academic origin",
-            "evidence": "Sponsored by Tongji Hospital. Academic programmes at this stage are usually seeking a commercial partner, and the institution's tech-transfer office is the contact."
           }
         ]
       }
@@ -21525,12 +21617,6 @@
         "lead_phase": 2
       },
       {
-        "sponsor": "Chinese PLA General Hospital",
-        "scale": "Academic or non-industry",
-        "n": 1,
-        "lead_phase": 2
-      },
-      {
         "sponsor": "CytomX Therapeutics",
         "scale": "Small or private company",
         "n": 1,
@@ -21561,22 +21647,10 @@
         "lead_phase": 1
       },
       {
-        "sponsor": "Peking Union Medical College Hospital",
-        "scale": "Academic or non-industry",
-        "n": 1,
-        "lead_phase": 1
-      },
-      {
         "sponsor": "Binhui Biopharmaceutical Co., Ltd.",
         "scale": "Small or private company",
         "n": 1,
         "lead_phase": 1
-      },
-      {
-        "sponsor": "Tongji Hospital",
-        "scale": "Academic or non-industry",
-        "n": 1,
-        "lead_phase": -1
       }
     ],
     "deals": {
@@ -23061,7 +23135,7 @@
     "genetic_disease": "hypothyroidism"
   },
   "readouts": {
-    "n_trials": 169,
+    "n_trials": 166,
     "n_active": 63,
     "n_controlled": 13,
     "n_confirmatory": 2,
@@ -23082,7 +23156,7 @@
       "mechanistic": "Mechanistic",
       "unclear": "Design not stated"
     },
-    "verdict": "169 trials on record, 63 still running. 13 of those are controlled efficacy studies; the other 50 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
+    "verdict": "166 trials on record, 63 still running. 13 of those are controlled efficacy studies; the other 50 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
     "catalysts": [
       {
         "nct_id": "NCT03991832",
@@ -23305,6 +23379,28 @@
   },
   "modalities": [
     {
+      "key": "Cell therapy (CAR-T)",
+      "what": "A patient's or donor's T cells engineered with a receptor against a surface antigen, expanded, and infused back as a living drug.",
+      "requires": [
+        "Surface expression with near-absolute tissue restriction. The cells persist and multiply, so there is no dose to back off — anything the CAR recognises will be destroyed for as long as the cells live.",
+        "The antigen is present on essentially every malignant cell, or escape is immediate.",
+        "A tolerable consequence if the normal tissue carrying the antigen is also destroyed — B-cell aplasia after CD19 is survivable, and that is why CD19 worked first."
+      ],
+      "fails": [
+        "On-target off-tumour toxicity, which in this modality has been fatal rather than dose-limiting.",
+        "Antigen escape driving relapse after deep remission.",
+        "The solid-tumour wall: trafficking, persistence and an immunosuppressive microenvironment. Success remains overwhelmingly haematological.",
+        "Manufacturing — vein-to-vein time, failure rates and cost of goods are commercial risks, not technical footnotes."
+      ],
+      "economics": "≈3–5 years and $50–150M to meaningful clinical data, with process development a large fraction of it. Any seed plan much shorter than this is worth interrogating.",
+      "bd_note": "",
+      "fit": "available",
+      "fit_label": "Physically available",
+      "fit_reason": "Annotated at the cell surface (surface, secreted, intracellular).",
+      "in_use": true,
+      "speculative": false
+    },
+    {
       "key": "Fc-fusion / ligand trap",
       "what": "The receptor's binding domain fused to an antibody Fc, used to mop up a soluble ligand before it reaches its receptor.",
       "requires": [
@@ -23398,28 +23494,6 @@
         "Antigen loss under treatment pressure, giving deep early responses that do not last."
       ],
       "economics": "≈2–3 years and $25–60M to first-in-human; the dose-escalation is slower than a plain antibody because of step-up dosing.",
-      "bd_note": "",
-      "fit": "available",
-      "fit_label": "Physically available",
-      "fit_reason": "Annotated at the cell surface (surface, secreted, intracellular).",
-      "in_use": false,
-      "speculative": false
-    },
-    {
-      "key": "Cell therapy (CAR-T)",
-      "what": "A patient's or donor's T cells engineered with a receptor against a surface antigen, expanded, and infused back as a living drug.",
-      "requires": [
-        "Surface expression with near-absolute tissue restriction. The cells persist and multiply, so there is no dose to back off — anything the CAR recognises will be destroyed for as long as the cells live.",
-        "The antigen is present on essentially every malignant cell, or escape is immediate.",
-        "A tolerable consequence if the normal tissue carrying the antigen is also destroyed — B-cell aplasia after CD19 is survivable, and that is why CD19 worked first."
-      ],
-      "fails": [
-        "On-target off-tumour toxicity, which in this modality has been fatal rather than dose-limiting.",
-        "Antigen escape driving relapse after deep remission.",
-        "The solid-tumour wall: trafficking, persistence and an immunosuppressive microenvironment. Success remains overwhelmingly haematological.",
-        "Manufacturing — vein-to-vein time, failure rates and cost of goods are commercial risks, not technical footnotes."
-      ],
-      "economics": "≈3–5 years and $50–150M to meaningful clinical data, with process development a large fraction of it. Any seed plan much shorter than this is worth interrogating.",
       "bd_note": "",
       "fit": "available",
       "fit_label": "Physically available",
@@ -23845,7 +23919,7 @@
         "key": "development",
         "label": "In development",
         "value": "hepatocellular carcinoma, solid tumor and lung cancer — 3 of 76 indications at that phase",
-        "note": "Furthest programme: Atezolizumab (Seattle Project Corporation), approved, Blocking antibody. 7 mechanism classes in the table.",
+        "note": "Furthest programme: Atezolizumab (Seattle Project Corporation), approved, Blocking antibody. 8 mechanism classes in the table.",
         "pmids": []
       },
       {
@@ -23879,17 +23953,17 @@
     "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
   },
   "diagram": {
-    "svg": "<svg viewBox=\"0 0 720 356\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How CD274 is being drugged</title><desc id=\"tl-diagram-desc\">CD274 is in the plasma membrane. 7 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"136\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"126\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"182\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"58\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"53\" class=\"tl-arrow-label\">Blocking antibody</text><text x=\"24\" y=\"74\" class=\"tl-arrow-detail\">8 assets · Approved · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"130\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"125\" class=\"tl-arrow-label\">Antibody — mechanism unresolved</text><text x=\"24\" y=\"146\" class=\"tl-arrow-detail\">7 assets · Approved · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"202\" x2=\"538\" y2=\"149\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"197\" class=\"tl-arrow-label\">Ligand trap / decoy receptor</text><text x=\"24\" y=\"218\" class=\"tl-arrow-detail\">1 asset · Phase 3 · Fc-fusion / ligand trap</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"274\" x2=\"538\" y2=\"149\" stroke-width=\"3\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"269\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"290\" class=\"tl-arrow-detail\">9 assets · Phase 2</text></g><text x=\"24\" y=\"342\" class=\"tl-arrow-detail\">+3 further mechanism classes below</text><g class=\"tl-target\"><rect x=\"574\" y=\"123\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"109\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"114\" class=\"tl-protein-label\">CD274</text></g></svg>",
+    "svg": "<svg viewBox=\"0 0 720 356\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How CD274 is being drugged</title><desc id=\"tl-diagram-desc\">CD274 is in the plasma membrane. 8 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"136\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"126\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"182\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"58\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"53\" class=\"tl-arrow-label\">Antibody — mechanism unresolved</text><text x=\"24\" y=\"74\" class=\"tl-arrow-detail\">7 assets · Approved · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"130\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"125\" class=\"tl-arrow-label\">Blocking antibody</text><text x=\"24\" y=\"146\" class=\"tl-arrow-detail\">7 assets · Approved · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"202\" x2=\"538\" y2=\"149\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"197\" class=\"tl-arrow-label\">Ligand trap / decoy receptor</text><text x=\"24\" y=\"218\" class=\"tl-arrow-detail\">1 asset · Phase 3 · Fc-fusion / ligand trap</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"274\" x2=\"538\" y2=\"149\" stroke-width=\"3\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"269\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"290\" class=\"tl-arrow-detail\">6 assets · Phase 2</text></g><text x=\"24\" y=\"342\" class=\"tl-arrow-detail\">+4 further mechanism classes below</text><g class=\"tl-target\"><rect x=\"574\" y=\"123\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"109\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"114\" class=\"tl-protein-label\">CD274</text></g></svg>",
     "title": "How CD274 is being drugged",
-    "caption": "CD274 is in the plasma membrane. 7 mechanism classes are represented in the asset table, the most advanced reaching Approved.",
+    "caption": "CD274 is in the plasma membrane. 8 mechanism classes are represented in the asset table, the most advanced reaching Approved.",
     "placement": "in the plasma membrane",
     "target_class": [
       "Unclassified protein"
     ],
     "interventions": [
       {
-        "label": "Blocking antibody",
-        "n": 8,
+        "label": "Antibody — mechanism unresolved",
+        "n": 7,
         "max_phase": 4,
         "modalities": [
           "Monoclonal antibody"
@@ -23897,7 +23971,7 @@
         "phase_label": "Approved"
       },
       {
-        "label": "Antibody — mechanism unresolved",
+        "label": "Blocking antibody",
         "n": 7,
         "max_phase": 4,
         "modalities": [
@@ -23916,7 +23990,7 @@
       },
       {
         "label": "Unclassified",
-        "n": 9,
+        "n": 6,
         "max_phase": 2,
         "modalities": [
           "Other / unclassified",
@@ -23925,7 +23999,25 @@
         "phase_label": "Phase 2"
       },
       {
+        "label": "Cell therapy — target-directed CAR",
+        "n": 1,
+        "max_phase": 2,
+        "modalities": [
+          "Cell therapy (CAR-T)"
+        ],
+        "phase_label": "Phase 2"
+      },
+      {
         "label": "Other / unclassified — inhibition",
+        "n": 1,
+        "max_phase": 2,
+        "modalities": [
+          "Other / unclassified"
+        ],
+        "phase_label": "Phase 2"
+      },
+      {
+        "label": "Target binding — mechanism unresolved",
         "n": 1,
         "max_phase": 2,
         "modalities": [
@@ -23941,15 +24033,6 @@
           "Vaccine"
         ],
         "phase_label": "Phase 1"
-      },
-      {
-        "label": "Named only by class",
-        "n": 1,
-        "max_phase": -1,
-        "modalities": [
-          "Other / unclassified"
-        ],
-        "phase_label": "Unknown"
       }
     ],
     "note": "Generated from the target's annotated location, its protein family, and the mechanism classes present in the asset table. Arrow weight is the furthest phase that approach has reached. It is a schematic of how the target is being drugged — not a pathway map, and it draws no interaction it has not read from the data."
@@ -23970,7 +24053,7 @@
         "label": "What can the running trials show?",
         "value": "13 of 63 running trials are controlled efficacy studies · next readout 2026-11 (sponsor estimate)",
         "face": "science",
-        "detail": "169 trials on record, 63 still running. 13 of those are controlled efficacy studies; the other 50 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Alliance Foundation Trials, LLC. · Atezolizumab Immunotherapy With or Without Tiragolumab for Patients With Unresectable Stage III NSCLC — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT03991832, 2026-09-30, signal-generating — and every upcoming completion is listed under Trials.",
+        "detail": "166 trials on record, 63 still running. 13 of those are controlled efficacy studies; the other 50 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Alliance Foundation Trials, LLC. · Atezolizumab Immunotherapy With or Without Tiragolumab for Patients With Unresectable Stage III NSCLC — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT03991832, 2026-09-30, signal-generating — and every upcoming completion is listed under Trials.",
         "anchor": "#readouts"
       },
       {
@@ -23984,15 +24067,15 @@
       {
         "key": "window",
         "label": "How contested is it?",
-        "value": "Saturated — 28 assets, 5 already approved",
+        "value": "Saturated — 25 assets, 5 already approved",
         "face": "business",
-        "detail": "17 sponsors, phase-weighted score 57.2. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
+        "detail": "15 sponsors, phase-weighted score 55.0. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
         "anchor": "#crowding"
       },
       {
         "key": "licensing",
         "label": "What has been licensed, and what has not?",
-        "value": "No deal on file · 28 programmes",
+        "value": "No deal on file · 25 programmes",
         "face": "business",
         "detail": "No deal has been entered for this target. The file is hand-maintained, so an empty one means nobody has filled it in, not that nothing has been licensed. The programme table below still shows who holds each one and how far it has gone.",
         "anchor": "#licensing"
@@ -24009,12 +24092,12 @@
     "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
   },
   "narrative": {
-    "bottom_line": "CD274 carries 22 active programmes across 6 mechanism classes from 17 named sponsors, reaching Approved. Phase-weighted density scores 57.2, which this tool bands as Saturated. The most advanced asset is ATEZOLIZUMAB (Seattle Project Corporation) at Approved.",
-    "competitive": "The field splits into 7 mechanism classes. Blocking antibody is the most advanced; Unclassified is the most crowded, with 9 assets. A further 6 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
-    "failures": "37 of 169 trials stopped; 18 stated a reason. Of those with a stated reason, 3 were science-driven (efficacy, safety or PK/PD) and 3 were business-driven. That is 17% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
+    "bottom_line": "CD274 carries 20 active programmes across 6 mechanism classes from 15 named sponsors, reaching Approved. Phase-weighted density scores 55.0, which this tool bands as Saturated. The most advanced asset is ATEZOLIZUMAB (Seattle Project Corporation) at Approved.",
+    "competitive": "The field splits into 8 mechanism classes. Antibody — mechanism unresolved is the most advanced, and also the most crowded, with 7 assets. A further 5 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
+    "failures": "36 of 166 trials stopped; 17 stated a reason. Of those with a stated reason, 3 were science-driven (efficacy, safety or PK/PD) and 3 were business-driven. That is 18% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
     "whitespace": "1 disease passes the screen: association evidence above threshold, genetic support, and nothing past preclinical. The strongest on genetic evidence is hypothyroidism (association 0.408, genetic 0.659). Treat this as a hypothesis to check by hand rather than a finding — disease names are matched between EFO terms and sponsor free text, and that matching is imperfect.",
-    "licensing": "Unattributed holds the most advanced programme (Approved). 4 of 28 programmes reached Phase 2 or beyond and have no trial running — Anti-(Homo sapiens CD274 (Programmed Death Ligand 1, PDL1, pd-l1, B7 Homolog 1, B7H1)), DANBURSTOTUG, PACMILIMAB and 1 more. Why each stopped is under Terminations, in the sponsor's words. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",
-    "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent (49% of stopped trials here stated one). Deal comparables are hand-maintained and not exhaustive.",
+    "licensing": "Unattributed holds the most advanced programme (Approved). 4 of 25 programmes reached Phase 2 or beyond and have no trial running — Anti-(Homo sapiens CD274 (Programmed Death Ligand 1, PDL1, pd-l1, B7 Homolog 1, B7H1)), DANBURSTOTUG, PACMILIMAB and 1 more. Why each stopped is under Terminations, in the sponsor's words. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",
+    "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent (47% of stopped trials here stated one). Deal comparables are hand-maintained and not exhaustive.",
     "_source": "template"
   },
   "generated": "2026-09-08 01:02 UTC",
@@ -24022,7 +24105,7 @@
   "notes": [
     "The registry search returned 128 trials that never names CD274 or any drug known to act on it. Those are not counted as work on this target.",
     "16 trials name CD274 as a genotype or a patient-selection criterion rather than as a drug target. They are listed under trials; their drugs are not counted as programmes against this target.",
-    "210 trials on this target list drugs this record does not tie to CD274 -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
+    "211 trials on this target list drugs this record does not tie to CD274 -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
   ],
   "rules_version": "2026-09-07-directed-discovery"
 }

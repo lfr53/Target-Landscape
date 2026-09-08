@@ -1039,7 +1039,7 @@
       "modality": "Other / unclassified",
       "action_type": "BINDING AGENT",
       "mechanism_text": "Interleukin 17A binding agent",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Target binding — mechanism unresolved",
       "max_phase": 2,
       "indications": [
         "acne",
@@ -1272,7 +1272,7 @@
       "modality": "Other / unclassified",
       "action_type": "",
       "mechanism_text": "",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Target binding — mechanism unresolved",
       "max_phase": 1,
       "indications": [
         "psoriasis"
@@ -1367,74 +1367,6 @@
         }
       ],
       "phase_label": "Phase 1"
-    },
-    {
-      "name": "Anti-IL-17 therapy",
-      "sponsor": "Centre Hospitalier Universitaire de Nīmes",
-      "modality": "Other / unclassified",
-      "action_type": "",
-      "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Named only by class",
-      "max_phase": -1,
-      "indications": [
-        "axial spondyloarthritis"
-      ],
-      "indication_phase": {
-        "axial spondyloarthritis": -1
-      },
-      "trials": [
-        "NCT05812157"
-      ],
-      "chembl_id": "",
-      "drug_id": "",
-      "synonyms": [],
-      "first_approval": null,
-      "withdrawn": false,
-      "is_active": true,
-      "named_by_class": true,
-      "provenance": [
-        {
-          "source": "ctgov",
-          "identifier": "NCT05812157",
-          "url": "https://clinicaltrials.gov/study/NCT05812157",
-          "retrieved": null
-        }
-      ],
-      "phase_label": "Unknown"
-    },
-    {
-      "name": "Comparator Drug (non-biologic IL-17 inhibitors)",
-      "sponsor": "Bausch Health Americas, Inc.",
-      "modality": "Other / unclassified",
-      "action_type": "",
-      "mechanism_text": "",
-      "mechanism_class": "Unclassified",
-      "max_phase": -1,
-      "indications": [
-        "psoriasis"
-      ],
-      "indication_phase": {
-        "psoriasis": -1
-      },
-      "trials": [
-        "NCT03254667"
-      ],
-      "chembl_id": "",
-      "drug_id": "",
-      "synonyms": [],
-      "first_approval": null,
-      "withdrawn": false,
-      "is_active": true,
-      "named_by_class": false,
-      "provenance": [
-        {
-          "source": "ctgov",
-          "identifier": "NCT03254667",
-          "url": "https://clinicaltrials.gov/study/NCT03254667",
-          "retrieved": null
-        }
-      ],
-      "phase_label": "Unknown"
     }
   ],
   "trials": [
@@ -14426,19 +14358,16 @@
       "TIBULIZUMAB",
       "VUNAKIZUMAB"
     ],
-    "Unclassified": [
-      "Anti-IL-17A/F Nanobody",
-      "BCD-085",
-      "CJM-112",
-      "Comparator Drug (non-biologic IL-17 inhibitors)",
-      "GR1501",
-      "MSB0010841"
-    ],
     "Antibody — mechanism unresolved": [
       "JS005 (recombinant humanized monoclonal antibody against IL-17A)",
       "Recombinant human monoclonal antibody against IL-17A",
       "Recombinant humanized IL-17A Monoclonal Antibody(JS005)",
       "humanized monoclonal antibody against human IL-17"
+    ],
+    "Unclassified": [
+      "BCD-085",
+      "GR1501",
+      "MSB0010841"
     ],
     "Ligand trap / decoy receptor": [
       "IZOKIBEP"
@@ -14446,24 +14375,24 @@
     "Other / unclassified — inhibition": [
       "M-1095"
     ],
-    "Named only by class": [
-      "Anti-IL-17 therapy"
+    "Target binding — mechanism unresolved": [
+      "Anti-IL-17A/F Nanobody",
+      "CJM-112"
     ]
   },
   "crowding": {
-    "n_total": 21,
-    "n_active": 21,
+    "n_total": 19,
+    "n_active": 19,
     "n_dormant": 0,
-    "weighted_score": 47.8,
+    "weighted_score": 47.2,
     "verdict": "Saturated",
     "by_phase": {
       "Approved": 3,
       "Phase 3": 7,
       "Phase 2": 6,
-      "Phase 1": 3,
-      "Unknown": 2
+      "Phase 1": 3
     },
-    "n_sponsors": 15,
+    "n_sponsors": 13,
     "n_mechanism_classes": 6,
     "lead_phase": "Approved",
     "weights_used": {
@@ -14502,20 +14431,20 @@
         "Antibody — mechanism unresolved",
         "Blocking antibody",
         "Ligand trap / decoy receptor",
-        "Named only by class",
         "Other / unclassified — inhibition",
+        "Target binding — mechanism unresolved",
         "Unclassified"
       ],
       "rows": [
         {
           "indication": "psoriasis",
-          "n_assets": 10,
+          "n_assets": 9,
           "cells": {
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": 2,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": 1,
+            "Target binding — mechanism unresolved": 1,
             "Unclassified": 1
           },
           "max_phase": 4
@@ -14527,8 +14456,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 3
           },
           "max_phase": 4
@@ -14540,9 +14469,9 @@
             "Antibody — mechanism unresolved": 3,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": 2,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": 1,
+            "Unclassified": -1
           },
           "max_phase": 4
         },
@@ -14553,8 +14482,8 @@
             "Antibody — mechanism unresolved": 2,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14566,9 +14495,9 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": 2,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": 3,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": -1
           },
           "max_phase": 4
         },
@@ -14579,9 +14508,9 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": 1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": -1
           },
           "max_phase": 4
         },
@@ -14592,8 +14521,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14605,8 +14534,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14618,8 +14547,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14631,8 +14560,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14644,8 +14573,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14657,8 +14586,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14670,8 +14599,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14683,9 +14612,9 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": -1
           },
           "max_phase": 4
         },
@@ -14696,8 +14625,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14709,8 +14638,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14722,8 +14651,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14735,8 +14664,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14748,8 +14677,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14761,8 +14690,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14774,8 +14703,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14787,8 +14716,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14800,8 +14729,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14813,8 +14742,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14826,8 +14755,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14839,8 +14768,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14852,8 +14781,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14865,8 +14794,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14878,8 +14807,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14891,8 +14820,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14904,8 +14833,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14917,8 +14846,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14930,8 +14859,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14943,21 +14872,21 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 4,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
         },
         {
           "indication": "axial spondyloarthritis",
-          "n_assets": 5,
+          "n_assets": 4,
           "cells": {
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -14969,8 +14898,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -14982,8 +14911,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -14995,8 +14924,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15008,8 +14937,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15021,8 +14950,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15034,8 +14963,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15047,8 +14976,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15060,8 +14989,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15073,8 +15002,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": 2,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15086,8 +15015,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15099,8 +15028,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15112,8 +15041,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15125,8 +15054,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15138,8 +15067,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15151,8 +15080,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15164,8 +15093,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15177,8 +15106,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15190,8 +15119,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15203,8 +15132,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15216,8 +15145,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15229,8 +15158,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15242,8 +15171,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15255,8 +15184,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15268,8 +15197,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15281,8 +15210,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15294,8 +15223,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15307,8 +15236,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15320,8 +15249,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15333,8 +15262,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15346,8 +15275,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15359,8 +15288,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15372,8 +15301,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15385,8 +15314,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15398,8 +15327,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15411,8 +15340,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15424,8 +15353,8 @@
             "Antibody — mechanism unresolved": 1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15437,8 +15366,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15450,8 +15379,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15463,8 +15392,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15476,9 +15405,9 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": 1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -15489,8 +15418,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15502,8 +15431,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15515,8 +15444,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15528,8 +15457,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15541,9 +15470,9 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -15554,8 +15483,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15567,8 +15496,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15580,8 +15509,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15593,8 +15522,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15606,8 +15535,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15619,8 +15548,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15632,8 +15561,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15645,8 +15574,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15658,8 +15587,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15671,8 +15600,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15684,8 +15613,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15697,8 +15626,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15710,8 +15639,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15723,9 +15652,9 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -15736,8 +15665,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15749,8 +15678,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15762,8 +15691,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15775,8 +15704,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15788,8 +15717,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15801,8 +15730,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15814,8 +15743,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15827,8 +15756,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15840,8 +15769,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15853,8 +15782,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15866,8 +15795,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 2,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15879,8 +15808,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -15892,9 +15821,9 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": 1,
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -15905,8 +15834,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -15918,8 +15847,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -15931,9 +15860,9 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": 1,
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -15944,8 +15873,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -15957,8 +15886,8 @@
             "Antibody — mechanism unresolved": 1,
             "Blocking antibody": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -15970,9 +15899,9 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": 1,
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -15983,8 +15912,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -15996,8 +15925,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -16009,8 +15938,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -16022,8 +15951,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -16035,8 +15964,8 @@
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": -1,
             "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -16046,7 +15975,7 @@
     "indications_omitted": 0
   },
   "failures": {
-    "n_trials": 190,
+    "n_trials": 188,
     "n_stopped": 21,
     "n_with_reason": 15,
     "counts": {
@@ -16813,7 +16742,7 @@
         "sponsor_scale": "Large pharma",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
+        "mechanism": "Target binding — mechanism unresolved",
         "is_active": true,
         "territory": {
           "countries": [
@@ -16998,7 +16927,7 @@
         "sponsor_scale": "Large pharma",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Target binding — mechanism unresolved",
         "is_active": true,
         "territory": {
           "countries": [
@@ -17083,64 +17012,6 @@
             "code": "small_sponsor",
             "headline": "Small or private sponsor",
             "evidence": "Biocad is not on the large-pharma list. Small holders partner or sell far more often than large ones, and are reachable directly."
-          }
-        ]
-      },
-      {
-        "asset": "Anti-IL-17 therapy",
-        "sponsor": "Centre Hospitalier Universitaire de Nīmes",
-        "sponsor_scale": "Academic or non-industry",
-        "phase": -1,
-        "phase_label": "Unknown",
-        "mechanism": "Named only by class",
-        "is_active": true,
-        "territory": {
-          "countries": [
-            "France"
-          ],
-          "covered": [
-            "EU/UK"
-          ],
-          "absent": [
-            "China",
-            "Japan",
-            "US"
-          ]
-        },
-        "signals": [
-          {
-            "code": "academic",
-            "headline": "Academic origin",
-            "evidence": "Sponsored by Centre Hospitalier Universitaire de Nīmes. Academic programmes at this stage are usually seeking a commercial partner, and the institution's tech-transfer office is the contact."
-          }
-        ]
-      },
-      {
-        "asset": "Comparator Drug (non-biologic IL-17 inhibitors)",
-        "sponsor": "Bausch Health Americas, Inc.",
-        "sponsor_scale": "Small or private company",
-        "phase": -1,
-        "phase_label": "Unknown",
-        "mechanism": "Unclassified",
-        "is_active": true,
-        "territory": {
-          "countries": [
-            "United States"
-          ],
-          "covered": [
-            "US"
-          ],
-          "absent": [
-            "China",
-            "EU/UK",
-            "Japan"
-          ]
-        },
-        "signals": [
-          {
-            "code": "small_sponsor",
-            "headline": "Small or private sponsor",
-            "evidence": "Bausch Health Americas, Inc. is not on the large-pharma list. Small holders partner or sell far more often than large ones, and are reachable directly."
           }
         ]
       }
@@ -17229,18 +17100,6 @@
         "scale": "Large pharma",
         "n": 1,
         "lead_phase": 2
-      },
-      {
-        "sponsor": "Centre Hospitalier Universitaire de Nīmes",
-        "scale": "Academic or non-industry",
-        "n": 1,
-        "lead_phase": -1
-      },
-      {
-        "sponsor": "Bausch Health Americas, Inc.",
-        "scale": "Small or private company",
-        "n": 1,
-        "lead_phase": -1
       }
     ],
     "deals": {
@@ -17839,14 +17698,14 @@
     "genetic_disease": "placental abruption"
   },
   "readouts": {
-    "n_trials": 190,
-    "n_active": 23,
+    "n_trials": 188,
+    "n_active": 22,
     "n_controlled": 7,
     "n_confirmatory": 5,
     "n_undescribed": 0,
     "by_level": {
       "signal": 2,
-      "unclear": 9,
+      "unclear": 8,
       "controlled": 2,
       "dose": 3,
       "confirmatory": 5,
@@ -17860,7 +17719,7 @@
       "mechanistic": "Mechanistic",
       "unclear": "Design not stated"
     },
-    "verdict": "190 trials on record, 23 still running. 7 of those are controlled efficacy studies; the other 16 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
+    "verdict": "188 trials on record, 22 still running. 7 of those are controlled efficacy studies; the other 15 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
     "catalysts": [
       {
         "nct_id": "NCT06993610",
@@ -18571,7 +18430,7 @@
     "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
   },
   "diagram": {
-    "svg": "<svg viewBox=\"0 0 720 356\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How IL17A is being drugged</title><desc id=\"tl-diagram-desc\">IL17A is secreted into the extracellular space. 6 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"136\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"126\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"182\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"70\" x2=\"538\" y2=\"178\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"65\" class=\"tl-arrow-label\">Blocking antibody</text><text x=\"24\" y=\"86\" class=\"tl-arrow-detail\">8 assets · Approved · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"142\" x2=\"538\" y2=\"178\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"137\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"158\" class=\"tl-arrow-detail\">6 assets · Phase 3</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"214\" x2=\"538\" y2=\"178\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"209\" class=\"tl-arrow-label\">Antibody — mechanism unresolved</text><text x=\"24\" y=\"230\" class=\"tl-arrow-detail\">4 assets · Phase 3 · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"286\" x2=\"538\" y2=\"178\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"281\" class=\"tl-arrow-label\">Ligand trap / decoy receptor</text><text x=\"24\" y=\"302\" class=\"tl-arrow-detail\">1 asset · Phase 3 · Fc-fusion / ligand trap</text></g><text x=\"24\" y=\"342\" class=\"tl-arrow-detail\">+2 further mechanism classes below</text><g class=\"tl-target\"><ellipse cx=\"596\" cy=\"178\" rx=\"40\" ry=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"183\" class=\"tl-protein-label\">IL17A</text></g></svg>",
+    "svg": "<svg viewBox=\"0 0 720 356\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How IL17A is being drugged</title><desc id=\"tl-diagram-desc\">IL17A is secreted into the extracellular space. 6 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"136\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"126\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"182\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"70\" x2=\"538\" y2=\"178\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"65\" class=\"tl-arrow-label\">Blocking antibody</text><text x=\"24\" y=\"86\" class=\"tl-arrow-detail\">8 assets · Approved · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"142\" x2=\"538\" y2=\"178\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"137\" class=\"tl-arrow-label\">Antibody — mechanism unresolved</text><text x=\"24\" y=\"158\" class=\"tl-arrow-detail\">4 assets · Phase 3 · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"214\" x2=\"538\" y2=\"178\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"209\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"230\" class=\"tl-arrow-detail\">3 assets · Phase 3</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"286\" x2=\"538\" y2=\"178\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"281\" class=\"tl-arrow-label\">Ligand trap / decoy receptor</text><text x=\"24\" y=\"302\" class=\"tl-arrow-detail\">1 asset · Phase 3 · Fc-fusion / ligand trap</text></g><text x=\"24\" y=\"342\" class=\"tl-arrow-detail\">+2 further mechanism classes below</text><g class=\"tl-target\"><ellipse cx=\"596\" cy=\"178\" rx=\"40\" ry=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"183\" class=\"tl-protein-label\">IL17A</text></g></svg>",
     "title": "How IL17A is being drugged",
     "caption": "IL17A is secreted into the extracellular space. 6 mechanism classes are represented in the asset table, the most advanced reaching Approved.",
     "placement": "secreted into the extracellular space",
@@ -18589,20 +18448,20 @@
         "phase_label": "Approved"
       },
       {
-        "label": "Unclassified",
-        "n": 6,
-        "max_phase": 3,
-        "modalities": [
-          "Other / unclassified"
-        ],
-        "phase_label": "Phase 3"
-      },
-      {
         "label": "Antibody — mechanism unresolved",
         "n": 4,
         "max_phase": 3,
         "modalities": [
           "Monoclonal antibody"
+        ],
+        "phase_label": "Phase 3"
+      },
+      {
+        "label": "Unclassified",
+        "n": 3,
+        "max_phase": 3,
+        "modalities": [
+          "Other / unclassified"
         ],
         "phase_label": "Phase 3"
       },
@@ -18625,13 +18484,13 @@
         "phase_label": "Phase 3"
       },
       {
-        "label": "Named only by class",
-        "n": 1,
-        "max_phase": -1,
+        "label": "Target binding — mechanism unresolved",
+        "n": 2,
+        "max_phase": 2,
         "modalities": [
           "Other / unclassified"
         ],
-        "phase_label": "Unknown"
+        "phase_label": "Phase 2"
       }
     ],
     "note": "Generated from the target's annotated location, its protein family, and the mechanism classes present in the asset table. Arrow weight is the furthest phase that approach has reached. It is a schematic of how the target is being drugged — not a pathway map, and it draws no interaction it has not read from the data."
@@ -18650,9 +18509,9 @@
       {
         "key": "evidence",
         "label": "What can the running trials show?",
-        "value": "7 of 23 running trials are controlled efficacy studies · next readout 2027-05 (sponsor estimate)",
+        "value": "7 of 22 running trials are controlled efficacy studies · next readout 2027-05 (sponsor estimate)",
         "face": "science",
-        "detail": "190 trials on record, 23 still running. 7 of those are controlled efficacy studies; the other 16 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Zura Bio Inc · Tibulizumab Systemic Sclerosis Understanding and Response Evaluation (TibuSURE) — Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation. Something reads out sooner — NCT06993610, 2026-11, design not stated — and every upcoming completion is listed under Trials.",
+        "detail": "188 trials on record, 22 still running. 7 of those are controlled efficacy studies; the other 15 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Zura Bio Inc · Tibulizumab Systemic Sclerosis Understanding and Response Evaluation (TibuSURE) — Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation. Something reads out sooner — NCT06993610, 2026-11, design not stated — and every upcoming completion is listed under Trials.",
         "anchor": "#readouts"
       },
       {
@@ -18666,15 +18525,15 @@
       {
         "key": "window",
         "label": "How contested is it?",
-        "value": "Saturated — 21 assets, 3 already approved",
+        "value": "Saturated — 19 assets, 3 already approved",
         "face": "business",
-        "detail": "15 sponsors, phase-weighted score 47.8. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
+        "detail": "13 sponsors, phase-weighted score 47.2. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
         "anchor": "#crowding"
       },
       {
         "key": "licensing",
         "label": "What has been licensed, and what has not?",
-        "value": "No deal on file · 21 programmes",
+        "value": "No deal on file · 19 programmes",
         "face": "business",
         "detail": "No deal has been entered for this target. The file is hand-maintained, so an empty one means nobody has filled it in, not that nothing has been licensed. The programme table below still shows who holds each one and how far it has gone.",
         "anchor": "#licensing"
@@ -18691,9 +18550,9 @@
     "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
   },
   "narrative": {
-    "bottom_line": "IL17A carries 21 active programmes across 6 mechanism classes from 15 named sponsors, reaching Approved. Phase-weighted density scores 47.8, which this tool bands as Saturated. The most advanced asset is BIMEKIZUMAB (UCB Biopharma SRL) at Approved.",
+    "bottom_line": "IL17A carries 19 active programmes across 6 mechanism classes from 13 named sponsors, reaching Approved. Phase-weighted density scores 47.2, which this tool bands as Saturated. The most advanced asset is BIMEKIZUMAB (UCB Biopharma SRL) at Approved.",
     "competitive": "The field splits into 6 mechanism classes. Blocking antibody is the most advanced, and also the most crowded, with 8 assets.",
-    "failures": "21 of 190 trials stopped; 15 stated a reason. Of those with a stated reason, 6 were science-driven (efficacy, safety or PK/PD) and 4 were business-driven. That is 40% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
+    "failures": "21 of 188 trials stopped; 15 stated a reason. Of those with a stated reason, 6 were science-driven (efficacy, safety or PK/PD) and 4 were business-driven. That is 40% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
     "whitespace": "No disease passes the whitespace screen at the configured thresholds, either because the well-evidenced indications already carry clinical assets or because association data was unavailable.",
     "licensing": "Novartis Pharmaceuticals holds the most advanced programme (Approved), and is a large pharma. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",
     "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent (71% of stopped trials here stated one). Deal comparables are hand-maintained and not exhaustive.",
@@ -18704,7 +18563,7 @@
   "notes": [
     "The registry search returned 90 trials that never names IL17A or any drug known to act on it. Those are not counted as work on this target.",
     "9 trials name IL17A as a genotype or a patient-selection criterion rather than as a drug target. They are listed under trials; their drugs are not counted as programmes against this target.",
-    "226 trials on this target list drugs this record does not tie to IL17A -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
+    "227 trials on this target list drugs this record does not tie to IL17A -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
   ],
   "rules_version": "2026-09-07-directed-discovery"
 }

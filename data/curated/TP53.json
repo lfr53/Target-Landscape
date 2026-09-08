@@ -789,10 +789,10 @@
     {
       "name": "TP53-EphA-2-CAR-DC",
       "sponsor": "Chinese PLA General Hospital",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "solid tumor",
@@ -9582,18 +9582,20 @@
       "NAVTEMADLIN",
       "SIREMADLIN"
     ],
-    "Unclassified": [
-      "CONTUSUGENE LADENOVEC",
-      "TP53-EphA-2-CAR-DC"
-    ],
     "Small molecule — mechanism unresolved": [
       "EPRENETAPOPT"
+    ],
+    "Unclassified": [
+      "CONTUSUGENE LADENOVEC"
     ],
     "siRNA — RNAi knockdown": [
       "TEPRASIRAN"
     ],
     "Antisense oligonucleotide — RNase H knockdown": [
       "CENERSEN"
+    ],
+    "Cell therapy — target-directed CAR": [
+      "TP53-EphA-2-CAR-DC"
     ]
   },
   "crowding": {
@@ -9608,7 +9610,7 @@
       "Phase 1": 1
     },
     "n_sponsors": 9,
-    "n_mechanism_classes": 5,
+    "n_mechanism_classes": 6,
     "lead_phase": "Phase 3",
     "weights_used": {
       "Approved": 5.0,
@@ -9644,6 +9646,7 @@
     "matrix": {
       "mechanisms": [
         "Antisense oligonucleotide — RNase H knockdown",
+        "Cell therapy — target-directed CAR",
         "Small molecule — inhibition",
         "Small molecule — mechanism unresolved",
         "Unclassified",
@@ -9655,6 +9658,7 @@
           "n_assets": 6,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -9667,9 +9671,10 @@
           "n_assets": 6,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": 1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": 3,
-            "Unclassified": 1,
+            "Unclassified": -1,
             "siRNA — RNAi knockdown": -1
           },
           "max_phase": 3
@@ -9679,6 +9684,7 @@
           "n_assets": 4,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -9691,6 +9697,7 @@
           "n_assets": 3,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": 3,
             "Unclassified": -1,
@@ -9703,6 +9710,7 @@
           "n_assets": 3,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": 1,
             "Unclassified": -1,
@@ -9715,6 +9723,7 @@
           "n_assets": 3,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": 3,
             "Unclassified": -1,
@@ -9727,6 +9736,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9739,6 +9749,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9751,6 +9762,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9763,6 +9775,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": 3,
             "Unclassified": -1,
@@ -9775,6 +9788,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9787,6 +9801,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9799,6 +9814,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": 3,
             "Unclassified": 1,
@@ -9811,6 +9827,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": 3,
             "Unclassified": -1,
@@ -9823,6 +9840,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9835,6 +9853,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9847,6 +9866,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9859,6 +9879,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9871,6 +9892,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9883,6 +9905,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9895,6 +9918,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9907,6 +9931,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9919,6 +9944,7 @@
           "n_assets": 4,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": 1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -9931,6 +9957,7 @@
           "n_assets": 3,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -9943,6 +9970,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9955,6 +9983,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9967,6 +9996,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9979,6 +10009,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -9991,6 +10022,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -10003,6 +10035,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10015,6 +10048,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -10027,6 +10061,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10039,6 +10074,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10051,6 +10087,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10063,9 +10100,10 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": 1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
-            "Unclassified": 1,
+            "Unclassified": -1,
             "siRNA — RNAi knockdown": -1
           },
           "max_phase": 2
@@ -10075,6 +10113,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10087,6 +10126,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10099,6 +10139,7 @@
           "n_assets": 2,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10111,6 +10152,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10123,6 +10165,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10135,6 +10178,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": 2,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10147,6 +10191,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -10159,6 +10204,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -10171,6 +10217,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10183,6 +10230,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10195,6 +10243,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10207,6 +10256,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": 2,
@@ -10219,6 +10269,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10231,6 +10282,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10243,6 +10295,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10255,6 +10308,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -10267,6 +10321,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -10279,6 +10334,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10291,6 +10347,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": 2,
@@ -10303,6 +10360,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10315,6 +10373,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -10327,6 +10386,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10339,6 +10399,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10351,6 +10412,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10363,6 +10425,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": 2,
@@ -10375,6 +10438,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10387,6 +10451,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10399,6 +10464,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10411,6 +10477,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -10423,6 +10490,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10435,6 +10503,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": 2,
@@ -10447,6 +10516,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -10459,6 +10529,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10471,6 +10542,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": 2,
@@ -10483,6 +10555,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -10495,6 +10568,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10507,6 +10581,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -10519,6 +10594,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10531,6 +10607,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": 2,
@@ -10543,6 +10620,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": 2,
@@ -10555,6 +10633,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1,
@@ -10567,6 +10646,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10579,6 +10659,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10591,6 +10672,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10603,6 +10685,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10615,6 +10698,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10627,6 +10711,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10639,6 +10724,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10651,6 +10737,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10663,6 +10750,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10675,6 +10763,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10687,6 +10776,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10699,6 +10789,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": 1,
@@ -10711,6 +10802,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10723,6 +10815,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10735,6 +10828,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10747,6 +10841,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": 1,
             "Unclassified": -1,
@@ -10759,6 +10854,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": 1,
@@ -10771,9 +10867,10 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": 1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
-            "Unclassified": 1,
+            "Unclassified": -1,
             "siRNA — RNAi knockdown": -1
           },
           "max_phase": 1
@@ -10783,9 +10880,10 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": 1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
-            "Unclassified": 1,
+            "Unclassified": -1,
             "siRNA — RNAi knockdown": -1
           },
           "max_phase": 1
@@ -10795,9 +10893,10 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": 1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
-            "Unclassified": 1,
+            "Unclassified": -1,
             "siRNA — RNAi knockdown": -1
           },
           "max_phase": 1
@@ -10807,9 +10906,10 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": 1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
-            "Unclassified": 1,
+            "Unclassified": -1,
             "siRNA — RNAi knockdown": -1
           },
           "max_phase": 1
@@ -10819,6 +10919,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": 1,
@@ -10831,6 +10932,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10843,6 +10945,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -10855,6 +10958,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": 1,
             "Unclassified": -1,
@@ -10867,6 +10971,7 @@
           "n_assets": 1,
           "cells": {
             "Antisense oligonucleotide — RNase H knockdown": -1,
+            "Cell therapy — target-directed CAR": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1,
@@ -11722,7 +11827,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -12096,6 +12201,28 @@
       "speculative": false
     },
     {
+      "key": "Cell therapy (CAR-T)",
+      "what": "A patient's or donor's T cells engineered with a receptor against a surface antigen, expanded, and infused back as a living drug.",
+      "requires": [
+        "Surface expression with near-absolute tissue restriction. The cells persist and multiply, so there is no dose to back off — anything the CAR recognises will be destroyed for as long as the cells live.",
+        "The antigen is present on essentially every malignant cell, or escape is immediate.",
+        "A tolerable consequence if the normal tissue carrying the antigen is also destroyed — B-cell aplasia after CD19 is survivable, and that is why CD19 worked first."
+      ],
+      "fails": [
+        "On-target off-tumour toxicity, which in this modality has been fatal rather than dose-limiting.",
+        "Antigen escape driving relapse after deep remission.",
+        "The solid-tumour wall: trafficking, persistence and an immunosuppressive microenvironment. Success remains overwhelmingly haematological.",
+        "Manufacturing — vein-to-vein time, failure rates and cost of goods are commercial risks, not technical footnotes."
+      ],
+      "economics": "≈3–5 years and $50–150M to meaningful clinical data, with process development a large fraction of it. Any seed plan much shorter than this is worth interrogating.",
+      "bd_note": "",
+      "fit": "blocked",
+      "fit_label": "Ruled out by location",
+      "fit_reason": "Annotated intracellular only — nothing on the surface to bind.",
+      "in_use": true,
+      "speculative": false
+    },
+    {
       "key": "Antibody-drug conjugate",
       "what": "An antibody used as a delivery vehicle: it carries a cytotoxic payload, is taken into the cell, and releases the payload inside.",
       "requires": [
@@ -12130,28 +12257,6 @@
         "Antigen loss under treatment pressure, giving deep early responses that do not last."
       ],
       "economics": "≈2–3 years and $25–60M to first-in-human; the dose-escalation is slower than a plain antibody because of step-up dosing.",
-      "bd_note": "",
-      "fit": "blocked",
-      "fit_label": "Ruled out by location",
-      "fit_reason": "Annotated intracellular only — nothing on the surface to bind.",
-      "in_use": false,
-      "speculative": false
-    },
-    {
-      "key": "Cell therapy (CAR-T)",
-      "what": "A patient's or donor's T cells engineered with a receptor against a surface antigen, expanded, and infused back as a living drug.",
-      "requires": [
-        "Surface expression with near-absolute tissue restriction. The cells persist and multiply, so there is no dose to back off — anything the CAR recognises will be destroyed for as long as the cells live.",
-        "The antigen is present on essentially every malignant cell, or escape is immediate.",
-        "A tolerable consequence if the normal tissue carrying the antigen is also destroyed — B-cell aplasia after CD19 is survivable, and that is why CD19 worked first."
-      ],
-      "fails": [
-        "On-target off-tumour toxicity, which in this modality has been fatal rather than dose-limiting.",
-        "Antigen escape driving relapse after deep remission.",
-        "The solid-tumour wall: trafficking, persistence and an immunosuppressive microenvironment. Success remains overwhelmingly haematological.",
-        "Manufacturing — vein-to-vein time, failure rates and cost of goods are commercial risks, not technical footnotes."
-      ],
-      "economics": "≈3–5 years and $50–150M to meaningful clinical data, with process development a large fraction of it. Any seed plan much shorter than this is worth interrogating.",
       "bd_note": "",
       "fit": "blocked",
       "fit_label": "Ruled out by location",
@@ -12695,7 +12800,7 @@
         "key": "development",
         "label": "In development",
         "value": "endometrial cancer, solid tumor and myelofibrosis — 3 of 22 indications at that phase",
-        "note": "Furthest programme: Navtemadlin (Kartos Therapeutics, Inc.), Phase 3, Small molecule — inhibition. 5 mechanism classes in the table.",
+        "note": "Furthest programme: Navtemadlin (Kartos Therapeutics, Inc.), Phase 3, Small molecule — inhibition. 6 mechanism classes in the table.",
         "pmids": []
       },
       {
@@ -12731,9 +12836,9 @@
     "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
   },
   "diagram": {
-    "svg": "<svg viewBox=\"0 0 720 356\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How TP53 is being drugged</title><desc id=\"tl-diagram-desc\">TP53 is in the nucleus. 5 mechanism classes are represented in the asset table, the most advanced reaching Phase 3.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"216\" y=\"18\" width=\"504\" height=\"320\" rx=\"26\" class=\"tl-cell\"/><text x=\"706\" y=\"38\" class=\"tl-zone\" text-anchor=\"end\">Nucleus</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"70\" x2=\"538\" y2=\"178\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"65\" class=\"tl-arrow-label\">Small molecule — inhibition</text><text x=\"24\" y=\"86\" class=\"tl-arrow-detail\">4 assets · Phase 3 · Small molecule</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"142\" x2=\"538\" y2=\"178\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"137\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"158\" class=\"tl-arrow-detail\">2 assets · Phase 3</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"214\" x2=\"538\" y2=\"178\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"209\" class=\"tl-arrow-label\">Small molecule — mechanism unresolved</text><text x=\"24\" y=\"230\" class=\"tl-arrow-detail\">1 asset · Phase 3 · Small molecule</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"286\" x2=\"538\" y2=\"178\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"281\" class=\"tl-arrow-label\">siRNA — RNAi knockdown</text><text x=\"24\" y=\"302\" class=\"tl-arrow-detail\">1 asset · Phase 3 · Oligonucleotide</text></g><text x=\"24\" y=\"342\" class=\"tl-arrow-detail\">+1 further mechanism class below</text><g class=\"tl-target\"><rect x=\"552\" y=\"154\" width=\"88\" height=\"48\" rx=\"14\" class=\"tl-protein\"/><text x=\"596\" y=\"183\" class=\"tl-protein-label\">TP53</text></g></svg>",
+    "svg": "<svg viewBox=\"0 0 720 356\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How TP53 is being drugged</title><desc id=\"tl-diagram-desc\">TP53 is in the nucleus. 6 mechanism classes are represented in the asset table, the most advanced reaching Phase 3.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"216\" y=\"18\" width=\"504\" height=\"320\" rx=\"26\" class=\"tl-cell\"/><text x=\"706\" y=\"38\" class=\"tl-zone\" text-anchor=\"end\">Nucleus</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"70\" x2=\"538\" y2=\"178\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"65\" class=\"tl-arrow-label\">Small molecule — inhibition</text><text x=\"24\" y=\"86\" class=\"tl-arrow-detail\">4 assets · Phase 3 · Small molecule</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"142\" x2=\"538\" y2=\"178\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"137\" class=\"tl-arrow-label\">Small molecule — mechanism unresolved</text><text x=\"24\" y=\"158\" class=\"tl-arrow-detail\">1 asset · Phase 3 · Small molecule</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"214\" x2=\"538\" y2=\"178\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"209\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"230\" class=\"tl-arrow-detail\">1 asset · Phase 3</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"286\" x2=\"538\" y2=\"178\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"281\" class=\"tl-arrow-label\">siRNA — RNAi knockdown</text><text x=\"24\" y=\"302\" class=\"tl-arrow-detail\">1 asset · Phase 3 · Oligonucleotide</text></g><text x=\"24\" y=\"342\" class=\"tl-arrow-detail\">+2 further mechanism classes below</text><g class=\"tl-target\"><rect x=\"552\" y=\"154\" width=\"88\" height=\"48\" rx=\"14\" class=\"tl-protein\"/><text x=\"596\" y=\"183\" class=\"tl-protein-label\">TP53</text></g></svg>",
     "title": "How TP53 is being drugged",
-    "caption": "TP53 is in the nucleus. 5 mechanism classes are represented in the asset table, the most advanced reaching Phase 3.",
+    "caption": "TP53 is in the nucleus. 6 mechanism classes are represented in the asset table, the most advanced reaching Phase 3.",
     "placement": "in the nucleus",
     "target_class": [
       "Transcription factor"
@@ -12749,20 +12854,20 @@
         "phase_label": "Phase 3"
       },
       {
-        "label": "Unclassified",
-        "n": 2,
-        "max_phase": 3,
-        "modalities": [
-          "Other / unclassified"
-        ],
-        "phase_label": "Phase 3"
-      },
-      {
         "label": "Small molecule — mechanism unresolved",
         "n": 1,
         "max_phase": 3,
         "modalities": [
           "Small molecule"
+        ],
+        "phase_label": "Phase 3"
+      },
+      {
+        "label": "Unclassified",
+        "n": 1,
+        "max_phase": 3,
+        "modalities": [
+          "Other / unclassified"
         ],
         "phase_label": "Phase 3"
       },
@@ -12783,6 +12888,15 @@
           "Oligonucleotide"
         ],
         "phase_label": "Phase 2"
+      },
+      {
+        "label": "Cell therapy — target-directed CAR",
+        "n": 1,
+        "max_phase": 1,
+        "modalities": [
+          "Cell therapy (CAR-T)"
+        ],
+        "phase_label": "Phase 1"
       }
     ],
     "note": "Generated from the target's annotated location, its protein family, and the mechanism classes present in the asset table. Arrow weight is the furthest phase that approach has reached. It is a schematic of how the target is being drugged — not a pathway map, and it draws no interaction it has not read from the data."
@@ -12842,8 +12956,8 @@
     "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
   },
   "narrative": {
-    "bottom_line": "TP53 carries 9 active programmes across 5 mechanism classes from 9 named sponsors, reaching Phase 3. Phase-weighted density scores 20.2, which this tool bands as Crowded. The most advanced asset is CONTUSUGENE LADENOVEC (National Cancer Institute (NCI)) at Phase 3.",
-    "competitive": "The field splits into 5 mechanism classes. Small molecule — inhibition is the most advanced, and also the most crowded, with 4 assets.",
+    "bottom_line": "TP53 carries 9 active programmes across 6 mechanism classes from 9 named sponsors, reaching Phase 3. Phase-weighted density scores 20.2, which this tool bands as Crowded. The most advanced asset is CONTUSUGENE LADENOVEC (National Cancer Institute (NCI)) at Phase 3.",
+    "competitive": "The field splits into 6 mechanism classes. Small molecule — inhibition is the most advanced, and also the most crowded, with 4 assets.",
     "failures": "30 of 69 trials stopped; 18 stated a reason. Of those with a stated reason, 4 were science-driven (efficacy, safety or PK/PD) and 7 were business-driven. That is 22% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
     "whitespace": "6 diseases pass the screen: association evidence above threshold, genetic support, and nothing past preclinical. The strongest on genetic evidence is hereditary neoplastic syndrome (association 0.578, genetic 0.949). Treat this as a hypothesis to check by hand rather than a finding — disease names are matched between EFO terms and sponsor free text, and that matching is imperfect.",
     "licensing": "National Cancer Institute (NCI) holds the most advanced programme (Phase 3), and is a academic or non-industry. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",

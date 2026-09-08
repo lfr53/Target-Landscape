@@ -1674,42 +1674,6 @@
       "phase_label": "Phase 2"
     },
     {
-      "name": "Immune checkpoint inhibitors(anti-PD1/PD-L1/CTLA4 antibodies)",
-      "sponsor": "Chinese PLA General Hospital",
-      "modality": "Monoclonal antibody",
-      "action_type": "",
-      "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Blocking antibody",
-      "max_phase": 2,
-      "indications": [
-        "non-Hodgkin lymphoma",
-        "solid tumor"
-      ],
-      "indication_phase": {
-        "non-Hodgkin lymphoma": 2,
-        "solid tumor": 2
-      },
-      "trials": [
-        "NCT05320640"
-      ],
-      "chembl_id": "",
-      "drug_id": "",
-      "synonyms": [],
-      "first_approval": null,
-      "withdrawn": false,
-      "is_active": true,
-      "named_by_class": false,
-      "provenance": [
-        {
-          "source": "ctgov",
-          "identifier": "NCT05320640",
-          "url": "https://clinicaltrials.gov/study/NCT05320640",
-          "retrieved": null
-        }
-      ],
-      "phase_label": "Phase 2"
-    },
-    {
       "name": "PD-1/CTLA-4 Dual Functional Antibody",
       "sponsor": "First Affiliated Hospital of Zhejiang University",
       "modality": "Bispecific antibody",
@@ -1909,7 +1873,7 @@
       "modality": "Other / unclassified",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Target binding — mechanism unresolved",
       "max_phase": 1,
       "indications": [
         "microsatellite stable colorectal cancer",
@@ -14492,14 +14456,12 @@
       "Checkpoint blocking antibody that recognizes CTLA-4",
       "ERFONRILIMAB",
       "IPILIMUMAB",
-      "Immune checkpoint inhibitors(anti-PD1/PD-L1/CTLA4 antibodies)",
       "QUAVONLIMAB",
       "TREMELIMUMAB",
       "ZALIFRELIMAB"
     ],
     "Unclassified": [
       "ADG126",
-      "Anti-CTLA-4 SAFEbody ADG126",
       "CTLA4-Ig",
       "HB-2121",
       "ONC-392",
@@ -14510,22 +14472,25 @@
       "Anti-PD1/CTLA4 Bispecific Antibody XmAb20717",
       "PD-1 x CTLA-4 Bispecific Antibody XmAb20717",
       "PD-1/CTLA-4 Dual Functional Antibody"
+    ],
+    "Target binding — mechanism unresolved": [
+      "Anti-CTLA-4 SAFEbody ADG126"
     ]
   },
   "crowding": {
-    "n_total": 22,
-    "n_active": 17,
+    "n_total": 21,
+    "n_active": 16,
     "n_dormant": 5,
-    "weighted_score": 37.8,
+    "weighted_score": 36.2,
     "verdict": "Crowded",
     "by_phase": {
       "Approved": 2,
       "Phase 3": 5,
-      "Phase 2": 7,
+      "Phase 2": 6,
       "Phase 1": 3
     },
-    "n_sponsors": 14,
-    "n_mechanism_classes": 3,
+    "n_sponsors": 13,
+    "n_mechanism_classes": 4,
     "lead_phase": "Approved",
     "weights_used": {
       "Approved": 5.0,
@@ -14588,6 +14553,7 @@
       "mechanisms": [
         "Bispecific antibody — dual pathway blockade",
         "Blocking antibody",
+        "Target binding — mechanism unresolved",
         "Unclassified"
       ],
       "rows": [
@@ -14597,6 +14563,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 4
@@ -14607,6 +14574,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 4
@@ -14617,6 +14585,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 4
@@ -14627,6 +14596,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14637,6 +14607,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": 2,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14647,6 +14618,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 4
@@ -14657,6 +14629,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14667,6 +14640,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14677,6 +14651,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14687,6 +14662,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 4
@@ -14697,6 +14673,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14707,6 +14684,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14717,6 +14695,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14727,6 +14706,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14737,6 +14717,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14747,6 +14728,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14757,6 +14739,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14767,6 +14750,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14777,6 +14761,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14787,6 +14772,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14797,6 +14783,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14807,6 +14794,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14817,6 +14805,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14827,6 +14816,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14837,6 +14827,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14847,6 +14838,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14857,6 +14849,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14867,6 +14860,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14877,6 +14871,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14887,6 +14882,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14897,6 +14893,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14907,6 +14904,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14917,6 +14915,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14927,6 +14926,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14937,6 +14937,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14947,6 +14948,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14957,6 +14959,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14967,6 +14970,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14977,6 +14981,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14987,6 +14992,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -14997,6 +15003,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -15007,19 +15014,10 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 4,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
-        },
-        {
-          "indication": "solid tumor",
-          "n_assets": 10,
-          "cells": {
-            "Bispecific antibody — dual pathway blockade": -1,
-            "Blocking antibody": 3,
-            "Unclassified": 3
-          },
-          "max_phase": 3
         },
         {
           "indication": "colorectal cancer",
@@ -15027,7 +15025,19 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": 1,
             "Unclassified": 2
+          },
+          "max_phase": 3
+        },
+        {
+          "indication": "solid tumor",
+          "n_assets": 9,
+          "cells": {
+            "Bispecific antibody — dual pathway blockade": -1,
+            "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": 3
           },
           "max_phase": 3
         },
@@ -15037,6 +15047,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15047,6 +15058,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -15057,6 +15069,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": 2,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15067,6 +15080,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -15077,6 +15091,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -15087,6 +15102,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15097,6 +15113,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -15107,6 +15124,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15117,6 +15135,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -15127,6 +15146,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -15137,6 +15157,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15147,6 +15168,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15157,6 +15179,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15167,6 +15190,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -15177,6 +15201,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15187,6 +15212,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15197,6 +15223,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15207,6 +15234,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15217,6 +15245,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15227,6 +15256,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15237,6 +15267,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15247,6 +15278,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -15257,6 +15289,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15267,6 +15300,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15277,6 +15311,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15287,6 +15322,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15297,6 +15333,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15307,6 +15344,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15317,6 +15355,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15327,6 +15366,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15337,6 +15377,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15347,6 +15388,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15357,6 +15399,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15367,6 +15410,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15377,6 +15421,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15387,6 +15432,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15397,6 +15443,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15407,6 +15454,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15417,6 +15465,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15427,6 +15476,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 3
           },
           "max_phase": 3
@@ -15437,6 +15487,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15447,6 +15498,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15457,6 +15509,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15467,6 +15520,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 3
           },
           "max_phase": 3
@@ -15477,6 +15531,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 3
           },
           "max_phase": 3
@@ -15487,6 +15542,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15497,6 +15553,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15507,6 +15564,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15517,6 +15575,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15527,6 +15586,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15537,6 +15597,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15547,6 +15608,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15557,6 +15619,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15567,6 +15630,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 3
           },
           "max_phase": 3
@@ -15577,6 +15641,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15587,6 +15652,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15597,6 +15663,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15607,6 +15674,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15617,6 +15685,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15627,6 +15696,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15637,6 +15707,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15647,6 +15718,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15657,6 +15729,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15667,6 +15740,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15677,6 +15751,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -15687,6 +15762,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": 1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 2
@@ -15697,6 +15773,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": 1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15707,7 +15784,8 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": 1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -15717,6 +15795,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15727,6 +15806,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15737,6 +15817,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15747,6 +15828,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15757,6 +15839,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15767,6 +15850,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15777,6 +15861,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 2
@@ -15787,6 +15872,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15797,6 +15883,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15807,6 +15894,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 2
@@ -15817,6 +15905,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15827,6 +15916,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15837,6 +15927,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15847,6 +15938,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15857,6 +15949,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15867,6 +15960,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15877,6 +15971,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15887,6 +15982,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15897,6 +15993,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15907,6 +16004,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15917,16 +16015,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
-            "Unclassified": -1
-          },
-          "max_phase": 2
-        },
-        {
-          "indication": "non-Hodgkin lymphoma",
-          "n_assets": 2,
-          "cells": {
-            "Bispecific antibody — dual pathway blockade": -1,
-            "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15937,6 +16026,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15947,6 +16037,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15957,6 +16048,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15967,6 +16059,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15977,6 +16070,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15987,6 +16081,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -15997,6 +16092,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16007,6 +16103,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": 2,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16017,6 +16114,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16027,6 +16125,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16037,6 +16136,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16047,6 +16147,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16057,6 +16158,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16067,6 +16169,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16077,6 +16180,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16087,6 +16191,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16097,6 +16202,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16107,6 +16213,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": 2,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16117,6 +16224,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16127,6 +16235,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16137,6 +16246,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16147,6 +16257,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16157,6 +16268,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16167,6 +16279,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16177,6 +16290,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16187,6 +16301,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16197,6 +16312,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16207,6 +16323,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16217,6 +16334,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16227,6 +16345,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16237,6 +16356,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16247,6 +16367,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16257,6 +16378,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16267,6 +16389,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16277,6 +16400,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16287,6 +16411,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16297,6 +16422,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16307,6 +16433,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16317,6 +16444,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16327,6 +16455,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16337,6 +16466,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16347,6 +16477,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16357,6 +16488,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16367,6 +16499,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16377,6 +16510,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 2
@@ -16387,6 +16521,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16397,6 +16532,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16407,6 +16543,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16417,6 +16554,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16427,6 +16565,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16437,6 +16576,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16447,6 +16587,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16457,6 +16598,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16467,6 +16609,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16477,6 +16620,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16487,6 +16631,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16497,6 +16642,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16507,6 +16653,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16517,6 +16664,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16527,6 +16675,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16537,6 +16686,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16547,6 +16697,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16557,6 +16708,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16567,6 +16719,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16577,6 +16730,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16587,6 +16741,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16597,6 +16752,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16607,6 +16763,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16617,6 +16774,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16627,6 +16785,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16637,6 +16796,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16647,6 +16807,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16657,6 +16818,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16667,6 +16829,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16677,6 +16840,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16687,6 +16851,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16697,6 +16862,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16707,6 +16873,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16717,6 +16884,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16727,6 +16895,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16737,6 +16906,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16747,6 +16917,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16757,6 +16928,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16767,6 +16939,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16777,6 +16950,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16787,6 +16961,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16797,6 +16972,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16807,6 +16983,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16817,6 +16994,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16827,6 +17005,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16837,6 +17016,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16847,6 +17027,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16857,6 +17038,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16867,6 +17049,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16877,6 +17060,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16887,6 +17071,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16897,6 +17082,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16907,6 +17093,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16917,6 +17104,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16927,6 +17115,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16937,6 +17126,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16947,6 +17137,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16957,6 +17148,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16967,6 +17159,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16977,6 +17170,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16987,6 +17181,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -16997,6 +17192,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17007,6 +17203,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17017,6 +17214,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17027,6 +17225,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17037,6 +17236,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17047,6 +17247,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17057,6 +17258,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17067,6 +17269,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17077,6 +17280,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17087,6 +17291,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17097,6 +17302,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17107,6 +17313,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17117,6 +17324,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17127,6 +17335,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17137,6 +17346,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17147,6 +17357,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17157,6 +17368,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17167,6 +17379,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17177,6 +17390,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17187,6 +17401,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17197,6 +17412,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17207,6 +17423,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17217,6 +17434,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17227,6 +17445,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17237,6 +17456,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 2,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -17247,6 +17467,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": 1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17257,6 +17478,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17267,6 +17489,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17277,6 +17500,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17287,6 +17511,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17297,6 +17522,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17307,6 +17533,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17317,6 +17544,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17327,6 +17555,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17337,6 +17566,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17347,6 +17577,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 1
@@ -17357,6 +17588,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17367,6 +17599,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17377,6 +17610,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17387,6 +17621,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17397,6 +17632,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17407,6 +17643,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17417,6 +17654,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17427,6 +17665,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17437,6 +17676,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17447,6 +17687,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17457,6 +17698,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17467,6 +17709,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17477,6 +17720,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17487,6 +17731,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17497,6 +17742,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17507,6 +17753,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17517,6 +17764,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17527,6 +17775,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17537,6 +17786,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17547,6 +17797,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17557,6 +17808,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17567,6 +17819,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17577,6 +17830,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17587,6 +17841,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17597,6 +17852,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17607,6 +17863,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17617,6 +17874,18 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
+          },
+          "max_phase": 1
+        },
+        {
+          "indication": "non-Hodgkin lymphoma",
+          "n_assets": 1,
+          "cells": {
+            "Bispecific antibody — dual pathway blockade": -1,
+            "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17627,6 +17896,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17637,6 +17907,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -17647,6 +17918,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -17657,6 +17929,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -17667,6 +17940,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -17677,6 +17951,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -17687,6 +17962,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -17697,6 +17973,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -17707,6 +17984,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -17717,6 +17995,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -17727,6 +18006,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -17737,6 +18017,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -17747,6 +18028,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -17756,7 +18038,7 @@
     "indications_omitted": 0
   },
   "failures": {
-    "n_trials": 135,
+    "n_trials": 134,
     "n_stopped": 19,
     "n_with_reason": 9,
     "counts": {
@@ -18621,40 +18903,6 @@
         ]
       },
       {
-        "asset": "Immune checkpoint inhibitors(anti-PD1/PD-L1/CTLA4 antibodies)",
-        "sponsor": "Chinese PLA General Hospital",
-        "sponsor_scale": "Academic or non-industry",
-        "phase": 2,
-        "phase_label": "Phase 2",
-        "mechanism": "Blocking antibody",
-        "is_active": true,
-        "territory": {
-          "countries": [
-            "China"
-          ],
-          "covered": [
-            "China"
-          ],
-          "absent": [
-            "EU/UK",
-            "Japan",
-            "US"
-          ]
-        },
-        "signals": [
-          {
-            "code": "academic",
-            "headline": "Academic origin",
-            "evidence": "Sponsored by Chinese PLA General Hospital. Academic programmes at this stage are usually seeking a commercial partner, and the institution's tech-transfer office is the contact."
-          },
-          {
-            "code": "territory_gap",
-            "headline": "Territory gap: EU/UK, Japan, US",
-            "evidence": "Trials run in China but not in EU/UK, Japan, US. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
-          }
-        ]
-      },
-      {
         "asset": "PD-1/CTLA-4 Dual Functional Antibody",
         "sponsor": "First Affiliated Hospital of Zhejiang University",
         "sponsor_scale": "Academic or non-industry",
@@ -18798,7 +19046,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Target binding — mechanism unresolved",
         "is_active": true,
         "territory": {
           "countries": [
@@ -19041,12 +19289,6 @@
       },
       {
         "sponsor": "M.D. Anderson Cancer Center",
-        "scale": "Academic or non-industry",
-        "n": 1,
-        "lead_phase": 2
-      },
-      {
-        "sponsor": "Chinese PLA General Hospital",
         "scale": "Academic or non-industry",
         "n": 1,
         "lead_phase": 2
@@ -20067,7 +20309,7 @@
     "genetic_disease": "hypothyroidism"
   },
   "readouts": {
-    "n_trials": 135,
+    "n_trials": 134,
     "n_active": 57,
     "n_controlled": 15,
     "n_confirmatory": 3,
@@ -20087,7 +20329,7 @@
       "mechanistic": "Mechanistic",
       "unclear": "Design not stated"
     },
-    "verdict": "135 trials on record, 57 still running. 15 of those are controlled efficacy studies; the other 42 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
+    "verdict": "134 trials on record, 57 still running. 15 of those are controlled efficacy studies; the other 42 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
     "catalysts": [
       {
         "nct_id": "NCT02496208",
@@ -20828,7 +21070,7 @@
         "key": "development",
         "label": "In development",
         "value": "gastric cancer, cholangiocarcinoma and liver metastases — 3 of 42 indications at that phase",
-        "note": "Furthest programme: Ipilimumab (Bristol-Myers Squibb), approved, Blocking antibody. 3 mechanism classes in the table.",
+        "note": "Furthest programme: Ipilimumab (Bristol-Myers Squibb), approved, Blocking antibody. 4 mechanism classes in the table.",
         "pmids": []
       },
       {
@@ -20863,9 +21105,9 @@
     "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
   },
   "diagram": {
-    "svg": "<svg viewBox=\"0 0 720 260\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How CTLA4 is being drugged</title><desc id=\"tl-diagram-desc\">CTLA4 is in the plasma membrane. 3 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"96\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"86\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"142\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"58\" x2=\"538\" y2=\"109\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"53\" class=\"tl-arrow-label\">Blocking antibody</text><text x=\"24\" y=\"74\" class=\"tl-arrow-detail\">12 assets · Approved · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"130\" x2=\"538\" y2=\"109\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"125\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"146\" class=\"tl-arrow-detail\">6 assets · Phase 3</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"202\" x2=\"538\" y2=\"109\" stroke-width=\"3\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"197\" class=\"tl-arrow-label\">Bispecific antibody — dual pathway blockade</text><text x=\"24\" y=\"218\" class=\"tl-arrow-detail\">4 assets · Phase 2 · Bispecific antibody</text></g><g class=\"tl-target\"><rect x=\"574\" y=\"83\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"69\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"74\" class=\"tl-protein-label\">CTLA4</text></g></svg>",
+    "svg": "<svg viewBox=\"0 0 720 332\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How CTLA4 is being drugged</title><desc id=\"tl-diagram-desc\">CTLA4 is in the plasma membrane. 4 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"126\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"116\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"172\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"58\" x2=\"538\" y2=\"139\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"53\" class=\"tl-arrow-label\">Blocking antibody</text><text x=\"24\" y=\"74\" class=\"tl-arrow-detail\">11 assets · Approved · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"130\" x2=\"538\" y2=\"139\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"125\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"146\" class=\"tl-arrow-detail\">5 assets · Phase 3</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"202\" x2=\"538\" y2=\"139\" stroke-width=\"3\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"197\" class=\"tl-arrow-label\">Bispecific antibody — dual pathway blockade</text><text x=\"24\" y=\"218\" class=\"tl-arrow-detail\">4 assets · Phase 2 · Bispecific antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"274\" x2=\"538\" y2=\"139\" stroke-width=\"2\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"269\" class=\"tl-arrow-label\">Target binding — mechanism unresolved</text><text x=\"24\" y=\"290\" class=\"tl-arrow-detail\">1 asset · Phase 1</text></g><g class=\"tl-target\"><rect x=\"574\" y=\"113\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"99\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"104\" class=\"tl-protein-label\">CTLA4</text></g></svg>",
     "title": "How CTLA4 is being drugged",
-    "caption": "CTLA4 is in the plasma membrane. 3 mechanism classes are represented in the asset table, the most advanced reaching Approved.",
+    "caption": "CTLA4 is in the plasma membrane. 4 mechanism classes are represented in the asset table, the most advanced reaching Approved.",
     "placement": "in the plasma membrane",
     "target_class": [
       "Surface antigen"
@@ -20873,7 +21115,7 @@
     "interventions": [
       {
         "label": "Blocking antibody",
-        "n": 12,
+        "n": 11,
         "max_phase": 4,
         "modalities": [
           "Monoclonal antibody"
@@ -20882,7 +21124,7 @@
       },
       {
         "label": "Unclassified",
-        "n": 6,
+        "n": 5,
         "max_phase": 3,
         "modalities": [
           "Other / unclassified"
@@ -20897,6 +21139,15 @@
           "Bispecific antibody"
         ],
         "phase_label": "Phase 2"
+      },
+      {
+        "label": "Target binding — mechanism unresolved",
+        "n": 1,
+        "max_phase": 1,
+        "modalities": [
+          "Other / unclassified"
+        ],
+        "phase_label": "Phase 1"
       }
     ],
     "note": "Generated from the target's annotated location, its protein family, and the mechanism classes present in the asset table. Arrow weight is the furthest phase that approach has reached. It is a schematic of how the target is being drugged — not a pathway map, and it draws no interaction it has not read from the data."
@@ -20917,7 +21168,7 @@
         "label": "What can the running trials show?",
         "value": "15 of 57 running trials are controlled efficacy studies · next readout 2026-12-31 (sponsor estimate)",
         "face": "science",
-        "detail": "135 trials on record, 57 still running. 15 of those are controlled efficacy studies; the other 42 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. First Affiliated Hospital of Zhejiang University · Sequential Anti-Angiogenic Therapy After Immunotherapy in Advanced Biliary Tract Cancer — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT02496208, 2026-09-30, dose and safety — and every upcoming completion is listed under Trials.",
+        "detail": "134 trials on record, 57 still running. 15 of those are controlled efficacy studies; the other 42 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. First Affiliated Hospital of Zhejiang University · Sequential Anti-Angiogenic Therapy After Immunotherapy in Advanced Biliary Tract Cancer — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT02496208, 2026-09-30, dose and safety — and every upcoming completion is listed under Trials.",
         "anchor": "#readouts"
       },
       {
@@ -20931,15 +21182,15 @@
       {
         "key": "window",
         "label": "How contested is it?",
-        "value": "Crowded — 22 assets, 2 already approved",
+        "value": "Crowded — 21 assets, 2 already approved",
         "face": "business",
-        "detail": "14 sponsors, phase-weighted score 37.8. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
+        "detail": "13 sponsors, phase-weighted score 36.2. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
         "anchor": "#crowding"
       },
       {
         "key": "licensing",
         "label": "What has been licensed, and what has not?",
-        "value": "No deal on file · 22 programmes",
+        "value": "No deal on file · 21 programmes",
         "face": "business",
         "detail": "No deal has been entered for this target. The file is hand-maintained, so an empty one means nobody has filled it in, not that nothing has been licensed. The programme table below still shows who holds each one and how far it has gone.",
         "anchor": "#licensing"
@@ -20956,11 +21207,11 @@
     "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
   },
   "narrative": {
-    "bottom_line": "CTLA4 carries 17 active programmes across 3 mechanism classes from 14 named sponsors, reaching Approved. Phase-weighted density scores 37.8, which this tool bands as Crowded. The most advanced asset is IPILIMUMAB (Bristol-Myers Squibb) at Approved.",
-    "competitive": "The field splits into 3 mechanism classes. Blocking antibody is the most advanced, and also the most crowded, with 12 assets. A further 5 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
-    "failures": "19 of 135 trials stopped; 9 stated a reason. Of those with a stated reason, 3 were science-driven (efficacy, safety or PK/PD) and 3 were business-driven. That is 33% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
+    "bottom_line": "CTLA4 carries 16 active programmes across 4 mechanism classes from 13 named sponsors, reaching Approved. Phase-weighted density scores 36.2, which this tool bands as Crowded. The most advanced asset is IPILIMUMAB (Bristol-Myers Squibb) at Approved.",
+    "competitive": "The field splits into 4 mechanism classes. Blocking antibody is the most advanced, and also the most crowded, with 11 assets. A further 5 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
+    "failures": "19 of 134 trials stopped; 9 stated a reason. Of those with a stated reason, 3 were science-driven (efficacy, safety or PK/PD) and 3 were business-driven. That is 33% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
     "whitespace": "15 diseases pass the screen: association evidence above threshold, genetic support, and nothing past preclinical. The strongest on genetic evidence is hypothyroidism (association 0.589, genetic 0.956). Treat this as a hypothesis to check by hand rather than a finding — disease names are matched between EFO terms and sponsor free text, and that matching is imperfect.",
-    "licensing": "Bristol-Myers Squibb holds the most advanced programme (Approved), and is a large pharma. 2 of 22 programmes reached Phase 2 or beyond and have no trial running — Anti-CTLA4 Monoclonal Antibody BMS-986218, Checkpoint blocking antibody that recognizes CTLA-4. Why each stopped is under Terminations, in the sponsor's words. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",
+    "licensing": "Bristol-Myers Squibb holds the most advanced programme (Approved), and is a large pharma. 2 of 21 programmes reached Phase 2 or beyond and have no trial running — Anti-CTLA4 Monoclonal Antibody BMS-986218, Checkpoint blocking antibody that recognizes CTLA-4. Why each stopped is under Terminations, in the sponsor's words. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",
     "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent (47% of stopped trials here stated one). Deal comparables are hand-maintained and not exhaustive.",
     "_source": "template"
   },

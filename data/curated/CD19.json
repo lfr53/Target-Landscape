@@ -912,7 +912,7 @@
       "modality": "Other / unclassified",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Target binding — mechanism unresolved",
       "max_phase": 2,
       "indications": [
         "Lymphoma Non-Hodgkin",
@@ -949,10 +949,10 @@
     {
       "name": "Anti-CD19 UCAR-NK cells",
       "sponsor": "920th Hospital of Joint Logistics Support Force of People's Liberation Army of China",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 2,
       "indications": [
         "Acute B-cell Lymphoblastic Leukemia"
@@ -983,10 +983,10 @@
     {
       "name": "Anti-CD19-CAR Genetically Engineered Autologous T-lymphocytes JCAR017",
       "sponsor": "City of Hope Medical Center",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Cell therapy — adoptive T cells",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 2,
       "indications": [
         "Recurrent Transformed Chronic Lymphocytic Leukemia",
@@ -1019,10 +1019,10 @@
     {
       "name": "Anti-cluster of differentiation 19 (CD19)-CAR PBL",
       "sponsor": "National Cancer Institute (NCI)",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[nih sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 2,
       "indications": [
         "primary mediastinal b-cell lymphoma",
@@ -1334,10 +1334,10 @@
     {
       "name": "CARCIK-CD19",
       "sponsor": "Fondazione Matilde Tettamanti Menotti De Marchi Onlus",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 2,
       "indications": [
         "B-cell NHL",
@@ -1982,7 +1982,7 @@
       "modality": "Other / unclassified",
       "action_type": "",
       "mechanism_text": "",
-      "mechanism_class": "Named only by class",
+      "mechanism_class": "Cell therapy — adoptive T cells",
       "max_phase": 2,
       "indications": [
         "large b-cell lymphoma",
@@ -2021,7 +2021,7 @@
       "modality": "Other / unclassified",
       "action_type": "BINDING AGENT",
       "mechanism_text": "B-lymphocyte antigen CD19 binding agent",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Target binding — mechanism unresolved",
       "max_phase": 2,
       "indications": [
         "childhood leukemia",
@@ -2141,7 +2141,7 @@
       "modality": "Other / unclassified",
       "action_type": "BINDING AGENT",
       "mechanism_text": "B-lymphocyte antigen CD19 binding agent",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Target binding — mechanism unresolved",
       "max_phase": 2,
       "indications": [],
       "indication_phase": {},
@@ -2318,10 +2318,10 @@
     {
       "name": "anti-CD19 CAR-NK cells",
       "sponsor": "PersonGen BioTherapeutics (Suzhou) Co., Ltd.",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 2,
       "indications": [
         "Acute Lymphocytic Leukemia",
@@ -2378,10 +2378,10 @@
     {
       "name": "bi-4SCAR CD19/22 T cells",
       "sponsor": "Shenzhen Geno-Immune Medical Institute",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 2,
       "indications": [
         "b-cell malignancies"
@@ -2480,10 +2480,10 @@
     {
       "name": "Autologous CD19-CD8-CD28-CD3zeta-CAR-mbIL15-EGFRt T Cells",
       "sponsor": "M.D. Anderson Cancer Center",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Cell therapy — adoptive T cells",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "B Acute Lymphoblastic Leukemia With t(v;11q23.3); KMT2A Rearranged",
@@ -2530,10 +2530,10 @@
     {
       "name": "Autologous CD19-CD8-CD28-CD3zeta-CAR-mbIL15-HER1t T Cells",
       "sponsor": "M.D. Anderson Cancer Center",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Cell therapy — adoptive T cells",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "B Acute Lymphoblastic Leukemia With t(v;11q23.3); KMT2A Rearranged",
@@ -2650,10 +2650,10 @@
     {
       "name": "C402-CD19-CAR",
       "sponsor": "Shanghai Exuma Biotechnology Ltd.",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "large b-cell lymphoma",
@@ -2901,10 +2901,10 @@
     {
       "name": "CD19 RNA redirected autologous T-cells (RNA CART19 cells)",
       "sponsor": "University of Pennsylvania",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Cell therapy — adoptive T cells",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "Hodgkin Lymphoma"
@@ -2969,10 +2969,10 @@
     {
       "name": "CD19 t-haNK",
       "sponsor": "ImmunityBio, Inc.",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "large b-cell lymphoma",
@@ -3115,10 +3115,10 @@
     {
       "name": "CD19-CAR(Mem) T-cells",
       "sponsor": "St. Jude Children's Research Hospital",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "Acute Lymphoblastic Leukemia, in Relapse",
@@ -3153,10 +3153,10 @@
     {
       "name": "CD19-CAR-DNT cells",
       "sponsor": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "Lymphoma Non-Hodgkin"
@@ -3187,10 +3187,10 @@
     {
       "name": "CD19-CAR-specific/truncated EGFR Lentiviral Vector-transduced T Cells",
       "sponsor": "City of Hope Medical Center",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Cell therapy — adoptive T cells",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "primary central nervous system lymphoma"
@@ -3314,10 +3314,10 @@
     {
       "name": "CD19.CAR-aNKT cells",
       "sponsor": "Athenex, Inc.",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "NHL",
@@ -3360,10 +3360,10 @@
     {
       "name": "CD19.CAR-multiVST",
       "sponsor": "Baylor College of Medicine",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "Lymphoma Non-Hodgkin",
@@ -3402,10 +3402,10 @@
     {
       "name": "CD19/BCMA CAR NK",
       "sponsor": "Changhai Hospital",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "IgG4 Related Disease"
@@ -3504,10 +3504,10 @@
     {
       "name": "CD19/CD22-Dual-STAR-T",
       "sponsor": "Hebei Yanda Ludaopei Hospital",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "B-cell Leukemia"
@@ -3761,7 +3761,7 @@
       "modality": "Other / unclassified",
       "action_type": "",
       "mechanism_text": "",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — adoptive T cells",
       "max_phase": 1,
       "indications": [
         "primary central nervous system lymphoma"
@@ -3870,10 +3870,10 @@
     {
       "name": "PACE CART19",
       "sponsor": "University of Pennsylvania",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "b-lymphoblastic leukemia",
@@ -3986,10 +3986,10 @@
     {
       "name": "UCAR T-cell",
       "sponsor": "Tianjin Huanhu Hospital",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "Neuromyelitis Optica Spectrum Disorder",
@@ -4149,10 +4149,10 @@
     {
       "name": "anti-CD19 CAR NK",
       "sponsor": "Xinqiao Hospital of Chongqing",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "NHL"
@@ -4225,10 +4225,10 @@
     {
       "name": "anti-CD19 IL10/IL15 CAR-NK",
       "sponsor": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "Lymphoma Non-Hodgkin",
@@ -4281,7 +4281,7 @@
       "modality": "Other / unclassified",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — adoptive NK cells",
       "max_phase": 1,
       "indications": [
         "Acute B-cell Lymphoblastic Leukemia"
@@ -4361,10 +4361,10 @@
     {
       "name": "anti-CD19/BCMA CAR NK cells",
       "sponsor": "Jieyang People's Hospital",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "IgA Nephropathy (IgAN)"
@@ -4620,10 +4620,10 @@
     {
       "name": "MB-CART19.1",
       "sponsor": "King Hussein Cancer Center",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": -1,
       "indications": [
         "b-lymphoblastic leukemia",
@@ -20172,10 +20172,15 @@
   "mechanism_clusters": {
     "Cell therapy — target-directed CAR": [
       "AXICABTAGENE CILOLEUCEL",
+      "Anti-CD19 UCAR-NK cells",
+      "Anti-CD19-CAR Genetically Engineered Autologous T-lymphocytes JCAR017",
       "Anti-CD20/CD19 CAR T cells",
       "Anti-PD1 armored CD19 CAR-T cells",
+      "Anti-cluster of differentiation 19 (CD19)-CAR PBL",
       "Autologous Anti-CD19/CD22 CAR-T Cells",
       "Autologous CD19-CD20-NKG2D-nsBicephali CAR-T Cell",
+      "Autologous CD19-CD8-CD28-CD3zeta-CAR-mbIL15-EGFRt T Cells",
+      "Autologous CD19-CD8-CD28-CD3zeta-CAR-mbIL15-HER1t T Cells",
       "Autologous CD19-targeting CAR T cells",
       "Autologous CD19/CD22 CAR T Cells",
       "Autologous CD19/CD22 Chimeric Antigen Receptor T-cells",
@@ -20183,7 +20188,9 @@
       "BCMA-CD19 CAR-T therapy",
       "BCMA/CD19-targeted allogeneic CAR-T",
       "BREXUCABTAGENE AUTOLEUCEL",
+      "C402-CD19-CAR",
       "CAR-T/CAR-NK cells",
+      "CARCIK-CD19",
       "CD19 CAR T cells",
       "CD19 CAR T-Cell(CAT19T2)",
       "CD19 CAR-T cells (Beijing GoBroad Hospital)",
@@ -20193,34 +20200,51 @@
       "CD19 CAR-T cells (Zhejiang University)",
       "CD19 CAR-T cells (Zhujiang Hospital)",
       "CD19 DASH CAR-T",
+      "CD19 RNA redirected autologous T-cells (RNA CART19 cells)",
       "CD19 Universal CAR-T cells",
+      "CD19 t-haNK",
       "CD19-BAFF Targeted CAR T-cells",
       "CD19-BCMA Targeted CAR-T",
       "CD19-CAR T cell",
+      "CD19-CAR(Mem) T-cells",
+      "CD19-CAR-DNT cells",
+      "CD19-CAR-specific/truncated EGFR Lentiviral Vector-transduced T Cells",
       "CD19-CD22 CAR-T",
       "CD19-CD22 CAR-T cells",
       "CD19-Targeted NEX-T CAR T Cells",
       "CD19-targeted CAR-T cells",
       "CD19-targeted Chimeric Antigen Receptor(CAR) T Cells",
+      "CD19.CAR-aNKT cells",
+      "CD19.CAR-multiVST",
+      "CD19/BCMA CAR NK",
       "CD19/BCMA CAR T-cells",
       "CD19/BCMA CAR-T",
       "CD19/CD20-directed Chimeric Antigen Receptor T Cells",
       "CD19/CD20/BCMA CAR T cells",
+      "CD19/CD22-Dual-STAR-T",
       "CD19/CD22/BCMA CAR-T cells(BZE2204)",
       "CD20/CD19-targeting CAR T cells",
       "FIT-(BCMA+CD19)-CAR-T Cells",
       "LISOCABTAGENE MARALEUCEL",
+      "MB-CART19.1",
       "OBECABTAGENE AUTOLEUCEL",
+      "PACE CART19",
       "PCAR-019 (anti-CD19 CAR-T cells)",
       "PD1-CD19-CART",
       "SNUH-CD19-CAR-T",
       "TISAGENLECLEUCEL",
+      "UCAR T-cell",
       "Universal BCMA-CD19 CART",
       "Universal CD19 CAR-T",
       "Universal allogeneic anti-CD19/BCMA CAR T-cells",
+      "anti-CD19 CAR NK",
       "anti-CD19 CAR T cell therapy",
+      "anti-CD19 CAR-NK cells",
       "anti-CD19 CAR-T cells",
+      "anti-CD19 IL10/IL15 CAR-NK",
       "anti-CD19-CAR-T cells",
+      "anti-CD19/BCMA CAR NK cells",
+      "bi-4SCAR CD19/22 T cells",
       "humanized CD19 CAR-T Cells with TLR2"
     ],
     "Antibody — mechanism unresolved": [
@@ -20242,58 +20266,36 @@
     ],
     "Unclassified": [
       "AUTO3",
-      "Anti-CD19 PBD-conjugate ADCT-402",
-      "Anti-CD19 UCAR-NK cells",
-      "Anti-cluster of differentiation 19 (CD19)-CAR PBL",
-      "C402-CD19-CAR",
-      "CARCIK-CD19",
       "CC-97540",
-      "CD19 t-haNK",
-      "CD19-CAR(Mem) T-cells",
-      "CD19-CAR-DNT cells",
-      "CD19.CAR-aNKT cells",
-      "CD19.CAR-multiVST",
-      "CD19/BCMA CAR NK",
-      "CD19/CD22-Dual-STAR-T",
       "CD19CAR-CD28-CD3zeta-EGFRt-expressing Tn/mem T-lymphocytes",
       "CF33-CD19 Monotherapy",
       "CLN-978",
       "HB2198",
-      "Human CD19-CD22 Targeted T Cells",
       "JWCAR239",
-      "MB-CART19.1",
-      "MDX-1342",
       "NKX019",
       "OL-CD19-GDT",
-      "ONCOLYSIN B",
-      "PACE CART19",
       "SYNCAR-001",
       "TBI-1501",
       "TC011",
-      "UCAR T-cell",
-      "anti-CD19 CAR NK",
-      "anti-CD19 CAR-NK cells",
-      "anti-CD19 IL10/IL15 CAR-NK",
-      "anti-CD19 redirected NK cells",
-      "anti-CD19/BCMA CAR NK cells",
-      "bi-4SCAR CD19/22 T cells",
       "iPD1 CD19 eCAR T cells"
     ],
     "Cell therapy — adoptive T cells": [
-      "Anti-CD19-CAR Genetically Engineered Autologous T-lymphocytes JCAR017",
-      "Autologous CD19-CD8-CD28-CD3zeta-CAR-mbIL15-EGFRt T Cells",
-      "Autologous CD19-CD8-CD28-CD3zeta-CAR-mbIL15-HER1t T Cells",
-      "CD19 RNA redirected autologous T-cells (RNA CART19 cells)",
-      "CD19-CAR-specific/truncated EGFR Lentiviral Vector-transduced T Cells",
-      "CD19-CD8CD28zCAR-specific-mbIL15-HER1t T-lymphocytes"
+      "CD19-CD8CD28zCAR-specific-mbIL15-HER1t T-lymphocytes",
+      "Human CD19 targeted T Cells",
+      "Human CD19-CD22 Targeted T Cells"
     ],
     "Cell therapy — bispecific CAR": [
       "CD19&CD20 bispecific CAR-T cells",
       "CD19/CD22-bispecific CAR-T cells",
       "CD22/CD19 Dual-Target CAR-T Cells"
     ],
-    "Named only by class": [
-      "Human CD19 targeted T Cells"
+    "Target binding — mechanism unresolved": [
+      "Anti-CD19 PBD-conjugate ADCT-402",
+      "MDX-1342",
+      "ONCOLYSIN B"
+    ],
+    "Cell therapy — adoptive NK cells": [
+      "anti-CD19 redirected NK cells"
     ]
   },
   "crowding": {
@@ -20445,10 +20447,11 @@
         "Antibody — mechanism unresolved",
         "Bispecific — T-cell engager (CD3)",
         "Blocking antibody",
+        "Cell therapy — adoptive NK cells",
         "Cell therapy — adoptive T cells",
         "Cell therapy — bispecific CAR",
         "Cell therapy — target-directed CAR",
-        "Named only by class",
+        "Target binding — mechanism unresolved",
         "Unclassified"
       ],
       "rows": [
@@ -20460,11 +20463,12 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": 2,
-            "Cell therapy — adoptive T cells": 1,
+            "Cell therapy — adoptive NK cells": -1,
+            "Cell therapy — adoptive T cells": 2,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 4,
-            "Named only by class": 2,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": 1
           },
           "max_phase": 4
         },
@@ -20476,10 +20480,11 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": 3,
             "Blocking antibody": 2,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": 1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 4,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 4
@@ -20492,10 +20497,11 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": 2,
-            "Cell therapy — adoptive T cells": -1,
+            "Cell therapy — adoptive NK cells": -1,
+            "Cell therapy — adoptive T cells": 1,
             "Cell therapy — bispecific CAR": 2,
             "Cell therapy — target-directed CAR": 3,
-            "Named only by class": 1,
+            "Target binding — mechanism unresolved": 2,
             "Unclassified": 2
           },
           "max_phase": 4
@@ -20508,10 +20514,11 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": 1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": 2,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 4
@@ -20524,10 +20531,11 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": 3,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 4
@@ -20540,11 +20548,12 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 3,
-            "Named only by class": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": -1
           },
           "max_phase": 4
         },
@@ -20556,10 +20565,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": 1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 4,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 4
@@ -20572,11 +20582,12 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 3,
-            "Named only by class": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 4
         },
@@ -20588,10 +20599,11 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -20604,10 +20616,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 4,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -20620,11 +20633,12 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 4
         },
@@ -20636,11 +20650,12 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": 3,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 4
         },
@@ -20652,11 +20667,12 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 4
         },
@@ -20668,10 +20684,11 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -20684,10 +20701,11 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 3,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -20700,11 +20718,12 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": 3,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": -1
           },
           "max_phase": 4
         },
@@ -20716,10 +20735,11 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -20732,11 +20752,12 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 4
         },
@@ -20748,11 +20769,12 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 4
         },
@@ -20764,10 +20786,11 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": 3,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -20780,10 +20803,11 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -20796,10 +20820,11 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -20812,10 +20837,11 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -20828,10 +20854,11 @@
             "Antibody — mechanism unresolved": 4,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 4
@@ -20844,11 +20871,12 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": 1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": 1
           },
           "max_phase": 3
         },
@@ -20860,11 +20888,12 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
-            "Cell therapy — adoptive T cells": -1,
+            "Cell therapy — adoptive NK cells": -1,
+            "Cell therapy — adoptive T cells": 1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": 1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": 1
           },
           "max_phase": 3
         },
@@ -20876,10 +20905,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": 2,
             "Cell therapy — target-directed CAR": 3,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 3
@@ -20892,11 +20922,12 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 3,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -20908,10 +20939,11 @@
             "Antibody — mechanism unresolved": 1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 3,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -20924,10 +20956,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 3,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -20940,10 +20973,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 3,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -20956,10 +20990,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
-            "Cell therapy — adoptive T cells": 2,
+            "Cell therapy — adoptive NK cells": -1,
+            "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -20972,10 +21007,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 3
@@ -20988,10 +21024,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": 3,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -21004,10 +21041,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 3,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 3
@@ -21020,10 +21058,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": 3,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -21036,11 +21075,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 3,
-            "Named only by class": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -21052,10 +21092,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -21068,10 +21109,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": 3,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -21084,10 +21126,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": 3,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -21100,10 +21143,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -21116,10 +21160,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -21132,10 +21177,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -21148,10 +21194,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 3,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -21164,10 +21211,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -21180,10 +21228,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -21196,10 +21245,11 @@
             "Antibody — mechanism unresolved": 3,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -21212,10 +21262,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 3,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -21228,11 +21279,12 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": 1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -21244,11 +21296,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -21260,11 +21313,12 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -21276,10 +21330,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 2
@@ -21292,11 +21347,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -21308,10 +21364,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": 1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21324,10 +21381,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21340,10 +21398,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21356,10 +21415,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21372,11 +21432,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -21388,11 +21449,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -21404,10 +21466,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 2
@@ -21420,11 +21483,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -21436,10 +21500,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21452,11 +21517,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -21468,10 +21534,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21484,10 +21551,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21500,10 +21568,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 2
@@ -21516,10 +21585,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
-            "Cell therapy — adoptive T cells": 2,
+            "Cell therapy — adoptive NK cells": -1,
+            "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21532,10 +21602,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21548,10 +21619,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 2
@@ -21564,10 +21636,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21580,10 +21653,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21596,10 +21670,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21612,10 +21687,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": 1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21628,10 +21704,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21644,10 +21721,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21660,11 +21738,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 2
+            "Target binding — mechanism unresolved": 2,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -21676,10 +21755,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21692,10 +21772,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21708,11 +21789,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 2
+            "Cell therapy — target-directed CAR": 2,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -21724,10 +21806,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21740,10 +21823,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21756,10 +21840,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21772,10 +21857,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21788,11 +21874,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 2
+            "Cell therapy — target-directed CAR": 2,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -21804,10 +21891,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21820,10 +21908,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21836,10 +21925,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21852,10 +21942,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21868,11 +21959,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 2
+            "Cell therapy — target-directed CAR": 2,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -21884,10 +21976,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21900,10 +21993,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21916,10 +22010,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21932,11 +22027,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 2
+            "Cell therapy — target-directed CAR": 2,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -21948,10 +22044,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21964,10 +22061,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21980,10 +22078,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -21996,10 +22095,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -22012,11 +22112,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 2
+            "Cell therapy — target-directed CAR": 2,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -22028,10 +22129,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -22044,10 +22146,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -22060,10 +22163,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -22076,10 +22180,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -22092,10 +22197,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 2
           },
           "max_phase": 2
@@ -22108,10 +22214,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 2,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -22124,10 +22231,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -22140,10 +22248,11 @@
             "Antibody — mechanism unresolved": 2,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 2
@@ -22156,10 +22265,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": 1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22172,10 +22282,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 1
@@ -22188,10 +22299,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": 1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22204,10 +22316,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": 1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22220,10 +22333,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": 1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22236,10 +22350,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 1
@@ -22252,11 +22367,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -22268,10 +22384,11 @@
             "Antibody — mechanism unresolved": 1,
             "Bispecific — T-cell engager (CD3)": 1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22284,11 +22401,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -22300,10 +22418,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 1
@@ -22316,11 +22435,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -22332,11 +22452,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -22348,10 +22469,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22364,10 +22486,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 1
@@ -22380,10 +22503,11 @@
             "Antibody — mechanism unresolved": 1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 1
@@ -22396,11 +22520,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -22412,11 +22537,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -22428,10 +22554,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 1
@@ -22444,10 +22571,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22460,10 +22588,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22476,10 +22605,11 @@
             "Antibody — mechanism unresolved": 1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22492,10 +22622,11 @@
             "Antibody — mechanism unresolved": 1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22508,10 +22639,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 1
@@ -22524,11 +22656,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -22540,10 +22673,11 @@
             "Antibody — mechanism unresolved": 1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22556,10 +22690,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
-            "Cell therapy — adoptive T cells": 1,
+            "Cell therapy — adoptive NK cells": -1,
+            "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22572,10 +22707,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22588,10 +22724,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 1
@@ -22604,10 +22741,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 1
@@ -22620,10 +22758,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22636,11 +22775,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -22652,10 +22792,11 @@
             "Antibody — mechanism unresolved": 1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22668,10 +22809,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22684,10 +22826,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22700,11 +22843,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -22716,10 +22860,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22732,11 +22877,12 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
-            "Unclassified": 1
+            "Cell therapy — target-directed CAR": 1,
+            "Target binding — mechanism unresolved": -1,
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -22748,10 +22894,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22764,10 +22911,11 @@
             "Antibody — mechanism unresolved": 1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22780,10 +22928,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22796,10 +22945,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": 1
           },
           "max_phase": 1
@@ -22812,10 +22962,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22828,10 +22979,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22844,10 +22996,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22860,10 +23013,11 @@
             "Antibody — mechanism unresolved": 1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22876,10 +23030,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": 1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22892,10 +23047,11 @@
             "Antibody — mechanism unresolved": 1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": 1
@@ -22908,10 +23064,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -22924,10 +23081,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -22940,10 +23098,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -22956,10 +23115,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -22972,10 +23132,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -22988,10 +23149,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -23004,10 +23166,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -23020,10 +23183,11 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Blocking antibody": -1,
+            "Cell therapy — adoptive NK cells": -1,
             "Cell therapy — adoptive T cells": -1,
             "Cell therapy — bispecific CAR": -1,
             "Cell therapy — target-directed CAR": -1,
-            "Named only by class": -1,
+            "Target binding — mechanism unresolved": -1,
             "Unclassified": -1
           },
           "max_phase": -1
@@ -23887,7 +24051,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
+        "mechanism": "Target binding — mechanism unresolved",
         "is_active": false,
         "territory": {
           "countries": [
@@ -23926,7 +24090,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -23960,7 +24124,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Cell therapy — adoptive T cells",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -23994,7 +24158,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -24247,7 +24411,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -24801,7 +24965,7 @@
         "sponsor_scale": "Small or private company",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Named only by class",
+        "mechanism": "Cell therapy — adoptive T cells",
         "is_active": true,
         "territory": {
           "countries": [
@@ -24835,7 +24999,7 @@
         "sponsor_scale": "Unknown",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
+        "mechanism": "Target binding — mechanism unresolved",
         "is_active": true,
         "territory": {
           "countries": [],
@@ -24931,7 +25095,7 @@
         "sponsor_scale": "Unknown",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
+        "mechanism": "Target binding — mechanism unresolved",
         "is_active": true,
         "territory": {
           "countries": [],
@@ -25081,7 +25245,7 @@
         "sponsor_scale": "Small or private company",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -25116,7 +25280,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -25223,7 +25387,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Cell therapy — adoptive T cells",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": false,
         "territory": {
           "countries": [
@@ -25262,7 +25426,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Cell therapy — adoptive T cells",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": false,
         "territory": {
           "countries": [
@@ -25369,7 +25533,7 @@
         "sponsor_scale": "Small or private company",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -25602,7 +25766,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Cell therapy — adoptive T cells",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": false,
         "territory": {
           "countries": [
@@ -25675,7 +25839,7 @@
         "sponsor_scale": "Small or private company",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": false,
         "territory": {
           "countries": [
@@ -25783,7 +25947,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -25817,7 +25981,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -25851,7 +26015,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Cell therapy — adoptive T cells",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -25958,7 +26122,7 @@
         "sponsor_scale": "Small or private company",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -25992,7 +26156,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": false,
         "territory": {
           "countries": [
@@ -26031,7 +26195,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -26133,7 +26297,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": false,
         "territory": {
           "countries": [
@@ -26386,7 +26550,7 @@
         "sponsor_scale": "Small or private company",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — adoptive T cells",
         "is_active": true,
         "territory": {
           "countries": [
@@ -26488,7 +26652,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": false,
         "territory": {
           "countries": [],
@@ -26581,7 +26745,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -26709,7 +26873,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -26777,7 +26941,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -26811,7 +26975,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — adoptive NK cells",
         "is_active": false,
         "territory": {
           "countries": [
@@ -26879,7 +27043,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": false,
         "territory": {
           "countries": [
@@ -27094,7 +27258,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": -1,
         "phase_label": "Unknown",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -28708,7 +28872,7 @@
         "key": "development",
         "label": "In development",
         "value": "large b-cell lymphoma, systemic lupus erythematosus and leukemia — 3 of 24 indications at that phase",
-        "note": "Furthest programme: Blinatumomab (Merck Sharp & Dohme LLC), approved, Antibody — mechanism unresolved. 9 mechanism classes in the table.",
+        "note": "Furthest programme: Blinatumomab (Merck Sharp & Dohme LLC), approved, Antibody — mechanism unresolved. 10 mechanism classes in the table.",
         "pmids": []
       },
       {
@@ -28742,9 +28906,9 @@
     "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
   },
   "diagram": {
-    "svg": "<svg viewBox=\"0 0 720 356\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How CD19 is being drugged</title><desc id=\"tl-diagram-desc\">CD19 is in the plasma membrane. 9 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"136\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"126\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"182\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"58\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"53\" class=\"tl-arrow-label\">Cell therapy — target-directed CAR</text><text x=\"24\" y=\"74\" class=\"tl-arrow-detail\">51 assets · Approved · Cell therapy (CAR-T)</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"130\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"125\" class=\"tl-arrow-label\">Antibody — mechanism unresolved</text><text x=\"24\" y=\"146\" class=\"tl-arrow-detail\">3 assets · Approved · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"202\" x2=\"538\" y2=\"149\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"197\" class=\"tl-arrow-label\">ADC — payload delivery</text><text x=\"24\" y=\"218\" class=\"tl-arrow-detail\">2 assets · Phase 3 · Antibody-drug conjugate</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"274\" x2=\"538\" y2=\"149\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"269\" class=\"tl-arrow-label\">Bispecific — T-cell engager (CD3)</text><text x=\"24\" y=\"290\" class=\"tl-arrow-detail\">2 assets · Phase 3 · Bispecific antibody</text></g><text x=\"24\" y=\"342\" class=\"tl-arrow-detail\">+5 further mechanism classes below</text><g class=\"tl-target\"><rect x=\"574\" y=\"123\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"109\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"114\" class=\"tl-protein-label\">CD19</text></g></svg>",
+    "svg": "<svg viewBox=\"0 0 720 356\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How CD19 is being drugged</title><desc id=\"tl-diagram-desc\">CD19 is in the plasma membrane. 10 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"136\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"126\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"182\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"58\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"53\" class=\"tl-arrow-label\">Cell therapy — target-directed CAR</text><text x=\"24\" y=\"74\" class=\"tl-arrow-detail\">75 assets · Approved · Cell therapy (CAR-T)</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"130\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"125\" class=\"tl-arrow-label\">Antibody — mechanism unresolved</text><text x=\"24\" y=\"146\" class=\"tl-arrow-detail\">3 assets · Approved · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"202\" x2=\"538\" y2=\"149\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"197\" class=\"tl-arrow-label\">ADC — payload delivery</text><text x=\"24\" y=\"218\" class=\"tl-arrow-detail\">2 assets · Phase 3 · Antibody-drug conjugate</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"274\" x2=\"538\" y2=\"149\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"269\" class=\"tl-arrow-label\">Bispecific — T-cell engager (CD3)</text><text x=\"24\" y=\"290\" class=\"tl-arrow-detail\">2 assets · Phase 3 · Bispecific antibody</text></g><text x=\"24\" y=\"342\" class=\"tl-arrow-detail\">+6 further mechanism classes below</text><g class=\"tl-target\"><rect x=\"574\" y=\"123\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"109\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"114\" class=\"tl-protein-label\">CD19</text></g></svg>",
     "title": "How CD19 is being drugged",
-    "caption": "CD19 is in the plasma membrane. 9 mechanism classes are represented in the asset table, the most advanced reaching Approved.",
+    "caption": "CD19 is in the plasma membrane. 10 mechanism classes are represented in the asset table, the most advanced reaching Approved.",
     "placement": "in the plasma membrane",
     "target_class": [
       "Surface antigen"
@@ -28752,7 +28916,7 @@
     "interventions": [
       {
         "label": "Cell therapy — target-directed CAR",
-        "n": 51,
+        "n": 75,
         "max_phase": 4,
         "modalities": [
           "Cell therapy (CAR-T)"
@@ -28797,7 +28961,7 @@
       },
       {
         "label": "Unclassified",
-        "n": 37,
+        "n": 13,
         "max_phase": 2,
         "modalities": [
           "Other / unclassified"
@@ -28806,7 +28970,7 @@
       },
       {
         "label": "Cell therapy — adoptive T cells",
-        "n": 6,
+        "n": 3,
         "max_phase": 2,
         "modalities": [
           "Other / unclassified"
@@ -28823,13 +28987,22 @@
         "phase_label": "Phase 2"
       },
       {
-        "label": "Named only by class",
-        "n": 1,
+        "label": "Target binding — mechanism unresolved",
+        "n": 3,
         "max_phase": 2,
         "modalities": [
           "Other / unclassified"
         ],
         "phase_label": "Phase 2"
+      },
+      {
+        "label": "Cell therapy — adoptive NK cells",
+        "n": 1,
+        "max_phase": 1,
+        "modalities": [
+          "Other / unclassified"
+        ],
+        "phase_label": "Phase 1"
       }
     ],
     "note": "Generated from the target's annotated location, its protein family, and the mechanism classes present in the asset table. Arrow weight is the furthest phase that approach has reached. It is a schematic of how the target is being drugged — not a pathway map, and it draws no interaction it has not read from the data."
@@ -28890,7 +29063,7 @@
   },
   "narrative": {
     "bottom_line": "CD19 carries 88 active programmes across 9 mechanism classes from 65 named sponsors, reaching Approved. Phase-weighted density scores 115.5, which this tool bands as Saturated. The most advanced asset is AXICABTAGENE CILOLEUCEL (Kite, A Gilead Company) at Approved.",
-    "competitive": "The field splits into 9 mechanism classes. Cell therapy — target-directed CAR is the most advanced, and also the most crowded, with 51 assets. A further 19 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
+    "competitive": "The field splits into 10 mechanism classes. Cell therapy — target-directed CAR is the most advanced, and also the most crowded, with 75 assets. A further 19 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
     "failures": "25 of 182 trials stopped; 13 stated a reason. Of those with a stated reason, 0 were science-driven (efficacy, safety or PK/PD) and 3 were business-driven. That is 0% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
     "whitespace": "No disease passes the whitespace screen at the configured thresholds, either because the well-evidenced indications already carry clinical assets or because association data was unavailable.",
     "licensing": "Kite, A Gilead Company holds the most advanced programme (Approved), and is a large pharma. 6 of 107 programmes reached Phase 2 or beyond and have no trial running — Anti-CD19 PBD-conjugate ADCT-402, Autologous Anti-CD19/CD22 CAR-T Cells, Autologous CD19/CD22 CAR T Cells and 3 more. Why each stopped is under Terminations, in the sponsor's words. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",

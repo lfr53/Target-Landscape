@@ -1800,7 +1800,7 @@
       "modality": "Other / unclassified",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Inhibition / blockade — modality unresolved",
       "max_phase": 2,
       "indications": [
         "mantle cell lymphoma",
@@ -19074,10 +19074,12 @@
     "Unclassified": [
       "BGB-16673",
       "BIIB091",
-      "Bruton's Tyrosine Kinase Inhibitor ARQ 531",
       "DZD9008",
       "Hyaluronic acid filler/IMD1 basic",
       "Venetoclax"
+    ],
+    "Inhibition / blockade — modality unresolved": [
+      "Bruton's Tyrosine Kinase Inhibitor ARQ 531"
     ],
     "Small molecule — mechanism unresolved": [
       "Nemtabrutinib"
@@ -19099,7 +19101,7 @@
       "Phase 1": 2
     },
     "n_sponsors": 15,
-    "n_mechanism_classes": 4,
+    "n_mechanism_classes": 5,
     "lead_phase": "Approved",
     "weights_used": {
       "Approved": 5.0,
@@ -19150,6 +19152,7 @@
     ],
     "matrix": {
       "mechanisms": [
+        "Inhibition / blockade — modality unresolved",
         "Other / unclassified — inhibition",
         "Small molecule — inhibition",
         "Small molecule — mechanism unresolved",
@@ -19160,6 +19163,7 @@
           "indication": "Non Hodgkin Lymphoma",
           "n_assets": 14,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19171,6 +19175,7 @@
           "indication": "B-Cell Chronic Lymphocytic Leukemia",
           "n_assets": 12,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19182,6 +19187,7 @@
           "indication": "Lymphocytic Leukemia",
           "n_assets": 11,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": 2,
@@ -19193,6 +19199,7 @@
           "indication": "rheumatoid arthritis",
           "n_assets": 10,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19204,6 +19211,7 @@
           "indication": "Waldenstrom Macroglobulinemia",
           "n_assets": 8,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19215,6 +19223,7 @@
           "indication": "b-cell malignancies",
           "n_assets": 8,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19226,6 +19235,7 @@
           "indication": "cancer",
           "n_assets": 7,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19237,6 +19247,7 @@
           "indication": "primary central nervous system lymphoma",
           "n_assets": 7,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19248,6 +19259,7 @@
           "indication": "Chronic Lymphocytic Leukemia, CLL",
           "n_assets": 5,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19259,6 +19271,7 @@
           "indication": "autoimmune hemolytic anemia",
           "n_assets": 5,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19270,6 +19283,7 @@
           "indication": "neoplasm of mature B-cells",
           "n_assets": 5,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19281,6 +19295,7 @@
           "indication": "COVID-19",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19292,6 +19307,7 @@
           "indication": "autoimmune thrombocytopenic purpura",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19303,6 +19319,7 @@
           "indication": "chronic idiopathic urticaria",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19314,6 +19331,7 @@
           "indication": "Sjogren syndrome",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19325,6 +19343,7 @@
           "indication": "Waldenström Macroglobulinemia (WM)",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19336,6 +19355,7 @@
           "indication": "coronavirus disease 2019 (covid-19)",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19347,6 +19367,7 @@
           "indication": "asthma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19358,6 +19379,7 @@
           "indication": "central nervous system involvement",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19369,6 +19391,7 @@
           "indication": "food allergy",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19380,6 +19403,7 @@
           "indication": "glioblastoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19391,6 +19415,7 @@
           "indication": "head and neck squamous cell carcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19402,6 +19427,7 @@
           "indication": "immunoglobulin G4-related sclerosing disease",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19413,6 +19439,7 @@
           "indication": "plasma cell myeloma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19424,6 +19451,7 @@
           "indication": "primary cutaneous T-cell non-Hodgkin lymphoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19435,6 +19463,7 @@
           "indication": "Nasolabial Folds",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
@@ -19446,6 +19475,7 @@
           "indication": "macroglobulinemia",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
@@ -19457,10 +19487,11 @@
           "indication": "Large B-cell Lymphoma",
           "n_assets": 10,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -19468,6 +19499,7 @@
           "indication": "mantle cell lymphoma",
           "n_assets": 10,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19479,6 +19511,7 @@
           "indication": "marginal zone lymphoma",
           "n_assets": 10,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": 2,
@@ -19490,6 +19523,7 @@
           "indication": "follicular lymphoma",
           "n_assets": 9,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19501,6 +19535,7 @@
           "indication": "Small Lymphocytic Lymphoma",
           "n_assets": 8,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19512,10 +19547,11 @@
           "indication": "Richter Syndrome",
           "n_assets": 6,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -19523,6 +19559,7 @@
           "indication": "systemic lupus erythematosus",
           "n_assets": 6,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": 1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19534,6 +19571,7 @@
           "indication": "lymphoplasmacytic lymphoma",
           "n_assets": 5,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19545,6 +19583,7 @@
           "indication": "multiple sclerosis",
           "n_assets": 5,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19556,6 +19595,7 @@
           "indication": "B-Cell Lymphoma",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19567,6 +19607,7 @@
           "indication": "CLL",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19578,6 +19619,7 @@
           "indication": "autoimmune disease",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19589,10 +19631,11 @@
           "indication": "lymphoma",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -19600,6 +19643,7 @@
           "indication": "Burkitt Lymphoma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19611,6 +19655,7 @@
           "indication": "Diffuse Large B Cell Lymphoma (DLBCL)",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19622,6 +19667,7 @@
           "indication": "High Grade B-Cell Lymphoma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19633,6 +19679,7 @@
           "indication": "Relapsing Multiple Sclerosis",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19644,6 +19691,7 @@
           "indication": "b-cell lymphoid malignancies",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19655,6 +19703,7 @@
           "indication": "extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue type",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19666,6 +19715,7 @@
           "indication": "mature B-cell malignancies",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19677,6 +19727,7 @@
           "indication": "non-germinal center B-cell diffuse large B-cell lymphoma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19688,6 +19739,7 @@
           "indication": "small lymphocytic leukemia",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": 2,
@@ -19699,6 +19751,7 @@
           "indication": "solid tumor",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19710,6 +19763,7 @@
           "indication": "CLL/SLL",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19721,6 +19775,7 @@
           "indication": "Hodgkin Lymphoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19732,6 +19787,7 @@
           "indication": "Lymphoproliferative Disorder",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19743,6 +19799,7 @@
           "indication": "activated B cell like diffuse large B-cell lymphoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19754,6 +19811,7 @@
           "indication": "aggressive B-cell lymphoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19765,6 +19823,7 @@
           "indication": "atopic eczema",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19776,6 +19835,7 @@
           "indication": "graft versus host disease",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19787,6 +19847,7 @@
           "indication": "intraocular lymphoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19798,6 +19859,7 @@
           "indication": "leukemia",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19809,6 +19871,7 @@
           "indication": "neuromyelitis optica",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19820,6 +19883,7 @@
           "indication": "non-gcb diffuse large B-cell lymphoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19831,6 +19895,7 @@
           "indication": "prostate cancer",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19842,6 +19907,7 @@
           "indication": "small cell lymphoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19853,6 +19919,7 @@
           "indication": "Brutons Tyrosine Kinase",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19864,6 +19931,7 @@
           "indication": "Burkitt-like lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19875,6 +19943,7 @@
           "indication": "Graft vs Host Disease",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19886,6 +19955,7 @@
           "indication": "Hodgkins lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19897,6 +19967,7 @@
           "indication": "Immune System Diseases",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19908,6 +19979,7 @@
           "indication": "Immunoproliferative Disorders",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19919,6 +19991,7 @@
           "indication": "Lymphatic Diseases",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19930,6 +20003,7 @@
           "indication": "Non-relapsing Secondary Progressive Multiple Sclerosis",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19941,6 +20015,7 @@
           "indication": "Primary Membranous Nephropathy",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19952,6 +20027,7 @@
           "indication": "SLL",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19963,6 +20039,7 @@
           "indication": "Steroid-resistant Pemphigus",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19974,6 +20051,7 @@
           "indication": "Transformed Small Lymphocytic Lymphoma to Diffuse Large B-Cell Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19985,6 +20063,7 @@
           "indication": "acute myeloid leukemia",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -19996,6 +20075,7 @@
           "indication": "classic Hodgkin lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -20007,6 +20087,7 @@
           "indication": "germinal center B cell like diffuse large B-cell lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -20018,6 +20099,7 @@
           "indication": "germinal centre B-cell diffuse large B-cell lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -20029,6 +20111,7 @@
           "indication": "indolent B-cell non-Hodgkin lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -20040,6 +20123,7 @@
           "indication": "mature B-cell non-Hodgkin lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -20051,6 +20135,7 @@
           "indication": "nodular lymphocyte-predominant Hodgkin lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -20062,6 +20147,7 @@
           "indication": "pancreatic adenocarcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -20073,6 +20159,7 @@
           "indication": "pemphigus",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -20084,6 +20171,7 @@
           "indication": "peripheral T-cell lymphoma, not otherwise specified",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -20095,6 +20183,7 @@
           "indication": "primary mediastinal B cell lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
@@ -20106,6 +20195,7 @@
           "indication": "Nodal Marginal Zone B-cell Lymphoma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20117,6 +20207,7 @@
           "indication": "Richter Transformation",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20128,6 +20219,7 @@
           "indication": "non-small cell lung carcinoma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20139,6 +20231,7 @@
           "indication": "CNS Lymphoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20150,6 +20243,7 @@
           "indication": "COVID-19 pneumonia",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20161,6 +20255,7 @@
           "indication": "Follicular Lymphoma (FL)",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20172,10 +20267,11 @@
           "indication": "Gastric Mucosa-Associated Lymphoid Tissue Lymphoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -20183,6 +20279,7 @@
           "indication": "Hairy Cell Leukemia",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20194,6 +20291,7 @@
           "indication": "Multiple Myeloma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20205,6 +20303,7 @@
           "indication": "Relapsed Hematologic Malignancy",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20216,6 +20315,7 @@
           "indication": "Transformed Follicular Lymphoma to Diffuse Large B-Cell Lymphoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20227,6 +20327,7 @@
           "indication": "diffuse large B-cell lymphoma of the central nervous system",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20238,6 +20339,7 @@
           "indication": "lymphoid leukemia",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20249,6 +20351,7 @@
           "indication": "malignant pancreatic neoplasm",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20260,6 +20363,7 @@
           "indication": "primary immune thrombocytopenia",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20271,6 +20375,7 @@
           "indication": "prolymphocytic leukemia",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20282,6 +20387,7 @@
           "indication": "Aggressive B-cell NHL",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20293,6 +20399,7 @@
           "indication": "Aggressive Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20304,6 +20411,7 @@
           "indication": "Ann Arbor Stage IV Grade 1 Follicular Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20315,6 +20423,7 @@
           "indication": "Anti-MAG IgM-associated Demyelinating Polyneuropathy",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20326,6 +20435,7 @@
           "indication": "B-All",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20337,6 +20447,7 @@
           "indication": "B-cell prolymphocytic leukemia",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20348,6 +20459,7 @@
           "indication": "Blastoid Variant Mantle Cell Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20359,6 +20471,7 @@
           "indication": "Bruton Tyrosine Kinase",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20370,6 +20483,7 @@
           "indication": "Burkitt leukemia",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20381,6 +20495,7 @@
           "indication": "C-MYC/BCL2 Double-Hit High-Grade B-Cell Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20392,6 +20507,7 @@
           "indication": "COVID-19 Pulmonary Complications",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20403,6 +20519,7 @@
           "indication": "Chronic Lymphocytic Leukemia With 17p Deletion",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20414,6 +20531,7 @@
           "indication": "Classical Hodgkin Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20425,6 +20543,7 @@
           "indication": "DLBCL",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20436,6 +20555,7 @@
           "indication": "DLBCL Unclassifiable",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
@@ -20447,6 +20567,7 @@
           "indication": "DLBCL, Nos Genetic Subtypes",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20458,6 +20579,7 @@
           "indication": "De Novo or Transformed Indolent B-cell Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20469,6 +20591,7 @@
           "indication": "Diffuse Large B-Cell Lymphoma, Not Otherwise Specified",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20480,6 +20603,7 @@
           "indication": "Food Allergy Peanut",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20491,6 +20615,7 @@
           "indication": "Gastrooesophageal Cancer",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20502,6 +20627,7 @@
           "indication": "High Grade B-Cell Lymphoma With MYC and BCL2 and/or BCL6 Rearrangements",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20513,6 +20639,7 @@
           "indication": "High Risk Smoldering Multiple Myeloma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20524,6 +20651,7 @@
           "indication": "IgM MGUS",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20535,6 +20663,7 @@
           "indication": "Leukemia, Chronic Lymphatic",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20546,6 +20675,7 @@
           "indication": "Liver Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20557,6 +20687,7 @@
           "indication": "MCL",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20568,6 +20699,7 @@
           "indication": "MZL",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20579,6 +20711,7 @@
           "indication": "Maintenance Therapy",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20590,6 +20723,7 @@
           "indication": "NHL",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20601,6 +20735,7 @@
           "indication": "Neuropathy;Peripheral",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20612,6 +20747,7 @@
           "indication": "Non-Hodgkins Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20623,6 +20759,7 @@
           "indication": "Phase I: Relapsed or Refractory B-cell Malignancies",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20634,6 +20771,7 @@
           "indication": "Phase II Cohort A: Relapsed or Refractory Mantle Cell Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20645,6 +20783,7 @@
           "indication": "Phase II Cohort B: Relapsed or Refractory Chronic Lymphocytic Leukemia",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20656,6 +20795,7 @@
           "indication": "Pleomorphic Variant Mantle Cell Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20667,6 +20807,7 @@
           "indication": "Primary Mediastinal (Thymic) Large B-Cell Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20678,6 +20819,7 @@
           "indication": "Rheumatoid Arthritis (RA)",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20689,6 +20831,7 @@
           "indication": "Small Lymphocytic Lymphoma With 17p Deletion",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20700,6 +20843,7 @@
           "indication": "T Cell/Histiocyte-rich Large B-cell Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20711,6 +20855,7 @@
           "indication": "Transformed Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20722,6 +20867,7 @@
           "indication": "Waldenström macroglobulinemia related neuropathy",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20733,6 +20879,7 @@
           "indication": "Warm Antibody Autoimmune Hemolytic Anemia",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20744,6 +20891,7 @@
           "indication": "acute lymphoblastic leukemia",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20755,6 +20903,7 @@
           "indication": "breast cancer",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20766,6 +20915,7 @@
           "indication": "central nervous system relapse of B cell lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20777,6 +20927,7 @@
           "indication": "classical richter transformation",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20788,6 +20939,7 @@
           "indication": "lymphoid malignancies",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20799,6 +20951,7 @@
           "indication": "mast cell leukemia",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20810,6 +20963,7 @@
           "indication": "myeloid neoplasm",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20821,6 +20975,7 @@
           "indication": "pancreatic neuroendocrine tumor",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20832,6 +20987,7 @@
           "indication": "polyneuropathy",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20843,6 +20999,7 @@
           "indication": "post-transplant lymphoproliferative disease",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20854,6 +21011,7 @@
           "indication": "splenic B-cell lymphoma with prominent nucleoli",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20865,6 +21023,7 @@
           "indication": "t(11;14)(q13;q32)",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Small molecule — mechanism unresolved": -1,
@@ -20876,6 +21035,7 @@
           "indication": "Healthy",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -20887,6 +21047,7 @@
           "indication": "(indication not stated)",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
@@ -20898,6 +21059,7 @@
           "indication": "Bioequivalence",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -20909,6 +21071,7 @@
           "indication": "Ependymoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -20920,6 +21083,7 @@
           "indication": "Hepatic Function Abnormal",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -20931,6 +21095,7 @@
           "indication": "Hepatic Insufficiency",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -20942,6 +21107,7 @@
           "indication": "Hepatic Insufficiency & Healthy Subjects",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -20953,6 +21119,7 @@
           "indication": "Male",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -20964,6 +21131,7 @@
           "indication": "Medulloblastoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -20975,6 +21143,7 @@
           "indication": "Multiple Myeloma (MM)",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -20986,6 +21155,7 @@
           "indication": "Part1: Advanced B-cell Malignancies",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -20997,6 +21167,7 @@
           "indication": "Part2: r/rCLL and r/rMCL",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -21008,6 +21179,7 @@
           "indication": "Part3: Untreated CLL",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -21019,6 +21191,7 @@
           "indication": "Renal Insufficiency",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -21030,6 +21203,7 @@
           "indication": "Transformed Marginal Zone Lymphoma to Diffuse Large B-Cell Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -21041,6 +21215,7 @@
           "indication": "brain cancer",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -21052,6 +21227,7 @@
           "indication": "carcinoid tumor",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -21063,6 +21239,7 @@
           "indication": "colorectal cancer",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -21074,6 +21251,7 @@
           "indication": "metastatic castration-resistant prostate cancer",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -21085,6 +21263,7 @@
           "indication": "oesophagogastric squamous cell carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -21096,6 +21275,7 @@
           "indication": "renal cell carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Small molecule — mechanism unresolved": -1,
@@ -21107,6 +21287,7 @@
           "indication": "Mature B-Cell Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
@@ -21118,6 +21299,7 @@
           "indication": "Ritcher's Transformation, Syndrome",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Small molecule — mechanism unresolved": -1,
@@ -22252,7 +22434,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
+        "mechanism": "Inhibition / blockade — modality unresolved",
         "is_active": true,
         "territory": {
           "countries": [
@@ -24755,7 +24937,7 @@
         "key": "development",
         "label": "In development",
         "value": "Waldenstrom Macroglobulinemia, Chronic Lymphocytic Leukemia, CLL and Non Hodgkin Lymphoma — 3 of 27 indications at that phase",
-        "note": "Furthest programme: Acalabrutinib (Merck Sharp & Dohme LLC), approved, Small molecule — inhibition. 4 mechanism classes in the table.",
+        "note": "Furthest programme: Acalabrutinib (Merck Sharp & Dohme LLC), approved, Small molecule — inhibition. 5 mechanism classes in the table.",
         "pmids": []
       },
       {
@@ -24791,9 +24973,9 @@
     "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
   },
   "diagram": {
-    "svg": "<svg viewBox=\"0 0 720 332\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How BTK is being drugged</title><desc id=\"tl-diagram-desc\">BTK is in the plasma membrane. 4 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"126\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"116\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"172\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"58\" x2=\"538\" y2=\"139\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"53\" class=\"tl-arrow-label\">Small molecule — inhibition</text><text x=\"24\" y=\"74\" class=\"tl-arrow-detail\">19 assets · Approved · Small molecule</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"130\" x2=\"538\" y2=\"139\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"125\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"146\" class=\"tl-arrow-detail\">6 assets · Approved</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"202\" x2=\"538\" y2=\"139\" stroke-width=\"3\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"197\" class=\"tl-arrow-label\">Small molecule — mechanism unresolved</text><text x=\"24\" y=\"218\" class=\"tl-arrow-detail\">1 asset · Phase 2 · Small molecule</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"274\" x2=\"538\" y2=\"139\" stroke-width=\"2\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"269\" class=\"tl-arrow-label\">Other / unclassified — inhibition</text><text x=\"24\" y=\"290\" class=\"tl-arrow-detail\">1 asset · Phase 1</text></g><g class=\"tl-target\"><rect x=\"574\" y=\"113\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"99\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"104\" class=\"tl-protein-label\">BTK</text></g></svg>",
+    "svg": "<svg viewBox=\"0 0 720 356\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How BTK is being drugged</title><desc id=\"tl-diagram-desc\">BTK is in the plasma membrane. 5 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"136\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"126\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"182\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"58\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"53\" class=\"tl-arrow-label\">Small molecule — inhibition</text><text x=\"24\" y=\"74\" class=\"tl-arrow-detail\">19 assets · Approved · Small molecule</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"130\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"125\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"146\" class=\"tl-arrow-detail\">5 assets · Approved</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"202\" x2=\"538\" y2=\"149\" stroke-width=\"3\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"197\" class=\"tl-arrow-label\">Inhibition / blockade — modality unresolved</text><text x=\"24\" y=\"218\" class=\"tl-arrow-detail\">1 asset · Phase 2</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"274\" x2=\"538\" y2=\"149\" stroke-width=\"3\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"269\" class=\"tl-arrow-label\">Small molecule — mechanism unresolved</text><text x=\"24\" y=\"290\" class=\"tl-arrow-detail\">1 asset · Phase 2 · Small molecule</text></g><text x=\"24\" y=\"342\" class=\"tl-arrow-detail\">+1 further mechanism class below</text><g class=\"tl-target\"><rect x=\"574\" y=\"123\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"109\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"114\" class=\"tl-protein-label\">BTK</text></g></svg>",
     "title": "How BTK is being drugged",
-    "caption": "BTK is in the plasma membrane. 4 mechanism classes are represented in the asset table, the most advanced reaching Approved.",
+    "caption": "BTK is in the plasma membrane. 5 mechanism classes are represented in the asset table, the most advanced reaching Approved.",
     "placement": "in the plasma membrane",
     "target_class": [
       "Enzyme",
@@ -24814,12 +24996,21 @@
       },
       {
         "label": "Unclassified",
-        "n": 6,
+        "n": 5,
         "max_phase": 4,
         "modalities": [
           "Other / unclassified"
         ],
         "phase_label": "Approved"
+      },
+      {
+        "label": "Inhibition / blockade — modality unresolved",
+        "n": 1,
+        "max_phase": 2,
+        "modalities": [
+          "Other / unclassified"
+        ],
+        "phase_label": "Phase 2"
       },
       {
         "label": "Small molecule — mechanism unresolved",
@@ -24897,8 +25088,8 @@
     "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
   },
   "narrative": {
-    "bottom_line": "BTK carries 24 active programmes across 4 mechanism classes from 15 named sponsors, reaching Approved. Phase-weighted density scores 69.5, which this tool bands as Saturated. The most advanced asset is ACALABRUTINIB (Merck Sharp & Dohme LLC) at Approved.",
-    "competitive": "The field splits into 4 mechanism classes. Small molecule — inhibition is the most advanced, and also the most crowded, with 19 assets. A further 3 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
+    "bottom_line": "BTK carries 24 active programmes across 5 mechanism classes from 15 named sponsors, reaching Approved. Phase-weighted density scores 69.5, which this tool bands as Saturated. The most advanced asset is ACALABRUTINIB (Merck Sharp & Dohme LLC) at Approved.",
+    "competitive": "The field splits into 5 mechanism classes. Small molecule — inhibition is the most advanced, and also the most crowded, with 19 assets. A further 3 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
     "failures": "27 of 288 trials stopped; 18 stated a reason. Of those with a stated reason, 3 were science-driven (efficacy, safety or PK/PD) and 10 were business-driven. That is 17% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
     "whitespace": "5 diseases pass the screen: association evidence above threshold, genetic support, and nothing past preclinical. The strongest on genetic evidence is X-linked agammaglobulinemia (association 0.846, genetic 0.949). Treat this as a hypothesis to check by hand rather than a finding — disease names are matched between EFO terms and sponsor free text, and that matching is imperfect.",
     "licensing": "Unattributed holds the most advanced programme (Approved). 3 of 27 programmes reached Phase 2 or beyond and have no trial running — DZD9008, EDRALBRUTINIB, VECABRUTINIB. Why each stopped is under Terminations, in the sponsor's words. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",

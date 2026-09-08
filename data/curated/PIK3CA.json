@@ -1699,7 +1699,7 @@
       "modality": "Other / unclassified",
       "action_type": "",
       "mechanism_text": "[nih sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Inhibition / blockade — modality unresolved",
       "max_phase": 2,
       "indications": [
         "lymphoma",
@@ -1856,7 +1856,7 @@
       "modality": "Other / unclassified",
       "action_type": "",
       "mechanism_text": "[nih sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Inhibition / blockade — modality unresolved",
       "max_phase": 2,
       "indications": [
         "lymphoma",
@@ -2425,40 +2425,6 @@
       "phase_label": "Phase 2"
     },
     {
-      "name": "Suppressor of the PI3K/Akt pathways",
-      "sponsor": "Medical Research Council",
-      "modality": "Other / unclassified",
-      "action_type": "",
-      "mechanism_text": "[other_gov sponsor]",
-      "mechanism_class": "Unclassified",
-      "max_phase": 2,
-      "indications": [
-        "glioblastoma"
-      ],
-      "indication_phase": {
-        "glioblastoma": 2
-      },
-      "trials": [
-        "NCT02430363"
-      ],
-      "chembl_id": "",
-      "drug_id": "",
-      "synonyms": [],
-      "first_approval": null,
-      "withdrawn": false,
-      "is_active": true,
-      "named_by_class": false,
-      "provenance": [
-        {
-          "source": "ctgov",
-          "identifier": "NCT02430363",
-          "url": "https://clinicaltrials.gov/study/NCT02430363",
-          "retrieved": null
-        }
-      ],
-      "phase_label": "Phase 2"
-    },
-    {
       "name": "Tenalisib",
       "sponsor": "Rhizen Pharmaceuticals SA",
       "modality": "Other / unclassified",
@@ -2842,40 +2808,6 @@
           "source": "ctgov",
           "identifier": "NCT05676697",
           "url": "https://clinicaltrials.gov/study/NCT05676697",
-          "retrieved": null
-        }
-      ],
-      "phase_label": "Phase 1"
-    },
-    {
-      "name": "PI3K/mTOR/AKT Inhibitor",
-      "sponsor": "PIQUR Therapeutics AG",
-      "modality": "Other / unclassified",
-      "action_type": "",
-      "mechanism_text": "",
-      "mechanism_class": "Unclassified",
-      "max_phase": 1,
-      "indications": [
-        "cancer"
-      ],
-      "indication_phase": {
-        "cancer": 1
-      },
-      "trials": [
-        "NCT02483858"
-      ],
-      "chembl_id": "",
-      "drug_id": "",
-      "synonyms": [],
-      "first_approval": null,
-      "withdrawn": false,
-      "is_active": true,
-      "named_by_class": false,
-      "provenance": [
-        {
-          "source": "ctgov",
-          "identifier": "NCT02483858",
-          "url": "https://clinicaltrials.gov/study/NCT02483858",
           "retrieved": null
         }
       ],
@@ -15619,15 +15551,15 @@
       "Clove lozenge",
       "IPI-549",
       "Linperlisib",
-      "PI3K Inhibitor BAY 80-6946",
-      "PI3K-beta Inhibitor GSK2636771",
-      "PI3K/mTOR/AKT Inhibitor",
       "REMD-477",
       "RP6530",
       "SL-901",
-      "Suppressor of the PI3K/Akt pathways",
       "Tenalisib",
       "carboplatin"
+    ],
+    "Inhibition / blockade — modality unresolved": [
+      "PI3K Inhibitor BAY 80-6946",
+      "PI3K-beta Inhibitor GSK2636771"
     ],
     "Other / unclassified — inhibition": [
       "DS-7423",
@@ -15636,20 +15568,20 @@
     ]
   },
   "crowding": {
-    "n_total": 47,
-    "n_active": 39,
+    "n_total": 45,
+    "n_active": 37,
     "n_dormant": 8,
-    "weighted_score": 68.5,
+    "weighted_score": 66.2,
     "verdict": "Saturated",
     "by_phase": {
       "Approved": 3,
       "Phase 3": 5,
-      "Phase 2": 21,
-      "Phase 1": 9,
+      "Phase 2": 20,
+      "Phase 1": 8,
       "Unknown": 1
     },
-    "n_sponsors": 22,
-    "n_mechanism_classes": 3,
+    "n_sponsors": 20,
+    "n_mechanism_classes": 4,
     "lead_phase": "Approved",
     "weights_used": {
       "Approved": 5.0,
@@ -15725,6 +15657,7 @@
     ],
     "matrix": {
       "mechanisms": [
+        "Inhibition / blockade — modality unresolved",
         "Other / unclassified — inhibition",
         "Small molecule — inhibition",
         "Unclassified"
@@ -15734,19 +15667,21 @@
           "indication": "breast cancer",
           "n_assets": 20,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 4
         },
         {
           "indication": "cancer",
-          "n_assets": 19,
+          "n_assets": 18,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
-            "Unclassified": 1
+            "Unclassified": -1
           },
           "max_phase": 4
         },
@@ -15754,6 +15689,7 @@
           "indication": "Non Hodgkin Lymphoma",
           "n_assets": 10,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Unclassified": 2
@@ -15764,6 +15700,7 @@
           "indication": "triple-negative breast carcinoma",
           "n_assets": 9,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Unclassified": -1
@@ -15774,9 +15711,10 @@
           "indication": "melanoma",
           "n_assets": 7,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 4
         },
@@ -15784,6 +15722,7 @@
           "indication": "acute myeloid leukemia",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Unclassified": -1
@@ -15794,6 +15733,7 @@
           "indication": "estrogen-receptor positive breast cancer",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Unclassified": -1
@@ -15804,6 +15744,7 @@
           "indication": "plasma cell myeloma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Unclassified": -1
@@ -15814,6 +15755,7 @@
           "indication": "acute lymphoblastic leukemia",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Unclassified": -1
@@ -15824,6 +15766,7 @@
           "indication": "hormone receptor positive breast cancer",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Unclassified": -1
@@ -15834,6 +15777,7 @@
           "indication": "human epidermal growth factor receptor 2-negative breast cancer",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Unclassified": -1
@@ -15844,6 +15788,7 @@
           "indication": "myelodysplastic syndrome",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Unclassified": -1
@@ -15854,6 +15799,7 @@
           "indication": "metaplastic breast carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Unclassified": -1
@@ -15864,9 +15810,10 @@
           "indication": "solid tumor",
           "n_assets": 31,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": 1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 2
+            "Unclassified": 1
           },
           "max_phase": 3
         },
@@ -15874,9 +15821,10 @@
           "indication": "endometrial cancer",
           "n_assets": 16,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": 1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -15884,6 +15832,7 @@
           "indication": "non-small cell lung carcinoma",
           "n_assets": 14,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Unclassified": 1
@@ -15894,9 +15843,10 @@
           "indication": "colorectal cancer",
           "n_assets": 13,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": 1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -15904,9 +15854,10 @@
           "indication": "lymphoma",
           "n_assets": 11,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -15914,9 +15865,10 @@
           "indication": "prostate cancer",
           "n_assets": 11,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -15924,19 +15876,21 @@
           "indication": "ovarian cancer",
           "n_assets": 10,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
         {
           "indication": "glioblastoma",
-          "n_assets": 9,
+          "n_assets": 8,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -15944,9 +15898,10 @@
           "indication": "lung cancer",
           "n_assets": 7,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -15954,9 +15909,10 @@
           "indication": "malignant pancreatic neoplasm",
           "n_assets": 7,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -15964,9 +15920,10 @@
           "indication": "kidney cancer",
           "n_assets": 6,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -15974,9 +15931,10 @@
           "indication": "HER2-negative Breast Cancer",
           "n_assets": 5,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -15984,9 +15942,10 @@
           "indication": "diffuse large B-cell lymphoma",
           "n_assets": 5,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -15994,9 +15953,10 @@
           "indication": "fallopian tube cancer",
           "n_assets": 5,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 1
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -16004,9 +15964,10 @@
           "indication": "primary peritoneal tumor",
           "n_assets": 5,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 1
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -16014,6 +15975,7 @@
           "indication": "renal cell carcinoma",
           "n_assets": 5,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Unclassified": -1
@@ -16024,9 +15986,10 @@
           "indication": "follicular lymphoma",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -16034,9 +15997,10 @@
           "indication": "hematopoietic and lymphoid cell neoplasm",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 3
         },
@@ -16044,6 +16008,7 @@
           "indication": "malignant glioma",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Unclassified": -1
@@ -16054,6 +16019,7 @@
           "indication": "squamous cell carcinoma",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Unclassified": -1
@@ -16064,6 +16030,7 @@
           "indication": "high grade serous ovarian cancer",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Unclassified": -1
@@ -16074,6 +16041,7 @@
           "indication": "mantle cell lymphoma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Unclassified": -1
@@ -16084,6 +16052,7 @@
           "indication": "primary central nervous system lymphoma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Unclassified": -1
@@ -16094,6 +16063,7 @@
           "indication": "brain metastases",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Unclassified": -1
@@ -16104,6 +16074,7 @@
           "indication": "gastrointestinal stromal tumor",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Unclassified": -1
@@ -16114,6 +16085,7 @@
           "indication": "marginal zone lymphoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Unclassified": -1
@@ -16124,6 +16096,7 @@
           "indication": "pancreatic neuroendocrine tumor",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Unclassified": -1
@@ -16134,6 +16107,7 @@
           "indication": "poorly differentiated thyroid gland carcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Unclassified": -1
@@ -16144,6 +16118,7 @@
           "indication": "transitional cell carcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Unclassified": -1
@@ -16154,6 +16129,7 @@
           "indication": "Activated PI3Kdelta Syndrome (APDS); PASLI Disease",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Unclassified": 3
@@ -16164,6 +16140,7 @@
           "indication": "head and neck cancer",
           "n_assets": 8,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": 2
@@ -16174,6 +16151,7 @@
           "indication": "head and neck squamous cell carcinoma",
           "n_assets": 7,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": 2
@@ -16184,9 +16162,10 @@
           "indication": "Glioma",
           "n_assets": 5,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16194,9 +16173,10 @@
           "indication": "gastric cancer",
           "n_assets": 5,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16204,9 +16184,10 @@
           "indication": "thyroid gland carcinoma",
           "n_assets": 5,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16214,6 +16195,7 @@
           "indication": "(indication not stated)",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": 1,
             "Small molecule — inhibition": 2,
             "Unclassified": 1
@@ -16224,6 +16206,7 @@
           "indication": "B-cell chronic lymphocytic leukemia",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16234,9 +16217,10 @@
           "indication": "Skin Carcinoma",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16244,6 +16228,7 @@
           "indication": "central nervous system cancer",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16254,9 +16239,10 @@
           "indication": "cervical cancer",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16264,9 +16250,10 @@
           "indication": "esophageal cancer",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16274,9 +16261,10 @@
           "indication": "rectal cancer",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16284,9 +16272,10 @@
           "indication": "uterine corpus cancer",
           "n_assets": 4,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16294,9 +16283,10 @@
           "indication": "Bladder Carcinoma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16304,9 +16294,10 @@
           "indication": "Colon Carcinoma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16314,9 +16305,10 @@
           "indication": "Exocrine Pancreas Carcinoma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16324,9 +16316,10 @@
           "indication": "Leukemia, Acute Lymphocytic",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16334,9 +16327,10 @@
           "indication": "Liver Carcinoma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16344,9 +16338,10 @@
           "indication": "Malignant Uterine Neoplasm",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16354,9 +16349,10 @@
           "indication": "Multiple Myeloma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16364,9 +16360,10 @@
           "indication": "Prognostic Stage I Breast Cancer AJCC v8",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16374,9 +16371,10 @@
           "indication": "Small Lymphocytic Lymphoma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16384,9 +16382,10 @@
           "indication": "brain cancer",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16394,6 +16393,7 @@
           "indication": "neuroblastoma",
           "n_assets": 3,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16404,6 +16404,7 @@
           "indication": "Cowden Syndrome",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16414,6 +16415,7 @@
           "indication": "HPV Positive Oropharyngeal Squamous Cell Carcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16424,6 +16426,7 @@
           "indication": "HPV-Related Squamous Cell Carcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": 2
@@ -16434,9 +16437,10 @@
           "indication": "Lymphoid Leukemia",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 2,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
-            "Unclassified": 2
+            "Unclassified": -1
           },
           "max_phase": 2
         },
@@ -16444,6 +16448,7 @@
           "indication": "Recurrent Metastatic Squamous Neck Cancer With Occult Primary",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16454,6 +16459,7 @@
           "indication": "Recurrent Soft Tissue Sarcoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16464,6 +16470,7 @@
           "indication": "T-Cell Lymphoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": 1
@@ -16474,6 +16481,7 @@
           "indication": "biliary tract cancer",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16484,6 +16492,7 @@
           "indication": "diffuse intrinsic pontine glioma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16494,6 +16503,7 @@
           "indication": "exocrine pancreatic carcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16504,6 +16514,7 @@
           "indication": "high grade B-cell lymphoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16514,6 +16525,7 @@
           "indication": "low-grade serous ovarian cancer",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16524,6 +16536,7 @@
           "indication": "medulloblastoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16534,6 +16547,7 @@
           "indication": "pancreatic adenocarcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16544,6 +16558,7 @@
           "indication": "salivary gland carcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16554,6 +16569,7 @@
           "indication": "thyroid cancer",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16564,6 +16580,7 @@
           "indication": "urothelial cancer",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16574,6 +16591,7 @@
           "indication": "ACTH-dependent Cushing syndrome",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16584,6 +16602,7 @@
           "indication": "Acute Myeloid Leukemia, in Relapse",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16594,6 +16613,7 @@
           "indication": "Ann Arbor Stage IV Non-Hodgkin Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16604,6 +16624,7 @@
           "indication": "Arteriovenous Malformation (AVM)",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16614,6 +16635,7 @@
           "indication": "Arteriovenous Malformations",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16624,6 +16646,7 @@
           "indication": "B-cell malignancies",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16634,6 +16657,7 @@
           "indication": "Basal Cell Nevus Syndrome",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16644,6 +16668,7 @@
           "indication": "Breast Neoplasms (Including Advanced or Metastatic Breast Cancer With PIK3CA Mutation)",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16654,6 +16679,7 @@
           "indication": "Burkitt lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16664,6 +16690,7 @@
           "indication": "Colo-rectal Cancer",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16674,6 +16701,7 @@
           "indication": "Cushing Disease",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16684,6 +16712,7 @@
           "indication": "Cystic Hygroma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16694,6 +16723,7 @@
           "indication": "Diffuse Midline Glioma, H3 K27M-Mutant",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16704,6 +16734,7 @@
           "indication": "Gastrointestinal Cancer",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16714,6 +16745,7 @@
           "indication": "Glioblastoma Multiforme",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16724,6 +16756,7 @@
           "indication": "HNSCC",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16734,6 +16767,7 @@
           "indication": "HPV-Related Carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Unclassified": 2
@@ -16744,6 +16778,7 @@
           "indication": "Hematopoietic and Lymphatic System Neoplasm",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16754,6 +16789,7 @@
           "indication": "Histiocytic Sarcoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16764,6 +16800,7 @@
           "indication": "Hodgkins lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16774,6 +16811,7 @@
           "indication": "Juvenile Xanthogranuloma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16784,6 +16822,7 @@
           "indication": "KRAS G12C",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16794,6 +16833,7 @@
           "indication": "KRAS G12D",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16804,6 +16844,7 @@
           "indication": "Langerhans Cell Histiocytosis",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16814,6 +16855,7 @@
           "indication": "Lymphatic Malformation, Low Flow",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16824,6 +16866,7 @@
           "indication": "Malignant Female Reproductive System Neoplasm",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16834,6 +16877,7 @@
           "indication": "NHL",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16844,6 +16888,7 @@
           "indication": "PI3K Pathway Activated Tumors",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16854,6 +16899,7 @@
           "indication": "Platinum-Refractory Primary Peritoneal Carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16864,6 +16910,7 @@
           "indication": "Recurrent Childhood Rhabdomyosarcoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16874,6 +16921,7 @@
           "indication": "Recurrent Ependymoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16884,6 +16932,7 @@
           "indication": "Recurrent Ewing Sarcoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16894,6 +16943,7 @@
           "indication": "Recurrent Fallopian Tube Endometrioid Adenocarcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16904,6 +16954,7 @@
           "indication": "Recurrent Fallopian Tube High Grade Serous Adenocarcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16914,6 +16965,7 @@
           "indication": "Recurrent Hepatoblastoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16924,6 +16976,7 @@
           "indication": "Recurrent Malignant Germ Cell Tumor",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16934,6 +16987,7 @@
           "indication": "Recurrent Osteosarcoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16944,6 +16998,7 @@
           "indication": "Recurrent Ovarian Endometrioid Adenocarcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16954,6 +17009,7 @@
           "indication": "Recurrent Peripheral Primitive Neuroectodermal Tumor",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16964,6 +17020,7 @@
           "indication": "Recurrent Platinum-Resistant Fallopian Tube Carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16974,6 +17031,7 @@
           "indication": "Recurrent Primary Peritoneal Endometrioid Adenocarcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16984,6 +17042,7 @@
           "indication": "Recurrent Rhabdomyosarcoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -16994,6 +17053,7 @@
           "indication": "Recurrent Squamous Cell Carcinoma of the Lip and Oral Cavity",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17004,6 +17064,7 @@
           "indication": "Recurrent Squamous Cell Carcinoma of the Paranasal Sinus and Nasal Cavity",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17014,6 +17075,7 @@
           "indication": "Recurrent Verrucous Carcinoma of the Larynx",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17024,6 +17086,7 @@
           "indication": "Recurrent Verrucous Carcinoma of the Oral Cavity",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17034,6 +17097,7 @@
           "indication": "Rhabdoid Tumor",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17044,6 +17108,7 @@
           "indication": "Salivary Gland Squamous Cell Carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17054,6 +17119,7 @@
           "indication": "Stomach Cancer",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17064,6 +17130,7 @@
           "indication": "TIE2/PIK3CA Pathway Driven Vascular Anomalies",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17074,6 +17141,7 @@
           "indication": "Tongue Cancer",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17084,6 +17152,7 @@
           "indication": "Vascular Anomalies",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17094,6 +17163,7 @@
           "indication": "Venous Malformation",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17104,6 +17174,7 @@
           "indication": "Venous Malformation, Low Flow",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17114,6 +17185,7 @@
           "indication": "WHO Grade III Glioma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17124,6 +17196,7 @@
           "indication": "Wilms Tumor",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17134,6 +17207,7 @@
           "indication": "basal cell carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17144,6 +17218,7 @@
           "indication": "cancer with AKT pathway activation or PTEN loss",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17154,6 +17229,7 @@
           "indication": "cancer with ALK rearrangement or mutation",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17164,6 +17240,7 @@
           "indication": "cancer with BRAF V600E/K mutation",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17174,6 +17251,7 @@
           "indication": "cancer with ERBB2 amplification or mutation",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17184,6 +17262,7 @@
           "indication": "cancer with RAF-MEK-ERK pathway activation",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17194,6 +17273,7 @@
           "indication": "cancer with high tumor mutational burden or PD-1/PD-L1 sensitivity alteration",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17204,6 +17284,7 @@
           "indication": "de Novo Acute Myeloid Leukemia at Diagnostic",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17214,6 +17295,7 @@
           "indication": "diffuse midline glioma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17224,6 +17306,7 @@
           "indication": "digestive system neoplasm",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17234,6 +17317,7 @@
           "indication": "extracranial solid tumours",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17244,6 +17328,7 @@
           "indication": "extranodal nasal NK/T cell lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17254,6 +17339,7 @@
           "indication": "fast-flow vascular malformations",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17264,6 +17350,7 @@
           "indication": "histiocytic disorder",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17274,6 +17361,7 @@
           "indication": "hormone receptor-positive solid tumor",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17284,6 +17372,7 @@
           "indication": "indolent B-cell non-Hodgkin lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17294,6 +17383,7 @@
           "indication": "lymphangioma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17304,6 +17394,7 @@
           "indication": "lymphatic malformation",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17314,6 +17405,7 @@
           "indication": "mature T-cell and NK-cell non-Hodgkin lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17324,6 +17416,7 @@
           "indication": "ovarian epithelial tumor",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17334,6 +17427,7 @@
           "indication": "pik3ca related overgrowth spectrum",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17344,6 +17438,7 @@
           "indication": "primary mediastinal large B-cell lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17354,6 +17449,7 @@
           "indication": "slow-flow vascular malformations",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17364,6 +17460,7 @@
           "indication": "urinary bladder carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17374,6 +17471,7 @@
           "indication": "vascular anomaly",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17384,6 +17482,7 @@
           "indication": "vascular malformation",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 2,
             "Unclassified": -1
@@ -17394,9 +17493,10 @@
           "indication": "Endometrial Adenocarcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
-            "Unclassified": 1
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -17404,9 +17504,10 @@
           "indication": "High Grade Ovarian Serous Adenocarcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
-            "Unclassified": 1
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -17414,9 +17515,10 @@
           "indication": "Invasive Breast Carcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
-            "Unclassified": 1
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -17424,9 +17526,10 @@
           "indication": "Metastatic Malignant Neoplasm in the Bone",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
-            "Unclassified": 1
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -17434,9 +17537,10 @@
           "indication": "Multifocal Breast Carcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
-            "Unclassified": 1
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -17444,9 +17548,10 @@
           "indication": "Platinum-Resistant Ovarian Carcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
-            "Unclassified": 1
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -17454,9 +17559,10 @@
           "indication": "Postmenopausal",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
-            "Unclassified": 1
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -17464,9 +17570,10 @@
           "indication": "Primary Peritoneal High Grade Serous Adenocarcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": 1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
-            "Unclassified": 1
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -17474,6 +17581,7 @@
           "indication": "small cell lung carcinoma",
           "n_assets": 2,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17484,6 +17592,7 @@
           "indication": "Advanced Solid Tumors With an Alteration of the PIK3CA Gene",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17494,6 +17603,7 @@
           "indication": "Autoimmune Hemolytic Anemia",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Unclassified": 1
@@ -17504,6 +17614,7 @@
           "indication": "Cancer of Nasopharynx",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17514,6 +17625,7 @@
           "indication": "Carcinoma of Larynx",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17524,6 +17636,7 @@
           "indication": "Chronic Myelogenous Leukemia With Crisis of Blast Cells",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17534,6 +17647,7 @@
           "indication": "Dose Escalation",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17544,6 +17658,7 @@
           "indication": "Double-expressor Lymphoma (DEL)",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17554,6 +17669,7 @@
           "indication": "Double-hit Lymphoma (DHL)",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17564,6 +17680,7 @@
           "indication": "ER-positive Breast Cancer",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17574,6 +17691,7 @@
           "indication": "Early Invasive Cervical Squamous Cell Carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17584,6 +17702,7 @@
           "indication": "Failure of Two Rounds of Treatment",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Unclassified": 1
@@ -17594,6 +17713,7 @@
           "indication": "Healthy",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Unclassified": 1
@@ -17604,6 +17724,7 @@
           "indication": "Hormone Receptor Positive (ER+/PR+, and Her2-) Metastatic Breast Cancer",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17614,6 +17735,7 @@
           "indication": "Human Papillomavirus-Related Carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17624,6 +17746,7 @@
           "indication": "Human Papillomavirus-Related Squamous Cell Carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17634,6 +17757,7 @@
           "indication": "Hypopharyngeal Cancer",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17644,6 +17768,7 @@
           "indication": "Indolent Lymphoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17654,6 +17779,7 @@
           "indication": "Leukemia, Myelocytic, Acute",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17664,6 +17790,7 @@
           "indication": "Lymphoma, T-Cell, Cutaneous",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Unclassified": 1
@@ -17674,6 +17801,7 @@
           "indication": "Lymphoma, T-Cell, Peripheral",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Unclassified": 1
@@ -17684,6 +17812,7 @@
           "indication": "NUT Midline Carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17694,6 +17823,7 @@
           "indication": "Non-Hodgkin's Lymphoma, Solid Cancers",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17704,6 +17834,7 @@
           "indication": "PIK3CA Mutation-Related Tumors",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17714,6 +17845,7 @@
           "indication": "Preliminary Efficacy",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17724,6 +17856,7 @@
           "indication": "Relapsed Ddiffuse Large B-Cell Lymphoma (DLBCL)",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17734,6 +17867,7 @@
           "indication": "Safety",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17744,6 +17878,7 @@
           "indication": "Sore Throat",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Unclassified": 1
@@ -17754,6 +17889,7 @@
           "indication": "Stomach Neoplasms Esophageal Neoplasms Metastatic Gastric Cancer Mutated PI3KCA Protein Overexpressed HER2 Protein",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17764,6 +17900,7 @@
           "indication": "Triple-hit Lymphoma (THL)",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17774,6 +17911,7 @@
           "indication": "Unspecified Adult Solid Tumor, Protocol Specific",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17784,6 +17922,7 @@
           "indication": "gastroesophageal junction cancer",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17794,6 +17933,7 @@
           "indication": "hepatocellular carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17804,6 +17944,7 @@
           "indication": "leukemia",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17814,6 +17955,7 @@
           "indication": "malignant mesothelioma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17824,6 +17966,7 @@
           "indication": "myeloid neoplasm",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17834,6 +17977,7 @@
           "indication": "neoplasm of mature B-cells",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17844,6 +17988,7 @@
           "indication": "non-hematologic malignancies",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17854,6 +17999,7 @@
           "indication": "renal carcinoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17864,6 +18010,7 @@
           "indication": "sarcoma",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 1,
             "Unclassified": -1
@@ -17874,6 +18021,7 @@
           "indication": "Activated PI3K Delta Syndrome",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Unclassified": -1
@@ -17884,6 +18032,7 @@
           "indication": "Breast Neoplasm Malignant Female",
           "n_assets": 1,
           "cells": {
+            "Inhibition / blockade — modality unresolved": -1,
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": -1,
             "Unclassified": -1
@@ -17895,7 +18044,7 @@
     "indications_omitted": 0
   },
   "failures": {
-    "n_trials": 148,
+    "n_trials": 147,
     "n_stopped": 46,
     "n_with_reason": 29,
     "counts": {
@@ -19337,7 +19486,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
+        "mechanism": "Inhibition / blockade — modality unresolved",
         "is_active": true,
         "territory": {
           "countries": [
@@ -19373,7 +19522,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
+        "mechanism": "Inhibition / blockade — modality unresolved",
         "is_active": true,
         "territory": {
           "countries": [
@@ -19629,49 +19778,6 @@
             "code": "territory_gap",
             "headline": "Territory gap: China, EU/UK, Japan",
             "evidence": "Trials run in US but not in China, EU/UK, Japan. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
-          }
-        ]
-      },
-      {
-        "asset": "Suppressor of the PI3K/Akt pathways",
-        "sponsor": "Medical Research Council",
-        "sponsor_scale": "Academic or non-industry",
-        "phase": 2,
-        "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
-        "is_active": true,
-        "territory": {
-          "countries": [
-            "Belgium",
-            "Germany",
-            "Italy",
-            "Poland",
-            "Russia",
-            "Spain",
-            "Switzerland",
-            "Ukraine",
-            "United Kingdom",
-            "United States"
-          ],
-          "covered": [
-            "EU/UK",
-            "US"
-          ],
-          "absent": [
-            "China",
-            "Japan"
-          ]
-        },
-        "signals": [
-          {
-            "code": "academic",
-            "headline": "Academic origin",
-            "evidence": "Sponsored by Medical Research Council. Academic programmes at this stage are usually seeking a commercial partner, and the institution's tech-transfer office is the contact."
-          },
-          {
-            "code": "territory_gap",
-            "headline": "Territory gap: China, Japan",
-            "evidence": "Trials run in EU/UK, US but not in China, Japan. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
           }
         ]
       },
@@ -19962,40 +20068,6 @@
             "code": "territory_gap",
             "headline": "Territory gap: EU/UK, Japan, US",
             "evidence": "Trials run in China but not in EU/UK, Japan, US. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
-          }
-        ]
-      },
-      {
-        "asset": "PI3K/mTOR/AKT Inhibitor",
-        "sponsor": "PIQUR Therapeutics AG",
-        "sponsor_scale": "Small or private company",
-        "phase": 1,
-        "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
-        "is_active": true,
-        "territory": {
-          "countries": [
-            "United States"
-          ],
-          "covered": [
-            "US"
-          ],
-          "absent": [
-            "China",
-            "EU/UK",
-            "Japan"
-          ]
-        },
-        "signals": [
-          {
-            "code": "small_sponsor",
-            "headline": "Small or private sponsor",
-            "evidence": "PIQUR Therapeutics AG is not on the large-pharma list. Small holders partner or sell far more often than large ones, and are reachable directly."
-          },
-          {
-            "code": "territory_gap",
-            "headline": "Territory gap: China, EU/UK, Japan",
-            "evidence": "Trials run in US but not in China, EU/UK, Japan. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
           }
         ]
       },
@@ -20419,12 +20491,6 @@
         "lead_phase": 2
       },
       {
-        "sponsor": "Medical Research Council",
-        "scale": "Academic or non-industry",
-        "n": 1,
-        "lead_phase": 2
-      },
-      {
         "sponsor": "Zenyaku Kogyo Co., Ltd.",
         "scale": "Small or private company",
         "n": 1,
@@ -20451,12 +20517,6 @@
       {
         "sponsor": "Institute of Hematology & Blood Diseases Hospital, China",
         "scale": "Academic or non-industry",
-        "n": 1,
-        "lead_phase": 1
-      },
-      {
-        "sponsor": "PIQUR Therapeutics AG",
-        "scale": "Small or private company",
         "n": 1,
         "lead_phase": 1
       },
@@ -21096,7 +21156,7 @@
     "genetic_disease": "megalencephaly-capillary malformation-polymicrogyria syndrome"
   },
   "readouts": {
-    "n_trials": 148,
+    "n_trials": 147,
     "n_active": 39,
     "n_controlled": 7,
     "n_confirmatory": 2,
@@ -21117,7 +21177,7 @@
       "mechanistic": "Mechanistic",
       "unclear": "Design not stated"
     },
-    "verdict": "148 trials on record, 39 still running. 7 of those are controlled efficacy studies; the other 32 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
+    "verdict": "147 trials on record, 39 still running. 7 of those are controlled efficacy studies; the other 32 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
     "catalysts": [
       {
         "nct_id": "NCT04486352",
@@ -21978,7 +22038,7 @@
         "key": "development",
         "label": "In development",
         "value": "breast cancer, cancer and estrogen-receptor positive breast cancer, and 10 more at that phase",
-        "note": "Furthest programme: Alpelisib (Novartis Pharmaceuticals), approved, Small molecule — inhibition. 3 mechanism classes in the table.",
+        "note": "Furthest programme: Alpelisib (Novartis Pharmaceuticals), approved, Small molecule — inhibition. 4 mechanism classes in the table.",
         "pmids": []
       },
       {
@@ -22014,9 +22074,9 @@
     "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
   },
   "diagram": {
-    "svg": "<svg viewBox=\"0 0 720 260\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How PIK3CA is being drugged</title><desc id=\"tl-diagram-desc\">PIK3CA is in the cytoplasm. 3 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"216\" y=\"18\" width=\"504\" height=\"224\" rx=\"26\" class=\"tl-cell\"/><text x=\"706\" y=\"38\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"58\" x2=\"538\" y2=\"130\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"53\" class=\"tl-arrow-label\">Small molecule — inhibition</text><text x=\"24\" y=\"74\" class=\"tl-arrow-detail\">29 assets · Approved · Small molecule</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"130\" x2=\"538\" y2=\"130\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"125\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"146\" class=\"tl-arrow-detail\">15 assets · Phase 3</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"202\" x2=\"538\" y2=\"130\" stroke-width=\"2\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"197\" class=\"tl-arrow-label\">Other / unclassified — inhibition</text><text x=\"24\" y=\"218\" class=\"tl-arrow-detail\">3 assets · Phase 1</text></g><g class=\"tl-target\"><rect x=\"552\" y=\"106\" width=\"88\" height=\"48\" rx=\"14\" class=\"tl-protein\"/><text x=\"596\" y=\"135\" class=\"tl-protein-label\">PIK3CA</text></g></svg>",
+    "svg": "<svg viewBox=\"0 0 720 332\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How PIK3CA is being drugged</title><desc id=\"tl-diagram-desc\">PIK3CA is in the cytoplasm. 4 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"216\" y=\"18\" width=\"504\" height=\"296\" rx=\"26\" class=\"tl-cell\"/><text x=\"706\" y=\"38\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"58\" x2=\"538\" y2=\"166\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"53\" class=\"tl-arrow-label\">Small molecule — inhibition</text><text x=\"24\" y=\"74\" class=\"tl-arrow-detail\">29 assets · Approved · Small molecule</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"130\" x2=\"538\" y2=\"166\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"125\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"146\" class=\"tl-arrow-detail\">11 assets · Phase 3</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"202\" x2=\"538\" y2=\"166\" stroke-width=\"3\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"197\" class=\"tl-arrow-label\">Inhibition / blockade — modality unresolved</text><text x=\"24\" y=\"218\" class=\"tl-arrow-detail\">2 assets · Phase 2</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"274\" x2=\"538\" y2=\"166\" stroke-width=\"2\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"269\" class=\"tl-arrow-label\">Other / unclassified — inhibition</text><text x=\"24\" y=\"290\" class=\"tl-arrow-detail\">3 assets · Phase 1</text></g><g class=\"tl-target\"><rect x=\"552\" y=\"142\" width=\"88\" height=\"48\" rx=\"14\" class=\"tl-protein\"/><text x=\"596\" y=\"171\" class=\"tl-protein-label\">PIK3CA</text></g></svg>",
     "title": "How PIK3CA is being drugged",
-    "caption": "PIK3CA is in the cytoplasm. 3 mechanism classes are represented in the asset table, the most advanced reaching Approved.",
+    "caption": "PIK3CA is in the cytoplasm. 4 mechanism classes are represented in the asset table, the most advanced reaching Approved.",
     "placement": "in the cytoplasm",
     "target_class": [
       "Enzyme",
@@ -22034,12 +22094,21 @@
       },
       {
         "label": "Unclassified",
-        "n": 15,
+        "n": 11,
         "max_phase": 3,
         "modalities": [
           "Other / unclassified"
         ],
         "phase_label": "Phase 3"
+      },
+      {
+        "label": "Inhibition / blockade — modality unresolved",
+        "n": 2,
+        "max_phase": 2,
+        "modalities": [
+          "Other / unclassified"
+        ],
+        "phase_label": "Phase 2"
       },
       {
         "label": "Other / unclassified — inhibition",
@@ -22069,7 +22138,7 @@
         "label": "What can the running trials show?",
         "value": "7 of 39 running trials are controlled efficacy studies · next readout 2026-10 (sponsor estimate)",
         "face": "science",
-        "detail": "148 trials on record, 39 still running. 7 of those are controlled efficacy studies; the other 32 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. GBG Forschungs GmbH · Neoadjuvant Endocrine Therapy +/- the PI3K Inhibitor Inavolisib in HER2+, HR+, PIK3CA Mutant Early Breast Cancer — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT04486352, 2026-10-01, signal-generating — and every upcoming completion is listed under Trials.",
+        "detail": "147 trials on record, 39 still running. 7 of those are controlled efficacy studies; the other 32 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. GBG Forschungs GmbH · Neoadjuvant Endocrine Therapy +/- the PI3K Inhibitor Inavolisib in HER2+, HR+, PIK3CA Mutant Early Breast Cancer — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT04486352, 2026-10-01, signal-generating — and every upcoming completion is listed under Trials.",
         "anchor": "#readouts"
       },
       {
@@ -22083,15 +22152,15 @@
       {
         "key": "window",
         "label": "How contested is it?",
-        "value": "Saturated — 47 assets, 3 already approved",
+        "value": "Saturated — 45 assets, 3 already approved",
         "face": "business",
-        "detail": "22 sponsors, phase-weighted score 68.5. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
+        "detail": "20 sponsors, phase-weighted score 66.2. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
         "anchor": "#crowding"
       },
       {
         "key": "licensing",
         "label": "What has been licensed, and what has not?",
-        "value": "No deal on file · 47 programmes",
+        "value": "No deal on file · 45 programmes",
         "face": "business",
         "detail": "No deal has been entered for this target. The file is hand-maintained, so an empty one means nobody has filled it in, not that nothing has been licensed. The programme table below still shows who holds each one and how far it has gone.",
         "anchor": "#licensing"
@@ -22108,11 +22177,11 @@
     "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
   },
   "narrative": {
-    "bottom_line": "PIK3CA carries 39 active programmes across 3 mechanism classes from 22 named sponsors, reaching Approved. Phase-weighted density scores 68.5, which this tool bands as Saturated. The most advanced asset is ALPELISIB (Novartis Pharmaceuticals) at Approved.",
-    "competitive": "The field splits into 3 mechanism classes. Small molecule — inhibition is the most advanced, and also the most crowded, with 29 assets. A further 8 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
-    "failures": "46 of 148 trials stopped; 29 stated a reason. Of those with a stated reason, 6 were science-driven (efficacy, safety or PK/PD) and 8 were business-driven. That is 21% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
+    "bottom_line": "PIK3CA carries 37 active programmes across 4 mechanism classes from 20 named sponsors, reaching Approved. Phase-weighted density scores 66.2, which this tool bands as Saturated. The most advanced asset is ALPELISIB (Novartis Pharmaceuticals) at Approved.",
+    "competitive": "The field splits into 4 mechanism classes. Small molecule — inhibition is the most advanced, and also the most crowded, with 29 assets. A further 8 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
+    "failures": "46 of 147 trials stopped; 29 stated a reason. Of those with a stated reason, 6 were science-driven (efficacy, safety or PK/PD) and 8 were business-driven. That is 21% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
     "whitespace": "12 diseases pass the screen: association evidence above threshold, genetic support, and nothing past preclinical. The strongest on genetic evidence is megalencephaly-capillary malformation-polymicrogyria syndrome (association 0.849, genetic 0.962). Treat this as a hypothesis to check by hand rather than a finding — disease names are matched between EFO terms and sponsor free text, and that matching is imperfect.",
-    "licensing": "Novartis Pharmaceuticals holds the most advanced programme (Approved), and is a large pharma. 2 of 47 programmes reached Phase 2 or beyond and have no trial running — CDZ173, PANULISIB. Why each stopped is under Terminations, in the sponsor's words. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",
+    "licensing": "Novartis Pharmaceuticals holds the most advanced programme (Approved), and is a large pharma. 2 of 45 programmes reached Phase 2 or beyond and have no trial running — CDZ173, PANULISIB. Why each stopped is under Terminations, in the sponsor's words. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",
     "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent (63% of stopped trials here stated one). Deal comparables are hand-maintained and not exhaustive.",
     "_source": "template"
   },

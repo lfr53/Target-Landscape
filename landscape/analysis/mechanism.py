@@ -70,7 +70,18 @@ _MODALITY_FROM_TYPE = {
 }
 
 _TEXT_MODALITY_HINTS: list[tuple[re.Pattern, str]] = [
-    (re.compile(r"\bcar[- ]?t\b|chimeric antigen receptor", re.I), "Cell therapy (CAR-T)"),
+    # Engineered cell products, written a dozen ways. "CAR-T" is only the most
+    # common: the same construct is put into NK cells, macrophages and
+    # dendritic cells, and sponsors write CARCIK, UCART, 4SCAR, STAR-T and
+    # t-haNK for products that are all engineered cells. Missing them left
+    # CD19 and BCMA -- two targets whose field IS cell therapy -- with a third
+    # of the table unclassified. The bucket name still says CAR-T because that
+    # is the vocabulary the rest of the tool uses; the mechanism line below
+    # says what the construct actually is.
+    (re.compile(r"\bcar\b|\bcar[- ]?(?:t|nk|m|dc|nkt)\b|\bcart\d|"
+                r"\bucart?\b|\bcarcik\b|\b\d[- ]?scar\b|\bstar[- ]t\b|"
+                r"\bt[- ]?hank\b|chimeric antigen receptor", re.I),
+     "Cell therapy (CAR-T)"),
     # "Dual functional antibody" and "bifunctional antibody" are what Chinese
     # sponsors write on the registry form where a Western one writes
     # "bispecific". Same molecule class, and reading it as unclassified put a
@@ -236,9 +247,18 @@ def _mechanism_from_the_record(asset: Asset) -> str:
     # and are not CAR-T, and calling them either "CAR" or "Unclassified" says
     # something false.
     if re.search(r"\bt[- ]?(cell|lymphocyte)s?\b", text, re.I) and re.search(
-            r"autologous|allogeneic|ex vivo|expanded|specific|adoptive|\btil\b",
+            r"autologous|allogeneic|ex vivo|expanded|specific|adoptive|\btil\b|"
+            r"targeted|redirected|engineered|donor[- ]derived",
             text, re.I):
         return "Cell therapy — adoptive T cells"
+    # The same products made from NK cells. "Anti-CD19 redirected NK cells" is
+    # a cell therapy however the receptor is built, and calling it unclassified
+    # says nothing true about it.
+    if re.search(r"\bnk[- ]?(cell|t)s?\b|natural killer", text, re.I) and re.search(
+            r"autologous|allogeneic|ex vivo|expanded|specific|adoptive|"
+            r"targeted|redirected|engineered|donor[- ]derived",
+            text, re.I):
+        return "Cell therapy — adoptive NK cells"
 
     if modality in {"Monoclonal antibody"}:
         if _DEPLETION_RE.search(text):
@@ -275,6 +295,21 @@ def _mechanism_from_the_record(asset: Asset) -> str:
     mapped = _ACTION_TYPE_MAP.get((asset.action_type or "").upper())
     if mapped:
         return f"{modality} — {mapped.lower()}"
+
+    # Modality unknown, pharmacology stated. "Interleukin 17A inhibitor" and
+    # "TNF-alpha binding agent" are what ChEMBL writes when it knows what the
+    # drug does to the target but not what kind of molecule it is. Returning
+    # "Unclassified" there threw away the half that was known, and on targets
+    # like MET and PIK3CA that half was most of the table. The label keeps the
+    # word "unresolved" so the row still shows up for review.
+    if _DEGRADER_RE.search(text):
+        return "Degradation — modality unresolved"
+    if _BLOCK_RE.search(text):
+        return "Inhibition / blockade — modality unresolved"
+    if _AGONIST_RE.search(text):
+        return "Agonism — modality unresolved"
+    if re.search(r"binding agent|\bbinder\b|\bantibod|\banti[- ]", text, re.I):
+        return "Target binding — mechanism unresolved"
     return "Unclassified"
 
 

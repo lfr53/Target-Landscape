@@ -1484,10 +1484,10 @@
     {
       "name": "CAR BCMA-CD70-T cells",
       "sponsor": "Affiliated Hospital to Academy of Military Medical Sciences",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "[other sponsor]",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": 1,
       "indications": [
         "High-risk Plasma Cell Neoplasms"
@@ -2367,10 +2367,10 @@
     {
       "name": "BCMA-UCART",
       "sponsor": "Bioray Laboratories",
-      "modality": "Other / unclassified",
+      "modality": "Cell therapy (CAR-T)",
       "action_type": "",
       "mechanism_text": "",
-      "mechanism_class": "Unclassified",
+      "mechanism_class": "Cell therapy — target-directed CAR",
       "max_phase": -1,
       "indications": [
         "Multiple Myeloma"
@@ -16623,6 +16623,8 @@
       "BCMA-GPRC5D CART",
       "BCMA-PD1-CART Cell",
       "BCMA-TGFβ CAR-T cells",
+      "BCMA-UCART",
+      "CAR BCMA-CD70-T cells",
       "CAR-T",
       "CART-BCMA (Shanghai Simnova Biotechnology Co.)",
       "CART-BCMA (University of Pennsylvania)",
@@ -16654,9 +16656,7 @@
       "ALLO-605",
       "ALLO-715",
       "AZD0120",
-      "BCMA-UCART",
       "C-CAR168",
-      "CAR BCMA-CD70-T cells",
       "CC-98633",
       "CC-99712",
       "CG-105",
@@ -17729,8 +17729,8 @@
             "Antibody — mechanism unresolved": -1,
             "Bispecific — T-cell engager (CD3)": -1,
             "Cell therapy — bispecific CAR": -1,
-            "Cell therapy — target-directed CAR": -1,
-            "Unclassified": 1
+            "Cell therapy — target-directed CAR": 1,
+            "Unclassified": -1
           },
           "max_phase": 1
         },
@@ -19332,7 +19332,7 @@
         "sponsor_scale": "Academic or non-industry",
         "phase": 1,
         "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": true,
         "territory": {
           "countries": [
@@ -20141,7 +20141,7 @@
         "sponsor_scale": "Small or private company",
         "phase": -1,
         "phase_label": "Unknown",
-        "mechanism": "Unclassified",
+        "mechanism": "Cell therapy — target-directed CAR",
         "is_active": false,
         "territory": {
           "countries": [
@@ -21734,7 +21734,7 @@
     "attribution": "UniProt/Swiss-Prot curated annotation (CC BY 4.0)"
   },
   "diagram": {
-    "svg": "<svg viewBox=\"0 0 720 356\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How TNFRSF17 is being drugged</title><desc id=\"tl-diagram-desc\">TNFRSF17 is in the plasma membrane. 6 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"136\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"126\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"182\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"58\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"53\" class=\"tl-arrow-label\">Cell therapy — target-directed CAR</text><text x=\"24\" y=\"74\" class=\"tl-arrow-detail\">30 assets · Approved · Cell therapy (CAR-T)</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"130\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"125\" class=\"tl-arrow-label\">Antibody — mechanism unresolved</text><text x=\"24\" y=\"146\" class=\"tl-arrow-detail\">2 assets · Approved · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"202\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"197\" class=\"tl-arrow-label\">ADC — payload delivery</text><text x=\"24\" y=\"218\" class=\"tl-arrow-detail\">1 asset · Approved · Antibody-drug conjugate</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"274\" x2=\"538\" y2=\"149\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"269\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"290\" class=\"tl-arrow-detail\">19 assets · Phase 3</text></g><text x=\"24\" y=\"342\" class=\"tl-arrow-detail\">+2 further mechanism classes below</text><g class=\"tl-target\"><rect x=\"574\" y=\"123\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"109\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"114\" class=\"tl-protein-label\">TNFRSF17</text></g></svg>",
+    "svg": "<svg viewBox=\"0 0 720 356\" class=\"tl-diagram\" role=\"img\" aria-labelledby=\"tl-diagram-title tl-diagram-desc\" xmlns=\"http://www.w3.org/2000/svg\"><title id=\"tl-diagram-title\">How TNFRSF17 is being drugged</title><desc id=\"tl-diagram-desc\">TNFRSF17 is in the plasma membrane. 6 mechanism classes are represented in the asset table, the most advanced reaching Approved.</desc><defs><marker id=\"tl-head\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" class=\"tl-arrowhead\"/></marker></defs><rect x=\"0\" y=\"136\" width=\"720\" height=\"26\" class=\"tl-membrane\"/><text x=\"706\" y=\"126\" class=\"tl-zone\" text-anchor=\"end\">Outside the cell</text><text x=\"706\" y=\"182\" class=\"tl-zone\" text-anchor=\"end\">Inside the cell</text><g class=\"tl-arrow\"><line x1=\"372\" y1=\"58\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"53\" class=\"tl-arrow-label\">Cell therapy — target-directed CAR</text><text x=\"24\" y=\"74\" class=\"tl-arrow-detail\">32 assets · Approved · Cell therapy (CAR-T)</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"130\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"125\" class=\"tl-arrow-label\">Antibody — mechanism unresolved</text><text x=\"24\" y=\"146\" class=\"tl-arrow-detail\">2 assets · Approved · Monoclonal antibody</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"202\" x2=\"538\" y2=\"149\" stroke-width=\"5\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"197\" class=\"tl-arrow-label\">ADC — payload delivery</text><text x=\"24\" y=\"218\" class=\"tl-arrow-detail\">1 asset · Approved · Antibody-drug conjugate</text></g><g class=\"tl-arrow\"><line x1=\"372\" y1=\"274\" x2=\"538\" y2=\"149\" stroke-width=\"4\" marker-end=\"url(#tl-head)\"/><text x=\"24\" y=\"269\" class=\"tl-arrow-label\">Unclassified</text><text x=\"24\" y=\"290\" class=\"tl-arrow-detail\">17 assets · Phase 3</text></g><text x=\"24\" y=\"342\" class=\"tl-arrow-detail\">+2 further mechanism classes below</text><g class=\"tl-target\"><rect x=\"574\" y=\"123\" width=\"44\" height=\"64\" rx=\"11\" class=\"tl-protein\"/><circle cx=\"596\" cy=\"109\" r=\"26\" class=\"tl-protein\"/><text x=\"596\" y=\"114\" class=\"tl-protein-label\">TNFRSF17</text></g></svg>",
     "title": "How TNFRSF17 is being drugged",
     "caption": "TNFRSF17 is in the plasma membrane. 6 mechanism classes are represented in the asset table, the most advanced reaching Approved.",
     "placement": "in the plasma membrane",
@@ -21744,7 +21744,7 @@
     "interventions": [
       {
         "label": "Cell therapy — target-directed CAR",
-        "n": 30,
+        "n": 32,
         "max_phase": 4,
         "modalities": [
           "Cell therapy (CAR-T)"
@@ -21771,7 +21771,7 @@
       },
       {
         "label": "Unclassified",
-        "n": 19,
+        "n": 17,
         "max_phase": 3,
         "modalities": [
           "Other / unclassified"
@@ -21855,7 +21855,7 @@
   },
   "narrative": {
     "bottom_line": "TNFRSF17 carries 48 active programmes across 6 mechanism classes from 39 named sponsors, reaching Approved. Phase-weighted density scores 68.8, which this tool bands as Saturated. The most advanced asset is BELANTAMAB MAFODOTIN (GlaxoSmithKline) at Approved.",
-    "competitive": "The field splits into 6 mechanism classes. Cell therapy — target-directed CAR is the most advanced, and also the most crowded, with 30 assets. A further 7 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
+    "competitive": "The field splits into 6 mechanism classes. Cell therapy — target-directed CAR is the most advanced, and also the most crowded, with 32 assets. A further 7 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
     "failures": "22 of 194 trials stopped; 15 stated a reason. Of those with a stated reason, 2 were science-driven (efficacy, safety or PK/PD) and 9 were business-driven. That is 13% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
     "whitespace": "No disease passes the whitespace screen at the configured thresholds, either because the well-evidenced indications already carry clinical assets or because association data was unavailable.",
     "licensing": "Janssen Research & Development, LLC holds the most advanced programme (Approved), and is a large pharma. 2 of 55 programmes reached Phase 2 or beyond and have no trial running — ALLO-605, PHE885. Why each stopped is under Terminations, in the sponsor's words. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",

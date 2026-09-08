@@ -408,6 +408,49 @@ def _is_a_measurement(name: str) -> bool:
     return bool(_A_MEASUREMENT_NOT_A_MOLECULE.search(name or ""))
 
 
+# A class, not a molecule. Sponsors register "PD-1/PD-L1 inhibitor",
+# "TNF-alpha antagonists" and "EGFR-TKI (Hunan Province Tumor Hospital)" when
+# the protocol allows the investigator to choose the drug. These are real
+# entries in the registry and they are not assets: counting them inflates the
+# table and they can never be classified, because there is no molecule to
+# classify. A row is a class label when it ends in a class noun and carries no
+# drug code -- "Bruton's Tyrosine Kinase Inhibitor ARQ 531" names a molecule
+# and stays.
+_A_CLASS_NOT_A_MOLECULE = re.compile(
+    r"\b(inhibitors?|antagonists?|agonists?|blockers?|therapy|therapies|"
+    r"agents?|tkis?|pathways?|regimens?|checkpoint)\s*$",
+    re.IGNORECASE,
+)
+# Three digits, not two. Target aliases are letters plus one or two digits --
+# IL-17, CD19, PD-L1 -- so a two-digit rule read "Anti-IL-17 therapy" as a
+# named molecule and kept it. Drug codes run longer: ADG126, MK-1084, ARQ 531,
+# BAY 80-6946.
+_A_DRUG_CODE = re.compile(r"[A-Za-z]{2,}[- ]?\d{3,}|\b\d{2,}[- ]\d{3,}\b")
+_A_CONSTRUCT = re.compile(
+    r"\bcar\b|\bcar[- ]?(?:t|nk|m|dc)\b|chimeric antigen receptor|"
+    r"\bvaccine\b|\bbispecific\b|antibody[- ]drug conjugate|\badc\b",
+    re.IGNORECASE,
+)
+_A_COMPARATOR = re.compile(r"\bcomparator\b|\binvestigator['s]* choice\b|"
+                           r"\bstandard of care\b|\bbest supportive care\b",
+                           re.IGNORECASE)
+
+
+def _is_a_class_label(name: str) -> bool:
+    if _A_COMPARATOR.search(name or ""):
+        return True
+    # "Anti-CD19 CAR T cell therapy" ends in a class noun and carries no code,
+    # but it is a product: a sponsor running one construct who did not give it
+    # a name. The rule is for protocols that let the investigator pick any drug
+    # in a class, and a named construct type is not that.
+    if _A_CONSTRUCT.search(name or ""):
+        return False
+    bare = re.sub(r"\([^)]*\)", " ", name or "").strip()
+    if not _A_CLASS_NOT_A_MOLECULE.search(bare):
+        return False
+    return not _A_DRUG_CODE.search(bare)
+
+
 def _is_arm_label(name: str) -> bool:
     return bool(_ARM_LABEL_RE.match((name or "").strip()))
 
@@ -447,7 +490,8 @@ def is_not_an_asset(name: str) -> bool:
         # Every word was formulation or dosing noise, so there is no molecule
         # left in the name.
         return True
-    return key in _NON_ASSETS or _is_arm_label(raw) or _is_a_measurement(raw)
+    return (key in _NON_ASSETS or _is_arm_label(raw) or _is_a_measurement(raw)
+            or _is_a_class_label(raw))
 
 # Strip formulation and dosing noise so "VAY736 300 mg SC" keys to "vay736".
 _NOISE_RE = re.compile(

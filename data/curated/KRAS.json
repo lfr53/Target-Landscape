@@ -399,6 +399,12 @@
           "identifier": "Verastem exercised its option in January 2025; the release states the mechanism as an oral KRAS G12D (ON/OFF) inhibitor",
           "url": "https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-exercises-option-early-license-vs-7375-oral",
           "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Verastem exercised its option in January 2025; the release states the mechanism as an oral KRAS G12D (ON/OFF) inhibitor",
+          "url": "https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-exercises-option-early-license-vs-7375-oral",
+          "retrieved": null
         }
       ],
       "phase_label": "Phase 3"
@@ -444,6 +450,12 @@
           "source": "ctgov",
           "identifier": "NCT07431827",
           "url": "https://clinicaltrials.gov/study/NCT07431827",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Merck's own release describes MK-1084 (calderasib) as an investigational oral KRAS G12C inhibitor; Phase 3 in first-line NSCLC with pembrolizumab",
+          "url": "https://www.merck.com/news/merck-initiates-phase-3-clinical-trial-of-mk-1084-an-investigational-oral-kras-g12c-inhibitor-in-combination-with-keytruda-pembrolizumab-for-first-line-treatment-of-certain-patients-with-met/",
           "retrieved": null
         },
         {
@@ -560,6 +572,12 @@
           "identifier": "Sponsor's own trial page: first-in-human Phase 1a/1b of BGB-53038, a pan-KRAS inhibitor, alone or in combination",
           "url": "https://beonemedicines.com/clinical-trials/solid-tumors/study-of-bgb-53038-advanced-metastatic-solid-tumors-kras-mutations-nct06585488/",
           "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Sponsor's own trial page: first-in-human Phase 1a/1b of BGB-53038, a pan-KRAS inhibitor, alone or in combination",
+          "url": "https://beonemedicines.com/clinical-trials/solid-tumors/study-of-bgb-53038-advanced-metastatic-solid-tumors-kras-mutations-nct06585488/",
+          "retrieved": null
         }
       ],
       "phase_label": "Phase 1"
@@ -592,6 +610,12 @@
       "is_active": true,
       "named_by_class": false,
       "provenance": [
+        {
+          "source": "manual",
+          "identifier": "280Bio's release names TEB-17231 (registered as YL-17231) as an oral pan-RAS inhibitor for KRAS, HRAS or NRAS mutant cancers",
+          "url": "https://www.prnewswire.com/news-releases/280bio-doses-first-patient-in-phase-i-clinical-trial-of-teb-17231-an-oral-pan-ras-inhibitor-in-patients-with-advanced-cancers-harboring-mutations-in-kras-hras-or-nras-302003049.html",
+          "retrieved": null
+        },
         {
           "source": "manual",
           "identifier": "280Bio's release names TEB-17231 (registered as YL-17231) as an oral pan-RAS inhibitor for KRAS, HRAS or NRAS mutant cancers",
