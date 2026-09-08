@@ -1,0 +1,62 @@
+# Publish the site to GitHub Pages as static files, which is what it already is.
+#
+# Every curated target is precomputed and committed, so serving the site needs
+# no server: `make_static_demo.py` inlines the payloads and the same interface
+# runs against them. GitHub builds it from a clean checkout on every push, so
+# what is published is what the repository can rebuild -- if the export breaks,
+# the deploy fails instead of quietly publishing a stale page.
+#
+# Live lookup of a target outside the curated set is the one thing the static
+# build cannot do, and the page says so.
+
+name: pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# deploy-pages needs these three; nothing here writes to the repository.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time, and a newer push wins.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # No dependencies: the export touches the engine and the stored
+      # payloads, both standard library only.
+      - name: Build the site
+        run: |
+          mkdir -p site
+          python scripts/make_static_demo.py --out site/index.html
+          test -s site/index.html
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
