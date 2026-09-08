@@ -189,7 +189,7 @@
         "Smoldering Multiple Myeloma"
       ],
       "indication_phase": {
-        "plasma cell myeloma": 4,
+        "plasma cell myeloma": -1,
         "Multiple Myeloma": 4,
         "plasma cell leukemia": -1,
         "AL Amyloidosis": -1,
@@ -468,7 +468,7 @@
         "Multiple Myeloma": 4,
         "Hematological Malignancies": 2,
         "Multiple Myleoma": 2,
-        "Relapse Multiple Myeloma": 2,
+        "Relapse Multiple Myeloma": 4,
         "High-Risk de Novo Multiple Myeloma": 2,
         "Severe Rapidly Progressive Interstitial Lung Disease Associated With Anti-MDA5": 2,
         "Cytokine Release Syndrome": 2,
@@ -17931,7 +17931,7 @@
         }
       ]
     },
-    "indications_omitted": 12
+    "indications_omitted": 0
   },
   "failures": {
     "n_trials": 194,
@@ -20650,7 +20650,7 @@
           "Smoldering Multiple Myeloma"
         ],
         "indication_phase": {
-          "plasma cell myeloma": 4,
+          "plasma cell myeloma": -1,
           "Multiple Myeloma": 4,
           "plasma cell leukemia": -1,
           "AL Amyloidosis": -1,
@@ -20743,7 +20743,7 @@
           "Multiple Myeloma": 4,
           "Hematological Malignancies": 2,
           "Multiple Myleoma": 2,
-          "Relapse Multiple Myeloma": 2,
+          "Relapse Multiple Myeloma": 4,
           "High-Risk de Novo Multiple Myeloma": 2,
           "Severe Rapidly Progressive Interstitial Lung Disease Associated With Anti-MDA5": 2,
           "Cytokine Release Syndrome": 2,
@@ -21028,28 +21028,6 @@
     "verdict": "194 trials on record, 129 still running. 27 of those are controlled efficacy studies; the other 102 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
     "catalysts": [
       {
-        "nct_id": "NCT06758375",
-        "title": "Low Dose Teclistamab in Newly Diagnosed Multiple Myeloma Patients",
-        "sponsor": "Hospital Universitario Dr. Jose E. Gonzalez",
-        "phase": 2,
-        "phase_label": "Phase 2",
-        "date": "2026-09-07",
-        "date_iso": "2026-09-07",
-        "estimated": true,
-        "months_away": 0,
-        "conditions": [
-          "Multiple Myeloma, Newly Diagnosed"
-        ],
-        "level": "unclear",
-        "level_label": "Design not stated",
-        "note": "The registry entry does not carry enough design detail to say what a result here would establish.",
-        "endpoints": [
-          "To determine general response"
-        ],
-        "endpoint_label": "Unclassified",
-        "url": "https://clinicaltrials.gov/study/NCT06758375"
-      },
-      {
         "nct_id": "NCT05581875",
         "title": "A Study to Investigate the Safety and Clinical Activity of Belantamab Mafodotin in Combination With Daratumumab, Pomalidomide and Dexamethasone in Patients With Relapsed/ Refractory Multiple Myeloma Previously Treated With One Line Therapy Who Are Lenalidomide Refractory",
         "sponsor": "Hellenic Society of Hematology",
@@ -21212,6 +21190,29 @@
         ],
         "endpoint_label": "Safety / tolerability",
         "url": "https://clinicaltrials.gov/study/NCT06465316"
+      },
+      {
+        "nct_id": "NCT07350837",
+        "title": "CAR-T Therapy Targeting CD19 and BCMA in Highly Sensitized Kidney Transplant Participants",
+        "sponsor": "Tongji Hospital",
+        "phase": 1,
+        "phase_label": "Phase 1",
+        "date": "2026-12-31",
+        "date_iso": "2026-12-31",
+        "estimated": true,
+        "months_away": 3,
+        "conditions": [
+          "Highly Sensitized Patients Awaiting Kidney Transplant"
+        ],
+        "level": "dose",
+        "level_label": "Dose and safety",
+        "note": "A first-in-human safety and dose study. It establishes tolerability and a dose to take forward; it is not designed to say anything about efficacy, and a clean result is not evidence the mechanism works.",
+        "endpoints": [
+          "The incidence of treatment-related adverse events AE/SAE",
+          "Occurrence of DLTs."
+        ],
+        "endpoint_label": "Safety / tolerability",
+        "url": "https://clinicaltrials.gov/study/NCT07350837"
       }
     ],
     "next_catalyst": {
@@ -21238,9 +21239,9 @@
       "url": "https://clinicaltrials.gov/study/NCT06793449",
       "is_interpretable": true,
       "soonest_other": {
-        "nct_id": "NCT06758375",
-        "date": "2026-09-07",
-        "level_label": "Design not stated"
+        "nct_id": "NCT05581875",
+        "date": "2026-10-31",
+        "level_label": "Signal-generating"
       }
     }
   },
@@ -21814,7 +21815,7 @@
         "label": "What can the running trials show?",
         "value": "27 of 129 running trials are controlled efficacy studies · next readout 2026-12 (sponsor estimate)",
         "face": "science",
-        "detail": "194 trials on record, 129 still running. 27 of those are controlled efficacy studies; the other 102 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Institute of Hematology & Blood Diseases Hospital, China · BCMA CAR-T Versus ASCT in Transplant-eligible Patients With Multiple Myeloma — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT06758375, 2026-09-07, design not stated — and every upcoming completion is listed under Trials.",
+        "detail": "194 trials on record, 129 still running. 27 of those are controlled efficacy studies; the other 102 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Institute of Hematology & Blood Diseases Hospital, China · BCMA CAR-T Versus ASCT in Transplant-eligible Patients With Multiple Myeloma — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT05581875, 2026-10-31, signal-generating — and every upcoming completion is listed under Trials.",
         "anchor": "#readouts"
       },
       {

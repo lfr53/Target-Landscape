@@ -92,10 +92,10 @@
         "High-risk R/R LBCL": 2,
         "High-risk Large B-cell Lymphoma (LBCL)": 3,
         "Transformed Follicular Lymphoma (TFL)": -1,
-        "High Grade B-Cell Lymphoma": 2,
+        "High Grade B-Cell Lymphoma": 3,
         "DLBCL": 2,
         "DLBCL Arising From Follicular Lymphoma": 2,
-        "B-cell Lymphoma": 2
+        "B-cell Lymphoma": 3
       },
       "trials": [
         "NCT03391466",
@@ -186,10 +186,10 @@
         "large b-cell lymphoma": 1,
         "Lymphoma Non-Hodgkin": 1,
         "early T cell precursor leukemia": 4,
-        "B-cell Acute Lymphocytic Leukemia": 4,
+        "B-cell Acute Lymphocytic Leukemia": 2,
         "minimal residual disease": 4,
         "myasthenia gravis": 4,
-        "Leukemia, Lymphoblastic, Acute, Philadelphia-Positive": 3,
+        "Leukemia, Lymphoblastic, Acute, Philadelphia-Positive": 2,
         "leukemia": 4,
         "haematopoietic/lymphoid cancer": 2,
         "Richter Syndrome": 2,
@@ -211,7 +211,7 @@
         "Phase II Clinical Trial": 2,
         "Olverembatinib": 2,
         "Childhood Acute Lymphoblastic Leukemia": 3,
-        "Acute Lymphocytic Leukemia": -1,
+        "Acute Lymphocytic Leukemia": 2,
         "Acute Lymphoblastic Leukemia ALL": 3,
         "DLBCL - Diffuse Large B Cell Lymphoma": 1,
         "Ph+ ALL": -1,
@@ -610,7 +610,7 @@
         "Burkitt lymphoma": 3,
         "B-cell Acute Lymphocytic Leukemia": 3,
         "primary central nervous system lymphoma": 3,
-        "DLBCL - Diffuse Large B Cell Lymphoma": -1
+        "DLBCL - Diffuse Large B Cell Lymphoma": 2
       },
       "trials": [
         "NCT02669264",
@@ -744,7 +744,7 @@
         "Acute B-cell Lymphoblastic Leukemia": 3,
         "primary central nervous system lymphoma": 3,
         "post-transplant lymphoproliferative disease": 2,
-        "High Grade B-Cell Lymphoma": 3,
+        "High Grade B-Cell Lymphoma": 2,
         "aggressive B-cell lymphoma": 3,
         "lupus nephritis": 3,
         "systemic lupus erythematosus": 3,
@@ -23030,7 +23030,7 @@
         }
       ]
     },
-    "indications_omitted": 24
+    "indications_omitted": 0
   },
   "failures": {
     "n_trials": 182,
@@ -27673,10 +27673,10 @@
           "High-risk R/R LBCL": 2,
           "High-risk Large B-cell Lymphoma (LBCL)": 3,
           "Transformed Follicular Lymphoma (TFL)": -1,
-          "High Grade B-Cell Lymphoma": 2,
+          "High Grade B-Cell Lymphoma": 3,
           "DLBCL": 2,
           "DLBCL Arising From Follicular Lymphoma": 2,
-          "B-cell Lymphoma": 2
+          "B-cell Lymphoma": 3
         },
         "trials": [
           "NCT03391466",
@@ -27767,10 +27767,10 @@
           "large b-cell lymphoma": 1,
           "Lymphoma Non-Hodgkin": 1,
           "early T cell precursor leukemia": 4,
-          "B-cell Acute Lymphocytic Leukemia": 4,
+          "B-cell Acute Lymphocytic Leukemia": 2,
           "minimal residual disease": 4,
           "myasthenia gravis": 4,
-          "Leukemia, Lymphoblastic, Acute, Philadelphia-Positive": 3,
+          "Leukemia, Lymphoblastic, Acute, Philadelphia-Positive": 2,
           "leukemia": 4,
           "haematopoietic/lymphoid cancer": 2,
           "Richter Syndrome": 2,
@@ -27792,7 +27792,7 @@
           "Phase II Clinical Trial": 2,
           "Olverembatinib": 2,
           "Childhood Acute Lymphoblastic Leukemia": 3,
-          "Acute Lymphocytic Leukemia": -1,
+          "Acute Lymphocytic Leukemia": 2,
           "Acute Lymphoblastic Leukemia ALL": 3,
           "DLBCL - Diffuse Large B Cell Lymphoma": 1,
           "Ph+ ALL": -1,

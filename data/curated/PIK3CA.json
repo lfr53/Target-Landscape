@@ -230,7 +230,7 @@
         "Stomach Neoplasms Esophageal Neoplasms Metastatic Gastric Cancer Mutated PI3KCA Protein Overexpressed HER2 Protein": 1,
         "Breast Neoplasms (Including Advanced or Metastatic Breast Cancer With PIK3CA Mutation)": 2,
         "Stomach Cancer": 2,
-        "kidney cancer": 1
+        "kidney cancer": 2
       },
       "trials": [
         "NCT05983159",
@@ -448,7 +448,7 @@
         "neoplasm of mature B-cells": 1,
         "primary mediastinal large B-cell lymphoma": 2,
         "triple-negative breast carcinoma": 2,
-        "T-Cell Lymphoma": 1,
+        "T-Cell Lymphoma": 2,
         "Bladder Carcinoma": 2,
         "cervical cancer": 2,
         "Colon Carcinoma": 2,
@@ -751,7 +751,7 @@
         "head and neck cancer": 1,
         "squamous cell carcinoma": 2,
         "poorly differentiated thyroid gland carcinoma": 3,
-        "thyroid gland carcinoma": 3,
+        "thyroid gland carcinoma": 2,
         "solid tumor": 1,
         "hematopoietic and lymphoid cell neoplasm": 3,
         "melanoma": 3,
@@ -789,8 +789,8 @@
         "Safety": 1,
         "Preliminary Efficacy": 1,
         "Hormone Receptor Positive (ER+/PR+, and Her2-) Metastatic Breast Cancer": 1,
-        "HER2-negative Breast Cancer": 2,
-        "estrogen-receptor positive breast cancer": 1,
+        "HER2-negative Breast Cancer": 3,
+        "estrogen-receptor positive breast cancer": 3,
         "Skin Carcinoma": 2,
         "Basal Cell Nevus Syndrome": 2,
         "Recurrent Metastatic Squamous Neck Cancer With Occult Primary": 2,
@@ -1661,7 +1661,7 @@
         "endometrial cancer": 1,
         "breast cancer": 2,
         "solid tumor": 1,
-        "cancer": 1
+        "cancer": 2
       },
       "trials": [
         "NCT01658176",
@@ -1729,11 +1729,13 @@
         "malignant pancreatic neoplasm",
         "Skin Carcinoma",
         "thyroid gland carcinoma",
-        "follicular lymphoma",
-        "diffuse large B-cell lymphoma",
-        "Non Hodgkin Lymphoma",
+        "brain cancer",
+        "Prognostic Stage I Breast Cancer AJCC v8",
         "HER2-negative Breast Cancer",
-        "Metastatic Malignant Neoplasm in the Bone",
+        "Lymphoid Leukemia",
+        "Non Hodgkin Lymphoma",
+        "Leukemia, Acute Lymphocytic",
+        "Small Lymphocytic Lymphoma",
         "Invasive Breast Carcinoma",
         "Multifocal Breast Carcinoma",
         "Postmenopausal",
@@ -1743,11 +1745,9 @@
         "Primary Peritoneal High Grade Serous Adenocarcinoma",
         "fallopian tube cancer",
         "primary peritoneal tumor",
-        "brain cancer",
-        "Prognostic Stage I Breast Cancer AJCC v8",
-        "Lymphoid Leukemia",
-        "Leukemia, Acute Lymphocytic",
-        "Small Lymphocytic Lymphoma"
+        "follicular lymphoma",
+        "diffuse large B-cell lymphoma",
+        "Metastatic Malignant Neoplasm in the Bone"
       ],
       "indication_phase": {
         "lymphoma": 2,
@@ -1777,11 +1777,13 @@
         "malignant pancreatic neoplasm": 2,
         "Skin Carcinoma": 2,
         "thyroid gland carcinoma": 2,
-        "follicular lymphoma": 1,
-        "diffuse large B-cell lymphoma": 1,
-        "Non Hodgkin Lymphoma": 2,
+        "brain cancer": 2,
+        "Prognostic Stage I Breast Cancer AJCC v8": 2,
         "HER2-negative Breast Cancer": 2,
-        "Metastatic Malignant Neoplasm in the Bone": 1,
+        "Lymphoid Leukemia": 2,
+        "Non Hodgkin Lymphoma": 2,
+        "Leukemia, Acute Lymphocytic": 2,
+        "Small Lymphocytic Lymphoma": 2,
         "Invasive Breast Carcinoma": 1,
         "Multifocal Breast Carcinoma": 1,
         "Postmenopausal": 1,
@@ -1791,23 +1793,21 @@
         "Primary Peritoneal High Grade Serous Adenocarcinoma": 1,
         "fallopian tube cancer": 1,
         "primary peritoneal tumor": 1,
-        "brain cancer": 2,
-        "Prognostic Stage I Breast Cancer AJCC v8": 2,
-        "Lymphoid Leukemia": 2,
-        "Leukemia, Acute Lymphocytic": 2,
-        "Small Lymphocytic Lymphoma": 2
+        "follicular lymphoma": 1,
+        "diffuse large B-cell lymphoma": 1,
+        "Metastatic Malignant Neoplasm in the Bone": 1
       },
       "trials": [
         "NCT02465060",
-        "NCT04156828",
+        "NCT03803761",
         "NCT04108858",
-        "NCT05010096",
+        "NCT04155840",
         "NCT06360588",
         "NCT03128619",
-        "NCT03586661",
-        "NCT03803761",
         "NCT03502733",
-        "NCT04155840"
+        "NCT03586661",
+        "NCT04156828",
+        "NCT05010096"
       ],
       "chembl_id": "",
       "drug_id": "",
@@ -1825,8 +1825,8 @@
         },
         {
           "source": "ctgov",
-          "identifier": "NCT04156828",
-          "url": "https://clinicaltrials.gov/study/NCT04156828",
+          "identifier": "NCT03803761",
+          "url": "https://clinicaltrials.gov/study/NCT03803761",
           "retrieved": null
         },
         {
@@ -1837,8 +1837,8 @@
         },
         {
           "source": "ctgov",
-          "identifier": "NCT05010096",
-          "url": "https://clinicaltrials.gov/study/NCT05010096",
+          "identifier": "NCT04155840",
+          "url": "https://clinicaltrials.gov/study/NCT04155840",
           "retrieved": null
         },
         {
@@ -1861,8 +1861,6 @@
       "indications": [
         "lymphoma",
         "solid tumor",
-        "hematopoietic and lymphoid cell neoplasm",
-        "Multiple Myeloma",
         "Bladder Carcinoma",
         "breast cancer",
         "cervical cancer",
@@ -1874,12 +1872,14 @@
         "gastric cancer",
         "Glioma",
         "head and neck cancer",
+        "hematopoietic and lymphoid cell neoplasm",
         "kidney cancer",
         "Liver Carcinoma",
         "lung cancer",
         "uterine corpus cancer",
         "Malignant Uterine Neoplasm",
         "melanoma",
+        "Multiple Myeloma",
         "ovarian cancer",
         "prostate cancer",
         "rectal cancer",
@@ -1890,8 +1890,6 @@
       "indication_phase": {
         "lymphoma": 2,
         "solid tumor": 2,
-        "hematopoietic and lymphoid cell neoplasm": 2,
-        "Multiple Myeloma": 2,
         "Bladder Carcinoma": 2,
         "breast cancer": 2,
         "cervical cancer": 2,
@@ -1903,12 +1901,14 @@
         "gastric cancer": 2,
         "Glioma": 2,
         "head and neck cancer": 2,
+        "hematopoietic and lymphoid cell neoplasm": 2,
         "kidney cancer": 2,
         "Liver Carcinoma": 2,
         "lung cancer": 2,
         "uterine corpus cancer": 2,
         "Malignant Uterine Neoplasm": 2,
         "melanoma": 2,
+        "Multiple Myeloma": 2,
         "ovarian cancer": 2,
         "prostate cancer": 2,
         "rectal cancer": 2,
@@ -1917,9 +1917,9 @@
         "thyroid gland carcinoma": 2
       },
       "trials": [
+        "NCT02465060",
         "NCT04439149",
-        "NCT04439188",
-        "NCT02465060"
+        "NCT04439188"
       ],
       "chembl_id": "",
       "drug_id": "",
@@ -1931,6 +1931,12 @@
       "provenance": [
         {
           "source": "ctgov",
+          "identifier": "NCT02465060",
+          "url": "https://clinicaltrials.gov/study/NCT02465060",
+          "retrieved": null
+        },
+        {
+          "source": "ctgov",
           "identifier": "NCT04439149",
           "url": "https://clinicaltrials.gov/study/NCT04439149",
           "retrieved": null
@@ -1939,12 +1945,6 @@
           "source": "ctgov",
           "identifier": "NCT04439188",
           "url": "https://clinicaltrials.gov/study/NCT04439188",
-          "retrieved": null
-        },
-        {
-          "source": "ctgov",
-          "identifier": "NCT02465060",
-          "url": "https://clinicaltrials.gov/study/NCT02465060",
           "retrieved": null
         }
       ],
@@ -2331,7 +2331,7 @@
         "B-cell chronic lymphocytic leukemia": 2,
         "neuroblastoma": 2,
         "Recurrent Metastatic Squamous Neck Cancer With Occult Primary": 2,
-        "cancer": 1
+        "cancer": 2
       },
       "trials": [
         "NCT02644122",
@@ -3008,16 +3008,19 @@
       "indications": [
         "T-Cell Lymphoma",
         "Lymphoma, T-Cell, Peripheral",
-        "Lymphoma, T-Cell, Cutaneous"
+        "Lymphoma, T-Cell, Cutaneous",
+        "Healthy"
       ],
       "indication_phase": {
         "T-Cell Lymphoma": 1,
         "Lymphoma, T-Cell, Peripheral": 1,
-        "Lymphoma, T-Cell, Cutaneous": 1
+        "Lymphoma, T-Cell, Cutaneous": 1,
+        "Healthy": 1
       },
       "trials": [
         "NCT02017613",
-        "NCT02567656"
+        "NCT02567656",
+        "NCT02690727"
       ],
       "chembl_id": "",
       "drug_id": "",
@@ -17588,6 +17591,16 @@
           "max_phase": 1
         },
         {
+          "indication": "Healthy",
+          "n_assets": 1,
+          "cells": {
+            "Other / unclassified — inhibition": -1,
+            "Small molecule — inhibition": -1,
+            "Unclassified": 1
+          },
+          "max_phase": 1
+        },
+        {
           "indication": "Hormone Receptor Positive (ER+/PR+, and Her2-) Metastatic Breast Cancer",
           "n_assets": 1,
           "cells": {
@@ -17879,10 +17892,10 @@
         }
       ]
     },
-    "indications_omitted": 40
+    "indications_omitted": 0
   },
   "failures": {
-    "n_trials": 147,
+    "n_trials": 148,
     "n_stopped": 46,
     "n_with_reason": 29,
     "counts": {
@@ -20087,6 +20100,7 @@
         "is_active": true,
         "territory": {
           "countries": [
+            "Canada",
             "France",
             "Italy",
             "United States"
@@ -20753,7 +20767,7 @@
           "Stomach Neoplasms Esophageal Neoplasms Metastatic Gastric Cancer Mutated PI3KCA Protein Overexpressed HER2 Protein": 1,
           "Breast Neoplasms (Including Advanced or Metastatic Breast Cancer With PIK3CA Mutation)": 2,
           "Stomach Cancer": 2,
-          "kidney cancer": 1
+          "kidney cancer": 2
         },
         "trials": [
           "NCT05983159",
@@ -20971,7 +20985,7 @@
           "neoplasm of mature B-cells": 1,
           "primary mediastinal large B-cell lymphoma": 2,
           "triple-negative breast carcinoma": 2,
-          "T-Cell Lymphoma": 1,
+          "T-Cell Lymphoma": 2,
           "Bladder Carcinoma": 2,
           "cervical cancer": 2,
           "Colon Carcinoma": 2,
@@ -21082,7 +21096,7 @@
     "genetic_disease": "megalencephaly-capillary malformation-polymicrogyria syndrome"
   },
   "readouts": {
-    "n_trials": 147,
+    "n_trials": 148,
     "n_active": 39,
     "n_controlled": 7,
     "n_confirmatory": 2,
@@ -21103,7 +21117,7 @@
       "mechanistic": "Mechanistic",
       "unclear": "Design not stated"
     },
-    "verdict": "147 trials on record, 39 still running. 7 of those are controlled efficacy studies; the other 32 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
+    "verdict": "148 trials on record, 39 still running. 7 of those are controlled efficacy studies; the other 32 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
     "catalysts": [
       {
         "nct_id": "NCT04486352",
@@ -22055,7 +22069,7 @@
         "label": "What can the running trials show?",
         "value": "7 of 39 running trials are controlled efficacy studies · next readout 2026-10 (sponsor estimate)",
         "face": "science",
-        "detail": "147 trials on record, 39 still running. 7 of those are controlled efficacy studies; the other 32 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. GBG Forschungs GmbH · Neoadjuvant Endocrine Therapy +/- the PI3K Inhibitor Inavolisib in HER2+, HR+, PIK3CA Mutant Early Breast Cancer — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT04486352, 2026-10-01, signal-generating — and every upcoming completion is listed under Trials.",
+        "detail": "148 trials on record, 39 still running. 7 of those are controlled efficacy studies; the other 32 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. GBG Forschungs GmbH · Neoadjuvant Endocrine Therapy +/- the PI3K Inhibitor Inavolisib in HER2+, HR+, PIK3CA Mutant Early Breast Cancer — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT04486352, 2026-10-01, signal-generating — and every upcoming completion is listed under Trials.",
         "anchor": "#readouts"
       },
       {
@@ -22096,7 +22110,7 @@
   "narrative": {
     "bottom_line": "PIK3CA carries 39 active programmes across 3 mechanism classes from 22 named sponsors, reaching Approved. Phase-weighted density scores 68.5, which this tool bands as Saturated. The most advanced asset is ALPELISIB (Novartis Pharmaceuticals) at Approved.",
     "competitive": "The field splits into 3 mechanism classes. Small molecule — inhibition is the most advanced, and also the most crowded, with 29 assets. A further 8 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
-    "failures": "46 of 147 trials stopped; 29 stated a reason. Of those with a stated reason, 6 were science-driven (efficacy, safety or PK/PD) and 8 were business-driven. That is 21% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
+    "failures": "46 of 148 trials stopped; 29 stated a reason. Of those with a stated reason, 6 were science-driven (efficacy, safety or PK/PD) and 8 were business-driven. That is 21% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
     "whitespace": "12 diseases pass the screen: association evidence above threshold, genetic support, and nothing past preclinical. The strongest on genetic evidence is megalencephaly-capillary malformation-polymicrogyria syndrome (association 0.849, genetic 0.962). Treat this as a hypothesis to check by hand rather than a finding — disease names are matched between EFO terms and sponsor free text, and that matching is imperfect.",
     "licensing": "Novartis Pharmaceuticals holds the most advanced programme (Approved), and is a large pharma. 2 of 47 programmes reached Phase 2 or beyond and have no trial running — CDZ173, PANULISIB. Why each stopped is under Terminations, in the sponsor's words. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",
     "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent (63% of stopped trials here stated one). Deal comparables are hand-maintained and not exhaustive.",
@@ -22107,7 +22121,7 @@
   "notes": [
     "The registry search returned 143 trials that never names PIK3CA or any drug known to act on it. Those are not counted as work on this target.",
     "27 trials name PIK3CA as a genotype or a patient-selection criterion rather than as a drug target. They are listed under trials; their drugs are not counted as programmes against this target.",
-    "159 trials on this target list drugs this record does not tie to PIK3CA -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
+    "183 trials on this target list drugs this record does not tie to PIK3CA -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
   ],
   "rules_version": "2026-09-07-directed-discovery"
 }

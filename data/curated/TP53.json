@@ -10876,7 +10876,7 @@
         }
       ]
     },
-    "indications_omitted": 16
+    "indications_omitted": 0
   },
   "failures": {
     "n_trials": 69,
@@ -12855,7 +12855,7 @@
   "notes": [
     "The registry search returned 184 trials that never names TP53 or any drug known to act on it. Those are not counted as work on this target.",
     "66 trials name TP53 as a genotype or a patient-selection criterion rather than as a drug target. They are listed under trials; their drugs are not counted as programmes against this target.",
-    "108 trials on this target list drugs this record does not tie to TP53 -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
+    "168 trials on this target list drugs this record does not tie to TP53 -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
   ],
   "rules_version": "2026-09-07-directed-discovery"
 }

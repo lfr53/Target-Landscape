@@ -373,7 +373,7 @@
         "ovarian cancer": 2,
         "cervical cancer": 2,
         "metastatic pancreatic cancer": 2,
-        "Merkel Cell Carcinoma": 2,
+        "Merkel Cell Carcinoma": 3,
         "lymphoid malignancies": 2,
         "hematopoietic and lymphoid cell neoplasm": 2,
         "melanoma brain metastases": 2,
@@ -402,7 +402,7 @@
         "vulva cancer": 2,
         "peritoneal mesothelioma": 1,
         "teratoma with malignant transformation": 2,
-        "germ cell tumor": 2,
+        "germ cell tumor": 3,
         "basal cell carcinoma": 3,
         "transitional cell carcinoma": 3,
         "cholangiocarcinoma": 4,
@@ -543,7 +543,7 @@
         "Invasive Sarcomatoid Urothelial Carcinoma": 1,
         "Malignant Genitourinary System Neoplasm": 1,
         "Renal Pelvis Urothelial Carcinoma": 1,
-        "Bladder Cancer": 1,
+        "Bladder Cancer": 2,
         "Stage IV Ureter Cancer AJCC v8": 1,
         "Stage IV Urethral Cancer AJCC v8": 1,
         "Ureter Urothelial Carcinoma": 1,
@@ -846,7 +846,7 @@
         "melanoma": 2,
         "head and neck squamous cell cancer": 3,
         "urogenital neoplasm": 4,
-        "transitional cell carcinoma": 4,
+        "transitional cell carcinoma": 2,
         "small cell lung carcinoma": 1,
         "urinary tract carcinoma": 2,
         "renal cell carcinoma": 2,
@@ -874,7 +874,7 @@
         "osteosarcoma": 4,
         "angiosarcoma": 4,
         "papillary cell cancer": 2,
-        "clear cell cancer": 4,
+        "clear cell cancer": 2,
         "biliary tract cancer": 2,
         "colorectal adenocarcinoma": 4,
         "colorectal cancer": 2,
@@ -895,7 +895,7 @@
         "high grade serous ovarian cancer": 2,
         "germ cell tumor": 2,
         "neuroendocrine neoplasm": 4,
-        "colorectal liver metastases": 2,
+        "colorectal liver metastases": 4,
         "lung cancer": 1,
         "soft tissue sarcoma": 2,
         "squamous cell carcinoma": 3,
@@ -1125,7 +1125,7 @@
         "cholangiocarcinoma": 3,
         "colorectal liver metastases": 3,
         "metastatic pancreatic cancer": 2,
-        "clear cell cancer": 3,
+        "clear cell cancer": 2,
         "liver metastases": 3,
         "liposarcoma": 3,
         "leptomeningeal metastasis": 3,
@@ -1336,6 +1336,77 @@
       "phase_label": "Phase 3"
     },
     {
+      "name": "ONC-392",
+      "sponsor": "OncoC4, Inc.",
+      "modality": "Other / unclassified",
+      "action_type": "",
+      "mechanism_text": "",
+      "mechanism_class": "Unclassified",
+      "max_phase": 3,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "solid tumor",
+        "melanoma",
+        "head and neck cancer",
+        "renal cell carcinoma",
+        "colorectal cancer",
+        "Sarcomas",
+        "prostate cancer",
+        "ovarian cancer",
+        "small cell lung carcinoma",
+        "breast cancer",
+        "Pancreas Cancer",
+        "gastric cancer",
+        "esophageal cancer",
+        "gastroesophageal junction adenocarcinoma",
+        "cervical cancer",
+        "adenoid cystic carcinoma",
+        "salivary gland cancer",
+        "urothelial cancer"
+      ],
+      "indication_phase": {
+        "non-small cell lung carcinoma": 2,
+        "solid tumor": 3,
+        "melanoma": 2,
+        "head and neck cancer": 2,
+        "renal cell carcinoma": 2,
+        "colorectal cancer": 2,
+        "Sarcomas": 2,
+        "prostate cancer": 2,
+        "ovarian cancer": 2,
+        "small cell lung carcinoma": 2,
+        "breast cancer": 2,
+        "Pancreas Cancer": 2,
+        "gastric cancer": 2,
+        "esophageal cancer": 2,
+        "gastroesophageal junction adenocarcinoma": 2,
+        "cervical cancer": 2,
+        "adenoid cystic carcinoma": 2,
+        "salivary gland cancer": 2,
+        "urothelial cancer": 2
+      },
+      "trials": [
+        "NCT04140526",
+        "NCT07659379"
+      ],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "named_by_class": false,
+      "provenance": [
+        {
+          "source": "ctgov",
+          "identifier": "NCT04140526",
+          "url": "https://clinicaltrials.gov/study/NCT04140526",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Phase 3"
+    },
+    {
       "name": "QUAVONLIMAB",
       "sponsor": "",
       "modality": "Monoclonal antibody",
@@ -1473,24 +1544,24 @@
         "colorectal adenocarcinoma",
         "microsatellite stable colorectal cancer",
         "colorectal cancer",
-        "colon adenocarcinoma",
         "Rectal Adenocarcinoma",
-        "malignant colon neoplasm",
-        "rectal cancer"
+        "rectal cancer",
+        "colon adenocarcinoma",
+        "malignant colon neoplasm"
       ],
       "indication_phase": {
         "colorectal adenocarcinoma": 2,
         "microsatellite stable colorectal cancer": 2,
         "colorectal cancer": 2,
-        "colon adenocarcinoma": 2,
         "Rectal Adenocarcinoma": 2,
-        "malignant colon neoplasm": 2,
-        "rectal cancer": 2
+        "rectal cancer": 2,
+        "colon adenocarcinoma": 2,
+        "malignant colon neoplasm": 2
       },
       "trials": [
         "NCT05672316",
-        "NCT07595874",
         "NCT06780787",
+        "NCT07595874",
         "NCT06336902"
       ],
       "chembl_id": "",
@@ -1509,14 +1580,14 @@
         },
         {
           "source": "ctgov",
-          "identifier": "NCT07595874",
-          "url": "https://clinicaltrials.gov/study/NCT07595874",
+          "identifier": "NCT06780787",
+          "url": "https://clinicaltrials.gov/study/NCT06780787",
           "retrieved": null
         },
         {
           "source": "ctgov",
-          "identifier": "NCT06780787",
-          "url": "https://clinicaltrials.gov/study/NCT06780787",
+          "identifier": "NCT07595874",
+          "url": "https://clinicaltrials.gov/study/NCT07595874",
           "retrieved": null
         },
         {
@@ -1633,76 +1704,6 @@
           "source": "ctgov",
           "identifier": "NCT05320640",
           "url": "https://clinicaltrials.gov/study/NCT05320640",
-          "retrieved": null
-        }
-      ],
-      "phase_label": "Phase 2"
-    },
-    {
-      "name": "ONC-392",
-      "sponsor": "OncoC4, Inc.",
-      "modality": "Other / unclassified",
-      "action_type": "",
-      "mechanism_text": "",
-      "mechanism_class": "Unclassified",
-      "max_phase": 2,
-      "indications": [
-        "non-small cell lung carcinoma",
-        "solid tumor",
-        "melanoma",
-        "head and neck cancer",
-        "renal cell carcinoma",
-        "colorectal cancer",
-        "Sarcomas",
-        "prostate cancer",
-        "ovarian cancer",
-        "small cell lung carcinoma",
-        "breast cancer",
-        "Pancreas Cancer",
-        "gastric cancer",
-        "esophageal cancer",
-        "gastroesophageal junction adenocarcinoma",
-        "cervical cancer",
-        "adenoid cystic carcinoma",
-        "salivary gland cancer",
-        "urothelial cancer"
-      ],
-      "indication_phase": {
-        "non-small cell lung carcinoma": 2,
-        "solid tumor": 2,
-        "melanoma": 2,
-        "head and neck cancer": 2,
-        "renal cell carcinoma": 2,
-        "colorectal cancer": 2,
-        "Sarcomas": 2,
-        "prostate cancer": 2,
-        "ovarian cancer": 2,
-        "small cell lung carcinoma": 2,
-        "breast cancer": 2,
-        "Pancreas Cancer": 2,
-        "gastric cancer": 2,
-        "esophageal cancer": 2,
-        "gastroesophageal junction adenocarcinoma": 2,
-        "cervical cancer": 2,
-        "adenoid cystic carcinoma": 2,
-        "salivary gland cancer": 2,
-        "urothelial cancer": 2
-      },
-      "trials": [
-        "NCT04140526"
-      ],
-      "chembl_id": "",
-      "drug_id": "",
-      "synonyms": [],
-      "first_approval": null,
-      "withdrawn": false,
-      "is_active": true,
-      "named_by_class": false,
-      "provenance": [
-        {
-          "source": "ctgov",
-          "identifier": "NCT04140526",
-          "url": "https://clinicaltrials.gov/study/NCT04140526",
           "retrieved": null
         }
       ],
@@ -14515,12 +14516,12 @@
     "n_total": 22,
     "n_active": 17,
     "n_dormant": 5,
-    "weighted_score": 36.2,
+    "weighted_score": 37.8,
     "verdict": "Crowded",
     "by_phase": {
       "Approved": 2,
-      "Phase 3": 4,
-      "Phase 2": 8,
+      "Phase 3": 5,
+      "Phase 2": 7,
       "Phase 1": 3
     },
     "n_sponsors": 14,
@@ -15016,7 +15017,7 @@
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
             "Blocking antibody": 3,
-            "Unclassified": 2
+            "Unclassified": 3
           },
           "max_phase": 3
         },
@@ -17752,10 +17753,10 @@
         }
       ]
     },
-    "indications_omitted": 46
+    "indications_omitted": 0
   },
   "failures": {
-    "n_trials": 134,
+    "n_trials": 135,
     "n_stopped": 19,
     "n_with_reason": 9,
     "counts": {
@@ -18379,6 +18380,41 @@
         ]
       },
       {
+        "asset": "ONC-392",
+        "sponsor": "OncoC4, Inc.",
+        "sponsor_scale": "Small or private company",
+        "phase": 3,
+        "phase_label": "Phase 3",
+        "mechanism": "Unclassified",
+        "is_active": true,
+        "territory": {
+          "countries": [
+            "Australia",
+            "United States"
+          ],
+          "covered": [
+            "US"
+          ],
+          "absent": [
+            "China",
+            "EU/UK",
+            "Japan"
+          ]
+        },
+        "signals": [
+          {
+            "code": "small_sponsor",
+            "headline": "Small or private sponsor",
+            "evidence": "OncoC4, Inc. is not on the large-pharma list. Small holders partner or sell far more often than large ones, and are reachable directly."
+          },
+          {
+            "code": "territory_gap",
+            "headline": "Territory gap: China, EU/UK, Japan",
+            "evidence": "Trials run in US but not in China, EU/UK, Japan. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
+          }
+        ]
+      },
+      {
         "asset": "QUAVONLIMAB",
         "sponsor": "",
         "sponsor_scale": "Unknown",
@@ -18615,41 +18651,6 @@
             "code": "territory_gap",
             "headline": "Territory gap: EU/UK, Japan, US",
             "evidence": "Trials run in China but not in EU/UK, Japan, US. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
-          }
-        ]
-      },
-      {
-        "asset": "ONC-392",
-        "sponsor": "OncoC4, Inc.",
-        "sponsor_scale": "Small or private company",
-        "phase": 2,
-        "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
-        "is_active": true,
-        "territory": {
-          "countries": [
-            "Australia",
-            "United States"
-          ],
-          "covered": [
-            "US"
-          ],
-          "absent": [
-            "China",
-            "EU/UK",
-            "Japan"
-          ]
-        },
-        "signals": [
-          {
-            "code": "small_sponsor",
-            "headline": "Small or private sponsor",
-            "evidence": "OncoC4, Inc. is not on the large-pharma list. Small holders partner or sell far more often than large ones, and are reachable directly."
-          },
-          {
-            "code": "territory_gap",
-            "headline": "Territory gap: China, EU/UK, Japan",
-            "evidence": "Trials run in US but not in China, EU/UK, Japan. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
           }
         ]
       },
@@ -19009,6 +19010,12 @@
         "lead_phase": 3
       },
       {
+        "sponsor": "OncoC4, Inc.",
+        "scale": "Small or private company",
+        "n": 1,
+        "lead_phase": 3
+      },
+      {
         "sponsor": "Unattributed",
         "scale": "Unknown",
         "n": 1,
@@ -19041,12 +19048,6 @@
       {
         "sponsor": "Chinese PLA General Hospital",
         "scale": "Academic or non-industry",
-        "n": 1,
-        "lead_phase": 2
-      },
-      {
-        "sponsor": "OncoC4, Inc.",
-        "scale": "Small or private company",
         "n": 1,
         "lead_phase": 2
       },
@@ -19237,7 +19238,7 @@
           "melanoma": 2,
           "head and neck squamous cell cancer": 3,
           "urogenital neoplasm": 4,
-          "transitional cell carcinoma": 4,
+          "transitional cell carcinoma": 2,
           "small cell lung carcinoma": 1,
           "urinary tract carcinoma": 2,
           "renal cell carcinoma": 2,
@@ -19265,7 +19266,7 @@
           "osteosarcoma": 4,
           "angiosarcoma": 4,
           "papillary cell cancer": 2,
-          "clear cell cancer": 4,
+          "clear cell cancer": 2,
           "biliary tract cancer": 2,
           "colorectal adenocarcinoma": 4,
           "colorectal cancer": 2,
@@ -19286,7 +19287,7 @@
           "high grade serous ovarian cancer": 2,
           "germ cell tumor": 2,
           "neuroendocrine neoplasm": 4,
-          "colorectal liver metastases": 2,
+          "colorectal liver metastases": 4,
           "lung cancer": 1,
           "soft tissue sarcoma": 2,
           "squamous cell carcinoma": 3,
@@ -19718,7 +19719,7 @@
           "ovarian cancer": 2,
           "cervical cancer": 2,
           "metastatic pancreatic cancer": 2,
-          "Merkel Cell Carcinoma": 2,
+          "Merkel Cell Carcinoma": 3,
           "lymphoid malignancies": 2,
           "hematopoietic and lymphoid cell neoplasm": 2,
           "melanoma brain metastases": 2,
@@ -19747,7 +19748,7 @@
           "vulva cancer": 2,
           "peritoneal mesothelioma": 1,
           "teratoma with malignant transformation": 2,
-          "germ cell tumor": 2,
+          "germ cell tumor": 3,
           "basal cell carcinoma": 3,
           "transitional cell carcinoma": 3,
           "cholangiocarcinoma": 4,
@@ -19888,7 +19889,7 @@
           "Invasive Sarcomatoid Urothelial Carcinoma": 1,
           "Malignant Genitourinary System Neoplasm": 1,
           "Renal Pelvis Urothelial Carcinoma": 1,
-          "Bladder Cancer": 1,
+          "Bladder Cancer": 2,
           "Stage IV Ureter Cancer AJCC v8": 1,
           "Stage IV Urethral Cancer AJCC v8": 1,
           "Ureter Urothelial Carcinoma": 1,
@@ -20059,15 +20060,15 @@
     ],
     "n_approved": 2,
     "n_withdrawn": 0,
-    "n_phase3": 4,
+    "n_phase3": 5,
     "n_controlled_running": 25,
     "n_science_failures": 3,
     "genetic_score": 0.956,
     "genetic_disease": "hypothyroidism"
   },
   "readouts": {
-    "n_trials": 134,
-    "n_active": 56,
+    "n_trials": 135,
+    "n_active": 57,
     "n_controlled": 15,
     "n_confirmatory": 3,
     "n_undescribed": 0,
@@ -20075,7 +20076,7 @@
       "controlled": 12,
       "unclear": 7,
       "confirmatory": 3,
-      "signal": 19,
+      "signal": 20,
       "dose": 15
     },
     "level_labels": {
@@ -20086,7 +20087,7 @@
       "mechanistic": "Mechanistic",
       "unclear": "Design not stated"
     },
-    "verdict": "134 trials on record, 56 still running. 15 of those are controlled efficacy studies; the other 41 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
+    "verdict": "135 trials on record, 57 still running. 15 of those are controlled efficacy studies; the other 42 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
     "catalysts": [
       {
         "nct_id": "NCT02496208",
@@ -20914,9 +20915,9 @@
       {
         "key": "evidence",
         "label": "What can the running trials show?",
-        "value": "15 of 56 running trials are controlled efficacy studies · next readout 2026-12-31 (sponsor estimate)",
+        "value": "15 of 57 running trials are controlled efficacy studies · next readout 2026-12-31 (sponsor estimate)",
         "face": "science",
-        "detail": "134 trials on record, 56 still running. 15 of those are controlled efficacy studies; the other 41 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. First Affiliated Hospital of Zhejiang University · Sequential Anti-Angiogenic Therapy After Immunotherapy in Advanced Biliary Tract Cancer — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT02496208, 2026-09-30, dose and safety — and every upcoming completion is listed under Trials.",
+        "detail": "135 trials on record, 57 still running. 15 of those are controlled efficacy studies; the other 42 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. First Affiliated Hospital of Zhejiang University · Sequential Anti-Angiogenic Therapy After Immunotherapy in Advanced Biliary Tract Cancer — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT02496208, 2026-09-30, dose and safety — and every upcoming completion is listed under Trials.",
         "anchor": "#readouts"
       },
       {
@@ -20932,7 +20933,7 @@
         "label": "How contested is it?",
         "value": "Crowded — 22 assets, 2 already approved",
         "face": "business",
-        "detail": "14 sponsors, phase-weighted score 36.2. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
+        "detail": "14 sponsors, phase-weighted score 37.8. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
         "anchor": "#crowding"
       },
       {
@@ -20955,9 +20956,9 @@
     "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
   },
   "narrative": {
-    "bottom_line": "CTLA4 carries 17 active programmes across 3 mechanism classes from 14 named sponsors, reaching Approved. Phase-weighted density scores 36.2, which this tool bands as Crowded. The most advanced asset is IPILIMUMAB (Bristol-Myers Squibb) at Approved.",
+    "bottom_line": "CTLA4 carries 17 active programmes across 3 mechanism classes from 14 named sponsors, reaching Approved. Phase-weighted density scores 37.8, which this tool bands as Crowded. The most advanced asset is IPILIMUMAB (Bristol-Myers Squibb) at Approved.",
     "competitive": "The field splits into 3 mechanism classes. Blocking antibody is the most advanced, and also the most crowded, with 12 assets. A further 5 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
-    "failures": "19 of 134 trials stopped; 9 stated a reason. Of those with a stated reason, 3 were science-driven (efficacy, safety or PK/PD) and 3 were business-driven. That is 33% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
+    "failures": "19 of 135 trials stopped; 9 stated a reason. Of those with a stated reason, 3 were science-driven (efficacy, safety or PK/PD) and 3 were business-driven. That is 33% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
     "whitespace": "15 diseases pass the screen: association evidence above threshold, genetic support, and nothing past preclinical. The strongest on genetic evidence is hypothyroidism (association 0.589, genetic 0.956). Treat this as a hypothesis to check by hand rather than a finding — disease names are matched between EFO terms and sponsor free text, and that matching is imperfect.",
     "licensing": "Bristol-Myers Squibb holds the most advanced programme (Approved), and is a large pharma. 2 of 22 programmes reached Phase 2 or beyond and have no trial running — Anti-CTLA4 Monoclonal Antibody BMS-986218, Checkpoint blocking antibody that recognizes CTLA-4. Why each stopped is under Terminations, in the sponsor's words. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",
     "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent (47% of stopped trials here stated one). Deal comparables are hand-maintained and not exhaustive.",

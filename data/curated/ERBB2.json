@@ -484,7 +484,7 @@
         "salivary gland cancer": 1,
         "gastroesophageal junction cancer": 1,
         "cervical cancer": 1,
-        "breast cancer metastasis": 3,
+        "breast cancer metastasis": 2,
         "uterine serous papillary cancer": 1,
         "colorectal adenocarcinoma": 4,
         "ependymoma": 4,
@@ -1395,7 +1395,7 @@
         "Recurrent Primary Cutaneous T-Cell Non-Hodgkin Lymphoma": 1,
         "Refractory Nodal Marginal Zone Lymphoma": 1,
         "Angiosarcoma": 2,
-        "hormone receptor-positive breast cancer": 2,
+        "hormone receptor-positive breast cancer": 4,
         "Uterine Cervical Neoplasms": 2,
         "Urologic Neoplasms": 2
       },
@@ -1693,6 +1693,12 @@
       "is_active": true,
       "named_by_class": false,
       "provenance": [
+        {
+          "source": "manual",
+          "identifier": "FDA label for Herceptin, first approved 25 September 1998. Open Targets lists the trastuzumab conjugates against ERBB2 but not the parent antibody, so without this row the table shows T-DM1 and T-DXd and no trastuzumab",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/103792s5354lbl.pdf",
+          "retrieved": null
+        },
         {
           "source": "manual",
           "identifier": "FDA label for Herceptin, first approved 25 September 1998. Open Targets lists the trastuzumab conjugates against ERBB2 but not the parent antibody, so without this row the table shows T-DM1 and T-DXd and no trastuzumab",
@@ -2462,13 +2468,13 @@
         "lung cancer": 2,
         "urothelial cancer": 3,
         "salivary gland cancer": 3,
-        "squamous cell carcinoma": 3,
+        "squamous cell carcinoma": 2,
         "rare tumors": 3,
         "breast cancer metastasis": 3,
         "hepatocellular carcinoma": 3,
         "pancreatic neoplasm": 3,
         "transitional cell carcinoma": 2,
-        "hormone receptor-positive breast cancer": 2
+        "hormone receptor-positive breast cancer": 3
       },
       "trials": [
         "NCT03588091",
@@ -22152,7 +22158,7 @@
         }
       ]
     },
-    "indications_omitted": 91
+    "indications_omitted": 0
   },
   "failures": {
     "n_trials": 141,
@@ -25493,7 +25499,7 @@
           "Recurrent Primary Cutaneous T-Cell Non-Hodgkin Lymphoma": 1,
           "Refractory Nodal Marginal Zone Lymphoma": 1,
           "Angiosarcoma": 2,
-          "hormone receptor-positive breast cancer": 2,
+          "hormone receptor-positive breast cancer": 4,
           "Uterine Cervical Neoplasms": 2,
           "Urologic Neoplasms": 2
         },
@@ -26091,7 +26097,7 @@
           "salivary gland cancer": 1,
           "gastroesophageal junction cancer": 1,
           "cervical cancer": 1,
-          "breast cancer metastasis": 3,
+          "breast cancer metastasis": 2,
           "uterine serous papillary cancer": 1,
           "colorectal adenocarcinoma": 4,
           "ependymoma": 4,
@@ -26289,6 +26295,12 @@
         "is_active": true,
         "named_by_class": false,
         "provenance": [
+          {
+            "source": "manual",
+            "identifier": "FDA label for Herceptin, first approved 25 September 1998. Open Targets lists the trastuzumab conjugates against ERBB2 but not the parent antibody, so without this row the table shows T-DM1 and T-DXd and no trastuzumab",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/103792s5354lbl.pdf",
+            "retrieved": null
+          },
           {
             "source": "manual",
             "identifier": "FDA label for Herceptin, first approved 25 September 1998. Open Targets lists the trastuzumab conjugates against ERBB2 but not the parent antibody, so without this row the table shows T-DM1 and T-DXd and no trastuzumab",

@@ -3795,7 +3795,7 @@
         }
       ]
     },
-    "indications_omitted": 2
+    "indications_omitted": 0
   },
   "failures": {
     "n_trials": 43,

@@ -657,7 +657,7 @@
         "Postmenopausal": 1,
         "Osteopenia": 1,
         "Osteoporosis": 1,
-        "inflammation": 3,
+        "inflammation": 4,
         "Phase 1": 1,
         "Bioequivalence": 1,
         "Psoriatic Plaque": 1,
@@ -12248,7 +12248,7 @@
         }
       ]
     },
-    "indications_omitted": 138
+    "indications_omitted": 0
   },
   "failures": {
     "n_trials": 141,
@@ -13901,7 +13901,7 @@
           "Postmenopausal": 1,
           "Osteopenia": 1,
           "Osteoporosis": 1,
-          "inflammation": 3,
+          "inflammation": 4,
           "Phase 1": 1,
           "Bioequivalence": 1,
           "Psoriatic Plaque": 1,
@@ -15152,7 +15152,7 @@
   "notes": [
     "The registry search returned 194 trials that never names TNF or any drug known to act on it. Those are not counted as work on this target.",
     "2 trials name TNF as a genotype or a patient-selection criterion rather than as a drug target. They are listed under trials; their drugs are not counted as programmes against this target.",
-    "181 trials on this target list drugs this record does not tie to TNF -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
+    "183 trials on this target list drugs this record does not tie to TNF -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
   ],
   "rules_version": "2026-09-07-directed-discovery"
 }

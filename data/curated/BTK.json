@@ -235,7 +235,7 @@
         "Diffuse Large B-Cell Lymphoma, Not Otherwise Specified": 2,
         "Primary Mediastinal (Thymic) Large B-Cell Lymphoma": 2,
         "Transformed Follicular Lymphoma to Diffuse Large B-Cell Lymphoma": 2,
-        "Diffuse Large B Cell Lymphoma (DLBCL)": 2,
+        "Diffuse Large B Cell Lymphoma (DLBCL)": 3,
         "Multiple Myeloma (MM)": 1,
         "Warm Antibody Autoimmune Hemolytic Anemia": 2,
         "b-cell lymphoid malignancies": 2,
@@ -521,7 +521,7 @@
       "indication_phase": {
         "macroglobulinemia": 4,
         "mantle cell lymphoma": 3,
-        "B-Cell Chronic Lymphocytic Leukemia": 3,
+        "B-Cell Chronic Lymphocytic Leukemia": 2,
         "cancer": 2,
         "Non Hodgkin Lymphoma": 3,
         "Large B-cell Lymphoma": 3,
@@ -562,7 +562,7 @@
         "food allergy": 4,
         "lymphoid leukemia": 2,
         "head and neck squamous cell carcinoma": 1,
-        "Nodal Marginal Zone B-cell Lymphoma": 3,
+        "Nodal Marginal Zone B-cell Lymphoma": 1,
         "autoimmune hemolytic anemia": 4,
         "COVID-19": 4,
         "b-cell malignancies": 2,
@@ -581,7 +581,7 @@
         "non-gcb diffuse large B-cell lymphoma": 3,
         "brain cancer": 1,
         "metastatic castration-resistant prostate cancer": 1,
-        "extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue type": 1,
+        "extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue type": 3,
         "Lymphocytic Leukemia": 3,
         "Ependymoma": 1,
         "Medulloblastoma": 1,
@@ -602,11 +602,11 @@
         "Immune System Diseases": 3,
         "B-Cell Lymphoma": 3,
         "small cell lymphoma": 3,
-        "Chronic Lymphocytic Leukemia, CLL": 1,
+        "Chronic Lymphocytic Leukemia, CLL": 3,
         "High Risk Smoldering Multiple Myeloma": 2,
         "Graft vs Host Disease": 3,
         "Classical Hodgkin Lymphoma": 2,
-        "Hodgkin Lymphoma": 2,
+        "Hodgkin Lymphoma": 3,
         "mature B-cell malignancies": 1
       },
       "trials": [
@@ -764,16 +764,16 @@
         "lymphoplasmacytic lymphoma": 2,
         "primary central nervous system lymphoma": 4,
         "autoimmune thrombocytopenic purpura": 4,
-        "Mature B-Cell Lymphoma": 2,
+        "Mature B-Cell Lymphoma": -1,
         "Lymphocytic Leukemia": 4,
         "Small Lymphocytic Lymphoma": 3,
         "Burkitt Lymphoma": 1,
         "Ritcher's Transformation, Syndrome": -1,
-        "B-Cell Lymphoma": 2,
+        "B-Cell Lymphoma": 3,
         "Healthy": 1,
         "Transformed Small Lymphocytic Lymphoma to Diffuse Large B-Cell Lymphoma": 3,
         "CLL/SLL": 3,
-        "Chronic Lymphocytic Leukemia, CLL": 3,
+        "Chronic Lymphocytic Leukemia, CLL": 4,
         "CLL": 3,
         "SLL": 3,
         "Relapsing Multiple Sclerosis": 2,
@@ -1082,7 +1082,7 @@
         "B-Cell Lymphoma": 2,
         "Lymphocytic Leukemia": 3,
         "Small Lymphocytic Lymphoma": 3,
-        "Waldenström Macroglobulinemia (WM)": 2,
+        "Waldenström Macroglobulinemia (WM)": 4,
         "MZL": 2,
         "Diffuse Large B Cell Lymphoma (DLBCL)": 2,
         "primary immune thrombocytopenia": 2,
@@ -1092,7 +1092,7 @@
         "Transformed Marginal Zone Lymphoma to Diffuse Large B-Cell Lymphoma": 1,
         "CLL": 2,
         "MCL": 2,
-        "Chronic Lymphocytic Leukemia, CLL": 1,
+        "Chronic Lymphocytic Leukemia, CLL": 3,
         "Follicular Lymphoma (FL)": 1,
         "Richter Transformation": 2,
         "COVID-19 Pulmonary Complications": 2,
@@ -1104,7 +1104,7 @@
         "Maintenance Therapy": 2,
         "CNS Lymphoma": -1,
         "Primary Membranous Nephropathy": 3,
-        "extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue type": 2
+        "extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue type": 3
       },
       "trials": [
         "NCT05640102",
@@ -1292,6 +1292,71 @@
       "phase_label": "Phase 3"
     },
     {
+      "name": "BGB-16673",
+      "sponsor": "BeiGene",
+      "modality": "Other / unclassified",
+      "action_type": "",
+      "mechanism_text": "",
+      "mechanism_class": "Unclassified",
+      "max_phase": 3,
+      "indications": [
+        "b-cell malignancies",
+        "Non Hodgkin Lymphoma",
+        "mantle cell lymphoma",
+        "Small Lymphocytic Lymphoma",
+        "Waldenstrom Macroglobulinemia",
+        "marginal zone lymphoma",
+        "follicular lymphoma",
+        "DLBCL Unclassifiable",
+        "Richter Transformation",
+        "Chronic Lymphocytic Leukemia, CLL",
+        "CLL",
+        "Lymphocytic Leukemia"
+      ],
+      "indication_phase": {
+        "b-cell malignancies": 2,
+        "Non Hodgkin Lymphoma": 2,
+        "mantle cell lymphoma": 2,
+        "Small Lymphocytic Lymphoma": 3,
+        "Waldenstrom Macroglobulinemia": 2,
+        "marginal zone lymphoma": 2,
+        "follicular lymphoma": 2,
+        "DLBCL Unclassifiable": 2,
+        "Richter Transformation": 2,
+        "Chronic Lymphocytic Leukemia, CLL": 2,
+        "CLL": 3,
+        "Lymphocytic Leukemia": 3
+      },
+      "trials": [
+        "NCT05294731",
+        "NCT07508995",
+        "NCT06846671",
+        "NCT06970743"
+      ],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "named_by_class": false,
+      "provenance": [
+        {
+          "source": "ctgov",
+          "identifier": "NCT05294731",
+          "url": "https://clinicaltrials.gov/study/NCT05294731",
+          "retrieved": null
+        },
+        {
+          "source": "ctgov",
+          "identifier": "NCT07508995",
+          "url": "https://clinicaltrials.gov/study/NCT07508995",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Phase 3"
+    },
+    {
       "name": "EVOBRUTINIB",
       "sponsor": "EMD Serono Research & Development Institute, Inc.",
       "modality": "Small molecule",
@@ -1451,7 +1516,7 @@
       "indication_phase": {
         "cancer": 3,
         "B-Cell Chronic Lymphocytic Leukemia": 3,
-        "Non Hodgkin Lymphoma": -1,
+        "Non Hodgkin Lymphoma": 3,
         "mantle cell lymphoma": -1,
         "Large B-cell Lymphoma": 2,
         "primary central nervous system lymphoma": 3,
@@ -1474,7 +1539,7 @@
         "neuromyelitis optica": 3,
         "small cell lymphoma": -1,
         "diffuse large B-cell lymphoma of the central nervous system": 2,
-        "B-Cell Lymphoma": -1,
+        "B-Cell Lymphoma": 2,
         "Diffuse Large B Cell Lymphoma (DLBCL)": 2
       },
       "trials": [
@@ -1638,65 +1703,6 @@
       "phase_label": "Phase 3"
     },
     {
-      "name": "BGB-16673",
-      "sponsor": "BeiGene",
-      "modality": "Other / unclassified",
-      "action_type": "",
-      "mechanism_text": "",
-      "mechanism_class": "Unclassified",
-      "max_phase": 2,
-      "indications": [
-        "b-cell malignancies",
-        "Non Hodgkin Lymphoma",
-        "mantle cell lymphoma",
-        "Small Lymphocytic Lymphoma",
-        "Waldenstrom Macroglobulinemia",
-        "marginal zone lymphoma",
-        "follicular lymphoma",
-        "DLBCL Unclassifiable",
-        "Richter Transformation",
-        "Chronic Lymphocytic Leukemia, CLL"
-      ],
-      "indication_phase": {
-        "b-cell malignancies": 2,
-        "Non Hodgkin Lymphoma": 2,
-        "mantle cell lymphoma": 2,
-        "Small Lymphocytic Lymphoma": 2,
-        "Waldenstrom Macroglobulinemia": 2,
-        "marginal zone lymphoma": 2,
-        "follicular lymphoma": 2,
-        "DLBCL Unclassifiable": 2,
-        "Richter Transformation": 2,
-        "Chronic Lymphocytic Leukemia, CLL": 2
-      },
-      "trials": [
-        "NCT05294731",
-        "NCT07508995"
-      ],
-      "chembl_id": "",
-      "drug_id": "",
-      "synonyms": [],
-      "first_approval": null,
-      "withdrawn": false,
-      "is_active": true,
-      "named_by_class": false,
-      "provenance": [
-        {
-          "source": "ctgov",
-          "identifier": "NCT05294731",
-          "url": "https://clinicaltrials.gov/study/NCT05294731",
-          "retrieved": null
-        },
-        {
-          "source": "ctgov",
-          "identifier": "NCT07508995",
-          "url": "https://clinicaltrials.gov/study/NCT07508995",
-          "retrieved": null
-        }
-      ],
-      "phase_label": "Phase 2"
-    },
-    {
       "name": "BMS-986142",
       "sponsor": "",
       "modality": "Small molecule",
@@ -1797,30 +1803,30 @@
       "mechanism_class": "Unclassified",
       "max_phase": 2,
       "indications": [
+        "mantle cell lymphoma",
         "Richter Syndrome",
         "Large B-cell Lymphoma",
         "Lymphocytic Leukemia",
-        "mantle cell lymphoma",
         "Small Lymphocytic Lymphoma",
         "Gastric Mucosa-Associated Lymphoid Tissue Lymphoma",
         "marginal zone lymphoma",
         "lymphoma"
       ],
       "indication_phase": {
+        "mantle cell lymphoma": 2,
         "Richter Syndrome": 2,
         "Large B-cell Lymphoma": 2,
         "Lymphocytic Leukemia": 2,
-        "mantle cell lymphoma": 2,
         "Small Lymphocytic Lymphoma": 2,
         "Gastric Mucosa-Associated Lymphoid Tissue Lymphoma": 2,
         "marginal zone lymphoma": 2,
         "lymphoma": 2
       },
       "trials": [
-        "NCT06863402",
         "NCT06572618",
-        "NCT07557056",
+        "NCT06863402",
         "NCT07194980",
+        "NCT07557056",
         "NCT07583810"
       ],
       "chembl_id": "",
@@ -1833,26 +1839,26 @@
       "provenance": [
         {
           "source": "ctgov",
-          "identifier": "NCT06863402",
-          "url": "https://clinicaltrials.gov/study/NCT06863402",
-          "retrieved": null
-        },
-        {
-          "source": "ctgov",
           "identifier": "NCT06572618",
           "url": "https://clinicaltrials.gov/study/NCT06572618",
           "retrieved": null
         },
         {
           "source": "ctgov",
-          "identifier": "NCT07557056",
-          "url": "https://clinicaltrials.gov/study/NCT07557056",
+          "identifier": "NCT06863402",
+          "url": "https://clinicaltrials.gov/study/NCT06863402",
           "retrieved": null
         },
         {
           "source": "ctgov",
           "identifier": "NCT07194980",
           "url": "https://clinicaltrials.gov/study/NCT07194980",
+          "retrieved": null
+        },
+        {
+          "source": "ctgov",
+          "identifier": "NCT07557056",
+          "url": "https://clinicaltrials.gov/study/NCT07557056",
           "retrieved": null
         },
         {
@@ -2017,15 +2023,20 @@
       "indications": [
         "Gastric Mucosa-Associated Lymphoid Tissue Lymphoma",
         "marginal zone lymphoma",
-        "lymphoma"
+        "lymphoma",
+        "Lymphocytic Leukemia",
+        "small lymphocytic leukemia"
       ],
       "indication_phase": {
         "Gastric Mucosa-Associated Lymphoid Tissue Lymphoma": 2,
         "marginal zone lymphoma": 2,
-        "lymphoma": 2
+        "lymphoma": 2,
+        "Lymphocytic Leukemia": 2,
+        "small lymphocytic leukemia": 2
       },
       "trials": [
-        "NCT07583810"
+        "NCT07583810",
+        "NCT07796373"
       ],
       "chembl_id": "",
       "drug_id": "",
@@ -2260,13 +2271,19 @@
       "mechanism_class": "Unclassified",
       "max_phase": 2,
       "indications": [
-        "Lymphocytic Leukemia"
+        "Lymphocytic Leukemia",
+        "B-Cell Chronic Lymphocytic Leukemia",
+        "Small Lymphocytic Lymphoma"
       ],
       "indication_phase": {
-        "Lymphocytic Leukemia": 2
+        "Lymphocytic Leukemia": 2,
+        "B-Cell Chronic Lymphocytic Leukemia": 2,
+        "Small Lymphocytic Lymphoma": 2
       },
       "trials": [
-        "NCT06524375"
+        "NCT06524375",
+        "NCT02639910",
+        "NCT06520098"
       ],
       "chembl_id": "",
       "drug_id": "",
@@ -19073,12 +19090,12 @@
     "n_total": 27,
     "n_active": 24,
     "n_dormant": 3,
-    "weighted_score": 68.0,
+    "weighted_score": 69.5,
     "verdict": "Saturated",
     "by_phase": {
       "Approved": 7,
-      "Phase 3": 6,
-      "Phase 2": 9,
+      "Phase 3": 7,
+      "Phase 2": 8,
       "Phase 1": 2
     },
     "n_sponsors": 15,
@@ -19152,12 +19169,23 @@
         },
         {
           "indication": "B-Cell Chronic Lymphocytic Leukemia",
-          "n_assets": 11,
+          "n_assets": 12,
           "cells": {
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
-            "Unclassified": -1
+            "Unclassified": 2
+          },
+          "max_phase": 4
+        },
+        {
+          "indication": "Lymphocytic Leukemia",
+          "n_assets": 11,
+          "cells": {
+            "Other / unclassified — inhibition": -1,
+            "Small molecule — inhibition": 4,
+            "Small molecule — mechanism unresolved": 2,
+            "Unclassified": 3
           },
           "max_phase": 4
         },
@@ -19169,17 +19197,6 @@
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
             "Unclassified": -1
-          },
-          "max_phase": 4
-        },
-        {
-          "indication": "Lymphocytic Leukemia",
-          "n_assets": 9,
-          "cells": {
-            "Other / unclassified — inhibition": -1,
-            "Small molecule — inhibition": 4,
-            "Small molecule — mechanism unresolved": -1,
-            "Unclassified": 2
           },
           "max_phase": 4
         },
@@ -19234,7 +19251,7 @@
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 4,
             "Small molecule — mechanism unresolved": -1,
-            "Unclassified": 2
+            "Unclassified": 3
           },
           "max_phase": 4
         },
@@ -19482,12 +19499,12 @@
         },
         {
           "indication": "Small Lymphocytic Lymphoma",
-          "n_assets": 7,
+          "n_assets": 8,
           "cells": {
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
-            "Unclassified": 2
+            "Unclassified": 3
           },
           "max_phase": 3
         },
@@ -19547,6 +19564,17 @@
           "max_phase": 3
         },
         {
+          "indication": "CLL",
+          "n_assets": 4,
+          "cells": {
+            "Other / unclassified — inhibition": -1,
+            "Small molecule — inhibition": 3,
+            "Small molecule — mechanism unresolved": -1,
+            "Unclassified": 3
+          },
+          "max_phase": 3
+        },
+        {
           "indication": "autoimmune disease",
           "n_assets": 4,
           "cells": {
@@ -19570,17 +19598,6 @@
         },
         {
           "indication": "Burkitt Lymphoma",
-          "n_assets": 3,
-          "cells": {
-            "Other / unclassified — inhibition": -1,
-            "Small molecule — inhibition": 3,
-            "Small molecule — mechanism unresolved": -1,
-            "Unclassified": -1
-          },
-          "max_phase": 3
-        },
-        {
-          "indication": "CLL",
           "n_assets": 3,
           "cells": {
             "Other / unclassified — inhibition": -1,
@@ -19663,6 +19680,17 @@
             "Other / unclassified — inhibition": -1,
             "Small molecule — inhibition": 3,
             "Small molecule — mechanism unresolved": -1,
+            "Unclassified": -1
+          },
+          "max_phase": 3
+        },
+        {
+          "indication": "small lymphocytic leukemia",
+          "n_assets": 3,
+          "cells": {
+            "Other / unclassified — inhibition": -1,
+            "Small molecule — inhibition": 3,
+            "Small molecule — mechanism unresolved": 2,
             "Unclassified": -1
           },
           "max_phase": 3
@@ -19812,17 +19840,6 @@
         },
         {
           "indication": "small cell lymphoma",
-          "n_assets": 2,
-          "cells": {
-            "Other / unclassified — inhibition": -1,
-            "Small molecule — inhibition": 3,
-            "Small molecule — mechanism unresolved": -1,
-            "Unclassified": -1
-          },
-          "max_phase": 3
-        },
-        {
-          "indication": "small lymphocytic leukemia",
           "n_assets": 2,
           "cells": {
             "Other / unclassified — inhibition": -1,
@@ -21110,10 +21127,10 @@
         }
       ]
     },
-    "indications_omitted": 52
+    "indications_omitted": 0
   },
   "failures": {
-    "n_trials": 283,
+    "n_trials": 288,
     "n_stopped": 27,
     "n_with_reason": 18,
     "counts": {
@@ -21923,6 +21940,49 @@
         ]
       },
       {
+        "asset": "BGB-16673",
+        "sponsor": "BeiGene",
+        "sponsor_scale": "Large pharma",
+        "phase": 3,
+        "phase_label": "Phase 3",
+        "mechanism": "Unclassified",
+        "is_active": true,
+        "territory": {
+          "countries": [
+            "Argentina",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "China",
+            "Czechia",
+            "Germany",
+            "Italy",
+            "Japan",
+            "Netherlands",
+            "Poland",
+            "South Korea",
+            "Taiwan",
+            "Turkey (Türkiye)",
+            "United Kingdom",
+            "United States"
+          ],
+          "covered": [
+            "China",
+            "EU/UK",
+            "Japan",
+            "US"
+          ],
+          "absent": []
+        },
+        "signals": [
+          {
+            "code": "large_active",
+            "headline": "Held and active at a large sponsor",
+            "evidence": "BeiGene is running this programme. Unlikely to be available except regionally, or if it is deprioritised later."
+          }
+        ]
+      },
+      {
         "asset": "EVOBRUTINIB",
         "sponsor": "EMD Serono Research & Development Institute, Inc.",
         "sponsor_scale": "Academic or non-industry",
@@ -22131,41 +22191,6 @@
             "code": "large_active",
             "headline": "Held and active at a large sponsor",
             "evidence": "Sanofi is running this programme. Unlikely to be available except regionally, or if it is deprioritised later."
-          }
-        ]
-      },
-      {
-        "asset": "BGB-16673",
-        "sponsor": "BeiGene",
-        "sponsor_scale": "Large pharma",
-        "phase": 2,
-        "phase_label": "Phase 2",
-        "mechanism": "Unclassified",
-        "is_active": true,
-        "territory": {
-          "countries": [
-            "China",
-            "United States"
-          ],
-          "covered": [
-            "China",
-            "US"
-          ],
-          "absent": [
-            "EU/UK",
-            "Japan"
-          ]
-        },
-        "signals": [
-          {
-            "code": "large_active",
-            "headline": "Held and active at a large sponsor",
-            "evidence": "BeiGene is running this programme. Unlikely to be available except regionally, or if it is deprioritised later."
-          },
-          {
-            "code": "territory_gap",
-            "headline": "Territory gap: EU/UK, Japan",
-            "evidence": "Trials run in China, US but not in EU/UK, Japan. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
           }
         ]
       },
@@ -22525,14 +22550,19 @@
         "is_active": true,
         "territory": {
           "countries": [
+            "Austria",
+            "Germany",
+            "Italy",
+            "Poland",
+            "United Kingdom",
             "United States"
           ],
           "covered": [
+            "EU/UK",
             "US"
           ],
           "absent": [
             "China",
-            "EU/UK",
             "Japan"
           ]
         },
@@ -22544,8 +22574,8 @@
           },
           {
             "code": "territory_gap",
-            "headline": "Territory gap: China, EU/UK, Japan",
-            "evidence": "Trials run in US but not in China, EU/UK, Japan. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
+            "headline": "Territory gap: China, Japan",
+            "evidence": "Trials run in EU/UK, US but not in China, Japan. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
           }
         ]
       },
@@ -22800,16 +22830,16 @@
           "lymphoplasmacytic lymphoma": 2,
           "primary central nervous system lymphoma": 4,
           "autoimmune thrombocytopenic purpura": 4,
-          "Mature B-Cell Lymphoma": 2,
+          "Mature B-Cell Lymphoma": -1,
           "Lymphocytic Leukemia": 4,
           "Small Lymphocytic Lymphoma": 3,
           "Burkitt Lymphoma": 1,
           "Ritcher's Transformation, Syndrome": -1,
-          "B-Cell Lymphoma": 2,
+          "B-Cell Lymphoma": 3,
           "Healthy": 1,
           "Transformed Small Lymphocytic Lymphoma to Diffuse Large B-Cell Lymphoma": 3,
           "CLL/SLL": 3,
-          "Chronic Lymphocytic Leukemia, CLL": 3,
+          "Chronic Lymphocytic Leukemia, CLL": 4,
           "CLL": 3,
           "SLL": 3,
           "Relapsing Multiple Sclerosis": 2,
@@ -23118,7 +23148,7 @@
           "B-Cell Lymphoma": 2,
           "Lymphocytic Leukemia": 3,
           "Small Lymphocytic Lymphoma": 3,
-          "Waldenström Macroglobulinemia (WM)": 2,
+          "Waldenström Macroglobulinemia (WM)": 4,
           "MZL": 2,
           "Diffuse Large B Cell Lymphoma (DLBCL)": 2,
           "primary immune thrombocytopenia": 2,
@@ -23128,7 +23158,7 @@
           "Transformed Marginal Zone Lymphoma to Diffuse Large B-Cell Lymphoma": 1,
           "CLL": 2,
           "MCL": 2,
-          "Chronic Lymphocytic Leukemia, CLL": 1,
+          "Chronic Lymphocytic Leukemia, CLL": 3,
           "Follicular Lymphoma (FL)": 1,
           "Richter Transformation": 2,
           "COVID-19 Pulmonary Complications": 2,
@@ -23140,7 +23170,7 @@
           "Maintenance Therapy": 2,
           "CNS Lymphoma": -1,
           "Primary Membranous Nephropathy": 3,
-          "extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue type": 2
+          "extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue type": 3
         },
         "trials": [
           "NCT05640102",
@@ -23397,7 +23427,7 @@
           "Diffuse Large B-Cell Lymphoma, Not Otherwise Specified": 2,
           "Primary Mediastinal (Thymic) Large B-Cell Lymphoma": 2,
           "Transformed Follicular Lymphoma to Diffuse Large B-Cell Lymphoma": 2,
-          "Diffuse Large B Cell Lymphoma (DLBCL)": 2,
+          "Diffuse Large B Cell Lymphoma (DLBCL)": 3,
           "Multiple Myeloma (MM)": 1,
           "Warm Antibody Autoimmune Hemolytic Anemia": 2,
           "b-cell lymphoid malignancies": 2,
@@ -23649,7 +23679,7 @@
         "indication_phase": {
           "macroglobulinemia": 4,
           "mantle cell lymphoma": 3,
-          "B-Cell Chronic Lymphocytic Leukemia": 3,
+          "B-Cell Chronic Lymphocytic Leukemia": 2,
           "cancer": 2,
           "Non Hodgkin Lymphoma": 3,
           "Large B-cell Lymphoma": 3,
@@ -23690,7 +23720,7 @@
           "food allergy": 4,
           "lymphoid leukemia": 2,
           "head and neck squamous cell carcinoma": 1,
-          "Nodal Marginal Zone B-cell Lymphoma": 3,
+          "Nodal Marginal Zone B-cell Lymphoma": 1,
           "autoimmune hemolytic anemia": 4,
           "COVID-19": 4,
           "b-cell malignancies": 2,
@@ -23709,7 +23739,7 @@
           "non-gcb diffuse large B-cell lymphoma": 3,
           "brain cancer": 1,
           "metastatic castration-resistant prostate cancer": 1,
-          "extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue type": 1,
+          "extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue type": 3,
           "Lymphocytic Leukemia": 3,
           "Ependymoma": 1,
           "Medulloblastoma": 1,
@@ -23730,11 +23760,11 @@
           "Immune System Diseases": 3,
           "B-Cell Lymphoma": 3,
           "small cell lymphoma": 3,
-          "Chronic Lymphocytic Leukemia, CLL": 1,
+          "Chronic Lymphocytic Leukemia, CLL": 3,
           "High Risk Smoldering Multiple Myeloma": 2,
           "Graft vs Host Disease": 3,
           "Classical Hodgkin Lymphoma": 2,
-          "Hodgkin Lymphoma": 2,
+          "Hodgkin Lymphoma": 3,
           "mature B-cell malignancies": 1
         },
         "trials": [
@@ -23876,24 +23906,24 @@
     ],
     "n_approved": 7,
     "n_withdrawn": 0,
-    "n_phase3": 6,
+    "n_phase3": 7,
     "n_controlled_running": 30,
     "n_science_failures": 3,
     "genetic_score": 0.949,
     "genetic_disease": "X-linked agammaglobulinemia"
   },
   "readouts": {
-    "n_trials": 283,
-    "n_active": 128,
-    "n_controlled": 27,
+    "n_trials": 288,
+    "n_active": 132,
+    "n_controlled": 29,
     "n_confirmatory": 2,
     "n_undescribed": 0,
     "by_level": {
-      "unclear": 27,
+      "unclear": 28,
       "dose": 22,
-      "controlled": 25,
+      "controlled": 27,
       "confirmatory": 2,
-      "signal": 52
+      "signal": 53
     },
     "level_labels": {
       "confirmatory": "Confirmatory",
@@ -23903,7 +23933,7 @@
       "mechanistic": "Mechanistic",
       "unclear": "Design not stated"
     },
-    "verdict": "283 trials on record, 128 still running. 27 of those are controlled efficacy studies; the other 101 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
+    "verdict": "288 trials on record, 132 still running. 29 of those are controlled efficacy studies; the other 103 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
     "catalysts": [
       {
         "nct_id": "NCT05718869",
@@ -24826,9 +24856,9 @@
       {
         "key": "evidence",
         "label": "What can the running trials show?",
-        "value": "27 of 128 running trials are controlled efficacy studies · next readout 2026-10-31 (sponsor estimate)",
+        "value": "29 of 132 running trials are controlled efficacy studies · next readout 2026-10-31 (sponsor estimate)",
         "face": "science",
-        "detail": "283 trials on record, 128 still running. 27 of those are controlled efficacy studies; the other 101 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Ohio State University Comprehensive Cancer Center · Acalabrutinib in Combination With Venetoclax or Obinutuzumab for the Treatment of Treatment-naive Chronic Lymphocytic Leukemia — Randomised against a comparator, so the result carries a control — but it is small, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT05718869, 2026-09-08, dose and safety — and every upcoming completion is listed under Trials.",
+        "detail": "288 trials on record, 132 still running. 29 of those are controlled efficacy studies; the other 103 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Ohio State University Comprehensive Cancer Center · Acalabrutinib in Combination With Venetoclax or Obinutuzumab for the Treatment of Treatment-naive Chronic Lymphocytic Leukemia — Randomised against a comparator, so the result carries a control — but it is small, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT05718869, 2026-09-08, dose and safety — and every upcoming completion is listed under Trials.",
         "anchor": "#readouts"
       },
       {
@@ -24844,7 +24874,7 @@
         "label": "How contested is it?",
         "value": "Saturated — 27 assets, 7 already approved",
         "face": "business",
-        "detail": "15 sponsors, phase-weighted score 68.0. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
+        "detail": "15 sponsors, phase-weighted score 69.5. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
         "anchor": "#crowding"
       },
       {
@@ -24867,9 +24897,9 @@
     "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
   },
   "narrative": {
-    "bottom_line": "BTK carries 24 active programmes across 4 mechanism classes from 15 named sponsors, reaching Approved. Phase-weighted density scores 68.0, which this tool bands as Saturated. The most advanced asset is ACALABRUTINIB (Merck Sharp & Dohme LLC) at Approved.",
+    "bottom_line": "BTK carries 24 active programmes across 4 mechanism classes from 15 named sponsors, reaching Approved. Phase-weighted density scores 69.5, which this tool bands as Saturated. The most advanced asset is ACALABRUTINIB (Merck Sharp & Dohme LLC) at Approved.",
     "competitive": "The field splits into 4 mechanism classes. Small molecule — inhibition is the most advanced, and also the most crowded, with 19 assets. A further 3 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
-    "failures": "27 of 283 trials stopped; 18 stated a reason. Of those with a stated reason, 3 were science-driven (efficacy, safety or PK/PD) and 10 were business-driven. That is 17% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
+    "failures": "27 of 288 trials stopped; 18 stated a reason. Of those with a stated reason, 3 were science-driven (efficacy, safety or PK/PD) and 10 were business-driven. That is 17% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
     "whitespace": "5 diseases pass the screen: association evidence above threshold, genetic support, and nothing past preclinical. The strongest on genetic evidence is X-linked agammaglobulinemia (association 0.846, genetic 0.949). Treat this as a hypothesis to check by hand rather than a finding — disease names are matched between EFO terms and sponsor free text, and that matching is imperfect.",
     "licensing": "Unattributed holds the most advanced programme (Approved). 3 of 27 programmes reached Phase 2 or beyond and have no trial running — DZD9008, EDRALBRUTINIB, VECABRUTINIB. Why each stopped is under Terminations, in the sponsor's words. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",
     "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent (67% of stopped trials here stated one). Deal comparables are hand-maintained and not exhaustive.",

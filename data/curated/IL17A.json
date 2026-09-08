@@ -725,19 +725,19 @@
       "mechanism_class": "Antibody — mechanism unresolved",
       "max_phase": 3,
       "indications": [
+        "plaque type psoriasis",
         "psoriasis",
-        "Tolerability, Safety, Immunogenicity and Pharmacokinetic of JS005",
-        "plaque type psoriasis"
+        "Tolerability, Safety, Immunogenicity and Pharmacokinetic of JS005"
       ],
       "indication_phase": {
+        "plaque type psoriasis": 3,
         "psoriasis": 2,
-        "Tolerability, Safety, Immunogenicity and Pharmacokinetic of JS005": 1,
-        "plaque type psoriasis": 3
+        "Tolerability, Safety, Immunogenicity and Pharmacokinetic of JS005": 1
       },
       "trials": [
+        "NCT05975268",
         "NCT05344248",
-        "NCT04220073",
-        "NCT05975268"
+        "NCT04220073"
       ],
       "chembl_id": "",
       "drug_id": "",
@@ -749,6 +749,12 @@
       "provenance": [
         {
           "source": "ctgov",
+          "identifier": "NCT05975268",
+          "url": "https://clinicaltrials.gov/study/NCT05975268",
+          "retrieved": null
+        },
+        {
+          "source": "ctgov",
           "identifier": "NCT05344248",
           "url": "https://clinicaltrials.gov/study/NCT05344248",
           "retrieved": null
@@ -757,12 +763,6 @@
           "source": "ctgov",
           "identifier": "NCT04220073",
           "url": "https://clinicaltrials.gov/study/NCT04220073",
-          "retrieved": null
-        },
-        {
-          "source": "ctgov",
-          "identifier": "NCT05975268",
-          "url": "https://clinicaltrials.gov/study/NCT05975268",
           "retrieved": null
         }
       ],
@@ -16043,7 +16043,7 @@
         }
       ]
     },
-    "indications_omitted": 27
+    "indications_omitted": 0
   },
   "failures": {
     "n_trials": 190,
@@ -18704,7 +18704,7 @@
   "notes": [
     "The registry search returned 90 trials that never names IL17A or any drug known to act on it. Those are not counted as work on this target.",
     "9 trials name IL17A as a genotype or a patient-selection criterion rather than as a drug target. They are listed under trials; their drugs are not counted as programmes against this target.",
-    "224 trials on this target list drugs this record does not tie to IL17A -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
+    "226 trials on this target list drugs this record does not tie to IL17A -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
   ],
   "rules_version": "2026-09-07-directed-discovery"
 }

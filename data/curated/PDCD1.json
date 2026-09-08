@@ -201,7 +201,7 @@
         "malignant colon neoplasm": 4,
         "pleural mesothelioma": 4,
         "rectal cancer": 4,
-        "Merkel Cell Carcinoma": 1,
+        "Merkel Cell Carcinoma": 2,
         "squamous carcinoma of the lung": 2,
         "biliary tract cancer": 4,
         "castration resistant prostate cancer": 4,
@@ -223,7 +223,7 @@
         "ependymoma": 4,
         "non-Hodgkin lymphoma": 4,
         "acute myeloid leukemia": 4,
-        "dendritic cell tumor": 4,
+        "dendritic cell tumor": 2,
         "HER2 expressing or amplified advanced malignancies": 4,
         "nasopharyngeal neoplasm": 4,
         "fallopian tube cancer": 4,
@@ -236,7 +236,7 @@
         "Cutaneous Squamous Cell Carcinoma (CSCC)": 2,
         "Kidney Transplant": 2,
         "liver cancer": 2,
-        "hormone receptor-low breast cancer": 1
+        "hormone receptor-low breast cancer": 2
       },
       "trials": [
         "NCT07101848",
@@ -309,7 +309,7 @@
         "cervical cancer",
         "clear cell kidney cancer",
         "melanoma",
-        "mismatch repair deficient solid tumor",
+        "mismatch repair deficient tumor",
         "clear cell sarcoma",
         "exocrine pancreatic cancer",
         "pancreatic neoplasm",
@@ -359,7 +359,7 @@
         "cervical cancer": 4,
         "clear cell kidney cancer": 4,
         "melanoma": 4,
-        "mismatch repair deficient solid tumor": 4,
+        "mismatch repair deficient tumor": 4,
         "clear cell sarcoma": 4,
         "exocrine pancreatic cancer": 4,
         "pancreatic neoplasm": 4,
@@ -458,6 +458,12 @@
       "is_active": true,
       "named_by_class": false,
       "provenance": [
+        {
+          "source": "manual",
+          "identifier": "NMPA approval April 2025 for first-line PD-L1-positive NSCLC on a head-to-head Phase 3 against pembrolizumab; not approved outside China",
+          "url": "https://www.akesobio.com/en/media/akeso-news/250426/",
+          "retrieved": null
+        },
         {
           "source": "manual",
           "identifier": "NMPA approval April 2025 for first-line PD-L1-positive NSCLC on a head-to-head Phase 3 against pembrolizumab; not approved outside China",
@@ -811,7 +817,8 @@
         "Melanocytoma",
         "Recurrent and/or Metastatic Platinum-refractory SCCHN",
         "Undifferentiated Sarcoma",
-        "High Grade Endometrial Stromal Sarcoma"
+        "High Grade Endometrial Stromal Sarcoma",
+        "Lymphoma, Large B-Cell, Diffuse"
       ],
       "indication_phase": {
         "head and neck cancer": 2,
@@ -835,7 +842,7 @@
         "small cell carcinoma": 3,
         "clear cell kidney cancer": 2,
         "esophagogastric junction cancer": 2,
-        "squamous cell carcinoma": 3,
+        "squamous cell carcinoma": 2,
         "hepatocellular carcinoma": 2,
         "invasive urothelial cancer": 2,
         "gastroesophageal junction cancer": 2,
@@ -1077,7 +1084,7 @@
         "kirsten rat sarcoma positive lung adenocarcinoma": 2,
         "HER2-expressing solid tumors": 2,
         "fibrolamellar hepatocellular carcinoma": 2,
-        "microsatellite instability-high": 2,
+        "microsatellite instability-high": 4,
         "epithelial ovarian carcinoma": 3,
         "tumor mutation burden high": 2,
         "human immunodeficiency virus disease": 4,
@@ -1109,7 +1116,7 @@
         "Kaposi's sarcoma": 4,
         "hepatitis D infection": 2,
         "mycosis fungoides": 1,
-        "platinum-resistant ovarian cancer": 3,
+        "platinum-resistant ovarian cancer": 2,
         "solid organ cancers": 2,
         "peritoneal metastasis": 3,
         "cutaneous angiosarcoma": 4,
@@ -1143,7 +1150,8 @@
         "Melanocytoma": 1,
         "Recurrent and/or Metastatic Platinum-refractory SCCHN": 2,
         "Undifferentiated Sarcoma": 2,
-        "High Grade Endometrial Stromal Sarcoma": 2
+        "High Grade Endometrial Stromal Sarcoma": 2,
+        "Lymphoma, Large B-Cell, Diffuse": 2
       },
       "trials": [
         "NCT03459222",
@@ -1403,7 +1411,7 @@
         "thyroid gland undifferentiated (anaplastic) carcinoma",
         "circulating tumor cells positive breast cancer",
         "Classical Hodgkin Lymphoma",
-        "extranodal diffuse large B-cell lymphoma",
+        "Lymphoma, Large B-Cell, Diffuse",
         "well-differentiated neuroendocrine tumors",
         "mucosal melanoma",
         "aggressive lymphoma",
@@ -1433,7 +1441,7 @@
         "adenocarcinoma",
         "myeloproliferative neoplasm",
         "laryngeal carcinoma",
-        "mismatch repair deficient solid tumor",
+        "mismatch repair deficient tumor",
         "microsatellite unstable tumor",
         "microsatellite instability solid tumors",
         "brain neoplasm",
@@ -1455,7 +1463,6 @@
         "B3 thymoma",
         "cervical intraepithelial neoplasia",
         "poorly differentiated thyroid gland carcinoma",
-        "mismatch repair deficient tumor",
         "microsatellite instability-high",
         "neuroendocrine prostate cancer",
         "microsatellite-stable metastatic pancreatic cancer",
@@ -1775,7 +1782,7 @@
         "thyroid gland undifferentiated (anaplastic) carcinoma": 3,
         "circulating tumor cells positive breast cancer": 3,
         "Classical Hodgkin Lymphoma": 2,
-        "extranodal diffuse large B-cell lymphoma": 2,
+        "Lymphoma, Large B-Cell, Diffuse": 2,
         "well-differentiated neuroendocrine tumors": 3,
         "mucosal melanoma": 3,
         "aggressive lymphoma": 2,
@@ -1787,7 +1794,7 @@
         "gastrointestinal cancer": 3,
         "endocrine gland neoplasm": 3,
         "malignant endocrine neoplasm": 3,
-        "colorectal liver metastases": 3,
+        "colorectal liver metastases": 4,
         "Kaposi's sarcoma": 1,
         "colorectal adenocarcinoma": 3,
         "exocrine pancreatic adenocarcinoma": 3,
@@ -1805,7 +1812,7 @@
         "adenocarcinoma": 3,
         "myeloproliferative neoplasm": 3,
         "laryngeal carcinoma": 3,
-        "mismatch repair deficient solid tumor": 3,
+        "mismatch repair deficient tumor": 3,
         "microsatellite unstable tumor": 3,
         "microsatellite instability solid tumors": 3,
         "brain neoplasm": 3,
@@ -1827,8 +1834,7 @@
         "B3 thymoma": 4,
         "cervical intraepithelial neoplasia": 3,
         "poorly differentiated thyroid gland carcinoma": 3,
-        "mismatch repair deficient tumor": 3,
-        "microsatellite instability-high": 3,
+        "microsatellite instability-high": 2,
         "neuroendocrine prostate cancer": 3,
         "microsatellite-stable metastatic pancreatic cancer": 3,
         "malignant effusion": 3,
@@ -1906,7 +1912,7 @@
         "breast cancer brain metastases": 3,
         "melanoma brain metastases": 3,
         "HRD/FAD solid tumours": 3,
-        "portal vein tumor thrombosis": 4,
+        "portal vein tumor thrombosis": 3,
         "penile cancer": 3,
         "nasal cavity and paranasal sinus carcinoma": 3,
         "primary cutaneous T-cell lymphoma": 2,
@@ -1921,7 +1927,7 @@
         "locoregional failure": 4,
         "microsatellite instability colorectal cancer": 3,
         "tumor mutational burden-high solid tumors": 3,
-        "human immunodeficiency virus disease": 4,
+        "human immunodeficiency virus disease": 2,
         "tumor mutation burden high": 3,
         "urinary bladder small cell neuroendocrine carcinoma": 3,
         "cutaneous squamous cell carcinoma of the skin": 3,
@@ -1955,7 +1961,7 @@
         "Multiple Myeloma": 2,
         "Metastatic HER2-Negative Breast Cancer": 2,
         "Esophagogastric Adenocarcinoma": 2,
-        "Malignant Melanoma": 2,
+        "Malignant Melanoma": 3,
         "Carcinoma, Pancreatic Ductal": 1,
         "MSI-H or dMMR Solid Tumors": 1,
         "Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma": 1,
@@ -1968,7 +1974,7 @@
         "Small Cell Lung Cancer (SCLC)": 2,
         "HNSCC": 2,
         "CRC, Colorectal Cancer": 1,
-        "clear cell adenocarcinoma": 1,
+        "clear cell adenocarcinoma": 3,
         "Indolent B-Cell Non-Hodgkin Lymphoma": 2,
         "microsatellite instability": 2,
         "Chemotherapy Effect": 2,
@@ -2547,7 +2553,7 @@
         "Hodgkins lymphoma": 4,
         "non-small cell lung carcinoma": 3,
         "adenocarcinoma": 2,
-        "squamous cell carcinoma": 3,
+        "squamous cell carcinoma": 2,
         "gastric cancer": 2,
         "cancer": 3,
         "hepatocellular carcinoma": 2,
@@ -2942,7 +2948,7 @@
         "anal canal cancer": 4,
         "acral malignant melanoma": 4,
         "digestive carcinoma": 4,
-        "colorectal liver metastases": 1,
+        "colorectal liver metastases": 4,
         "colorectal cancer microsatellite stable": 1,
         "digestive tract tumor": 4,
         "gastro-intestinal cancer": 4,
@@ -3050,7 +3056,7 @@
         "cancer",
         "colorectal adenocarcinoma",
         "gastroesophageal adenocarcinoma",
-        "mismatch repair deficient solid tumor",
+        "mismatch repair deficient tumor",
         "rectal cancer",
         "solid tumor",
         "soft tissue sarcoma",
@@ -3096,7 +3102,7 @@
         "cancer": 3,
         "colorectal adenocarcinoma": 3,
         "gastroesophageal adenocarcinoma": 3,
-        "mismatch repair deficient solid tumor": 3,
+        "mismatch repair deficient tumor": 3,
         "rectal cancer": 3,
         "solid tumor": 3,
         "soft tissue sarcoma": 3,
@@ -3988,7 +3994,7 @@
         "cervical cancer": 1,
         "glioblastoma": 3,
         "anaplastic large cell lymphoma": 3,
-        "squamous cell carcinoma": 1,
+        "squamous cell carcinoma": 2,
         "breast cancer": 1,
         "head and neck squamous cell cancer": 2,
         "gastric cancer": 1,
@@ -4400,7 +4406,7 @@
         "nasopharyngeal neoplasm": 3,
         "gastric cancer": 3,
         "gastroesophageal junction adenocarcinoma": 3,
-        "squamous cell carcinoma": 3,
+        "squamous cell carcinoma": 2,
         "lung cancer": 3,
         "classic Hodgkin lymphoma": 3,
         "gastric adenocarcinoma": 3,
@@ -4858,7 +4864,7 @@
         "head and neck cancer": 2,
         "glioblastoma": 3,
         "Bladder Cancer": 1,
-        "ovarian cancer": 1,
+        "ovarian cancer": 2,
         "endometrial cancer": 1,
         "Merkel Cell Carcinoma": 1,
         "gastroesophageal cancer": 1,
@@ -5274,6 +5280,12 @@
           "identifier": "Phase as stated in Pfizer's licensing release, May 2025",
           "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-enters-exclusive-licensing-agreement-3sbio",
           "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Phase as stated in Pfizer's licensing release, May 2025",
+          "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-enters-exclusive-licensing-agreement-3sbio",
+          "retrieved": null
         }
       ],
       "phase_label": "Phase 2"
@@ -5301,6 +5313,12 @@
       "is_active": true,
       "named_by_class": false,
       "provenance": [
+        {
+          "source": "manual",
+          "identifier": "Phase as stated in Merck's licensing release, November 2024",
+          "url": "https://www.merck.com/news/merck-enters-into-exclusive-global-license-for-lm-299-an-investigational-anti-pd-1-vegf-bispecific-antibody-from-lanova-medicines-ltd/",
+          "retrieved": null
+        },
         {
           "source": "manual",
           "identifier": "Phase as stated in Merck's licensing release, November 2024",
@@ -21764,6 +21782,17 @@
           "max_phase": 4
         },
         {
+          "indication": "mismatch repair deficient tumor",
+          "n_assets": 6,
+          "cells": {
+            "Bispecific antibody — dual pathway blockade": -1,
+            "Blocking antibody": 4,
+            "Other / unclassified — inhibition": -1,
+            "Unclassified": -1
+          },
+          "max_phase": 4
+        },
+        {
           "indication": "natural killer T-cell lymphoma",
           "n_assets": 6,
           "cells": {
@@ -22270,17 +22299,6 @@
           "max_phase": 4
         },
         {
-          "indication": "mismatch repair deficient tumor",
-          "n_assets": 4,
-          "cells": {
-            "Bispecific antibody — dual pathway blockade": -1,
-            "Blocking antibody": 4,
-            "Other / unclassified — inhibition": -1,
-            "Unclassified": -1
-          },
-          "max_phase": 4
-        },
-        {
           "indication": "non-clear renal cell carcinoma",
           "n_assets": 4,
           "cells": {
@@ -22546,17 +22564,6 @@
         },
         {
           "indication": "microsatellite instability",
-          "n_assets": 3,
-          "cells": {
-            "Bispecific antibody — dual pathway blockade": -1,
-            "Blocking antibody": 4,
-            "Other / unclassified — inhibition": -1,
-            "Unclassified": -1
-          },
-          "max_phase": 4
-        },
-        {
-          "indication": "mismatch repair deficient solid tumor",
           "n_assets": 3,
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
@@ -25207,6 +25214,17 @@
           "max_phase": 2
         },
         {
+          "indication": "Lymphoma, Large B-Cell, Diffuse",
+          "n_assets": 2,
+          "cells": {
+            "Bispecific antibody — dual pathway blockade": -1,
+            "Blocking antibody": 2,
+            "Other / unclassified — inhibition": -1,
+            "Unclassified": -1
+          },
+          "max_phase": 2
+        },
+        {
           "indication": "Multiple Myeloma",
           "n_assets": 2,
           "cells": {
@@ -26033,17 +26051,6 @@
         },
         {
           "indication": "extragonadal yolk sac tumors",
-          "n_assets": 1,
-          "cells": {
-            "Bispecific antibody — dual pathway blockade": -1,
-            "Blocking antibody": 2,
-            "Other / unclassified — inhibition": -1,
-            "Unclassified": -1
-          },
-          "max_phase": 2
-        },
-        {
-          "indication": "extranodal diffuse large B-cell lymphoma",
           "n_assets": 1,
           "cells": {
             "Bispecific antibody — dual pathway blockade": -1,
@@ -27100,7 +27107,7 @@
         }
       ]
     },
-    "indications_omitted": 161
+    "indications_omitted": 1
   },
   "failures": {
     "n_trials": 243,
@@ -29434,7 +29441,7 @@
           "Hodgkins lymphoma": 4,
           "non-small cell lung carcinoma": 3,
           "adenocarcinoma": 2,
-          "squamous cell carcinoma": 3,
+          "squamous cell carcinoma": 2,
           "gastric cancer": 2,
           "cancer": 3,
           "hepatocellular carcinoma": 2,
@@ -29829,7 +29836,7 @@
           "anal canal cancer": 4,
           "acral malignant melanoma": 4,
           "digestive carcinoma": 4,
-          "colorectal liver metastases": 1,
+          "colorectal liver metastases": 4,
           "colorectal cancer microsatellite stable": 1,
           "digestive tract tumor": 4,
           "gastro-intestinal cancer": 4,
@@ -29949,7 +29956,7 @@
           "cervical cancer",
           "clear cell kidney cancer",
           "melanoma",
-          "mismatch repair deficient solid tumor",
+          "mismatch repair deficient tumor",
           "clear cell sarcoma",
           "exocrine pancreatic cancer",
           "pancreatic neoplasm",
@@ -29999,7 +30006,7 @@
           "cervical cancer": 4,
           "clear cell kidney cancer": 4,
           "melanoma": 4,
-          "mismatch repair deficient solid tumor": 4,
+          "mismatch repair deficient tumor": 4,
           "clear cell sarcoma": 4,
           "exocrine pancreatic cancer": 4,
           "pancreatic neoplasm": 4,
@@ -30211,7 +30218,7 @@
           "malignant colon neoplasm": 4,
           "pleural mesothelioma": 4,
           "rectal cancer": 4,
-          "Merkel Cell Carcinoma": 1,
+          "Merkel Cell Carcinoma": 2,
           "squamous carcinoma of the lung": 2,
           "biliary tract cancer": 4,
           "castration resistant prostate cancer": 4,
@@ -30233,7 +30240,7 @@
           "ependymoma": 4,
           "non-Hodgkin lymphoma": 4,
           "acute myeloid leukemia": 4,
-          "dendritic cell tumor": 4,
+          "dendritic cell tumor": 2,
           "HER2 expressing or amplified advanced malignancies": 4,
           "nasopharyngeal neoplasm": 4,
           "fallopian tube cancer": 4,
@@ -30246,7 +30253,7 @@
           "Cutaneous Squamous Cell Carcinoma (CSCC)": 2,
           "Kidney Transplant": 2,
           "liver cancer": 2,
-          "hormone receptor-low breast cancer": 1
+          "hormone receptor-low breast cancer": 2
         },
         "trials": [
           "NCT07101848",
@@ -30631,7 +30638,8 @@
           "Melanocytoma",
           "Recurrent and/or Metastatic Platinum-refractory SCCHN",
           "Undifferentiated Sarcoma",
-          "High Grade Endometrial Stromal Sarcoma"
+          "High Grade Endometrial Stromal Sarcoma",
+          "Lymphoma, Large B-Cell, Diffuse"
         ],
         "indication_phase": {
           "head and neck cancer": 2,
@@ -30655,7 +30663,7 @@
           "small cell carcinoma": 3,
           "clear cell kidney cancer": 2,
           "esophagogastric junction cancer": 2,
-          "squamous cell carcinoma": 3,
+          "squamous cell carcinoma": 2,
           "hepatocellular carcinoma": 2,
           "invasive urothelial cancer": 2,
           "gastroesophageal junction cancer": 2,
@@ -30897,7 +30905,7 @@
           "kirsten rat sarcoma positive lung adenocarcinoma": 2,
           "HER2-expressing solid tumors": 2,
           "fibrolamellar hepatocellular carcinoma": 2,
-          "microsatellite instability-high": 2,
+          "microsatellite instability-high": 4,
           "epithelial ovarian carcinoma": 3,
           "tumor mutation burden high": 2,
           "human immunodeficiency virus disease": 4,
@@ -30929,7 +30937,7 @@
           "Kaposi's sarcoma": 4,
           "hepatitis D infection": 2,
           "mycosis fungoides": 1,
-          "platinum-resistant ovarian cancer": 3,
+          "platinum-resistant ovarian cancer": 2,
           "solid organ cancers": 2,
           "peritoneal metastasis": 3,
           "cutaneous angiosarcoma": 4,
@@ -30963,7 +30971,8 @@
           "Melanocytoma": 1,
           "Recurrent and/or Metastatic Platinum-refractory SCCHN": 2,
           "Undifferentiated Sarcoma": 2,
-          "High Grade Endometrial Stromal Sarcoma": 2
+          "High Grade Endometrial Stromal Sarcoma": 2,
+          "Lymphoma, Large B-Cell, Diffuse": 2
         },
         "trials": [
           "NCT03459222",
@@ -31223,7 +31232,7 @@
           "thyroid gland undifferentiated (anaplastic) carcinoma",
           "circulating tumor cells positive breast cancer",
           "Classical Hodgkin Lymphoma",
-          "extranodal diffuse large B-cell lymphoma",
+          "Lymphoma, Large B-Cell, Diffuse",
           "well-differentiated neuroendocrine tumors",
           "mucosal melanoma",
           "aggressive lymphoma",
@@ -31253,7 +31262,7 @@
           "adenocarcinoma",
           "myeloproliferative neoplasm",
           "laryngeal carcinoma",
-          "mismatch repair deficient solid tumor",
+          "mismatch repair deficient tumor",
           "microsatellite unstable tumor",
           "microsatellite instability solid tumors",
           "brain neoplasm",
@@ -31275,7 +31284,6 @@
           "B3 thymoma",
           "cervical intraepithelial neoplasia",
           "poorly differentiated thyroid gland carcinoma",
-          "mismatch repair deficient tumor",
           "microsatellite instability-high",
           "neuroendocrine prostate cancer",
           "microsatellite-stable metastatic pancreatic cancer",
@@ -31595,7 +31603,7 @@
           "thyroid gland undifferentiated (anaplastic) carcinoma": 3,
           "circulating tumor cells positive breast cancer": 3,
           "Classical Hodgkin Lymphoma": 2,
-          "extranodal diffuse large B-cell lymphoma": 2,
+          "Lymphoma, Large B-Cell, Diffuse": 2,
           "well-differentiated neuroendocrine tumors": 3,
           "mucosal melanoma": 3,
           "aggressive lymphoma": 2,
@@ -31607,7 +31615,7 @@
           "gastrointestinal cancer": 3,
           "endocrine gland neoplasm": 3,
           "malignant endocrine neoplasm": 3,
-          "colorectal liver metastases": 3,
+          "colorectal liver metastases": 4,
           "Kaposi's sarcoma": 1,
           "colorectal adenocarcinoma": 3,
           "exocrine pancreatic adenocarcinoma": 3,
@@ -31625,7 +31633,7 @@
           "adenocarcinoma": 3,
           "myeloproliferative neoplasm": 3,
           "laryngeal carcinoma": 3,
-          "mismatch repair deficient solid tumor": 3,
+          "mismatch repair deficient tumor": 3,
           "microsatellite unstable tumor": 3,
           "microsatellite instability solid tumors": 3,
           "brain neoplasm": 3,
@@ -31647,8 +31655,7 @@
           "B3 thymoma": 4,
           "cervical intraepithelial neoplasia": 3,
           "poorly differentiated thyroid gland carcinoma": 3,
-          "mismatch repair deficient tumor": 3,
-          "microsatellite instability-high": 3,
+          "microsatellite instability-high": 2,
           "neuroendocrine prostate cancer": 3,
           "microsatellite-stable metastatic pancreatic cancer": 3,
           "malignant effusion": 3,
@@ -31726,7 +31733,7 @@
           "breast cancer brain metastases": 3,
           "melanoma brain metastases": 3,
           "HRD/FAD solid tumours": 3,
-          "portal vein tumor thrombosis": 4,
+          "portal vein tumor thrombosis": 3,
           "penile cancer": 3,
           "nasal cavity and paranasal sinus carcinoma": 3,
           "primary cutaneous T-cell lymphoma": 2,
@@ -31741,7 +31748,7 @@
           "locoregional failure": 4,
           "microsatellite instability colorectal cancer": 3,
           "tumor mutational burden-high solid tumors": 3,
-          "human immunodeficiency virus disease": 4,
+          "human immunodeficiency virus disease": 2,
           "tumor mutation burden high": 3,
           "urinary bladder small cell neuroendocrine carcinoma": 3,
           "cutaneous squamous cell carcinoma of the skin": 3,
@@ -31775,7 +31782,7 @@
           "Multiple Myeloma": 2,
           "Metastatic HER2-Negative Breast Cancer": 2,
           "Esophagogastric Adenocarcinoma": 2,
-          "Malignant Melanoma": 2,
+          "Malignant Melanoma": 3,
           "Carcinoma, Pancreatic Ductal": 1,
           "MSI-H or dMMR Solid Tumors": 1,
           "Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma": 1,
@@ -31788,7 +31795,7 @@
           "Small Cell Lung Cancer (SCLC)": 2,
           "HNSCC": 2,
           "CRC, Colorectal Cancer": 1,
-          "clear cell adenocarcinoma": 1,
+          "clear cell adenocarcinoma": 3,
           "Indolent B-Cell Non-Hodgkin Lymphoma": 2,
           "microsatellite instability": 2,
           "Chemotherapy Effect": 2,
@@ -31960,6 +31967,12 @@
         "is_active": true,
         "named_by_class": false,
         "provenance": [
+          {
+            "source": "manual",
+            "identifier": "NMPA approval April 2025 for first-line PD-L1-positive NSCLC on a head-to-head Phase 3 against pembrolizumab; not approved outside China",
+            "url": "https://www.akesobio.com/en/media/akeso-news/250426/",
+            "retrieved": null
+          },
           {
             "source": "manual",
             "identifier": "NMPA approval April 2025 for first-line PD-L1-positive NSCLC on a head-to-head Phase 3 against pembrolizumab; not approved outside China",
@@ -32866,7 +32879,7 @@
       {
         "key": "development",
         "label": "In development",
-        "value": "hepatocellular carcinoma, melanoma and endometrial cancer — 3 of 220 indications at that phase",
+        "value": "hepatocellular carcinoma, melanoma and endometrial cancer — 3 of 219 indications at that phase",
         "note": "Furthest programme: Pembrolizumab (Merck Sharp & Dohme LLC), approved, Blocking antibody. 4 mechanism classes in the table.",
         "pmids": []
       },

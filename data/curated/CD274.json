@@ -301,7 +301,7 @@
         "non-small cell lung carcinoma": 4,
         "breast cancer": 3,
         "urologic neoplasms": 2,
-        "small cell carcinoma": 4,
+        "small cell carcinoma": 3,
         "transitional cell carcinoma": 2,
         "cancer": 4,
         "urinary bladder cancer": 2,
@@ -310,7 +310,7 @@
         "ovarian cancer": 2,
         "prostate cancer": 2,
         "renal cell carcinoma": 2,
-        "squamous cell carcinoma": 4,
+        "squamous cell carcinoma": 2,
         "triple-negative breast carcinoma": 3,
         "colorectal adenocarcinoma": 1,
         "primary peritoneal adenocarcinoma": 4,
@@ -381,7 +381,7 @@
         "high grade serous ovarian cancer": 2,
         "oesophago-gastric adenocarcinoma": 4,
         "gastroesophageal junction cancer": 2,
-        "colorectal liver metastases": 3,
+        "colorectal liver metastases": 1,
         "soft tissue sarcoma": 2,
         "poorly differentiated carcinoma": 2,
         "adenocarcinoma": 2,
@@ -403,7 +403,7 @@
         "urogenital neoplasm": 2,
         "sarcoma": 2,
         "thymic carcinoma": 2,
-        "well-differentiated neuroendocrine tumors": 4,
+        "well-differentiated neuroendocrine tumors": 2,
         "adrenal cortex carcinoma": 2,
         "pheochromocytoma": 4,
         "thyroid cancer": 2,
@@ -436,7 +436,7 @@
         "high grade neuroendocrine tumors": 2,
         "kidney medullary carcinoma": 2,
         "collecting duct carcinoma": 2,
-        "microsatellite stable tumors": 3,
+        "microsatellite stable tumors": 2,
         "tumors with tertiary lymphoid structures": 2,
         "portal vein tumor thrombosis": 2,
         "myelodysplastic syndrome": 4,
@@ -497,7 +497,7 @@
         "Primary Adenocarcinoma of the Urinary Tract": 2,
         "Renal Medullary Carcinoma": 2,
         "Select Advanced Solid Tumors": 2,
-        "Limited-stage Small Cell Lung Cancer, LS-SCLC": 2,
+        "Limited-stage Small Cell Lung Cancer, LS-SCLC": 4,
         "Advanced Non-Clear Cell Kidney Cancer": 2,
         "Lung Cancer, Nonsmall Cell": 2,
         "Renal Cancer": 2,
@@ -506,7 +506,7 @@
         "Pathologic Stage IB Esophageal Adenocarcinoma AJCC v8": 2,
         "Marginal Zone Lymphoma": 2,
         "Mucosa Associated Lymphoid Tissue": 2,
-        "castration-resistant prostate cancer": 1,
+        "castration-resistant prostate cancer": 2,
         "MSI": 2,
         "Chemotherapy": 2,
         "Biphasic Mesothelioma": 1,
@@ -1230,7 +1230,7 @@
         "muscle invasive bladder cancer": 2,
         "liver cancer": 2,
         "oral cavity squamous cell carcinoma": 2,
-        "squamous cell carcinoma": 3,
+        "squamous cell carcinoma": 2,
         "gastric adenocarcinoma": 4,
         "gastroesophageal junction adenocarcinoma": 2,
         "head and neck cancer": 2,
@@ -1285,7 +1285,7 @@
         "germ cell tumor": 2,
         "HIV-1 infection": 4,
         "neuroendocrine neoplasm": 2,
-        "colorectal liver metastases": 2,
+        "colorectal liver metastases": 4,
         "rectal cancer": 2,
         "lymphoma": 2,
         "non-transitional cell carcinoma of the urothelial tract": 2,
@@ -1357,7 +1357,7 @@
         "Platinum-Resistant Lung Small Cell Carcinoma": 2,
         "Lung Small Cell Carcinoma, A Subtype": 2,
         "Lung Adenocarcinoma": 2,
-        "large-cell neuroendocrine cancer of the lung": 2,
+        "large-cell neuroendocrine cancer of the lung": 3,
         "NSCLC": 2,
         "Human Papillomavirus Infection": 1,
         "Dysphagia": -1,
@@ -1819,6 +1819,52 @@
       "phase_label": "Phase 3"
     },
     {
+      "name": "Bevacizumab",
+      "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
+      "modality": "Monoclonal antibody",
+      "action_type": "",
+      "mechanism_text": "[network sponsor]",
+      "mechanism_class": "Antibody — mechanism unresolved",
+      "max_phase": 3,
+      "indications": [
+        "ovarian cancer",
+        "Recurrent, or Metastatic Cervical Cancer With PD-L1 Positive (CPS≥1)",
+        "hepatocellular carcinoma",
+        "non-small cell lung carcinoma",
+        "biliary tract tumor"
+      ],
+      "indication_phase": {
+        "ovarian cancer": 2,
+        "Recurrent, or Metastatic Cervical Cancer With PD-L1 Positive (CPS≥1)": 3,
+        "hepatocellular carcinoma": 2,
+        "non-small cell lung carcinoma": 2,
+        "biliary tract tumor": -1
+      },
+      "trials": [
+        "NCT02659384",
+        "NCT05715840",
+        "NCT05396937",
+        "NCT06775275",
+        "NCT07466238"
+      ],
+      "chembl_id": "",
+      "drug_id": "",
+      "synonyms": [],
+      "first_approval": null,
+      "withdrawn": false,
+      "is_active": true,
+      "named_by_class": false,
+      "provenance": [
+        {
+          "source": "ctgov",
+          "identifier": "NCT02659384",
+          "url": "https://clinicaltrials.gov/study/NCT02659384",
+          "retrieved": null
+        }
+      ],
+      "phase_label": "Phase 3"
+    },
+    {
       "name": "ENVAFOLIMAB",
       "sponsor": "Tracon Pharmaceuticals Inc.",
       "modality": "Monoclonal antibody",
@@ -1910,7 +1956,7 @@
         "bone sarcoma": 2,
         "rectal cancer": 3,
         "gallbladder cancer": 3,
-        "microsatellite instability high cancer": 2,
+        "microsatellite instability high cancer": 3,
         "mucosal melanoma": 3,
         "head and neck squamous cell cancer": 3,
         "gastric cancer": 3,
@@ -2217,21 +2263,36 @@
       "phase_label": "Phase 2"
     },
     {
-      "name": "Bevacizumab",
-      "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
-      "modality": "Monoclonal antibody",
+      "name": "B1962",
+      "sponsor": "Tasly Biopharmaceuticals Co., Ltd.",
+      "modality": "Other / unclassified",
       "action_type": "",
-      "mechanism_text": "[network sponsor]",
-      "mechanism_class": "Antibody — mechanism unresolved",
+      "mechanism_text": "",
+      "mechanism_class": "Unclassified",
       "max_phase": 2,
       "indications": [
-        "ovarian cancer"
+        "cancer",
+        "Recurrent Platinum-resistant Epithelial Ovarian Cancer",
+        "triple-negative breast carcinoma",
+        "cervical cancer",
+        "small cell carcinoma",
+        "Hepatocellular Carcinoma (HCC)",
+        "colorectal cancer",
+        "non-small cell lung carcinoma"
       ],
       "indication_phase": {
-        "ovarian cancer": 2
+        "cancer": 1,
+        "Recurrent Platinum-resistant Epithelial Ovarian Cancer": 2,
+        "triple-negative breast carcinoma": 2,
+        "cervical cancer": 2,
+        "small cell carcinoma": 2,
+        "Hepatocellular Carcinoma (HCC)": 2,
+        "colorectal cancer": 2,
+        "non-small cell lung carcinoma": 2
       },
       "trials": [
-        "NCT02659384"
+        "NCT05650385",
+        "NCT06724263"
       ],
       "chembl_id": "",
       "drug_id": "",
@@ -2243,8 +2304,8 @@
       "provenance": [
         {
           "source": "ctgov",
-          "identifier": "NCT02659384",
-          "url": "https://clinicaltrials.gov/study/NCT02659384",
+          "identifier": "NCT05650385",
+          "url": "https://clinicaltrials.gov/study/NCT05650385",
           "retrieved": null
         }
       ],
@@ -2595,40 +2656,6 @@
         }
       ],
       "phase_label": "Phase 2"
-    },
-    {
-      "name": "B1962",
-      "sponsor": "Tasly Biopharmaceuticals Co., Ltd.",
-      "modality": "Other / unclassified",
-      "action_type": "",
-      "mechanism_text": "",
-      "mechanism_class": "Unclassified",
-      "max_phase": 1,
-      "indications": [
-        "cancer"
-      ],
-      "indication_phase": {
-        "cancer": 1
-      },
-      "trials": [
-        "NCT05650385"
-      ],
-      "chembl_id": "",
-      "drug_id": "",
-      "synonyms": [],
-      "first_approval": null,
-      "withdrawn": false,
-      "is_active": true,
-      "named_by_class": false,
-      "provenance": [
-        {
-          "source": "ctgov",
-          "identifier": "NCT05650385",
-          "url": "https://clinicaltrials.gov/study/NCT05650385",
-          "retrieved": null
-        }
-      ],
-      "phase_label": "Phase 1"
     },
     {
       "name": "PD-L1/IDO Peptide",
@@ -15290,13 +15317,13 @@
     "n_total": 28,
     "n_active": 22,
     "n_dormant": 6,
-    "weighted_score": 55.0,
+    "weighted_score": 57.2,
     "verdict": "Saturated",
     "by_phase": {
       "Approved": 5,
-      "Phase 3": 5,
+      "Phase 3": 6,
       "Phase 2": 8,
-      "Phase 1": 4
+      "Phase 1": 3
     },
     "n_sponsors": 17,
     "n_mechanism_classes": 6,
@@ -15398,13 +15425,27 @@
             "Ligand trap / decoy receptor": 3,
             "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": 1
+            "Unclassified": 2
+          },
+          "max_phase": 4
+        },
+        {
+          "indication": "non-small cell lung carcinoma",
+          "n_assets": 12,
+          "cells": {
+            "Active immunisation": -1,
+            "Antibody — mechanism unresolved": 3,
+            "Blocking antibody": 4,
+            "Ligand trap / decoy receptor": 3,
+            "Named only by class": -1,
+            "Other / unclassified — inhibition": -1,
+            "Unclassified": 2
           },
           "max_phase": 4
         },
         {
           "indication": "biliary tract tumor",
-          "n_assets": 10,
+          "n_assets": 11,
           "cells": {
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 4,
@@ -15417,16 +15458,16 @@
           "max_phase": 4
         },
         {
-          "indication": "non-small cell lung carcinoma",
+          "indication": "hepatocellular carcinoma",
           "n_assets": 10,
           "cells": {
             "Active immunisation": -1,
-            "Antibody — mechanism unresolved": 3,
-            "Blocking antibody": 4,
-            "Ligand trap / decoy receptor": 3,
+            "Antibody — mechanism unresolved": 4,
+            "Blocking antibody": 3,
+            "Ligand trap / decoy receptor": -1,
             "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": -1
+            "Unclassified": 1
           },
           "max_phase": 4
         },
@@ -15441,20 +15482,6 @@
             "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
             "Unclassified": -1
-          },
-          "max_phase": 4
-        },
-        {
-          "indication": "hepatocellular carcinoma",
-          "n_assets": 9,
-          "cells": {
-            "Active immunisation": -1,
-            "Antibody — mechanism unresolved": 4,
-            "Blocking antibody": 3,
-            "Ligand trap / decoy receptor": -1,
-            "Named only by class": -1,
-            "Other / unclassified — inhibition": -1,
-            "Unclassified": 1
           },
           "max_phase": 4
         },
@@ -16453,6 +16480,48 @@
           "max_phase": 3
         },
         {
+          "indication": "small cell carcinoma",
+          "n_assets": 9,
+          "cells": {
+            "Active immunisation": -1,
+            "Antibody — mechanism unresolved": 3,
+            "Blocking antibody": 3,
+            "Ligand trap / decoy receptor": 3,
+            "Named only by class": -1,
+            "Other / unclassified — inhibition": -1,
+            "Unclassified": 2
+          },
+          "max_phase": 3
+        },
+        {
+          "indication": "cervical cancer",
+          "n_assets": 8,
+          "cells": {
+            "Active immunisation": -1,
+            "Antibody — mechanism unresolved": 2,
+            "Blocking antibody": 3,
+            "Ligand trap / decoy receptor": 1,
+            "Named only by class": -1,
+            "Other / unclassified — inhibition": -1,
+            "Unclassified": 2
+          },
+          "max_phase": 3
+        },
+        {
+          "indication": "colorectal cancer",
+          "n_assets": 8,
+          "cells": {
+            "Active immunisation": -1,
+            "Antibody — mechanism unresolved": 2,
+            "Blocking antibody": 3,
+            "Ligand trap / decoy receptor": 3,
+            "Named only by class": -1,
+            "Other / unclassified — inhibition": -1,
+            "Unclassified": 2
+          },
+          "max_phase": 3
+        },
+        {
           "indication": "gastric cancer",
           "n_assets": 8,
           "cells": {
@@ -16467,22 +16536,8 @@
           "max_phase": 3
         },
         {
-          "indication": "small cell carcinoma",
+          "indication": "triple-negative breast carcinoma",
           "n_assets": 8,
-          "cells": {
-            "Active immunisation": -1,
-            "Antibody — mechanism unresolved": 3,
-            "Blocking antibody": 3,
-            "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
-            "Other / unclassified — inhibition": -1,
-            "Unclassified": -1
-          },
-          "max_phase": 3
-        },
-        {
-          "indication": "cervical cancer",
-          "n_assets": 7,
           "cells": {
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": 2,
@@ -16490,21 +16545,7 @@
             "Ligand trap / decoy receptor": 1,
             "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
-            "Unclassified": -1
-          },
-          "max_phase": 3
-        },
-        {
-          "indication": "colorectal cancer",
-          "n_assets": 7,
-          "cells": {
-            "Active immunisation": -1,
-            "Antibody — mechanism unresolved": 2,
-            "Blocking antibody": 3,
-            "Ligand trap / decoy receptor": 3,
-            "Named only by class": -1,
-            "Other / unclassified — inhibition": -1,
-            "Unclassified": -1
+            "Unclassified": 2
           },
           "max_phase": 3
         },
@@ -16547,20 +16588,6 @@
             "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
             "Unclassified": -1
-          },
-          "max_phase": 3
-        },
-        {
-          "indication": "triple-negative breast carcinoma",
-          "n_assets": 7,
-          "cells": {
-            "Active immunisation": -1,
-            "Antibody — mechanism unresolved": 2,
-            "Blocking antibody": 3,
-            "Ligand trap / decoy receptor": 1,
-            "Named only by class": -1,
-            "Other / unclassified — inhibition": -1,
-            "Unclassified": 2
           },
           "max_phase": 3
         },
@@ -17187,6 +17214,20 @@
             "Active immunisation": -1,
             "Antibody — mechanism unresolved": -1,
             "Blocking antibody": 3,
+            "Ligand trap / decoy receptor": -1,
+            "Named only by class": -1,
+            "Other / unclassified — inhibition": -1,
+            "Unclassified": -1
+          },
+          "max_phase": 3
+        },
+        {
+          "indication": "Recurrent, or Metastatic Cervical Cancer With PD-L1 Positive (CPS≥1)",
+          "n_assets": 1,
+          "cells": {
+            "Active immunisation": -1,
+            "Antibody — mechanism unresolved": 3,
+            "Blocking antibody": -1,
             "Ligand trap / decoy receptor": -1,
             "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
@@ -18063,6 +18104,20 @@
           "max_phase": 2
         },
         {
+          "indication": "Hepatocellular Carcinoma (HCC)",
+          "n_assets": 1,
+          "cells": {
+            "Active immunisation": -1,
+            "Antibody — mechanism unresolved": -1,
+            "Blocking antibody": -1,
+            "Ligand trap / decoy receptor": -1,
+            "Named only by class": -1,
+            "Other / unclassified — inhibition": -1,
+            "Unclassified": 2
+          },
+          "max_phase": 2
+        },
+        {
           "indication": "Lung Adenocarcinoma",
           "n_assets": 1,
           "cells": {
@@ -18297,6 +18352,20 @@
             "Named only by class": -1,
             "Other / unclassified — inhibition": -1,
             "Unclassified": -1
+          },
+          "max_phase": 2
+        },
+        {
+          "indication": "Recurrent Platinum-resistant Epithelial Ovarian Cancer",
+          "n_assets": 1,
+          "cells": {
+            "Active immunisation": -1,
+            "Antibody — mechanism unresolved": -1,
+            "Blocking antibody": -1,
+            "Ligand trap / decoy receptor": -1,
+            "Named only by class": -1,
+            "Other / unclassified — inhibition": -1,
+            "Unclassified": 2
           },
           "max_phase": 2
         },
@@ -19772,10 +19841,10 @@
         }
       ]
     },
-    "indications_omitted": 75
+    "indications_omitted": 0
   },
   "failures": {
-    "n_trials": 164,
+    "n_trials": 169,
     "n_stopped": 37,
     "n_with_reason": 18,
     "counts": {
@@ -20646,6 +20715,45 @@
         ]
       },
       {
+        "asset": "Bevacizumab",
+        "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
+        "sponsor_scale": "Small or private company",
+        "phase": 3,
+        "phase_label": "Phase 3",
+        "mechanism": "Antibody — mechanism unresolved",
+        "is_active": true,
+        "territory": {
+          "countries": [
+            "China",
+            "France",
+            "Netherlands",
+            "Spain",
+            "Switzerland",
+            "United Kingdom"
+          ],
+          "covered": [
+            "China",
+            "EU/UK"
+          ],
+          "absent": [
+            "Japan",
+            "US"
+          ]
+        },
+        "signals": [
+          {
+            "code": "small_sponsor",
+            "headline": "Small or private sponsor",
+            "evidence": "European Organisation for Research and Treatment of Cancer - EORTC is not on the large-pharma list. Small holders partner or sell far more often than large ones, and are reachable directly."
+          },
+          {
+            "code": "territory_gap",
+            "headline": "Territory gap: Japan, US",
+            "evidence": "Trials run in China, EU/UK but not in Japan, US. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
+          }
+        ]
+      },
+      {
         "asset": "ENVAFOLIMAB",
         "sponsor": "Tracon Pharmaceuticals Inc.",
         "sponsor_scale": "Small or private company",
@@ -20835,40 +20943,36 @@
         ]
       },
       {
-        "asset": "Bevacizumab",
-        "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
-        "sponsor_scale": "Academic or non-industry",
+        "asset": "B1962",
+        "sponsor": "Tasly Biopharmaceuticals Co., Ltd.",
+        "sponsor_scale": "Small or private company",
         "phase": 2,
         "phase_label": "Phase 2",
-        "mechanism": "Antibody — mechanism unresolved",
+        "mechanism": "Unclassified",
         "is_active": true,
         "territory": {
           "countries": [
-            "France",
-            "Netherlands",
-            "Spain",
-            "Switzerland",
-            "United Kingdom"
+            "China"
           ],
           "covered": [
-            "EU/UK"
+            "China"
           ],
           "absent": [
-            "China",
+            "EU/UK",
             "Japan",
             "US"
           ]
         },
         "signals": [
           {
-            "code": "academic",
-            "headline": "Academic origin",
-            "evidence": "Sponsored by European Organisation for Research and Treatment of Cancer - EORTC. Academic programmes at this stage are usually seeking a commercial partner, and the institution's tech-transfer office is the contact."
+            "code": "small_sponsor",
+            "headline": "Small or private sponsor",
+            "evidence": "Tasly Biopharmaceuticals Co., Ltd. is not on the large-pharma list. Small holders partner or sell far more often than large ones, and are reachable directly."
           },
           {
             "code": "territory_gap",
-            "headline": "Territory gap: China, Japan, US",
-            "evidence": "Trials run in EU/UK but not in China, Japan, US. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
+            "headline": "Territory gap: EU/UK, Japan, US",
+            "evidence": "Trials run in China but not in EU/UK, Japan, US. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
           }
         ]
       },
@@ -21160,40 +21264,6 @@
         ]
       },
       {
-        "asset": "B1962",
-        "sponsor": "Tasly Biopharmaceuticals Co., Ltd.",
-        "sponsor_scale": "Small or private company",
-        "phase": 1,
-        "phase_label": "Phase 1",
-        "mechanism": "Unclassified",
-        "is_active": true,
-        "territory": {
-          "countries": [
-            "China"
-          ],
-          "covered": [
-            "China"
-          ],
-          "absent": [
-            "EU/UK",
-            "Japan",
-            "US"
-          ]
-        },
-        "signals": [
-          {
-            "code": "small_sponsor",
-            "headline": "Small or private sponsor",
-            "evidence": "Tasly Biopharmaceuticals Co., Ltd. is not on the large-pharma list. Small holders partner or sell far more often than large ones, and are reachable directly."
-          },
-          {
-            "code": "territory_gap",
-            "headline": "Territory gap: EU/UK, Japan, US",
-            "evidence": "Trials run in China but not in EU/UK, Japan, US. Regional rights are often unplaced where a sponsor has not run trials; trial geography is a proxy for where rights are held, not a record of them."
-          }
-        ]
-      },
-      {
         "asset": "PD-L1/IDO Peptide",
         "sponsor": "University of California, Davis",
         "sponsor_scale": "Academic or non-industry",
@@ -21413,6 +21483,12 @@
         "lead_phase": 3
       },
       {
+        "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
+        "scale": "Small or private company",
+        "n": 1,
+        "lead_phase": 3
+      },
+      {
         "sponsor": "Tracon Pharmaceuticals Inc.",
         "scale": "Small or private company",
         "n": 1,
@@ -21437,8 +21513,8 @@
         "lead_phase": 2
       },
       {
-        "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
-        "scale": "Academic or non-industry",
+        "sponsor": "Tasly Biopharmaceuticals Co., Ltd.",
+        "scale": "Small or private company",
         "n": 1,
         "lead_phase": 2
       },
@@ -21482,12 +21558,6 @@
         "sponsor": "University of California, Davis",
         "scale": "Academic or non-industry",
         "n": 2,
-        "lead_phase": 1
-      },
-      {
-        "sponsor": "Tasly Biopharmaceuticals Co., Ltd.",
-        "scale": "Small or private company",
-        "n": 1,
         "lead_phase": 1
       },
       {
@@ -22145,7 +22215,7 @@
           "muscle invasive bladder cancer": 2,
           "liver cancer": 2,
           "oral cavity squamous cell carcinoma": 2,
-          "squamous cell carcinoma": 3,
+          "squamous cell carcinoma": 2,
           "gastric adenocarcinoma": 4,
           "gastroesophageal junction adenocarcinoma": 2,
           "head and neck cancer": 2,
@@ -22200,7 +22270,7 @@
           "germ cell tumor": 2,
           "HIV-1 infection": 4,
           "neuroendocrine neoplasm": 2,
-          "colorectal liver metastases": 2,
+          "colorectal liver metastases": 4,
           "rectal cancer": 2,
           "lymphoma": 2,
           "non-transitional cell carcinoma of the urothelial tract": 2,
@@ -22272,7 +22342,7 @@
           "Platinum-Resistant Lung Small Cell Carcinoma": 2,
           "Lung Small Cell Carcinoma, A Subtype": 2,
           "Lung Adenocarcinoma": 2,
-          "large-cell neuroendocrine cancer of the lung": 2,
+          "large-cell neuroendocrine cancer of the lung": 3,
           "NSCLC": 2,
           "Human Papillomavirus Infection": 1,
           "Dysphagia": -1,
@@ -22589,7 +22659,7 @@
           "non-small cell lung carcinoma": 4,
           "breast cancer": 3,
           "urologic neoplasms": 2,
-          "small cell carcinoma": 4,
+          "small cell carcinoma": 3,
           "transitional cell carcinoma": 2,
           "cancer": 4,
           "urinary bladder cancer": 2,
@@ -22598,7 +22668,7 @@
           "ovarian cancer": 2,
           "prostate cancer": 2,
           "renal cell carcinoma": 2,
-          "squamous cell carcinoma": 4,
+          "squamous cell carcinoma": 2,
           "triple-negative breast carcinoma": 3,
           "colorectal adenocarcinoma": 1,
           "primary peritoneal adenocarcinoma": 4,
@@ -22669,7 +22739,7 @@
           "high grade serous ovarian cancer": 2,
           "oesophago-gastric adenocarcinoma": 4,
           "gastroesophageal junction cancer": 2,
-          "colorectal liver metastases": 3,
+          "colorectal liver metastases": 1,
           "soft tissue sarcoma": 2,
           "poorly differentiated carcinoma": 2,
           "adenocarcinoma": 2,
@@ -22691,7 +22761,7 @@
           "urogenital neoplasm": 2,
           "sarcoma": 2,
           "thymic carcinoma": 2,
-          "well-differentiated neuroendocrine tumors": 4,
+          "well-differentiated neuroendocrine tumors": 2,
           "adrenal cortex carcinoma": 2,
           "pheochromocytoma": 4,
           "thyroid cancer": 2,
@@ -22724,7 +22794,7 @@
           "high grade neuroendocrine tumors": 2,
           "kidney medullary carcinoma": 2,
           "collecting duct carcinoma": 2,
-          "microsatellite stable tumors": 3,
+          "microsatellite stable tumors": 2,
           "tumors with tertiary lymphoid structures": 2,
           "portal vein tumor thrombosis": 2,
           "myelodysplastic syndrome": 4,
@@ -22785,7 +22855,7 @@
           "Primary Adenocarcinoma of the Urinary Tract": 2,
           "Renal Medullary Carcinoma": 2,
           "Select Advanced Solid Tumors": 2,
-          "Limited-stage Small Cell Lung Cancer, LS-SCLC": 2,
+          "Limited-stage Small Cell Lung Cancer, LS-SCLC": 4,
           "Advanced Non-Clear Cell Kidney Cancer": 2,
           "Lung Cancer, Nonsmall Cell": 2,
           "Renal Cancer": 2,
@@ -22794,7 +22864,7 @@
           "Pathologic Stage IB Esophageal Adenocarcinoma AJCC v8": 2,
           "Marginal Zone Lymphoma": 2,
           "Mucosa Associated Lymphoid Tissue": 2,
-          "castration-resistant prostate cancer": 1,
+          "castration-resistant prostate cancer": 2,
           "MSI": 2,
           "Chemotherapy": 2,
           "Biphasic Mesothelioma": 1,
@@ -22984,22 +23054,22 @@
     ],
     "n_approved": 5,
     "n_withdrawn": 0,
-    "n_phase3": 5,
+    "n_phase3": 6,
     "n_controlled_running": 32,
     "n_science_failures": 4,
     "genetic_score": 0.659,
     "genetic_disease": "hypothyroidism"
   },
   "readouts": {
-    "n_trials": 164,
-    "n_active": 60,
-    "n_controlled": 12,
+    "n_trials": 169,
+    "n_active": 63,
+    "n_controlled": 13,
     "n_confirmatory": 2,
     "n_undescribed": 0,
     "by_level": {
       "confirmatory": 2,
-      "signal": 26,
-      "controlled": 10,
+      "signal": 28,
+      "controlled": 11,
       "mechanistic": 2,
       "unclear": 9,
       "dose": 11
@@ -23012,7 +23082,7 @@
       "mechanistic": "Mechanistic",
       "unclear": "Design not stated"
     },
-    "verdict": "164 trials on record, 60 still running. 12 of those are controlled efficacy studies; the other 48 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
+    "verdict": "169 trials on record, 63 still running. 13 of those are controlled efficacy studies; the other 50 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
     "catalysts": [
       {
         "nct_id": "NCT03991832",
@@ -23898,9 +23968,9 @@
       {
         "key": "evidence",
         "label": "What can the running trials show?",
-        "value": "12 of 60 running trials are controlled efficacy studies · next readout 2026-11 (sponsor estimate)",
+        "value": "13 of 63 running trials are controlled efficacy studies · next readout 2026-11 (sponsor estimate)",
         "face": "science",
-        "detail": "164 trials on record, 60 still running. 12 of those are controlled efficacy studies; the other 48 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Alliance Foundation Trials, LLC. · Atezolizumab Immunotherapy With or Without Tiragolumab for Patients With Unresectable Stage III NSCLC — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT03991832, 2026-09-30, signal-generating — and every upcoming completion is listed under Trials.",
+        "detail": "169 trials on record, 63 still running. 13 of those are controlled efficacy studies; the other 50 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Alliance Foundation Trials, LLC. · Atezolizumab Immunotherapy With or Without Tiragolumab for Patients With Unresectable Stage III NSCLC — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT03991832, 2026-09-30, signal-generating — and every upcoming completion is listed under Trials.",
         "anchor": "#readouts"
       },
       {
@@ -23916,7 +23986,7 @@
         "label": "How contested is it?",
         "value": "Saturated — 28 assets, 5 already approved",
         "face": "business",
-        "detail": "17 sponsors, phase-weighted score 55.0. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
+        "detail": "17 sponsors, phase-weighted score 57.2. Assets are weighted by phase rather than counted, because a Phase 3 competitor and a preclinical one are not the same obstacle. The band thresholds are a stated convention, not a measurement.",
         "anchor": "#crowding"
       },
       {
@@ -23939,9 +24009,9 @@
     "audience": "Each answer is a count or a date taken from the tables on this page, with a link to them. Read together they describe what the public record holds on this target — they are not a recommendation, and no weighting between them is implied."
   },
   "narrative": {
-    "bottom_line": "CD274 carries 22 active programmes across 6 mechanism classes from 17 named sponsors, reaching Approved. Phase-weighted density scores 55.0, which this tool bands as Saturated. The most advanced asset is ATEZOLIZUMAB (Seattle Project Corporation) at Approved.",
+    "bottom_line": "CD274 carries 22 active programmes across 6 mechanism classes from 17 named sponsors, reaching Approved. Phase-weighted density scores 57.2, which this tool bands as Saturated. The most advanced asset is ATEZOLIZUMAB (Seattle Project Corporation) at Approved.",
     "competitive": "The field splits into 7 mechanism classes. Blocking antibody is the most advanced; Unclassified is the most crowded, with 9 assets. A further 6 programmes are dormant — every linked trial stopped and nothing is running — and excluded from the density score.",
-    "failures": "37 of 164 trials stopped; 18 stated a reason. Of those with a stated reason, 3 were science-driven (efficacy, safety or PK/PD) and 3 were business-driven. That is 17% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
+    "failures": "37 of 169 trials stopped; 18 stated a reason. Of those with a stated reason, 3 were science-driven (efficacy, safety or PK/PD) and 3 were business-driven. That is 17% of stated terminations carrying evidence about the target rather than about a sponsor's portfolio.",
     "whitespace": "1 disease passes the screen: association evidence above threshold, genetic support, and nothing past preclinical. The strongest on genetic evidence is hypothyroidism (association 0.408, genetic 0.659). Treat this as a hypothesis to check by hand rather than a finding — disease names are matched between EFO terms and sponsor free text, and that matching is imperfect.",
     "licensing": "Unattributed holds the most advanced programme (Approved). 4 of 28 programmes reached Phase 2 or beyond and have no trial running — Anti-(Homo sapiens CD274 (Programmed Death Ligand 1, PDL1, pd-l1, B7 Homolog 1, B7H1)), DANBURSTOTUG, PACMILIMAB and 1 more. Why each stopped is under Terminations, in the sponsor's words. No deal has been entered for this target — there is no free deal database to pull one from, so this section is only as complete as its maintainer, and an empty file is not evidence that nothing has been licensed. Everything here is public trial and sponsor data, not knowledge of any agreement, and nothing is scored: a programme not on a deal is a programme this record cannot show a deal for.",
     "risks": "This read is bounded by what public sources carry. Preclinical and undisclosed programmes are invisible; China- and Japan-only registrations are under-represented because only ClinicalTrials.gov is swept; and termination reasons are self-reported and often absent (49% of stopped trials here stated one). Deal comparables are hand-maintained and not exhaustive.",
@@ -23952,7 +24022,7 @@
   "notes": [
     "The registry search returned 128 trials that never names CD274 or any drug known to act on it. Those are not counted as work on this target.",
     "16 trials name CD274 as a genotype or a patient-selection criterion rather than as a drug target. They are listed under trials; their drugs are not counted as programmes against this target.",
-    "195 trials on this target list drugs this record does not tie to CD274 -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
+    "210 trials on this target list drugs this record does not tie to CD274 -- a chemotherapy backbone, a comparator, a supportive-care arm. Those trials are counted; their drugs are not counted as programmes against the target."
   ],
   "rules_version": "2026-09-07-directed-discovery"
 }

@@ -144,7 +144,10 @@ _DEPLETION_RE = re.compile(
 )
 _BLOCK_RE = re.compile(r"antagonist|block|neutralis|neutraliz|inhibit", re.I)
 _AGONIST_RE = re.compile(r"agonist|stimulat|activat", re.I)
-_ANTI_PREFIX_RE = re.compile(r"\banti[- ]\w", re.I)
+# "Anti-" names an antibody against whatever follows, and what follows is not
+# always a word: ChEMBL writes them as Anti-(Homo sapiens CD274 (...)), which
+# the \\w version missed, leaving every such row unclassified.
+_ANTI_PREFIX_RE = re.compile(r"\banti[- ][\w(\[]", re.I)
 _DEGRADER_RE = re.compile(r"degrader|protac|molecular glue", re.I)
 
 _ACTION_TYPE_MAP = {
