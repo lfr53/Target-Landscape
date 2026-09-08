@@ -93,10 +93,36 @@ if ($LASTEXITCODE -eq 0) {
 } else {
     Write-Host ""
     Write-Host "The push failed. The commit is safe locally; nothing is lost." -ForegroundColor Red
-    Write-Host "Most common causes:" -ForegroundColor DarkGray
-    Write-Host "  * the repository was created with a README, so GitHub has a commit" -ForegroundColor DarkGray
-    Write-Host "    this one does not build on. Fix: git pull --rebase origin main" -ForegroundColor DarkGray
-    Write-Host "    and run this again." -ForegroundColor DarkGray
-    Write-Host "  * sign-in was cancelled or the URL is wrong." -ForegroundColor DarkGray
+    Write-Host ""
+    Write-Host "Almost always this means GitHub has a commit yours does not build on:" -ForegroundColor DarkGray
+    Write-Host "a file was edited on github.com, or the repository was created with a" -ForegroundColor DarkGray
+    Write-Host "README. Git will not guess; it wants your commit replayed on top of" -ForegroundColor DarkGray
+    Write-Host "theirs. That touches your files only where the same lines were edited" -ForegroundColor DarkGray
+    Write-Host "in both places, and it stops and asks if they were." -ForegroundColor DarkGray
+    Write-Host ""
+    $again = Read-Host "Pull their changes and push again? (y/N)"
+    if ($again -eq "y" -or $again -eq "Y") {
+        Write-Host ""
+        git pull --rebase origin main
+        if ($LASTEXITCODE -ne 0) {
+            Write-Host ""
+            Write-Host "The replay stopped: the same lines were edited in both places." -ForegroundColor Red
+            Write-Host "Put it back as it was with" -ForegroundColor DarkGray
+            Write-Host "    git rebase --abort" -ForegroundColor DarkGray
+            Write-Host "and send setup-log.txt -- nothing is lost either way." -ForegroundColor DarkGray
+        } else {
+            git push -u origin main
+            if ($LASTEXITCODE -eq 0) {
+                Write-Host ""
+                Write-Host "Pushed." -ForegroundColor Green
+            } else {
+                Write-Host ""
+                Write-Host "Still refused. Sign-in was cancelled, or the URL is wrong." -ForegroundColor Red
+            }
+        }
+    } else {
+        Write-Host ""
+        Write-Host "Nothing pushed. Your commit is still here; run this again when ready." -ForegroundColor Yellow
+    }
 }
 Read-Host "Press Enter to close"
