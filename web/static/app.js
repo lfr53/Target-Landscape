@@ -1426,12 +1426,14 @@ function renderLicensing(assets, host) {
   host.appendChild(el('h3', { class: 'panel-h', text: 'Deals on file' }));
   if (!dealRows.length) {
     host.appendChild(el('div', { class: 'empty' }, [
-      el('p', { text: 'No deal has been entered for this target.' }),
+      el('p', { text: 'No deal on file for this target.' }),
+      // What a reader needs here is what the blank means, not how to fill it
+      // in. The file path and "on the next load" were instructions to whoever
+      // maintains the tool, printed on the page an investor is reading.
       el('p', { class: 'hint', style: 'margin-top:8px', text:
-        'There is no free, redistributable deal database, so this file is maintained by '
-        + 'hand: add data/deals/' + state.data.target.symbol + '.csv and it appears here '
-        + 'on the next load. An empty file means nobody has filled it in \u2014 not that '
-        + 'nothing has been licensed.' }),
+        'Deal terms are entered by hand from the parties\u2019 own announcements, because '
+        + 'no free database of them can be redistributed. So a blank section means nobody '
+        + 'has entered one \u2014 not that nothing has been licensed on this target.' }),
     ]));
   } else {
     const body = el('tbody');
