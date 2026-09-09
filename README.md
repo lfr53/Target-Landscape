@@ -1,31 +1,28 @@
-# target-landscape
+# Target Landscape
 
-**Look up a drug target. See whether the biology holds up, and whether
-there's still room to move.**
+**A whole-picture view of a drug target, from biology and clinical
+development to competition and transactions.**
 
 [**Open the site**](https://lfr53.github.io/Target-Landscape/) · built on Open
 Targets, ChEMBL, ClinicalTrials.gov, UniProt and Europe PMC · **no API key, no
 model, nothing to sign up for**.
 
-A scientist opening a target asks whether it's real: has anyone made a
-medicine from it, has it been tried and failed, and if it failed, at what
-step. An investor or BD analyst opens the same target asking whether there's
-still a window: who else is in the field, what's already spoken for, what
-isn't. Those two questions run on almost the same evidence — a stopped trial
-is failure data to one reader and a supply signal to the other — but they
-live in different databases today, so someone reads the same trial twice, or
-only from one side. This puts both readings on one page.
+Target Landscape is built for people making early decisions around a drug
+target: scientists asking whether a target is worth developing, or where an
+opportunity may still exist; early-stage biotech investors evaluating a new
+company or programme; and BD or licensing teams screening targets and assets
+before deeper diligence.
 
-**It answers, it doesn't decide.** Every section states one judgement and
-links to the record behind it; where the evidence doesn't support a call, the
-page says "cannot tell" rather than guessing. What to do about a shelved
-Phase 2 asset or a crowded pathway stays the reader's call — the tool's job
-is to put both sides of the file in front of them, matched to the same
-target, without either side going stale.
+The problem is rarely a lack of information. It is knowing what information
+matters for the decision you are trying to make. Target data is spread across
+genetics, biology, clinical trials, drug programmes, failures, competitive
+pipelines and publications, and even where it is all publicly available, an
+early reviewer may not know which questions need answering, which evidence is
+decision-relevant, or where to find it among hundreds of records.
 
-Six questions, in the order they have to be settled — three on whether the
-target works, three on what can be had here, coloured by that and nothing
-else:
+Target Landscape starts from the questions behind the decision, not from the
+databases. For each target, it asks a structured set of six questions, three
+on whether the target works and three on what can be had here:
 
 | | | |
 |---|---|---|
@@ -35,6 +32,16 @@ else:
 | **Competitive landscape** | Who is developing what, grouped by mechanism, phase-weighted rather than counted | business |
 | **Licensing and deals** | What has been licensed, on whose announcement, and which programmes have never been on a deal | business |
 | **Untried** | A modality that could reach this protein and has not been tried, or a disease with evidence and nothing in the clinic | business |
+
+Each question is paired with the specific evidence needed to examine it,
+rather than an undifferentiated pile of records — and wherever possible, the
+underlying record, its source and its date stay visible, so the evidence can
+be traced back to where it came from.
+
+Target Landscape is designed to support judgement, not replace it. It does
+not tell users whether to develop, invest in or license a target. Instead, it
+helps them understand what needs to be considered, brings the relevant
+evidence together, and makes that evidence easier to inspect and challenge.
 
 ![The six answers, on KRAS](docs/images/read.png)
 
