@@ -1,13 +1,27 @@
 # target-landscape
 
-**Look up a drug target. Get six answers on whether it is worth the meeting.**
+**Look up a drug target. See whether the biology holds up, and whether
+there's still room to move.**
 
 [**Open the site**](https://lfr53.github.io/Target-Landscape/) · built on Open
 Targets, ChEMBL, ClinicalTrials.gov, UniProt and Europe PMC · **no API key, no
 model, nothing to sign up for**.
 
-Most databases answer either the science of a target or its commerce. This
-puts both on one page, and links every line back to the record it came from.
+A scientist opening a target asks whether it's real: has anyone made a
+medicine from it, has it been tried and failed, and if it failed, at what
+step. An investor or BD analyst opens the same target asking whether there's
+still a window: who else is in the field, what's already spoken for, what
+isn't. Those two questions run on almost the same evidence — a stopped trial
+is failure data to one reader and a supply signal to the other — but they
+live in different databases today, so someone reads the same trial twice, or
+only from one side. This puts both readings on one page.
+
+**It answers, it doesn't decide.** Every section states one judgement and
+links to the record behind it; where the evidence doesn't support a call, the
+page says "cannot tell" rather than guessing. What to do about a shelved
+Phase 2 asset or a crowded pathway stays the reader's call — the tool's job
+is to put both sides of the file in front of them, matched to the same
+target, without either side going stale.
 
 Six questions, in the order they have to be settled — three on whether the
 target works, three on what can be had here, coloured by that and nothing
@@ -126,78 +140,111 @@ copy cannot do, and it says so rather than offering a search it can't honour.
 
 Listing the drugs against a target is solved — Open Targets does it free,
 Cortellis and Evaluate do it commercially. Listing is not the work. The work
-is the judgements a landscape has to make:
+is the judgements underneath a landscape, and each one exists because the
+naive version of it produces a confidently wrong answer.
 
-**1. An asset counts only if the record names this target.**
-Searching a registry for a protein's *full name* fails silently: MAP3K14's
+**1. A drug counts only if its own record names this target — not because
+the target's name appears somewhere nearby.**
+Search a registry for a protein's *full name* and it fails silently: MAP3K14's
 full name returned 228 assets and 13 "approved drugs," among them
-hydrochlorothiazide — the words simply co-occurred somewhere. Matching runs
-on identifiers, never on protein names; a trial counts only when its own
-record names the drug and the target; population context is scored per
-field, not across a concatenated string. The same layer folds salt forms,
-catches ChEMBL synonym collisions that merge distinct drugs, and drops rows
-that aren't molecules — diagnostic assays, biomarker cohorts, class labels
-like "PD-1/PD-L1 inhibitor" (a protocol letting the investigator choose, not
-a drug).
+hydrochlorothiazide, a blood-pressure pill with no relation to the kinase —
+the words had simply co-occurred in the same record. A target list built this
+way looks complete and is mostly noise. So matching runs on identifiers, never
+on protein names; a trial counts only when its own record names both the drug
+and the target; and population context ("HER2-positive" in a *condition*
+field) is scored separately from the *intervention* field, so a nearby phrase
+can't poison an unrelated one. The same layer folds salt forms of the same
+drug, catches ChEMBL synonym collisions that would otherwise merge two
+distinct molecules, and drops rows that were never drugs — diagnostic assays,
+biomarker cohorts, category labels like "PD-1/PD-L1 inhibitor" (a protocol
+letting the investigator pick any drug in the class, not a molecule).
 
-**2. Assets are grouped by mechanism, not counted.**
-Five antibodies against a receptor are one competitive situation if they
-block the ligand and a different one if two of them deplete the cell. The
-classifier reads WHO INN stems (`-mab`, `-cept`, `-leucel`, `-siran`)
-alongside ChEMBL `action_type` and mechanism text, so it places assets with
-no database record at all — where the cell therapies and non-Western
-programmes usually live. Where the record states the pharmacology but not
-the molecule, the label says exactly that (*inhibition, modality
-unresolved*) instead of discarding the half that's known.
+**2. Competition is measured by what a drug does to the target, not how many
+drugs exist.**
+Five antibodies against a receptor are one competitive situation if all five
+block the same ligand, and a different one entirely if two of them instead
+kill the cell that carries the receptor — same target, same modality,
+opposite strategy. Counting "five antibodies" hides that. The classifier
+reads WHO INN stems (`-mab`, `-cept`, `-leucel`, `-siran`) alongside ChEMBL's
+`action_type` and free-text mechanism descriptions, which is what lets it
+place assets with no clean database record at all — usually where the cell
+therapies and non-Western programmes sit. Where a record states what the drug
+does but not what kind of molecule it is, the label says exactly that
+(*inhibition, modality unresolved*) instead of discarding the half that is
+known.
 
-**3. Terminations are classified into five causes: efficacy/safety/PK,
-business, operational, manufacturing, unstated.**
-A raw termination count is worse than useless — funding runs out, a merger
-reshuffles the portfolio, a supply line fails, COVID closes a site. Counting
-any of that as evidence against the biology walks a team away from a target
-that never failed. `whyStopped` — the sponsor's own one-line account, almost
-never used because it's unstructured text behind a paginated API — is
-classified with the verbatim notice kept alongside.
+**3. Why a trial stopped is not the same fact as whether it stopped.**
+A funding round falls through, a merger reshuffles a portfolio, a supply line
+fails, a site closes for COVID — none of that is evidence the biology
+doesn't work, and a raw termination count treats it as if it were, which
+punishes a target whose sponsor went bankrupt exactly as hard as one that
+failed in the clinic. So `whyStopped` — the sponsor's own one-line account,
+almost never used because it sits as unstructured text behind a paginated
+API — is read and classified into five causes (efficacy/safety/PK, business,
+operational, manufacturing, unstated), with the verbatim notice kept
+alongside so the reader can check the call.
 
-BAFF-R is the case in point. Novartis stopped a Phase 2b saying the study
-*"did not meet the target criteria for progression despite demonstrating
-efficacy versus placebo… No new safety signals were identified."* Keyword
-matching reads "safety" and inverts the conclusion. This tool masks negated
-clauses, classifies it as a portfolio decision, and shows that it also
-matched efficacy — so the reader can disagree with the call rather than
-inherit it.
+BAFF-R is the case that justified building this at all. Novartis stopped a
+Phase 2b saying the study *"did not meet the target criteria for progression
+despite demonstrating efficacy versus placebo… No new safety signals were
+identified."* A keyword scan reads "safety" and files it as a toxicity
+failure — the opposite of what happened. This tool masks negated clauses,
+classifies the stop as a portfolio decision, and shows that it *also* matched
+efficacy, so a reader can overrule the call instead of inheriting it.
 
-**4. Density is phase-weighted, and shows its weights.**
-One Phase 3 competitor prices at four Phase 1s. Dormant programmes — every
-linked trial stopped, nothing running — are reported separately rather than
-inflating the count. Weights and band thresholds are printed on the page,
-because a score nobody can recompute isn't an analysis.
+**4. Crowding is weighted by how far a competitor has actually got, and the
+weights are on the page.**
+One Phase 3 competitor is worth more than four Phase 1s to how contested a
+target is — a flat asset count says they're worth the same. Programmes whose
+every linked trial has stopped are reported as dormant rather than folded
+into the live count, so a target isn't read as crowded because of five
+abandoned attempts nobody is still running. The weights and the band
+thresholds that turn a score into "Contested" or "Open" are printed on the
+page, because a number nobody can recompute from what's shown isn't an
+analysis, it's an opinion with decimals.
 
-**5. Licensing is reported, not scored.**
-Other databases answer "what exists." A BD or search-and-evaluation team has
-assumed that already and is asking *which of these could I get, and who do I
-call*. Two lists, no score: deals already done, each with its source
-announcement; and every programme on the target — holder, stage, last
-readout, and whether a deal is on file. The ones with no deal are the
-negotiable ones. An earlier version scored availability and averaged deal
-size; both are gone — the weights were never checked against an outcome, and
-a median over a handful of hand-entered rows isn't a statistic worth
-showing. Deal rows are entered by hand from the parties' own announcements,
-because no free database of terms can be redistributed — a blank section
-means nobody has entered one, not that nothing has been licensed.
+**5. Licensing is reported as two lists, not compressed into a score.**
+The reason isn't caution — it's that "how available is this target" is
+actually two different questions with two different answers, and a single
+score papers over which one it's giving. An investor sizing a competitive
+field wants deal comparables: what has this kind of asset gone for, at what
+stage. A BD analyst wants a target list: which specific programmes have never
+been picked up, because those are the ones you can actually call someone
+about. Averaging those into one number serves neither question and answers a
+third one nobody asked. An earlier version tried anyway — a hand-weighted
+"availability score" and a median deal size — and both are gone: the weights
+had never been checked against a single real negotiation, and a median over
+a handful of hand-typed rows is a sample size a reader should reject before
+trusting the number. What replaced them: **deals already done**, each row
+entered from the parties' own press release or filing, with that
+announcement linked, upfront and total value kept as stated (no average
+computed over them); and **every programme on the target** — holder, stage
+reached, most recent or next readout, and whether it appears in the deals
+list. A programme absent from that list is the one worth a call, and the
+page says so instead of scoring it. The deal rows themselves are hand-entered
+because no redistributable database of deal terms exists at any price —
+subscription platforms cover this, but their licences forbid republishing
+it — so a blank deals section here means nobody has typed one in yet, not
+that the target has never been licensed.
 
-**6. Untried requires evidence, not just absence.**
-A disease qualifies only when the Open Targets association clears a
-threshold *and* carries genetic support *and* has nothing past preclinical.
-Disease-name matching by substring fails ("Sjogren syndrome" vs "Sjogren's
-Disease"), so names are compared by stemmed token overlap, and the section
-is labelled a screen to check by hand, not a finding.
+**6. "Untried" requires positive evidence, not the absence of a listing.**
+A disease qualifies only when its Open Targets association clears a
+threshold *and* carries independent genetic support *and* has nothing past
+preclinical — any one of the three missing, and it's dropped rather than
+counted as whitespace. Matching disease names by substring fails constantly
+("Sjogren syndrome" vs "Sjogren's Disease" share no substring), so names are
+compared by stemmed token overlap instead, and even then the section is
+labelled a screen to check by hand, not a discovery — the goal is narrowing
+what a person looks at next, not replacing the look.
 
-**No model, anywhere.** Every number above is a rule over a public record,
-reproducible offline and traceable to its source. Where a model would
-genuinely help — classifying free text — the right shape is offline: draft
-candidates, have a person confirm them, commit the result as a sourced CSV.
-The pipeline itself still runs on rules.
+**No model runs any of this.** Every figure above is a rule over a public
+record — reproducible offline, and traceable line by line to the record that
+produced it. The one place a model would genuinely help is reading free text
+at scale (classifying more `whyStopped` notices, say), and the right shape
+for that is kept offline too: the model drafts candidates, a person confirms
+them, and the result is committed as a sourced CSV like everything else in
+the hand-maintained layers. The pipeline that actually runs never depends on
+one.
 
 ---
 
