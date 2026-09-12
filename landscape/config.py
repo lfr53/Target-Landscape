@@ -24,7 +24,12 @@ CTGOV_BASE = os.environ.get("CTGOV_BASE", "https://clinicaltrials.gov/api/v2")
 # HTTP behaviour
 # ---------------------------------------------------------------------------
 
-CACHE_DIR = os.environ.get("LANDSCAPE_CACHE", os.path.expanduser("~/.cache/target-landscape"))
+# See the matching note in store.py: on Vercel $HOME is read-only, so the
+# default has to move to /tmp there or every fetch would raise on write.
+_CACHE_DEFAULT = (
+    "/tmp/target-landscape/http" if os.environ.get("VERCEL") else os.path.expanduser("~/.cache/target-landscape")
+)
+CACHE_DIR = os.environ.get("LANDSCAPE_CACHE", _CACHE_DEFAULT)
 REQUEST_TIMEOUT = 45
 MAX_RETRIES = 4
 RETRY_BACKOFF = 1.5

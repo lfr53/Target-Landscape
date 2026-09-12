@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/index.py": {
+      "maxDuration": 300,
+      "memory": 2048,
+      "includeFiles": "{landscape/**,data/curated/**,data/deals/**,data/assets/**,data/pathways.csv,data/target_index.json,web/static/**}"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ]
+}

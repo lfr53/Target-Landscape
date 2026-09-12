@@ -681,10 +681,24 @@ async function openTarget(symbol, force) {
     return;
   }
 
-  const started = await (await fetch('/api/build/' + encodeURIComponent(symbol) + (force ? '?force=true' : ''), { method: 'POST' })).json();
+  $('#build-label').textContent = 'Building… this can take up to a minute';
+  const buildRes = await fetch('/api/build/' + encodeURIComponent(symbol) + (force ? '?force=true' : ''), { method: 'POST' });
+  if (!buildRes.ok) {
+    let detail = 'Could not build this target.';
+    try { detail = (await buildRes.json()).detail || detail; } catch (e) { /* ignore */ }
+    buildFailed(detail);
+    return;
+  }
+  const started = await buildRes.json();
   if (started.status === 'ready') {
     const res = await api('/api/target/' + encodeURIComponent(symbol));
     if (res.ok) { renderTarget(await res.json()); return; }
+  }
+  if (started.status === 'built') {
+    // A serverless deployment (no background jobs to poll) builds inside
+    // the one request and hands the finished target straight back.
+    renderTarget(started.target);
+    return;
   }
   pollJob(started.job.id, symbol);
 }

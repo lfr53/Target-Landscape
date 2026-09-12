@@ -42,8 +42,8 @@ def _read_cache(key: str, max_age_s: Optional[int]) -> Optional[Any]:
 
 
 def _write_cache(key: str, value: Any) -> None:
-    os.makedirs(CACHE_DIR, exist_ok=True)
     try:
+        os.makedirs(CACHE_DIR, exist_ok=True)
         with open(_cache_path(key), "w", encoding="utf-8") as fh:
             json.dump(value, fh)
     except OSError:

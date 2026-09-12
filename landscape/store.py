@@ -36,10 +36,17 @@ CURATED_DIR = os.environ.get(
     os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "curated"),
 )
 # Ephemeral. On Spaces, /data is writable when persistent storage is enabled,
-# otherwise this falls back to a temp dir the container owns.
-CACHE_DIR = os.environ.get(
-    "LANDSCAPE_STORE_CACHE", os.path.join(os.path.expanduser("~"), ".cache", "target-landscape", "store")
+# otherwise this falls back to a temp dir the container owns. On Vercel (and
+# other serverless platforms whose deployment bundle is read-only outside
+# /tmp), $HOME is not writable at all, so the default has to move to /tmp
+# there -- a live build would otherwise fail on every request, not just miss
+# the cache.
+_STORE_CACHE_DEFAULT = (
+    "/tmp/target-landscape/store"
+    if os.environ.get("VERCEL")
+    else os.path.join(os.path.expanduser("~"), ".cache", "target-landscape", "store")
 )
+CACHE_DIR = os.environ.get("LANDSCAPE_STORE_CACHE", _STORE_CACHE_DEFAULT)
 CACHE_MAX_AGE_DAYS = int(os.environ.get("LANDSCAPE_CACHE_DAYS", "14"))
 
 DEALS_DIR = os.environ.get(
@@ -382,9 +389,9 @@ def load(symbol: str) -> Optional[tuple[Landscape, dict[str, Any]]]:
 def save_cached(landscape: Landscape) -> None:
     symbol = normalise_symbol(landscape.target.symbol)
     with _lock:
-        os.makedirs(CACHE_DIR, exist_ok=True)
         tmp = _path(CACHE_DIR, symbol) + ".tmp"
         try:
+            os.makedirs(CACHE_DIR, exist_ok=True)
             with open(tmp, "w", encoding="utf-8") as fh:
                 json.dump(landscape.to_dict(), fh, ensure_ascii=False)
             os.replace(tmp, _path(CACHE_DIR, symbol))

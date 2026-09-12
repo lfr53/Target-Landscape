@@ -43,6 +43,16 @@ STATIC_DIR = os.path.join(HERE, "static")
 MAX_CONCURRENT_BUILDS = int(os.environ.get("LANDSCAPE_MAX_BUILDS", "2"))
 JOB_TTL_SECONDS = 1800
 
+# Vercel (and platforms shaped like it) run each request as its own isolated
+# invocation: a background thread started here has no guarantee of finishing
+# once the response is sent, and a later poll for its job id can land on a
+# different, cold instance that never heard of it. The job-and-poll flow
+# below needs a process that keeps running between requests, which a
+# serverless function is not. There the build just runs inside the one
+# request instead -- slower to respond, but Vercel sets Hobby's function
+# limit at five minutes and a build takes 20-40 seconds, so it fits.
+IS_SERVERLESS = bool(os.environ.get("VERCEL"))
+
 app = FastAPI(
     title="Target Landscape",
     description="Competitive landscape for a drug target, from public data.",
@@ -103,6 +113,34 @@ def _reap_jobs() -> None:
             _jobs.pop(job_id, None)
 
 
+def _build_error_message(exc: Exception) -> str:
+    """Turn a build failure into the sentence the interface shows.
+
+    Shared between the threaded job runner and the serverless synchronous
+    path below, so a Vercel visitor sees the same explanation a local run
+    would have logged into the job's error field.
+    """
+    if isinstance(exc, HTTPError):
+        message = str(exc)
+        # A 400 or a GraphQL error is our query being wrong for the schema
+        # the service is now serving — telling the user the API is down
+        # sends them to wait for a recovery that will never come.
+        if "400" in message or "GraphQL error" in message:
+            return (
+                f"A data source rejected the query: {message} "
+                "That means the API changed its schema, not that it is down. "
+                "Run 'python -m landscape doctor' — it names the field and the "
+                "file to fix."
+            )
+        return (
+            f"A data source could not be reached: {message} "
+            "The public APIs are occasionally down; try again shortly."
+        )
+    if isinstance(exc, ValueError):
+        return str(exc)
+    return f"{type(exc).__name__}: {exc}"
+
+
 def _run_build(job: Job) -> None:
     def on_progress(stage: str, label: str, index: int, total: int) -> None:
         job.stage, job.label, job.index, job.total = stage, label, index, total
@@ -119,28 +157,8 @@ def _run_build(job: Job) -> None:
             job.index = job.total
             job.label = "Done"
             job.status = "done"
-        except ValueError as exc:
-            job.status, job.error = "error", str(exc)
-        except HTTPError as exc:
-            job.status = "error"
-            message = str(exc)
-            # A 400 or a GraphQL error is our query being wrong for the
-            # schema the service is now serving — telling the user the API is
-            # down sends them to wait for a recovery that will never come.
-            if "400" in message or "GraphQL error" in message:
-                job.error = (
-                    f"A data source rejected the query: {message} "
-                    "That means the API changed its schema, not that it is down. "
-                    "Run 'python -m landscape doctor' — it names the field and the "
-                    "file to fix."
-                )
-            else:
-                job.error = (
-                    f"A data source could not be reached: {message} "
-                    "The public APIs are occasionally down; try again shortly."
-                )
         except Exception as exc:  # noqa: BLE001
-            job.status, job.error = "error", f"{type(exc).__name__}: {exc}"
+            job.status, job.error = "error", _build_error_message(exc)
 
 
 def _start_build(symbol: str) -> Job:
@@ -340,6 +358,17 @@ def api_build(symbol: str, force: bool = False) -> dict[str, Any]:
 
     if not force and store.load(symbol) is not None:
         return {"status": "ready", "symbol": symbol}
+
+    if IS_SERVERLESS:
+        try:
+            landscape = pipeline.build(symbol, deals=store.load_deals(symbol))
+        except Exception as exc:  # noqa: BLE001
+            raise HTTPException(status_code=502, detail=_build_error_message(exc)) from exc
+        store.save_cached(landscape)
+        found = store.load(symbol)
+        meta = found[1] if found else {"tier": "cached", "age_days": 0.0}
+        return {"status": "built", "symbol": symbol, "target": _payload(landscape, meta)}
+
     return {"status": "started", "job": _start_build(symbol).to_dict()}
 
 

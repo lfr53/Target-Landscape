@@ -1,0 +1,6 @@
+# Vercel installs from whichever requirements.txt is closest to the
+# function's own file, so this one -- not the root one -- governs the
+# deployed function. Deliberately just FastAPI: no uvicorn (Vercel's Python
+# runtime serves the ASGI app itself, it is not a process we start), and no
+# anthropic (there is no LLM step anywhere in this deployment).
+fastapi>=0.110
