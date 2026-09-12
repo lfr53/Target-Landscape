@@ -91,20 +91,38 @@ def _validation_line(precedent: dict[str, Any]) -> dict[str, str]:
 
 
 def _history_line(failures: dict[str, Any], precedent: dict[str, Any]) -> Optional[dict[str, str]]:
-    """Only appears when there is a history. Silence is the honest default.
+    """One of the six, every time there is a trial to ask it about.
 
-    A "0 failures" line reads as reassurance, and on a target nobody has ever
-    tried it would be the opposite of informative.
+    This used to disappear whenever nothing had stopped, on the reasoning that
+    a "0 failures" line reads as reassurance on a target nobody has tried yet.
+    That reasoning still holds for a target with no trial history at all — the
+    line below returns nothing there, same as before — but it does not hold
+    once trials exist: "1 trial on record, none stopped" is not a default
+    standing in for a fact, it is the fact, and hiding the row instead of
+    stating it plainly cost the page a promised sixth answer on every target
+    calm enough to have earned one.
     """
     # From ``failures``, the same dict the Terminations panel prints. It
     # used to read precedent.n_science_failures: a second module counting the
     # same thing its own way, which is how the header came to say "8 trials
     # stopped, none for scientific reasons" above a panel reading
     # "1 Science-driven".
+    n_trials = failures.get("n_trials", 0)
     n_science = failures.get("n_science", 0)
     n_stopped = failures.get("n_stopped", 0)
-    if not n_stopped:
+
+    if not n_trials:
         return None
+
+    if not n_stopped:
+        value = f"None stopped · {plural(n_trials, 'trial')} on record"
+        detail = (
+            "No trial on this target has been marked terminated, withdrawn or suspended. "
+            "A trial that finished on schedule is not what this line counts — it is about "
+            "trials that stopped short, not about how many have concluded, so it says "
+            "nothing about whether the target itself is validated."
+        )
+        return _line("history", "Has anything stopped?", value, "science", detail, "#failures")
 
     counts = failures.get("counts") or {}
     top = max(counts.items(), key=lambda kv: kv[1])[0] if counts else ""
@@ -162,10 +180,25 @@ def _evidence_line(readouts: dict[str, Any]) -> Optional[dict[str, str]]:
     out next?" are one question asked twice -- both are about the trials in
     flight, both link to the same tab, and splitting them cost the six a slot
     that the commercial side had no line for at all.
+
+    Nothing currently running is itself an answer to the question, not an
+    absence of one, as long as there is at least one trial on record to say
+    it about -- a target with zero trials anywhere has nothing this line can
+    speak to, and returns nothing, same as before.
     """
     n_active = readouts.get("n_active", 0)
+    n_trials = readouts.get("n_trials", 0)
     if not n_active:
-        return None
+        if not n_trials:
+            return None
+        return _line(
+            "evidence",
+            "What can the running trials show?",
+            f"None running · {plural(n_trials, 'trial')} on record, all closed",
+            "science",
+            readouts.get("verdict", "No trial is currently running on this target."),
+            "#readouts",
+        )
     n_controlled = readouts.get("n_controlled", 0)
     if readouts.get("n_undescribed", 0) == n_active:
         value = f"{n_active} running, designs not registered"

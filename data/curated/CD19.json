@@ -28128,31 +28128,6 @@
     "verdict": "182 trials on record, 105 still running. 11 of those are controlled efficacy studies; the other 94 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
     "catalysts": [
       {
-        "nct_id": "NCT05672173",
-        "title": "Lisocabtagene Maraleucel, Nivolumab and Ibrutinib for the Treatment of Richter's Transformation",
-        "sponsor": "City of Hope Medical Center",
-        "phase": 2,
-        "phase_label": "Phase 2",
-        "date": "2026-09-10",
-        "date_iso": "2026-09-10",
-        "estimated": true,
-        "months_away": 0,
-        "conditions": [
-          "Recurrent Transformed Chronic Lymphocytic Leukemia",
-          "Refractory Transformed Chronic Lymphocytic Leukemia",
-          "Richter Syndrome"
-        ],
-        "level": "dose",
-        "level_label": "Dose and safety",
-        "note": "Registered at Phase 2 with a safety or operational primary endpoint. Whatever else this study collects, its registered question is not whether the drug works.",
-        "endpoints": [
-          "Complete Response (CR)",
-          "Unacceptable Toxicity (UT)"
-        ],
-        "endpoint_label": "Safety / tolerability",
-        "url": "https://clinicaltrials.gov/study/NCT05672173"
-      },
-      {
         "nct_id": "NCT06635330",
         "title": "Safety and Efficacy of CAR T Cell Therapy in Patients with R/r B-ALL",
         "sponsor": "Kara Yakhteh Tajhiz Azma Company",
@@ -28313,6 +28288,28 @@
         ],
         "endpoint_label": "Safety / tolerability",
         "url": "https://clinicaltrials.gov/study/NCT06613360"
+      },
+      {
+        "nct_id": "NCT06707259",
+        "title": "Clinical Study of Cord Blood-derived IL-10/IL-15 CD19-CAR NK in the Treatment of Refractory/Relapsed B-cell NHL",
+        "sponsor": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
+        "phase": 1,
+        "phase_label": "Phase 1",
+        "date": "2026-12-01",
+        "date_iso": "2026-12-01",
+        "estimated": true,
+        "months_away": 3,
+        "conditions": [
+          "B-cell Non Hodgkin Lymphoma"
+        ],
+        "level": "dose",
+        "level_label": "Dose and safety",
+        "note": "A first-in-human safety and dose study. It establishes tolerability and a dose to take forward; it is not designed to say anything about efficacy, and a clean result is not evidence the mechanism works.",
+        "endpoints": [
+          "Incidence of dose limiting toxicity (DLTs)"
+        ],
+        "endpoint_label": "Safety / tolerability",
+        "url": "https://clinicaltrials.gov/study/NCT06707259"
       }
     ],
     "next_catalyst": {
@@ -28341,9 +28338,9 @@
       "url": "https://clinicaltrials.gov/study/NCT05890352",
       "is_interpretable": true,
       "soonest_other": {
-        "nct_id": "NCT05672173",
-        "date": "2026-09-10",
-        "level_label": "Dose and safety"
+        "nct_id": "NCT06635330",
+        "date": "2026-09-22",
+        "level_label": "Signal-generating"
       }
     }
   },
@@ -29023,7 +29020,7 @@
         "label": "What can the running trials show?",
         "value": "11 of 105 running trials are controlled efficacy studies · next readout 2026-12-31 (sponsor estimate)",
         "face": "science",
-        "detail": "182 trials on record, 105 still running. 11 of those are controlled efficacy studies; the other 94 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. SWOG Cancer Research Network · Study Adding Drugs to Usual Treatment for Large B-Cell Lymphoma That Returned or Did Not Respond to Treatment — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT05672173, 2026-09-10, dose and safety — and every upcoming completion is listed under Trials.",
+        "detail": "182 trials on record, 105 still running. 11 of those are controlled efficacy studies; the other 94 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. SWOG Cancer Research Network · Study Adding Drugs to Usual Treatment for Large B-Cell Lymphoma That Returned or Did Not Respond to Treatment — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT06635330, 2026-09-22, signal-generating — and every upcoming completion is listed under Trials.",
         "anchor": "#readouts"
       },
       {

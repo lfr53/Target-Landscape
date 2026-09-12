@@ -1638,6 +1638,22 @@
         "anchor": "#precedent"
       },
       {
+        "key": "evidence",
+        "label": "What can the running trials show?",
+        "value": "None running · 4 trials on record, all closed",
+        "face": "science",
+        "detail": "No trial is currently running on this target.",
+        "anchor": "#readouts"
+      },
+      {
+        "key": "history",
+        "label": "Has anything stopped?",
+        "value": "None stopped · 4 trials on record",
+        "face": "science",
+        "detail": "No trial on this target has been marked terminated, withdrawn or suspended. A trial that finished on schedule is not what this line counts — it is about trials that stopped short, not about how many have concluded, so it says nothing about whether the target itself is validated.",
+        "anchor": "#failures"
+      },
+      {
         "key": "window",
         "label": "How contested is it?",
         "value": "Emerging — 3 assets, furthest at Phase 1",

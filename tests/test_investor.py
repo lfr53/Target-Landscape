@@ -384,11 +384,41 @@ class FeasibilityTests(unittest.TestCase):
             self.assertTrue(line["anchor"])
             self.assertTrue(line["detail"])
 
-    def test_no_history_line_when_nothing_has_ever_stopped(self):
-        # "0 failures" reads as reassurance, and on a target nobody has tried
-        # it is the opposite of informative.
+    def test_history_line_says_none_stopped_rather_than_disappearing(self):
+        # There is a real trial on record here (NCT1, still running) and none
+        # of it has stopped. That is a fact worth stating plainly -- "None
+        # stopped - 1 trial on record" -- not a default to hide behind
+        # silence, which is what a missing sixth row would otherwise look
+        # like on the page.
         ls = build_landscape()
+        lines = {line["key"]: line for line in ls.feasibility["lines"]}
+        self.assertIn("history", lines)
+        self.assertIn("None stopped", lines["history"]["value"])
+
+    def test_no_history_line_when_there_is_no_trial_at_all(self):
+        # A target with zero trials on record has nothing this line can speak
+        # to -- that case still returns nothing, same as before.
+        ls = build_landscape(trials=[], assets=[])
         self.assertNotIn("history", [line["key"] for line in ls.feasibility["lines"]])
+
+    def test_evidence_line_says_none_running_rather_than_disappearing(self):
+        # Same fix, same reasoning, for the other line that used to vanish:
+        # a target whose only trial has completed still has a trial on
+        # record, so "what can the running trials show" gets an honest
+        # "none, N on record" instead of dropping off the page.
+        trials = [
+            trial(nct_id="NCT1", status="COMPLETED", phase=3, allocation="RANDOMIZED",
+                  masking="DOUBLE", enrollment=200, primary_outcomes=["Overall survival"],
+                  completion_date="2020-01"),
+        ]
+        ls = build_landscape(trials=trials)
+        lines = {line["key"]: line for line in ls.feasibility["lines"]}
+        self.assertIn("evidence", lines)
+        self.assertIn("None running", lines["evidence"]["value"])
+
+    def test_no_evidence_line_when_there_is_no_trial_at_all(self):
+        ls = build_landscape(trials=[], assets=[])
+        self.assertNotIn("evidence", [line["key"] for line in ls.feasibility["lines"]])
 
     def test_no_verdict_sentence_is_generated(self):
         """The site reports what the record holds; it does not tell a reader

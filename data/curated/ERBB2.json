@@ -1710,6 +1710,12 @@
           "identifier": "FDA label for Herceptin, first approved 25 September 1998. Open Targets lists the trastuzumab conjugates against ERBB2 but not the parent antibody, so without this row the table shows T-DM1 and T-DXd and no trastuzumab",
           "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/103792s5354lbl.pdf",
           "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "FDA label for Herceptin, first approved 25 September 1998. Open Targets lists the trastuzumab conjugates against ERBB2 but not the parent antibody, so without this row the table shows T-DM1 and T-DXd and no trastuzumab",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/103792s5354lbl.pdf",
+          "retrieved": null
         }
       ],
       "phase_label": "Approved"
@@ -26301,6 +26307,12 @@
         "is_active": true,
         "named_by_class": false,
         "provenance": [
+          {
+            "source": "manual",
+            "identifier": "FDA label for Herceptin, first approved 25 September 1998. Open Targets lists the trastuzumab conjugates against ERBB2 but not the parent antibody, so without this row the table shows T-DM1 and T-DXd and no trastuzumab",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/103792s5354lbl.pdf",
+            "retrieved": null
+          },
           {
             "source": "manual",
             "identifier": "FDA label for Herceptin, first approved 25 September 1998. Open Targets lists the trastuzumab conjugates against ERBB2 but not the parent antibody, so without this row the table shows T-DM1 and T-DXd and no trastuzumab",

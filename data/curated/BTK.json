@@ -24118,30 +24118,6 @@
     "verdict": "288 trials on record, 132 still running. 29 of those are controlled efficacy studies; the other 103 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
     "catalysts": [
       {
-        "nct_id": "NCT05718869",
-        "title": "Tafasitamab and Zanubrutinib for the Treatment of Patients With Newly Diagnosed Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma, TaZA CLL Study",
-        "sponsor": "City of Hope Medical Center",
-        "phase": 2,
-        "phase_label": "Phase 2",
-        "date": "2026-09-08",
-        "date_iso": "2026-09-08",
-        "estimated": true,
-        "months_away": 0,
-        "conditions": [
-          "Chronic Lymphocytic Leukemia",
-          "Small Lymphocytic Lymphoma"
-        ],
-        "level": "dose",
-        "level_label": "Dose and safety",
-        "note": "Registered at Phase 2 with a safety or operational primary endpoint. Whatever else this study collects, its registered question is not whether the drug works.",
-        "endpoints": [
-          "Complete response (CR) rate",
-          "Incidence of adverse events"
-        ],
-        "endpoint_label": "Safety / tolerability",
-        "url": "https://clinicaltrials.gov/study/NCT05718869"
-      },
-      {
         "nct_id": "NCT05952037",
         "title": "A Study to Investigate Efficacy and Safety of BCL2 Inhibitor Sonrotoclax as Monotherapy and in Combination With Zanubrutinib in Adults With Waldenström Macroglobulinemia",
         "sponsor": "BeOne Medicines",
@@ -24302,6 +24278,30 @@
         ],
         "endpoint_label": "Unclassified",
         "url": "https://clinicaltrials.gov/study/NCT05677919"
+      },
+      {
+        "nct_id": "NCT05065554",
+        "title": "ACALA-R In Predominantly Demyelinating IgM Mediated Neuropathy",
+        "sponsor": "Shayna Sarosiek, MD",
+        "phase": 2,
+        "phase_label": "Phase 2",
+        "date": "2026-12-01",
+        "date_iso": "2026-12-01",
+        "estimated": true,
+        "months_away": 3,
+        "conditions": [
+          "IgM MGUS",
+          "Waldenstrom Macroglobulinemia",
+          "Neuropathy;Peripheral"
+        ],
+        "level": "signal",
+        "level_label": "Signal-generating",
+        "note": "Single-arm with an efficacy endpoint. There is no comparator, so the result cannot separate the drug from patient selection or the natural history of the disease. In oncology a single-arm response rate can still support accelerated approval; everywhere else, treat it as a hypothesis.",
+        "endpoints": [
+          "Overall hematologic response rate"
+        ],
+        "endpoint_label": "Accepted surrogate",
+        "url": "https://clinicaltrials.gov/study/NCT05065554"
       }
     ],
     "next_catalyst": {
@@ -24328,9 +24328,9 @@
       "url": "https://clinicaltrials.gov/study/NCT05336812",
       "is_interpretable": true,
       "soonest_other": {
-        "nct_id": "NCT05718869",
-        "date": "2026-09-08",
-        "level_label": "Dose and safety"
+        "nct_id": "NCT05952037",
+        "date": "2026-09-22",
+        "level_label": "Signal-generating"
       }
     }
   },
@@ -25049,7 +25049,7 @@
         "label": "What can the running trials show?",
         "value": "29 of 132 running trials are controlled efficacy studies · next readout 2026-10-31 (sponsor estimate)",
         "face": "science",
-        "detail": "288 trials on record, 132 still running. 29 of those are controlled efficacy studies; the other 103 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Ohio State University Comprehensive Cancer Center · Acalabrutinib in Combination With Venetoclax or Obinutuzumab for the Treatment of Treatment-naive Chronic Lymphocytic Leukemia — Randomised against a comparator, so the result carries a control — but it is small, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT05718869, 2026-09-08, dose and safety — and every upcoming completion is listed under Trials.",
+        "detail": "288 trials on record, 132 still running. 29 of those are controlled efficacy studies; the other 103 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Ohio State University Comprehensive Cancer Center · Acalabrutinib in Combination With Venetoclax or Obinutuzumab for the Treatment of Treatment-naive Chronic Lymphocytic Leukemia — Randomised against a comparator, so the result carries a control — but it is small, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT05952037, 2026-09-22, signal-generating — and every upcoming completion is listed under Trials.",
         "anchor": "#readouts"
       },
       {

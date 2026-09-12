@@ -102,6 +102,12 @@
           "identifier": "NMPA approval 22 June 2026 — third line and later CLDN18.2-positive HER2-negative gastric/GEJ",
           "url": "https://www.onclive.com/view/china-s-nmpa-approves-first-car-t-cell-therapy-for-cldn18--2-her2-advanced-gastric-gej-adenocarcinoma",
           "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "NMPA approval 22 June 2026 — third line and later CLDN18.2-positive HER2-negative gastric/GEJ",
+          "url": "https://www.onclive.com/view/china-s-nmpa-approves-first-car-t-cell-therapy-for-cldn18--2-her2-advanced-gastric-gej-adenocarcinoma",
+          "retrieved": null
         }
       ],
       "phase_label": "Approved"
@@ -253,6 +259,12 @@
           "identifier": "Phase correction only: FDA approved Vyloy on 21 October 2024, and Open Targets still records this programme at Phase 3",
           "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma",
           "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Phase correction only: FDA approved Vyloy on 21 October 2024, and Open Targets still records this programme at Phase 3",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma",
+          "retrieved": null
         }
       ],
       "phase_label": "Approved"
@@ -282,6 +294,12 @@
       "is_active": true,
       "named_by_class": false,
       "provenance": [
+        {
+          "source": "manual",
+          "identifier": "First-line pivotal with tislelizumab and CAPOX; first patient dosed January 2024",
+          "url": "https://ask-gene.com/askgene-pharma-dosed-first-in-phase-3-pivotal-trial-of-askb589-in-first-line-advanced-gastric-and-gastroesophageal-junction-cancers/",
+          "retrieved": null
+        },
         {
           "source": "manual",
           "identifier": "First-line pivotal with tislelizumab and CAPOX; first patient dosed January 2024",
@@ -371,6 +389,12 @@
           "identifier": "Phase 3 met primary endpoint; NDA accepted by China NMPA — first CLDN18.2 ADC under regulatory review",
           "url": "https://www.prnewswire.com/news-releases/worlds-first-cldn18-2-adc-for-regulatory-review-innovent-biologics-announces-ibi343-arcotatug-tavatecan-met-primary-endpoint-in-international-phase-3-study-in-advanced-refractory-gastric-cancer-and-nda-accepted-by-china-nmpa-302791220.html",
           "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Phase 3 met primary endpoint; NDA accepted by China NMPA — first CLDN18.2 ADC under regulatory review",
+          "url": "https://www.prnewswire.com/news-releases/worlds-first-cldn18-2-adc-for-regulatory-review-innovent-biologics-announces-ibi343-arcotatug-tavatecan-met-primary-endpoint-in-international-phase-3-study-in-advanced-refractory-gastric-cancer-and-nda-accepted-by-china-nmpa-302791220.html",
+          "retrieved": null
         }
       ],
       "phase_label": "Phase 3"
@@ -400,6 +424,12 @@
       "is_active": true,
       "named_by_class": false,
       "provenance": [
+        {
+          "source": "manual",
+          "identifier": "Phase 3 second-line against investigator's choice in CLDN18.2-positive patients",
+          "url": "https://clinicaltrials.gov/study/NCT06649292",
+          "retrieved": null
+        },
         {
           "source": "manual",
           "identifier": "Phase 3 second-line against investigator's choice in CLDN18.2-positive patients",
@@ -494,6 +524,12 @@
           "identifier": "CLARITY-Gastric01 met overall survival in 2L+; licensed from KYM Biosciences (Keymed / Lepu) in 2023",
           "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/sone-ve-improved-survival-in-gastric-cancers.html",
           "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "CLARITY-Gastric01 met overall survival in 2L+; licensed from KYM Biosciences (Keymed / Lepu) in 2023",
+          "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/sone-ve-improved-survival-in-gastric-cancers.html",
+          "retrieved": null
         }
       ],
       "phase_label": "Phase 3"
@@ -525,6 +561,12 @@
       "is_active": true,
       "named_by_class": false,
       "provenance": [
+        {
+          "source": "manual",
+          "identifier": "Recorded as Phase 2 — the company's pipeline lists Phase III but the trials it names (TranStar101 and TranStar102) are Phase 1/2a",
+          "url": "https://www.transcenta.com/pipelineDet/id-3.html",
+          "retrieved": null
+        },
         {
           "source": "manual",
           "identifier": "Recorded as Phase 2 — the company's pipeline lists Phase III but the trials it names (TranStar101 and TranStar102) are Phase 1/2a",
@@ -2944,6 +2986,12 @@
             "identifier": "NMPA approval 22 June 2026 — third line and later CLDN18.2-positive HER2-negative gastric/GEJ",
             "url": "https://www.onclive.com/view/china-s-nmpa-approves-first-car-t-cell-therapy-for-cldn18--2-her2-advanced-gastric-gej-adenocarcinoma",
             "retrieved": null
+          },
+          {
+            "source": "manual",
+            "identifier": "NMPA approval 22 June 2026 — third line and later CLDN18.2-positive HER2-negative gastric/GEJ",
+            "url": "https://www.onclive.com/view/china-s-nmpa-approves-first-car-t-cell-therapy-for-cldn18--2-her2-advanced-gastric-gej-adenocarcinoma",
+            "retrieved": null
           }
         ],
         "phase_label": "Approved"
@@ -3064,6 +3112,12 @@
             "source": "chembl",
             "identifier": "CHEMBL2109427",
             "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2109427/",
+            "retrieved": null
+          },
+          {
+            "source": "manual",
+            "identifier": "Phase correction only: FDA approved Vyloy on 21 October 2024, and Open Targets still records this programme at Phase 3",
+            "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma",
             "retrieved": null
           },
           {
@@ -3888,6 +3942,14 @@
         "face": "science",
         "detail": "22 trials on record, 16 still running. 6 of those are controlled efficacy studies; the other 10 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Astellas Pharma Global Development, Inc. · A Study of Zolbetuximab Together With Pembrolizumab and Chemotherapy in Adults With Gastric Cancer — Randomised, blinded, and large enough for a difference between arms to mean something. If this reads out positive on its primary endpoint, it is the kind of result that supports a registration or a licensing conversation.",
         "anchor": "#readouts"
+      },
+      {
+        "key": "history",
+        "label": "Has anything stopped?",
+        "value": "None stopped · 22 trials on record",
+        "face": "science",
+        "detail": "No trial on this target has been marked terminated, withdrawn or suspended. A trial that finished on schedule is not what this line counts — it is about trials that stopped short, not about how many have concluded, so it says nothing about whether the target itself is validated.",
+        "anchor": "#failures"
       },
       {
         "key": "window",

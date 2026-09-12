@@ -481,6 +481,12 @@
           "identifier": "NMPA approval April 2025 for first-line PD-L1-positive NSCLC on a head-to-head Phase 3 against pembrolizumab; not approved outside China",
           "url": "https://www.akesobio.com/en/media/akeso-news/250426/",
           "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "NMPA approval April 2025 for first-line PD-L1-positive NSCLC on a head-to-head Phase 3 against pembrolizumab; not approved outside China",
+          "url": "https://www.akesobio.com/en/media/akeso-news/250426/",
+          "retrieved": null
         }
       ],
       "phase_label": "Approved"
@@ -5298,6 +5304,12 @@
           "identifier": "Phase as stated in Pfizer's licensing release, May 2025",
           "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-enters-exclusive-licensing-agreement-3sbio",
           "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Phase as stated in Pfizer's licensing release, May 2025",
+          "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-enters-exclusive-licensing-agreement-3sbio",
+          "retrieved": null
         }
       ],
       "phase_label": "Phase 2"
@@ -5325,6 +5337,12 @@
       "is_active": true,
       "named_by_class": false,
       "provenance": [
+        {
+          "source": "manual",
+          "identifier": "Phase as stated in Merck's licensing release, November 2024",
+          "url": "https://www.merck.com/news/merck-enters-into-exclusive-global-license-for-lm-299-an-investigational-anti-pd-1-vegf-bispecific-antibody-from-lanova-medicines-ltd/",
+          "retrieved": null
+        },
         {
           "source": "manual",
           "identifier": "Phase as stated in Merck's licensing release, November 2024",
@@ -31985,6 +32003,12 @@
         "is_active": true,
         "named_by_class": false,
         "provenance": [
+          {
+            "source": "manual",
+            "identifier": "NMPA approval April 2025 for first-line PD-L1-positive NSCLC on a head-to-head Phase 3 against pembrolizumab; not approved outside China",
+            "url": "https://www.akesobio.com/en/media/akeso-news/250426/",
+            "retrieved": null
+          },
           {
             "source": "manual",
             "identifier": "NMPA approval April 2025 for first-line PD-L1-positive NSCLC on a head-to-head Phase 3 against pembrolizumab; not approved outside China",

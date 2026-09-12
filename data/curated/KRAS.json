@@ -405,6 +405,12 @@
           "identifier": "Verastem exercised its option in January 2025; the release states the mechanism as an oral KRAS G12D (ON/OFF) inhibitor",
           "url": "https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-exercises-option-early-license-vs-7375-oral",
           "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Verastem exercised its option in January 2025; the release states the mechanism as an oral KRAS G12D (ON/OFF) inhibitor",
+          "url": "https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-exercises-option-early-license-vs-7375-oral",
+          "retrieved": null
         }
       ],
       "phase_label": "Phase 3"
@@ -450,6 +456,12 @@
           "source": "ctgov",
           "identifier": "NCT07431827",
           "url": "https://clinicaltrials.gov/study/NCT07431827",
+          "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Merck's own release describes MK-1084 (calderasib) as an investigational oral KRAS G12C inhibitor; Phase 3 in first-line NSCLC with pembrolizumab",
+          "url": "https://www.merck.com/news/merck-initiates-phase-3-clinical-trial-of-mk-1084-an-investigational-oral-kras-g12c-inhibitor-in-combination-with-keytruda-pembrolizumab-for-first-line-treatment-of-certain-patients-with-met/",
           "retrieved": null
         },
         {
@@ -578,6 +590,12 @@
           "identifier": "Sponsor's own trial page: first-in-human Phase 1a/1b of BGB-53038, a pan-KRAS inhibitor, alone or in combination",
           "url": "https://beonemedicines.com/clinical-trials/solid-tumors/study-of-bgb-53038-advanced-metastatic-solid-tumors-kras-mutations-nct06585488/",
           "retrieved": null
+        },
+        {
+          "source": "manual",
+          "identifier": "Sponsor's own trial page: first-in-human Phase 1a/1b of BGB-53038, a pan-KRAS inhibitor, alone or in combination",
+          "url": "https://beonemedicines.com/clinical-trials/solid-tumors/study-of-bgb-53038-advanced-metastatic-solid-tumors-kras-mutations-nct06585488/",
+          "retrieved": null
         }
       ],
       "phase_label": "Phase 1"
@@ -610,6 +628,12 @@
       "is_active": true,
       "named_by_class": false,
       "provenance": [
+        {
+          "source": "manual",
+          "identifier": "280Bio's release names TEB-17231 (registered as YL-17231) as an oral pan-RAS inhibitor for KRAS, HRAS or NRAS mutant cancers",
+          "url": "https://www.prnewswire.com/news-releases/280bio-doses-first-patient-in-phase-i-clinical-trial-of-teb-17231-an-oral-pan-ras-inhibitor-in-patients-with-advanced-cancers-harboring-mutations-in-kras-hras-or-nras-302003049.html",
+          "retrieved": null
+        },
         {
           "source": "manual",
           "identifier": "280Bio's release names TEB-17231 (registered as YL-17231) as an oral pan-RAS inhibitor for KRAS, HRAS or NRAS mutant cancers",
@@ -14158,30 +14182,6 @@
     "verdict": "61 trials on record, 33 still running. 12 of those are controlled efficacy studies; the other 21 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity.",
     "catalysts": [
       {
-        "nct_id": "NCT07723118",
-        "title": "A Study to Assess the Pharmacokinetics, Safety and Tolerability of Single-dose Adagrasib (BMS-986503) in Healthy Participants of Japanese Descent",
-        "sponsor": "Mirati Therapeutics Inc.",
-        "phase": 1,
-        "phase_label": "Phase 1",
-        "date": "2026-09-08",
-        "date_iso": "2026-09-08",
-        "estimated": true,
-        "months_away": 0,
-        "conditions": [
-          "Healthy Participants"
-        ],
-        "level": "signal",
-        "level_label": "Signal-generating",
-        "note": "Single-arm with an efficacy endpoint. There is no comparator, so the result cannot separate the drug from patient selection or the natural history of the disease. In oncology a single-arm response rate can still support accelerated approval; everywhere else, treat it as a hypothesis.",
-        "endpoints": [
-          "Maximum Observed Plasma Concentration (Cmax)",
-          "Time of Maximum Observed Plasma Concentration",
-          "Area Under the Plasma Concentration-time Curve from Time Zero Extrapolated to Infinite Time [AUC(INF)]"
-        ],
-        "endpoint_label": "Accepted surrogate",
-        "url": "https://clinicaltrials.gov/study/NCT07723118"
-      },
-      {
         "nct_id": "NCT06249282",
         "title": "Carfilzomib in Combination With Sotorasib for the Treatment of Patients With KRAS G12C Mutated Advanced or Metastatic Non-small Cell Lung Cancer",
         "sponsor": "City of Hope Medical Center",
@@ -14350,6 +14350,28 @@
         ],
         "endpoint_label": "Safety / tolerability",
         "url": "https://clinicaltrials.gov/study/NCT05722327"
+      },
+      {
+        "nct_id": "NCT05118854",
+        "title": "A Phase II Study of Neoadjuvant Sotorasib in Combination With Cisplatin or Carboplatin and Pemetrexed for Surgically Resectable Stage IIA-IIIB Non-Squamous Non-Small Cell Lung Cancer With a KRAS p.G12C Mutation",
+        "sponsor": "M.D. Anderson Cancer Center",
+        "phase": 2,
+        "phase_label": "Phase 2",
+        "date": "2027-10-20",
+        "date_iso": "2027-10-20",
+        "estimated": true,
+        "months_away": 13,
+        "conditions": [
+          "Lung Cancer"
+        ],
+        "level": "signal",
+        "level_label": "Signal-generating",
+        "note": "Single-arm with an efficacy endpoint. There is no comparator, so the result cannot separate the drug from patient selection or the natural history of the disease. In oncology a single-arm response rate can still support accelerated approval; everywhere else, treat it as a hypothesis.",
+        "endpoints": [
+          "Patients with surgically resectable KRAS p.G12C-mutant non-squamous NSCLC as assessed by major pathologic response rate in resected tumor specimens"
+        ],
+        "endpoint_label": "Accepted surrogate",
+        "url": "https://clinicaltrials.gov/study/NCT05118854"
       }
     ],
     "next_catalyst": {
@@ -14376,9 +14398,9 @@
       "url": "https://clinicaltrials.gov/study/NCT07659782",
       "is_interpretable": true,
       "soonest_other": {
-        "nct_id": "NCT07723118",
-        "date": "2026-09-08",
-        "level_label": "Signal-generating"
+        "nct_id": "NCT06249282",
+        "date": "2026-11-24",
+        "level_label": "Dose and safety"
       }
     }
   },
@@ -15039,7 +15061,7 @@
         "label": "What can the running trials show?",
         "value": "12 of 33 running trials are controlled efficacy studies · next readout 2027-06 (sponsor estimate)",
         "face": "science",
-        "detail": "61 trials on record, 33 still running. 12 of those are controlled efficacy studies; the other 21 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Verastem, Inc. · A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Non-Small Cell Lung Cancer — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT07723118, 2026-09-08, signal-generating — and every upcoming completion is listed under Trials.",
+        "detail": "61 trials on record, 33 still running. 12 of those are controlled efficacy studies; the other 21 cannot settle whether the drug works. Weight the readout calendar accordingly — activity and evidence are not the same quantity. Verastem, Inc. · A Phase 2 Study of VS-7375 in Patients With KRAS G12D-Mutated Non-Small Cell Lung Cancer — Randomised against a comparator, so the result carries a control — but it is open-label, which limits how far a positive result travels. Read it as strong supporting evidence rather than as a settled question. Something reads out sooner — NCT06249282, 2026-11-24, dose and safety — and every upcoming completion is listed under Trials.",
         "anchor": "#readouts"
       },
       {
